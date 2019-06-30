@@ -1,0 +1,464 @@
+<?xml version= "1.0" encoding= "utf-8" ?> 
+
+<!-- WorldBase property symbol definition document
+  
+    see propbase.xml for an explanation of property symbol definition document schema
+-->
+
+<SymbolDef 
+    name         = "WorldBase"
+    id           = "{AE1B7598-3DE6-40d8-A8B8-ED52E281399F}"
+    descr        = "SimProp XXX property, type and set definitions."
+    chdr         = "propworldbase.h"
+    version      = "1,0" >
+    
+    <SymbolInclude
+        filename = "propbase.xml"
+        id       = "{8042AB84-8003-4ff1-9D4A-6D0D057F00DE}"
+        version  = "1,0" />
+    
+    <cpptext pass="1">
+//-------------------------------------------------------------------------//       
+//  propworldbase.h    
+//
+//  FlightSim WorldBase AceXML property and property set symbol definitions
+//-------------------------------------------------------------------------//       
+//
+
+//  
+//  Namespace
+//
+    </cpptext>
+
+    <PropertyDefs 
+        symbolprefix = "SPID_">
+
+        <cpptext pass="2">
+//  
+//  Property Identifiers
+//
+        </cpptext>
+    
+        <PropertyDef
+            name        = "Latitude"
+            id          = "{C412FD47-ED8A-4653-8E47-1A3B685211FF}"
+            type        = "TEXT"
+            descr       = "example: N47* 25' 53.43">
+        </PropertyDef>
+        <PropertyDef
+            name        = "Longitude"
+            id          = "{80463D3F-3C0C-421a-B0D1-46E63ECFEC20}"
+            type        = "TEXT"
+            descr       = "example: W122* 18' 28.79">
+        </PropertyDef>
+        <PropertyDef
+            name        = "Altitude"
+            id          = "{B8AEE566-C782-4848-9F5C-9236A6C3A6A8}"
+            type        = "TEXT"
+            descr       = "Units are feet.  Does not discriminate between MSL or AGL">
+        </PropertyDef>
+        <PropertyDef
+            name        = "Pitch"
+            id          = "{887F1F2F-119F-43f9-8DA7-7E2B2054C3A8}"
+            type        = "FLOAT"
+            descr       = "Units are degrees">
+        </PropertyDef>
+        <PropertyDef
+            name        = "Bank"
+            id          = "{16D005DF-60C0-4d65-99CA-D76670B1C97D}"
+            type        = "FLOAT"
+            descr       = "Units are degrees">
+        </PropertyDef>
+        <PropertyDef
+            name        = "Heading"
+            id          = "{0401B432-6E5A-4433-875D-C0C28D84B937}"
+            type        = "FLOAT"
+            descr       = "Units are degrees">
+        </PropertyDef>
+        <PropertyDef
+            name        = "InstanceId"
+            id          = "{B382CA79-501C-471a-8827-FE80D194AEB8}"
+            xml_io      = "attribute"
+            type        = "GUID"
+            descr       = "Instance guid used to connect objects to one another">
+        </PropertyDef>      
+        <PropertyDef
+            name		= "Level"
+            id 			= "{1E7E022C-2A59-47cf-94A8-0F6FE334951B}"
+            type		= "ULONG"
+            descr		= "Level of the Qmid">
+        </PropertyDef>
+        <PropertyDef
+            name		= "U"
+            id 			= "{63BF5BA0-334A-43bf-8DD6-EC735F478A0F}"
+            type		= "ULONG"
+            descr		= "U Coordinate of the Qmid">
+        </PropertyDef>
+        <PropertyDef
+            name		= "V"
+            id 			= "{2F3C89AA-CF0E-4c21-9819-E8BA4740E7DD}"
+            type		= "ULONG"
+            descr		= "V Coordinate of the Qmid">
+        </PropertyDef>
+        <PropertyDef
+            name        = "WorldPosition"
+            ID          = "{777C9565-1495-4210-BD96-5115519340EA}"
+            type        = "LLA"
+            descr       = "Latitude, longitude, and altitude in feet.">
+        </PropertyDef>
+        <PropertyDef
+            name        = "Orientation"
+            ID          = "{FBEDC683-8576-4138-B70B-383231F6132A}"
+            type        = "PBH"
+            serialize   = "default"
+            descr       = "Pitch, Bank and Heading, in degrees.">
+        </PropertyDef>
+		<PropertyDef
+            name        = "PositionLock"
+            ID          = "{8B66C89F-1CD0-4345-8FEC-D635676AEB8A}"
+            type        = "BOOL"
+            descr       = "Locks object's position in designer mode.">
+        </PropertyDef>
+
+        <PropertyDef
+            name        = "AppVersionMajor"
+            ID          = "{C13249E9-860E-4019-9CF6-79E32BF15DEE}"
+            type        = "LONG"
+            default     = "0"
+            serialize   = "default"
+            descr       = "Application Major Version number">
+        </PropertyDef>
+        <PropertyDef
+            name        = "AppVersionMinor"
+            ID          = "{1E96DAF4-E04B-4b91-9BE6-C3CD4446D5B8}"
+            type        = "LONG"
+            default     = "0"
+            serialize   = "default"
+            descr       = "Application Minor Version number">
+        </PropertyDef>
+        <PropertyDef
+            name        = "AppVersionRevision"
+            ID          = "{650967AB-E6DB-4CE4-9592-81F967694151}"
+            type        = "LONG"
+            default     = "0"
+            serialize   = "default"
+            descr       = "Application Revision number">
+        </PropertyDef>
+        <PropertyDef
+            name        = "AppVersionBuild"
+            ID          = "{72368239-3B93-49db-91F9-76E9BAC77600}"
+            type        = "LONG"
+            default     = "0"
+            serialize   = "default"
+            descr       = "Application Build number">
+        </PropertyDef>
+
+//  
+//  Scenery Object Property Identifiers
+// 
+//  TODO: These should be moved into their own namespace
+//
+        <PropertyDef
+            name        = "Scale"
+            ID          = "{0119970B-FC6F-4979-B416-8E664D97FC54}"
+            type        = "FLOAT"   
+            serialize   = "default"          
+            default     = "1.0"
+            descr       = "Scale of the object">
+        </PropertyDef>    
+        <PropertyDef
+            name        = "AltitudeIsAGL"
+            id          = "{FABDB20C-9936-4ece-874C-51921F3BBC08}"
+            serialize   = "default" 
+            type        = "BOOL"
+            default     = "True"
+            descr       = "True: Altitude is above ground level.  False: Altitude is mean sea level.">
+        </PropertyDef>
+        <PropertyDef
+            id          = "{1FAB9F54-4ECB-40d2-A927-2BDBA73AF5C8}"
+            name        = "IsOnGround"
+            descr       = "Set to YES to clamp the object to the ground. Set to NO to respect the given altitude."
+            type        = "BOOL"
+            serialize   = "default"
+            default     = "False">
+        </PropertyDef>
+
+        <PropertyDef
+            id          = "{8AA14BE8-4886-4602-89D7-1707C0A7CD9F}"
+            name        = "ContainerTitle"
+            type        = "TEXT"
+            cardinality = "multiple"
+            serialize   = "both,default"
+            descr       = "The make and model of the aircraft, or type of boat or vehicle. This is the title that is listed in the Aircraft Configuration File.">
+        </PropertyDef>
+
+        <PropertyDef
+            name        = "Activated"
+            id          = "{1A9CA1EC-F5AE-4b16-BB6B-D2B268AC5DE5}"
+            default     = "True"
+            type        = "BOOL"
+            descr       = "False: Completely Disabled (no triggering, rendering, or simulating).">
+        </PropertyDef>
+        
+        <PropertyDef
+            id          = "{0FA72888-30F3-405B-A6C4-96DA84C7ACDB}"
+            name        = "AssociationID"
+            type        = "LONG"
+            default     = "0"
+            descr       = "ID which can be used to determine affiliation">
+        </PropertyDef>
+        
+        <PropertyDef
+            id          = "{C658C9EA-ABFF-4236-B367-36E419397BBE}"
+            name        = "HealthPoints"
+            type        = "FLOAT"
+            default     = "1"
+            descr       = "Number of health points for a sim object.">
+        </PropertyDef>
+        
+        <PropertyDef
+            id          = "{2521FDDE-EFC5-4C41-9787-A561C1B5CA37}"
+            name        = "DamageState"
+            type        = "LONG"
+            default     = "0"
+            descr       = "Damage state of the object. Values are as follows: 0 = No Damage, 1 = Light, 2 = Moderate, 3 = Destroyed, 4-n = User Defined. This variable can be used to control things such as a model's visual appearance.">
+        </PropertyDef>
+        
+        <PropertyDef
+            name        = "WaterClass"
+            id          = "{30DECB21-6AEC-4707-BBA1-C27A01EDB38F}"
+            type        = "ENUM"
+            default     = "NONE"
+            devnote     = "Water Classification Enumeration">
+            <EnumDef symbolprefix="WATERCLASS_">
+                <EnumVal name = "NONE"/>
+                <EnumVal name = "SHALLOW_INLAND_WATER_BLUE"/>
+                <EnumVal name = "DEEP_INLAND_WATER_BLUE"/>
+                <EnumVal name = "OCEAN_INLETS_BLUE"/>
+                <EnumVal name = "NON_PERENNIAL_INLAND_SEA_BLUE"/>
+                <EnumVal name = "NON_PERENNIAL_INLAND_WATER_BLUE"/>
+                <EnumVal name = "OUTFLOW_WATER_BLUE"/>
+                <EnumVal name = "SHALLOW_INLAND_WATER_BROWN"/>
+                <EnumVal name = "DEEP_INLAND_WATER_BROWN"/>
+                <EnumVal name = "OCEAN_INLETS_BROWN"/>
+                <EnumVal name = "NON_PERENNIAL_INLAND_SEA_BROWN"/>
+                <EnumVal name = "NON_PERENNIAL_INLAND_WATER_BROWN"/>
+                <EnumVal name = "OUTFLOW_WATER_BROWN"/>
+                <EnumVal name = "SHALLOW_OCEAN_WATER_1_CLASS1_HIGH_PLANKTON_CONCENTRATION"/>
+                <EnumVal name = "SHALLOW_OCEAN_WATER_2_CLASS1_HIGH_PLANKTON_CONCENTRATION"/>
+                <EnumVal name = "SHALLOW_OCEAN_WATER_3_CLASS1_HIGH_PLANKTON_CONCENTRATION"/>
+                <EnumVal name = "SHALLOW_OCEAN_WATER_4_CLASS1_HIGH_PLANKTON_CONCENTRATION"/>
+                <EnumVal name = "MEDIUM_DEPTH_OCEAN_WATER_CLASS1_HIGH_PLANKTON_CONCENTRATION"/>
+                <EnumVal name = "DEEP_OCEAN_WATER_CLASS1_HIGH_PLANKTON_CONCENTRATION"/>
+                <EnumVal name = "SHALLOW_OCEAN_WATER_1_CLASS2_MED_HIGH_PLANKTON_CONCENTRATION"/>
+                <EnumVal name = "SHALLOW_OCEAN_WATER_2_CLASS2_MED_HIGH_PLANKTON_CONCENTRATION"/>
+                <EnumVal name = "SHALLOW_OCEAN_WATER_3_CLASS2_MED_HIGH_PLANKTON_CONCENTRATION"/>
+                <EnumVal name = "SHALLOW_OCEAN_WATER_4_CLASS2_MED_HIGH_PLANKTON_CONCENTRATION"/>
+                <EnumVal name = "MEDIUM_DEPTH_OCEAN_WATER_CLASS2_MED_HIGH_PLANKTON_CONCENTRATION"/>
+                <EnumVal name = "MEDIUM_DEPTH_OCEAN_WATER_CLASS2_MED_HIGH_PLANKTON_CONCENTRATION2"/>
+                <EnumVal name = "SHALLOW_OCEAN_WATER_2_CLASS3_MED_LOW_PLANKTON_CONCENTRATION"/>
+                <EnumVal name = "SHALLOW_OCEAN_WATER_3_CLASS3_MED_LOW_PLANKTON_CONCENTRATION"/>
+                <EnumVal name = "SHALLOW_OCEAN_WATER_4_CLASS3_MED_LOW_PLANKTON_CONCENTRATION"/>
+                <EnumVal name = "MEDIUM_DEPTH_OCEAN_WATER_CLASS3_MED_LOW_PLANKTON_CONCENTRATION"/>
+                <EnumVal name = "DEEP_OCEAN_WATER_CLASS3_MED_LOW_PLANKTON_CONCENTRATION"/>
+                <EnumVal name = "SHALLOW_OCEAN_WATER_1_CLASS4_LOW_PLANKTON_CONCENTRATION"/>
+                <EnumVal name = "SHALLOW_OCEAN_WATER_2_CLASS4_LOW_PLANKTON_CONCENTRATION"/>
+                <EnumVal name = "SHALLOW_OCEAN_WATER_3_CLASS4_LOW_PLANKTON_CONCENTRATION"/>
+                <EnumVal name = "SHALLOW_OCEAN_WATER_4_CLASS4_LOW_PLANKTON_CONCENTRATION"/>
+                <EnumVal name = "MEDIUM_DEPTH_OCEAN_WATER_CLASS4_LOW_PLANKTON_CONCENTRATION"/>
+                <EnumVal name = "DEEP_OCEAN_WATER_CLASS4_LOW_PLANKTON_CONCENTRATION"/>
+                <EnumVal name = "SHALLOW_OCEAN_WATER_1_CLASS1_HIGH_PLANKTON_CONCENTRATION_TROPICAL"/>
+                <EnumVal name = "SHALLOW_OCEAN_WATER_2_CLASS1_HIGH_PLANKTON_CONCENTRATION_TROPICAL"/>
+                <EnumVal name = "SHALLOW_OCEAN_WATER_3_CLASS1_HIGH_PLANKTON_CONCENTRATION_TROPICAL"/>
+                <EnumVal name = "SHALLOW_OCEAN_WATER_4_CLASS1_HIGH_PLANKTON_CONCENTRATION_TROPICAL"/>
+                <EnumVal name = "MEDIUM_DEPTH_OCEAN_WATER_CLASS1_HIGH_PLANKTON_CONCENTRATION_TROPICAL"/>
+                <EnumVal name = "DEEP_OCEAN_WATER_CLASS1_HIGH_PLANKTON_CONCENTRATION_TROPICAL"/>
+                <EnumVal name = "SHALLOW_OCEAN_WATER_1_CLASS2_MED_HIGH_PLANKTON_CONCENTRATION_TROPICAL"/>
+                <EnumVal name = "SHALLOW_OCEAN_WATER_2_CLASS2_MED_HIGH_PLANKTON_CONCENTRATION_TROPICAL"/>
+                <EnumVal name = "SHALLOW_OCEAN_WATER_3_CLASS2_MED_HIGH_PLANKTON_CONCENTRATION_TROPICAL"/>
+                <EnumVal name = "SHALLOW_OCEAN_WATER_4_CLASS2_MED_HIGH_PLANKTON_CONCENTRATION_TROPICAL"/>
+                <EnumVal name = "MEDIUM_DEPTH_OCEAN_WATER_CLASS2_MED_HIGH_PLANKTON_CONCENTRATION_TROPICAL"/>
+                <EnumVal name = "DEEP_OCEAN_WATER_CLASS2_MED_HIGH_PLANKTON_CONCENTRATION_TROPICAL"/>
+                <EnumVal name = "SHALLOW_OCEAN_WATER_1_CLASS3_MED_LOW_PLANKTON_CONCENTRATION_TROPICAL"/>
+                <EnumVal name = "SHALLOW_OCEAN_WATER_2_CLASS3_MED_LOW_PLANKTON_CONCENTRATION_TROPICAL"/>
+                <EnumVal name = "SHALLOW_OCEAN_WATER_3_CLASS3_MED_LOW_PLANKTON_CONCENTRATION_TROPICAL"/>
+                <EnumVal name = "SHALLOW_OCEAN_WATER_4_CLASS3_MED_LOW_PLANKTON_CONCENTRATION_TROPICAL"/>
+                <EnumVal name = "MEDIUM_DEPTH_OCEAN_WATER_CLASS3_MED_LOW_PLANKTON_CONCENTRATION_TROPICAL"/>
+                <EnumVal name = "DEEP_OCEAN_WATER_CLASS3_MED_LOW_PLANKTON_CONCENTRATION_TROPICAL"/>
+                <EnumVal name = "SHALLOW_OCEAN_WATER_1_CLASS4_LOW_PLANKTON_CONCENTRATION_TROPICAL"/>
+                <EnumVal name = "SHALLOW_OCEAN_WATER_2_CLASS4_LOW_PLANKTON_CONCENTRATION_TROPICAL"/>
+                <EnumVal name = "SHALLOW_OCEAN_WATER_3_CLASS4_LOW_PLANKTON_CONCENTRATION_TROPICAL"/>
+                <EnumVal name = "SHALLOW_OCEAN_WATER_4_CLASS4_LOW_PLANKTON_CONCENTRATION_TROPICAL"/>
+                <EnumVal name = "MEDIUM_DEPTH_OCEAN_WATER_CLASS4_LOW_PLANKTON_CONCENTRATION_TROPICAL"/>
+                <EnumVal name = "DEEP_OCEAN_WATER_CLASS4_LOW_PLANKTON_CONCENTRATION_TROPICAL"/>
+            </EnumDef>
+        </PropertyDef>
+
+        <PropertyDef
+            name        = "Season"
+            id          = "{30127FCC-5913-4e83-AEF9-585F72F47439}"
+            type        = "ENUM"
+            default     = "SUMMER"
+            devnote     = "Season enumeration">
+            <EnumDef symbolprefix="SEASON_">
+                <EnumVal name = "MILD_WINTER"/>
+                <EnumVal name = "HARD_WINTER"/>
+                <EnumVal name = "SPRING"/>
+                <EnumVal name = "SUMMER"/>
+                <EnumVal name = "FALL"/>
+            </EnumDef>
+        </PropertyDef>
+
+        <PropertyDef
+            name        = "BasicSeason"
+            id          = "{83240092-D2B5-4cd1-9B78-F1901BBC4BA4}"
+            type        = "ENUM"
+            default     = "DEFAULT">
+            <EnumDef symbolprefix="BASIC_SEASON_">
+                <EnumVal name = "WINTER"/>
+                <EnumVal name = "SPRING"/>
+                <EnumVal name = "SUMMER"/>
+                <EnumVal name = "FALL"/>
+                <EnumVal name = "DEFAULT"/>
+            </EnumDef>
+        </PropertyDef>
+
+        // This prop is used by container and this is the
+        <PropertyDef 
+            name        = "MDLGuid" 
+            id          = "{8588E41E-89CA-47f9-8210-F8561D93D17C}"   
+            descr       = "The GUID used by the system to reference this Object."			
+            type        = "GUID">
+        </PropertyDef>
+		
+        <PropertyDef
+            name        = "CurrentActionIndex"
+            id          = "{523F0407-1FF1-42c3-B2D8-D4067A39E337}"
+            type        = "LONG"
+            default     = "-1"
+            descr       = "Index of next action to play.">
+        </PropertyDef>
+        <PropertyDef
+            name        = "ResumeExecution"
+            id          = "{CDB46059-DE21-4BEF-9B71-CDBA47A40645}"
+            type        = "BOOL"
+            default     = "False"
+            descr       = "Indicates that this Action List should resume on mission load.">
+        </PropertyDef>
+        <PropertyDef
+            name        = "DrawStyle"
+            id          = "{716DFD9D-79B2-461A-B2F6-E4A3D73AB8FA}"
+            type        = "ENUM"
+            default     = "None"
+            descr       = "Specifies how the area should draw">
+          <EnumDef symbolprefix="DRAW_STYLE">
+			<EnumVal name="NONE" 		   xml_name="None"/>      
+            <EnumVal name="OUTLINED"       xml_name="Outlined"/>
+			<EnumVal name="FILLED" 		   xml_name="Filled"/>
+          </EnumDef>
+        </PropertyDef>
+	    <PropertyDef
+            name        = "RGBColor"
+            id          = "{B2E5C036-CE70-4BB1-B2C8-EF41996C7FCA}"
+            type        = "FLOAT4"
+			default     = "255.000,140.000,0.000,255.000"
+            serialize   = "default"
+            descr       = "The RGB color value of the object.">
+        </PropertyDef>
+   </PropertyDefs>
+
+    
+    <!-- 
+        Element: SetDefs - Optional block of property set definitions
+        
+            symbolprefix:   optional prefix for C/C++ property identifier.
+    -->
+
+    <SetDefs symbolprefix = "SSID_">
+        
+        <cpptext pass="2">
+//  
+//  Property Set Identifiers
+//
+        </cpptext>
+
+        <SetDef
+            id          = "{2816D5DF-D194-4a72-90CF-509B30BFF1D1}"
+            name        = "ObjectReference"
+            policy      = "inclusive"
+            descr       = "A reference to another object or objects in the mission. This list is a filtered subset of compatible mission objects.">
+            <property name = "id"/>
+            <property name = "InstanceId"/>
+        </SetDef>
+
+        <SetDef
+            id          = "{59925A30-AF68-4e17-9848-ACA1050E0394}"
+            name        = "AppVersion"
+            policy      = "inclusive"
+            descr       = "Application Version (major.minor.revision.build">
+            <property name = "AppVersionMajor"/>
+            <property name = "AppVersionMinor"/>
+            <property name = "AppVersionRevision"/>
+            <property name = "AppVersionBuild"/>
+        </SetDef>
+
+        <SetDef
+            id          = "{77841D9C-2F74-402f-8D96-9E51834E2EEA}"
+            name        = "ObjectReferenceList"
+            policy      = "inclusive"
+            descr       = "List of object references">
+            <property name = "id"/>
+            <property name = "ObjectReference"/>
+        </SetDef>
+        <SetDef
+            id          = "{C7B86D42-8B6A-4bb1-BFD0-7F85830AEF00}"
+            name        = "Objects"
+            policy      = "unrestricted"
+            descr       = "List of object placements">
+        </SetDef>
+        <SetDef
+            id          = "{6536D9F5-FB4A-4a48-80F1-28852CAB85BC}"
+            name        = "Flight"
+            policy      = "unrestricted"
+            descr       = "Top level bag of the flight file. TODO: Make this more restrictive">
+        </SetDef>
+
+        <SetDef
+            id          = "{701B09CA-8B33-414d-8E7B-00E7F004171D}"
+            name        = "Qmid"
+            policy      = "inclusive"
+            descr       = "QuadMeshId">
+            <property name = "id"/>
+            <property name = "Level"/>
+            <property name = "U"/>
+            <property name = "V"/>
+        </SetDef>
+
+        <SetDef
+            id          = "{A796A489-A1B9-44B2-8149-A3E63D64AA53}"
+            name        = "AreasOfInterest"
+            policy      = "unrestricted"
+            descr       = "Areas Of Interest">
+        </SetDef>
+		
+        <SetDef
+            id          = "{3859AD51-1B6A-4EB0-A57D-DBED9D847E9C}"
+            name        = "Waypoints"
+            policy      = "unrestricted"
+            descr       = "Waypoint Sets">
+        </SetDef>
+		
+		<SetDef
+            id          = "{639448C5-A5D2-4884-A041-5F17118E6EFF}"
+            name        = "OnCompleteActions"
+            policy      = "inclusive"
+            descr       = "Actions that you'd like to execute when this action has completed.">
+            <property name = "id"/>
+            <property name = "CurrentActionIndex"/>
+			<property name = "ResumeExecution"/>
+            <property name = "ObjectReference"/>
+        </SetDef>		
+        		
+    </SetDefs>
+
+</SymbolDef>

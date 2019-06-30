@@ -1,0 +1,17 @@
+<SimBase.Document Type="AddOnXml" version="4,0" id="add-on">
+    <AddOn.Name>Visual FX Tool</AddOn.Name>
+    <AddOn.Description>Design special effects in the Prepar3D *.fx format. Publisher: Lockheed Martin</AddOn.Description>
+    <AddOn.Component>
+        <Category>DLL</Category>
+        <Path>VisualFXTool.dll</Path>
+    </AddOn.Component>
+	<AddOn.Component>
+        <Category>Effects</Category>
+        <Path>Effects</Path>
+    </AddOn.Component>
+	<AddOn.Component>
+		<Name>Visual FX Tool Scenery</Name>
+        <Category>Scenery</Category>
+        <Path>.</Path>
+    </AddOn.Component>
+</SimBase.Document>

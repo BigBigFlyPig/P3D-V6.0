@@ -1,0 +1,5 @@
+LIBRARY	"Custom_Nav_Draw"
+EXPORTS
+module_init
+module_deinit
+Panels DATA

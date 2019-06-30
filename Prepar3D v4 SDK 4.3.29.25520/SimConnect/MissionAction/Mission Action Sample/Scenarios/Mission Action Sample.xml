@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="ObjectFile" version="4,0">
+    <Title>Mission Action Sample</Title>
+    <WorldBase.Flight>
+        <SimContain.UserOwnship InstanceId="{1CCF6D89-BA36-445F-B5C8-47571ABC0773}">
+        </SimContain.UserOwnship>
+        <SimContain.UserAvatar InstanceId="{508FDC98-BF36-4C0F-B22D-27045DF1A0CF}">
+        </SimContain.UserAvatar>
+        <SimMission.CustomAction InstanceId="{B9566244-7047-4C72-BD57-13AE4FBE4FEC}">
+            <Descr>CustomAction1</Descr>
+            <WaitForCompletion>True</WaitForCompletion>
+            <OnCompleteActions>
+                <ObjectReference InstanceId="{A2DF10B5-83D1-4B4A-A18B-0918F9C396D6}">
+                </ObjectReference>
+            </OnCompleteActions>
+        </SimMission.CustomAction>
+        <SimMission.CustomAction InstanceId="{031152BB-2F7A-471F-BB10-C67BEB5D1D68}">
+            <Descr>CustomAction2</Descr>
+        </SimMission.CustomAction>
+        <SimMission.GoalResolutionAction InstanceId="{A2DF10B5-83D1-4B4A-A18B-0918F9C396D6}">
+            <Descr>GoalResolutionAction3</Descr>
+            <Goals>
+                <ObjectReference InstanceId="{F6B3C7A1-BCE4-4761-B885-E2630A7DDA6F}">
+                </ObjectReference>
+            </Goals>
+        </SimMission.GoalResolutionAction>
+        <SimMission.ObjectActivationAction InstanceId="{593F90B3-EAA3-4C1B-A863-145CAFE7C3B4}">
+            <Descr>ObjectActivationAction4</Descr>
+            <ObjectReferenceList>
+                <ObjectReference InstanceId="{2EACA544-D214-4AD7-9C2F-1522B270C894}">
+                </ObjectReference>
+            </ObjectReferenceList>
+        </SimMission.ObjectActivationAction>
+        <SimMission.ObjectActivationAction InstanceId="{E863C0ED-AE38-474B-80C8-4BE46EB14B5A}">
+            <Descr>ObjectActivationAction5</Descr>
+            <ObjectReferenceList>
+                <ObjectReference InstanceId="{79E923C0-4F1D-480A-A2AF-88CA288202F6}">
+                </ObjectReference>
+            </ObjectReferenceList>
+        </SimMission.ObjectActivationAction>
+        <SimMission.SphereArea InstanceId="{6234763A-6D9B-480A-942A-FBD299FA4E20}">
+            <Descr>SphereArea1</Descr>
+            <DrawStyle>Outlined</DrawStyle>
+            <AreaRadius>25.000000</AreaRadius>
+            <RGBColor>255.000000,165.000000,0.000000,255.000000</RGBColor>
+            <AttachedWorldPosition>
+                <WorldPosition>N30° 28' 27.906446",W86° 31' 3.016127",+000000.00</WorldPosition>
+                <AltitudeIsAGL>True</AltitudeIsAGL>
+            </AttachedWorldPosition>
+        </SimMission.SphereArea>
+        <SimMission.SphereArea InstanceId="{708E300C-C7A6-44FF-BDA4-9D97B6B99071}">
+            <Descr>SphereArea2</Descr>
+            <DrawStyle>Outlined</DrawStyle>
+            <AreaRadius>25.000000</AreaRadius>
+            <RGBColor>255.000000,165.000000,0.000000,255.000000</RGBColor>
+            <AttachedWorldPosition>
+                <WorldPosition>N30° 28' 37.584998",W86° 31' 0.605277",+000000.00</WorldPosition>
+                <AltitudeIsAGL>True</AltitudeIsAGL>
+            </AttachedWorldPosition>
+        </SimMission.SphereArea>
+        <SimMission.ProximityTrigger InstanceId="{37249239-E89E-43F0-8C5D-5010D90AADCF}">
+            <Descr>ProximityTrigger1</Descr>
+            <ObjectFilter>Reference</ObjectFilter>
+            <OnEnterFilter>
+                <ObjectReference InstanceId="{1CCF6D89-BA36-445F-B5C8-47571ABC0773}">
+                </ObjectReference>
+            </OnEnterFilter>
+            <Areas>
+                <ObjectReference InstanceId="{6234763A-6D9B-480A-942A-FBD299FA4E20}">
+                </ObjectReference>
+            </Areas>
+            <OnEnterActions>
+                <ObjectReference InstanceId="{B9566244-7047-4C72-BD57-13AE4FBE4FEC}">
+                </ObjectReference>
+            </OnEnterActions>
+        </SimMission.ProximityTrigger>
+        <SimMission.ProximityTrigger InstanceId="{8F55851B-5167-43CF-972F-6E0AD12C15A0}">
+            <Descr>ProximityTrigger2</Descr>
+            <ObjectFilter>Reference</ObjectFilter>
+            <OnEnterFilter>
+                <ObjectReference InstanceId="{1CCF6D89-BA36-445F-B5C8-47571ABC0773}">
+                </ObjectReference>
+            </OnEnterFilter>
+            <OnEnterActions>
+                <ObjectReference InstanceId="{031152BB-2F7A-471F-BB10-C67BEB5D1D68}">
+                </ObjectReference>
+            </OnEnterActions>
+            <Areas>
+                <ObjectReference InstanceId="{708E300C-C7A6-44FF-BDA4-9D97B6B99071}">
+                </ObjectReference>
+            </Areas>
+        </SimMission.ProximityTrigger>
+        <SimContain.Container InstanceId="{2EACA544-D214-4AD7-9C2F-1522B270C894}">
+            <Descr>Airplane1</Descr>
+            <ContainerID>0</ContainerID>
+            <IsOnGround>True</IsOnGround>
+            <WorldPosition>N30° 28' 33.712901",W86° 31' 4.757409",+000090.70</WorldPosition>
+            <Orientation>352.100000,0.000000,107.820219</Orientation>
+            <ContainerTitle>Maule M7 260C paint4</ContainerTitle>
+            <Activated>False</Activated>
+        </SimContain.Container>
+        <SimContain.Container InstanceId="{79E923C0-4F1D-480A-A2AF-88CA288202F6}">
+            <Descr>Airplane3</Descr>
+            <ContainerID>0</ContainerID>
+            <IsOnGround>True</IsOnGround>
+            <WorldPosition>N30° 28' 32.568394",W86° 30' 58.609941",+000091.30</WorldPosition>
+            <Orientation>344.800000,0.000000,281.820207</Orientation>
+            <ContainerTitle>Piper Cub</ContainerTitle>
+            <Activated>False</Activated>
+        </SimContain.Container>
+        <SimMission.Goal InstanceId="{F6B3C7A1-BCE4-4761-B885-E2630A7DDA6F}">
+            <Descr>Goal1</Descr>
+            <Text></Text>
+        </SimMission.Goal>
+    </WorldBase.Flight>
+    <MissionBuilder.MissionBuilder>
+    </MissionBuilder.MissionBuilder>
+    <WorldBase.AreasOfInterest>
+    </WorldBase.AreasOfInterest>
+    <WorldBase.Waypoints>
+    </WorldBase.Waypoints>
+</SimBase.Document>

@@ -1,0 +1,13 @@
+[Source]
+Type                = GeoTIFF
+SourceDir           = "SourceData"
+SourceFile          = "ModifiedGlccSubset2.tif"
+Layer               = LandClass
+SamplingMethod      = Majority
+MajorityMode        = Weighted
+
+[Destination]
+DestDir             = "Output"
+DestBaseFileName    = LandClass_AutoWeightedMajority
+DestFileType        = BGL
+UseSourceDimensions = 1

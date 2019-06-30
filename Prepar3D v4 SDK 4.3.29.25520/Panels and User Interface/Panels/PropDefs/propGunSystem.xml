@@ -1,0 +1,346 @@
+<?xml version= "1.0" encoding= "utf-8" ?>
+
+<!-- Core property symbol definition document
+
+    Element: SymbolDef - Mandatory root element
+
+        name:       Mandatory symbol definition namespace Name
+        id:         Mandatory globally unique namespace identifier
+        descr:      Optional namespace description
+        chdr:       Optional C/C++ header filename.  If none is provided, the namespace name is used with a ".h" extension
+        version:    Optional version number formatatted as "vermajor,verminor".
+
+-->
+
+<SymbolDef 
+    name    = "GunSystem"
+    id      = "{40F57839-B5C8-46EC-8526-76ABA941ED44}"
+    descr   = ""
+    chdr    = "propGunSystem.h" version="1,0">
+    version = "1,0">
+
+    <SymbolInclude
+        filename = "propbase.xml"
+        id       = "{8042AB84-8003-4ff1-9D4A-6D0D057F00DE}"
+        version  = "1,0"/>
+        
+    <SymbolInclude
+        filename = "propDIS.xml"
+        id       = "{897154C9-EF95-414E-935B-6B231BFD8F7B}"
+        version  = "1,0"/>
+        
+    <cpptext pass="1">
+//-------------------------------------------------------------------------//
+//
+//  Base AceXML data type, property and property set definitions
+//-------------------------------------------------------------------------//
+//
+ 
+//
+//  Namespace
+//
+    </cpptext>
+
+    <PropertyDefs symbolprefix = "SPID_GS_">
+
+        <cpptext pass = "2">
+//
+//  Property identifiers
+//
+        </cpptext>
+
+// CommonDefinitions
+        <PropertyDef
+            id      = "{63BD52C5-668A-41B9-AF73-A8DC263CEA51}"
+            name    = "ObjectTitle"
+            type    = "text"
+            default = ""
+            xml_io  = "attribute"
+            devnote = "A unique title for this definition." />
+        <PropertyDef
+            id      = "{5674A64D-D296-4135-8C02-A5C423126E80}"
+            name    = "Caliber"
+            type    = "FLOAT"
+            default = "0.5"
+            xml_io  = "attribute"
+            devnote = "The caliber of the object in decimal inches." />
+        <PropertyDef
+            id      = "{2F04C6A2-75E7-4D8D-A5A5-B63013E784C5}"
+            name    = "Lifetime"
+            type    = "FLOAT"
+            default = "3.0"
+            xml_io  = "attribute"
+            devnote = "The lifetime of the object in seconds." />
+        <PropertyDef
+            id      = "{53CAEA92-A996-4688-85AC-1C6EA2E5BAF6}"
+            name    = "Weight"
+            type    = "FLOAT"
+            default = "1.0"
+            xml_io  = "attribute"
+            devnote = "The weight of the object in pounds." />
+        //  GunDefinitions
+        <PropertyDef
+            id      = "{40320248-3ED4-4539-A9AC-DE05E23BD80F}"
+            name    = "GunType"
+            type    = "text"
+            default = ""
+            xml_io  = "attribute"
+            devnote = "The type of gun for this gun definition." />
+        <PropertyDef
+            id      = "{B1CB86E8-C37F-40A1-8960-6291DC6BC0DC}"
+            name    = "Ammunition"
+            type    = "text"
+            default = ""
+            xml_io  = "attribute"
+            devnote = "The title of the ammunition used with this gun definition." />
+        <PropertyDef
+            id      = "{3C6D3B73-DBEB-417E-973B-9DA10D409B56}"
+            name    = "RateOfFire"
+            type    = "FLOAT"
+            default = "1000"
+            xml_io  = "attribute"
+            devnote = "The rate the gun will fire in rounds per minute (rpm)." />
+        <PropertyDef
+            id      = "{ED8F5B4D-934E-4E65-B719-25BC2AFB4FF0}"
+            name    = "MuzzleVelocity"
+            type    = "FLOAT"
+            default = "1000"
+            xml_io  = "attribute"
+            devnote = "The muzzle velocity of the gun in feet per second (fps)." />
+        <PropertyDef
+            id      = "{7D10AE2D-BF84-4CC9-9BBB-969505732369}"
+            name    = "PitchMax"
+            type    = "FLOAT"
+            default = "15.0"
+            xml_io  = "attribute"
+            devnote = "The maximum pitch in either direction in degrees." />
+        <PropertyDef
+            id      = "{35D603E7-B080-4562-9C99-759F599084AF}"
+            name    = "PitchAccelerationTime"
+            type    = "FLOAT"
+            default = "2.0"
+            xml_io  = "attribute"
+            devnote = "The number of seconds until reaching pitch velocity." />
+        <PropertyDef
+            id      = "{913E715A-D242-4E1D-8871-448A52A76650}"
+            name    = "PitchTurnRate"
+            type    = "FLOAT"
+            default = "6.0"
+            xml_io  = "attribute"
+            devnote = "The pitch turn rate in degrees per second." />
+        <PropertyDef
+            id      = "{DE3E8C80-B492-44A1-A78C-004B4022D34B}"
+            name    = "HeadingMax"
+            type    = "FLOAT"
+            default = "15.0"
+            xml_io  = "attribute"
+            devnote = "The maximum heading in either direction in degrees." />
+        <PropertyDef
+            id      = "{5982B375-2AD9-4A4F-9D33-6A379C3DA1E7}"
+            name    = "HeadingAccelerationTime"
+            type    = "FLOAT"
+            default = "2.0"
+            xml_io  = "attribute"
+            devnote = "The number of seconds until reaching heading velocity." />
+        <PropertyDef
+            id      = "{E916FD2D-0644-45FB-9FD5-DA5F7C2A2F69}"
+            name    = "HeadingTurnRate"
+            type    = "FLOAT"
+            default = "6.0"
+            xml_io  = "attribute"
+            devnote = "The heading turn rate in degrees per second." />
+        <PropertyDef
+            id      = "{27AAEB9E-F3D3-452D-AFBD-9FE38120CB4D}"
+            name    = "Stationary"
+            type    = "BOOL"
+            default = "FALSE"
+            xml_io  = "attribute"
+            devnote = "True if the gun shall be stationary, false if the gun shall rotate." />
+            
+// RoundDefinitions  
+        <PropertyDef
+            name    = "DragCf"
+            ID      = "{813D98D2-CC66-4344-AFE7-DA8783238862}"
+            type    = "FLOAT"
+            default = "0.15"
+            xml_io  = "attribute"
+            descr   = "The coefficient of drag on this object. (no units)" />
+      <PropertyDef
+            name    = "TracerRatio"
+            ID      = "{6C88DE6F-996C-4695-AF0B-3725849F70A1}"
+            type    = "LONG"
+            default = "4"
+            xml_io  = "attribute"
+            descr   = "The ratio tracers will fire. 0 for all tracers. -1 for no tracers." />
+        <PropertyDef
+            name    = "DamagePoints"
+            ID      = "{1E58E394-4D5B-4AA1-9CC8-B0C271A92EF0}"
+            type    = "LONG"
+            default = "1"
+            xml_io  = "attribute"
+            descr   = "The damage that this round definition will deal on impact." />
+        
+// BallisticTableDefinitions
+        <PropertyDef
+            name    = "Range"
+            ID      = "{89FFD39D-C32C-45C2-BD87-39F141D8322B}"
+            type    = "FLOAT"
+            default = "0"
+            xml_io  = "attribute"
+            descr   = "The range for this object in feet (ft)."/>
+        <PropertyDef
+            name    = "Velocity"
+            ID      = "{3D89F19D-1DB6-4245-9E6F-59675AA77946}"
+            type    = "FLOAT"
+            default = "0"
+            xml_io  = "attribute"
+            descr   = "The velocity for this object in feet per second (fps)."/>
+        <PropertyDef
+            name    = "Trajectory"
+            ID      = "{3DCC8ABE-C852-4D27-BED8-DAF3A17768D3}"
+            type    = "FLOAT"
+            default = "0"
+            xml_io  = "attribute"
+            descr   = "The trajectory for this object in feet (ft)."/>
+        
+// EffectDefinitions
+        <PropertyDef
+            name    = "EffectName"
+            ID      = "{8BC3E073-4A65-4AEA-9A8C-FE69B88992A4}"
+            type    = "text"
+            default = ""
+            xml_io  = "attribute"
+            descr   = "The name of the effect.">
+        </PropertyDef>    
+        <PropertyDef
+            name    = "GunEffectType"
+            ID      = "{C987E51B-9CBE-488C-8218-B951F0678736}"
+            type    = "ENUM"
+            default = "FIRE"
+            xml_io  = "attribute"
+            descr   = "">
+            <EnumDef symbolprefix="XML_GUN_EFFECT_">
+                <EnumVal name = "FIRE"/>
+            </EnumDef>
+        </PropertyDef>
+        <PropertyDef
+            name    = "RoundEffectType"
+            ID      = "{304FC278-B57A-4DAA-99BD-19B8E29D472C}"
+            type    = "ENUM"
+            default = "IMPACT_LAND"
+            xml_io  = "attribute"
+            descr   = "">
+            <EnumDef symbolprefix="XML_ROUND_EFFECT_">
+                <EnumVal name = "TRACER"/>
+                <EnumVal name = "IMPACT_LAND"/>
+                <EnumVal name = "IMPACT_WATER"/>
+                <EnumVal name = "IMPACT_BUILDING"/>
+                <EnumVal name = "IMPACT_VEHICLE"/>
+                <EnumVal name = "IMPACT_VEGETATION"/>
+            </EnumDef>
+        </PropertyDef>
+    </PropertyDefs>
+            
+    <SetDefs symbolprefix = "SSID_GS_">
+
+        <cpptext pass = "2">
+//
+//  Set identifiers
+//
+        </cpptext>
+
+//  GunDefinitions 
+        <SetDef 
+            name    = "GunDefinitions" 
+            ID      = "{73BC9FD9-346B-4456-8519-F212671E3698}"
+            descr   = "GunDefinitions">
+            <property name = "GunDefinition"/>
+          </SetDef>
+        <SetDef
+            name    = "GunDefinition"
+            ID      = "{C8442F3A-835C-423C-BA64-6A8BBCFEA84F}"
+            descr   = "GunDefinition">
+            <property name = "ObjectTitle"/>
+            <property name = "GunType"/>
+            <property name = "Ammunition"/>
+            <property name = "Stationary"/>
+            <property name = "GunFeatures"/>
+            <property name = "GunMovement"/>
+            <property name = "GunEffect"/>
+        </SetDef>
+        <SetDef
+            name    = "GunFeatures"
+            ID      = "{C8988C09-787E-438A-B968-5461B0184E54}"
+            descr   = "Gun feature data">
+            <property name = "Caliber"/>
+            <property name = "RateOfFire"/>
+            <property name = "MuzzleVelocity"/>
+        </SetDef>
+        <SetDef
+            name    = "GunMovement"
+            ID      = "{05B585B1-1A80-4CF8-97E9-98DEBD2A5DFD}"
+            descr   = "Gun movement data">
+            <property name = "PitchMax"/>
+            <property name = "PitchAccelerationTime"/>
+            <property name = "PitchTurnRate"/>
+            <property name = "HeadingMax"/>
+            <property name = "HeadingAccelerationTime"/>
+            <property name = "HeadingTurnRate"/>
+        </SetDef>
+        <SetDef
+            name    = "GunEffect"
+            ID      = "{4E5134F9-4731-4859-9A63-92616903C585}"
+            descr   = "Gun effect data">
+            <property name = "EffectName"/>
+            <property name = "GunEffectType"/>
+        </SetDef>
+
+// RoundDefinitions
+        <SetDef
+            name    = "RoundDefinitions" 
+            ID      = "{19FDDE9F-4BFC-4BFB-A6DA-A128D4829197}"
+            descr   = "RoundDefinitions">
+            <property name = "RoundDefinition"/>
+          </SetDef>
+        <SetDef
+            name    = "RoundDefinition" 
+            ID      = "{3CFF92E9-9440-46FE-B3C2-6BB5EDB11B26}"
+            descr   = "RoundDefinition">
+            <property name = "ObjectTitle"/>
+            <property name = "Weight"/>
+            <property name = "Caliber"/>
+            <property name = "DragCf"/>
+            <property name = "TracerRatio"/>
+            <property name = "DamagePoints"/>
+            <property name = "Lifetime"/>
+            <property name = "RoundEffect"/>
+            <property name = "EntityTypeString"/>
+        </SetDef> 
+        <SetDef
+            name    = "RoundEffect"
+            ID      = "{3F54E7F6-EA0B-4782-8B6B-54FC63ADDCA0}"
+            descr = "RoundEffect">
+            <property name = "EffectName"/>
+            <property name = "RoundEffectType"/>
+        </SetDef>
+        
+// BallisticTableDefinitions
+        <SetDef
+            name    =  "BallisticTable"
+            ID      = "{BC87ED3D-3065-4A74-89C4-72541014C299}"
+            descr   =  "BallisticTable">
+            <property name = "Row"/>
+        </SetDef>
+        <SetDef
+            name    = "Row"
+            ID      = "{4602017B-2C3B-4874-BD0E-A24578667E1B}"
+            descr   = "Row">
+            <property name = "Range"/>
+            <property name = "Velocity"/>
+            <property name = "Trajectory"/>
+        </SetDef>          
+
+    </SetDefs>
+    
+</SymbolDef>
+

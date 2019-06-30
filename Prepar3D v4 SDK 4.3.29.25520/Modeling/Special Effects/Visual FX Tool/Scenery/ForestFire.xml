@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<FSData version="9.0" xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation="bglcomp.xsd">
+	<SceneryObject lat="47.432" lon="-122.308" alt="0" pitch="0" bank="0" heading="0" altitudeIsAgl="TRUE" imageComplexity="NORMAL">
+		<Effect effectName="fx_ForestFire" />
+	</SceneryObject>
+</FSData>

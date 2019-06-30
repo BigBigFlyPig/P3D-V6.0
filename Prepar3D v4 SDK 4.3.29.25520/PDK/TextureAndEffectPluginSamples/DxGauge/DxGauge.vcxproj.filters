@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="DLLMain.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11SampleInlineRenderer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D3D11SampleInlineRenderer.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{4e272ba1-2622-4fc4-a4ac-523ccd099312}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL">
+      <UniqueIdentifier>{20c5c50d-b71f-4320-8875-195468dd86cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{43f39c92-ee59-4805-9cbd-ba3ff47a1a3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{9d8d7ef1-98b6-4e1d-a121-f3b4ffce0fbc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Content\ShadersHLSL\Example.fx">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

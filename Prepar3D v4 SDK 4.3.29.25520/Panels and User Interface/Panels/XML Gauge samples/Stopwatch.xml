@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document
+        Type="AceXML"
+        version="1,0"
+        id="Stopwatch">
+    <Descr>AceXML Document</Descr>
+    <SimGauge.Gauge id="Gauge" ArtDirectory="C:\Prepar3D\SDK\SimObject SDK\Panels and Gauges SDK\XML Gauge samples">
+        <FloatPosition>0.000,0.000</FloatPosition>
+        <Size>100,110</Size>
+        <Element id="Rim">
+            <FloatPosition>50.000,60.000</FloatPosition>
+            <Circle id="Circle">
+                <Axis>50.000,50.000</Axis>
+                <Radius>50</Radius>
+                <FillColor>black</FillColor>
+                <LineWidth>3</LineWidth>
+                <LineColor>steelblue</LineColor>
+            </Circle>
+        </Element>
+        <Element id="60">
+            <FloatPosition>40.000,14.000</FloatPosition>
+            <GaugeText id="GaugeText">
+                <Bold>True</Bold>
+                <Fixed>True</Fixed>
+                <FontFace>arial</FontFace>
+                <FontColor>gold</FontColor>
+                <FontHeight>12</FontHeight>
+                <FontWeight>2</FontWeight>
+                <GaugeString>60</GaugeString>
+                <HorizontalAlign>CENTER</HorizontalAlign>
+                <Length>2</Length>
+                <Luminous>True</Luminous>
+                <Size>20,20</Size>
+                <Transparent>True</Transparent>
+                <VerticalAlign>CENTER</VerticalAlign>
+            </GaugeText>
+        </Element>
+        <Element id="30">
+            <FloatPosition>40.000,96.000</FloatPosition>
+            <GaugeText id="GaugeText">
+                <FontColor>gold</FontColor>
+                <FontHeight>12</FontHeight>
+                <GaugeString>30</GaugeString>
+                <HorizontalAlign>CENTER</HorizontalAlign>
+                <Size>20,20</Size>
+                <Transparent>True</Transparent>
+                <VerticalAlign>CENTER</VerticalAlign>
+            </GaugeText>
+        </Element>
+        <Element id="45">
+            <FloatPosition>4.000,55.000</FloatPosition>
+            <GaugeText id="GaugeText">
+                <FontColor>gold</FontColor>
+                <FontHeight>12</FontHeight>
+                <GaugeString>45</GaugeString>
+                <Size>20,20</Size>
+                <Transparent>True</Transparent>
+            </GaugeText>
+        </Element>
+        <Element id="15">
+            <FloatPosition>84.000,55.000</FloatPosition>
+            <GaugeText id="GaugeText">
+                <FontColor>gold</FontColor>
+                <FontHeight>12</FontHeight>
+                <GaugeString>15</GaugeString>
+                <Size>20,20</Size>
+                <Transparent>True</Transparent>
+            </GaugeText>
+        </Element>
+        <Element id="Start/Stop button">
+            <FloatPosition>44.000,1.000</FloatPosition>
+            <Rectangle id="Rectangle">
+                <LineWidth>1</LineWidth>
+                <Width>12</Width>
+                <Height>10</Height>
+                <LineColor>silver</LineColor>
+                <FillColor>silver</FillColor>
+            </Rectangle>
+        </Element>
+        <Element id="Needle">
+            <FloatPosition>50.000,60.000</FloatPosition>
+            <Polygon id="Polygon">
+                <Axis>50.000,60.000</Axis>
+                <FillColor>red</FillColor>
+                <LineWidth>1</LineWidth>
+                <LineColor>red</LineColor>
+                <Point id="Point">
+                    <FloatPosition>48.000,62.000</FloatPosition>
+                </Point>
+                <Point id="Point">
+                    <FloatPosition>50.000,12.000</FloatPosition>
+                </Point>
+                <Point id="Point">
+                    <FloatPosition>52.000,62.000</FloatPosition>
+                </Point>
+            </Polygon>
+            <Rotation id="Rotation">
+                <PointsTo>NORTH</PointsTo>
+                <Expression id="Expression">
+                    <Script>(L:Running,bool) if{ (P:Absolute time, seconds) (L:Offset,seconds) -  (&gt;L:TotalRunning,seconds) } els{ (P:Absolute time, seconds) (L:TotalRunning,seconds) -  (&gt;L:Offset,seconds) } (L:TotalRunning, seconds) 0.104719 *</Script>
+                </Expression>
+                <FailureTable id="FailureTable">
+                    <Failure id="Failure">
+                        <Fail_Key>SYSTEM_ELECTRICAL_PANELS</Fail_Key>
+                        <Fail_Action>Freeze</Fail_Action>
+                    </Failure>
+                </FailureTable>
+            </Rotation>
+        </Element>
+        <MouseArea id="MouseArea all">
+            <FloatPosition>0.000,0.000</FloatPosition>
+            <Size>100,110</Size>
+            <CursorType>Normal</CursorType>
+            <MouseArea id="start/stop">
+                <FloatPosition>41.000,1.000</FloatPosition>
+                <Size>12,10</Size>
+                <CursorType>Hand</CursorType>
+                <MouseClick id="MouseClick">
+                    <Script>(M:Event) &apos;LeftSingle&apos; scmp 0 == if{ 1 (&gt;L:STSTP Pressed,bool)  (L:Running,bool) ! (&gt;L:Running,bool)  } (L:Running, bool) ! if{ (P:Absolute time, seconds) (&gt;L:Offset, seconds) } (M:Event) &apos;LeftRelease&apos; scmp 0 == if{ 0 (&gt;L:STSTP Pressed,bool) }</Script>
+                    <ClickType>LeftSingle+LeftRelease</ClickType>
+                </MouseClick>
+            </MouseArea>
+            <MouseArea id="reset">
+                <FloatPosition>14.000,14.000</FloatPosition>
+                <Size>10,10</Size>
+                <CursorType>Hand</CursorType>
+                <MouseClick id="MouseClick">
+                    <Script>(M:Event) &apos;LeftSingle&apos; scmp 0 == if{ 1 (&gt;L:RST Pressed,bool)  0 (&gt;L:TotalRunning,seconds) 0 (&gt;L:Running,bool) } (M:Event) &apos;LeftRelease&apos; scmp 0 == if{ 0 (&gt;L:RST Pressed,bool) }</Script>
+                    <ClickType>LeftSingle+LeftRelease</ClickType>
+                </MouseClick>
+            </MouseArea>
+        </MouseArea>
+        <Element id="Reset button">
+            <FloatPosition>17.000,17.000</FloatPosition>
+            <Rectangle id="Rectangle">
+                <Axis>5.000,5.000</Axis>
+                <Width>10</Width>
+                <Height>10</Height>
+            </Rectangle>
+            <Rotation id="Rotation">
+                <Expression id="Expression">
+                    <Script>-0.7</Script>
+                </Expression>
+            </Rotation>
+        </Element>
+    </SimGauge.Gauge>
+</SimBase.Document>

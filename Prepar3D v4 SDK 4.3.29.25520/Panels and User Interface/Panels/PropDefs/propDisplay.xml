@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<!--  Sim display property symbol definition document
+  
+    see propbase.xml for an explanation of property symbol definition document schema
+-->
+
+<SymbolDef 
+    name="SimDisplay" 
+    id="{A1E734E9-427E-4637-8A65-BD8D020647D4}" 
+    descr="Sim display property, type, and set definitions." 
+    chdr="propDisplay.h" 
+    version="1,0">
+
+    <SymbolInclude 
+        filename="propbaseui.xml" 
+        id="{4E8ACFBF-79DE-4136-9DA2-A0AE96185229}" 
+        version="1,0" />
+    
+    <cpptext pass="1">
+//-------------------------------------------------------------------------//
+//  propDisplay.h
+//
+//  Sim dsiplay property, type, and set defs
+//-------------------------------------------------------------------------//
+//
+
+//  
+//  Namespace
+//
+</cpptext>
+
+    <PropertyDefs symbolprefix="SPID_SIMDISPLAY_">
+
+        <cpptext pass="2">
+//
+//  Property Identifiers
+//
+        </cpptext>
+
+        <PropertyDef
+            id          = "{30B4D059-5561-4ade-860C-E650607A7779}"
+            name        = "DisplayID" 
+            default     = "1"
+            type        = "ULONG" 
+			descr       = "An integer index that identifies a display. Views in a ViewGroup are assigned to displays using this value."/>
+      
+         <PropertyDef 
+            id          = "{FA9CFF93-C4F2-455a-94D8-D121AF3119FA}"
+            name        = "AdapterIndex" 
+            default     = "1"
+            type        = "ULONG" 
+			descr       = "Adapter index of a display output.  Adapter index values are assigned in the order outputs are listed by the operating system and often match the display numbers shown in the Windows screen resolution menu. This value may change if displays are disconnected and reconnected."/>
+			
+        <PropertyDef 
+            id          = "{b564fe64-3729-4d5c-ae6b-f68f0a1be34f}"
+            name        = "MachineID" 
+            default     = "1"
+            type        = "ULONG"
+			descr       = "The index of the computer/machine the display is connected to. This values is used to specific displays on Multichannel clients when a simulation session is being distributed across multiple machines. (Default is 1 which should be reserved for the multichannel host)"	/>
+		
+        <PropertyDef 
+            id          = "{F7962B2C-FB5C-4980-ADF2-E780628D4B20}" 
+            name        = "Name" 
+            type        = "TEXT" 
+			descr       = "The name of this element (Display, Plugin, or Parameter)."
+			/>
+       
+        <PropertyDef 
+            id          = "{18511455-73a9-4e30-8be3-a112a37c64fb}" 
+            name        = "Value" 
+            type        = "TEXT" 
+			descr       = "The value to pass in to a Plugin parameter. This is a TEXT element but it may be interpreted as a numeric value by some Plugins."/>
+			
+    </PropertyDefs>
+            
+    <SetDefs symbolprefix="SSID_SIMDISPLAY_">
+            
+        <cpptext pass="2">
+//
+//  Property Sets
+//
+        </cpptext>
+		<SetDef
+            id      = "{aecd206d-a6c1-44b0-8484-772ab92cb45e}"
+            name    = "Parameter"
+			cardinality = "multiple"
+            policy  = "inclusive"
+			descr       = "A parameter name/value pair which can be used to configure a plugin.">
+            <property name  = "Name" />
+			<property name  = "Value" />
+        </SetDef>
+		
+        <SetDef
+            id      = "{334e9efb-e8cf-4f51-8d86-d73f3e320eae}"
+            name    = "Plugin"
+			cardinality = "multiple"
+            policy  = "inclusive"
+			descr       = "A plugin such as a post-process which will be applied to all views on this device.">
+            <property name  = "Name" />
+			<property name  = "Parameter" />
+        </SetDef>
+		
+        <SetDef
+            id      = "{6F609284-F175-4b98-8067-B5BE4C7733DB}"
+            name    = "Display"
+			cardinality = "multiple"
+            policy  = "inclusive"
+			descr       = "Contains the settings for specific display (such as a monitor or projector). ">
+			<property name  = "Name" />
+            <property name  = "DisplayID" />
+            <property name  = "AdapterIndex" />
+            <property name  = "MachineID" />            
+			<property name  = "Plugin" />
+        </SetDef>
+		
+		<SetDef
+            id      = "{c0662397-2ef7-4ed0-941e-0888415dd5c0}"
+            name    = "Configuration"
+			cardinality = "multiple"
+            policy  = "inclusive">
+            <property name  = "Name" />
+			<property name  = "Display" />
+        </SetDef>
+		
+		<SetDef
+            id      = "{637d4347-83cb-4953-b095-079d137df483}"
+            name    = "ConfigurationSet"
+            policy  = "inclusive">
+			<property name  = "Configuration" />
+        </SetDef>		
+    </SetDefs>
+
+</SymbolDef>

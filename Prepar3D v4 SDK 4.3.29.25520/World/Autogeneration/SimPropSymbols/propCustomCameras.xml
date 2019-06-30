@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<!--  Sim Image Generation (for multichannel) property symbol definition document
+  
+    see propbase.xml for an explanation of property symbol definition document schema
+-->
+
+<SymbolDef
+    name="CustomCameras"
+    id="{4D2E0C34-579C-4E94-80AE-5646826BE31B}"
+    descr="Custom camera definitions"
+    chdr="propCustomCamera.h"
+    version="1,0">
+      <SymbolInclude
+      filename="propbaseui.xml"
+      id="{4E8ACFBF-79DE-4136-9DA2-A0AE96185229}"
+      version="1,0" />
+      
+      <SymbolInclude
+        filename = "propViewGroups.xml"
+        id       = "{e542f775-9390-46d4-a586-c5bda67d2e37}"
+        version  = "1,0" />      
+
+      <SymbolInclude
+        filename = "propDisplay.xml"
+        id       = "{A1E734E9-427E-4637-8A65-BD8D020647D4}"
+        version  = "1,0" />        
+  
+
+   
+  <cpptext pass="1">
+    //-------------------------------------------------------------------------//
+    //  propCustomCamera.h
+    //
+    //  Custom cameras
+    //-------------------------------------------------------------------------//
+    //
+
+    //
+    //  Namespace
+    //
+  </cpptext>
+
+  <PropertyDefs symbolprefix="SPID_CUSTOM_CAMERA_">
+
+    <cpptext pass="2">
+      //
+      //  Property Identifiers
+      //
+    </cpptext>
+
+    <PropertyDef
+        id          = "{605C52BA-B1D0-420D-8A24-77667E88ED98}"
+        name        = "ExcludeVcSensor"
+        default     = "TRUE"
+		descr     = "Exclude VC from sensor rendering"
+        type        = "BOOL" />
+    
+    <PropertyDef
+        id          = "{2A8C6D3E-7EA7-43E1-B597-E50C709AE6C3}"
+        name        = "Zoom"
+        default     = "0.0"
+		descr     = "Zoom"
+        type        = "FLOAT" />
+        
+    <PropertyDef
+        id          = "{E46F2D17-DCF5-49B7-8C79-B48AE1D07C76}"
+        name        = "Duration"
+        default     = "1.0"
+		descr     = "Duration"
+        type        = "FLOAT" />
+        
+    <PropertyDef
+        id          = "{5794B5C2-ED5D-4DC0-B51B-DA12CDE22805}"
+        name        = "ChaseDistance"
+        default     = "0.0"
+		descr     = "Chase distance for chase cameras"
+        type        = "FLOAT" />
+        
+    <PropertyDef
+        id          = "{ACF151EA-BE8D-43E3-8E47-C5C614B03DC1}"
+        name        = "ChaseAltitude"
+        default     = "0.0"
+		descr     = "Chase Altitude for chase cameras"
+        type        = "FLOAT" />
+
+    <PropertyDef
+        id          = "{3B041AF1-7DF5-4ACA-B4A8-4A0222E1ADE7}"
+        name        = "ParentGUID"
+        default     = "{8881FCD6-4293-4441-AB03-9B4DFD72D1B3}"
+		descr     = "GUID of Camera Definition this is based on."
+        type        = "GUID" />        
+  </PropertyDefs>
+  <SetDefs symbolprefix="SSID_CUSTOM_CAMERA_">
+
+    <cpptext pass="2">
+      //
+      //  Property Sets
+      //
+    </cpptext>
+    
+    <SetDef
+        id      = "{2BC7E810-DFBF-4E2B-B373-889A3D07C664}"
+        name    = "CustomCamera"
+		cardinality = "multiple"
+		descr       = "Defines a Custom Camera"
+        policy  = "inclusive">      
+      <property name = "Name" />
+      <property name = "ParentGUID" />    
+      <property name = "ViewFrustum" />
+      <property name = "Zoom" />
+      <property name = "Duration" />
+      <property name = "ChaseDistance" />
+      <property name = "ChaseAltitude" />
+      <property name = "ExcludeVcSensor" />
+      <property name = "Plugin" />
+    </SetDef>
+
+    <SetDef
+        id      = "{2E62B304-8921-4EE6-8540-59BD23E323F0}"
+        name    = "CustomCameraGroup"
+		cardinality = "multiple"
+		descr       = "A group of custom cameras."
+        policy  = "inclusive">
+	  <property name = "Name" />
+	  <property name = "CustomCamera" />
+    </SetDef>
+	
+	<SetDef
+		id      = "{F8D93D4F-84DC-40C4-BDC7-98317C0B0C7D}"
+		name    = "CustomCameraConfiguration"
+		policy  = "inclusive">
+		<property name  = "CustomCameraGroup" />
+	</SetDef>		
+  </SetDefs>
+
+</SymbolDef>

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+
+<!-- FlightSim SIM property symbol definition document
+  
+    see propbase.xml for an explanation of property symbol definition document schema
+-->
+
+<SymbolDef 
+    name="SceneryObjects" 
+    id="{9EE96FC0-10FB-4702-9CCA-F945242661E6}" 
+    descr="FlightSim scenery object property, type and set definitions." 
+    chdr="propsceneryobjects.h" version="1,0">
+    
+    <SymbolInclude 
+        filename="propanim.xml" 
+        id="{25D2097F-A1E9-4ba8-A8DD-2CCA3FC5F27B}" 
+        version="1,0" />
+	
+    <cpptext pass="1">
+//-------------------------------------------------------------------------//       
+//  propsceneryobjects.h    
+//
+//  FlightSim SceneryObject AceXML property and property set symbol definitions
+//-------------------------------------------------------------------------//       
+//
+
+//  
+//  Namespace
+//
+    </cpptext>
+
+    <PropertyDefs symbolprefix="SPID_">
+
+        <cpptext pass="2">
+//  
+//  Property Identifiers
+//
+        </cpptext>
+
+        <PropertyDef
+            name        = "ImageComplexity"
+            ID          = "{4072B79A-33E4-473c-9E5D-CDDE3E646D66}"
+            type        = "ENUM"
+            descr       = "Scenery complexity setting of the system that this library object will be rendered in.">
+            <EnumDef symbolprefix="SIMPROP_IMAGE_COMPLEXITY_">
+                <EnumVal name="VERY_SPARSE" xml_name="Very Sparse"/>
+                <EnumVal name="SPARSE" xml_name="Sparse"/>
+                <EnumVal name="NORMAL" xml_name="Normal"/>
+                <EnumVal name="DENSE" xml_name="Dense"/>
+                <EnumVal name="VERY_DENSE" xml_name="Very Dense"/>
+                <EnumVal name="EXTREMELY_DENSE" xml_name="Extremely Dense"/>
+            </EnumDef>
+        </PropertyDef>
+        <PropertyDef
+          name        = "EffectName"
+          id          = "{A4C7EB8D-625C-4b8b-8C96-7BFBA7E6856E}"
+          type        = "TEXT"
+          descr       = "Filename of the special effect. The effect needs to be able to be found in a valid effect content directory.">
+        </PropertyDef>
+        <PropertyDef
+         name        = "AttachPointName"
+         id          = "{47D89CDD-16DD-46b8-9857-325D78C2EC09}"
+         type        = "TEXT"
+         descr       = "The name of the attach point (physical location) of where the effect is to be applied. Attach points are defined in the model files. An effect attached to an attach point will remain tethered to the point, and will only be visible when the rules for the attachment point are satisfied. For example, an effect attached to a landing light attachment point of an aircraft will only be visible if the simulation dictates that the landing lights are on. See the Using Modeling Tools documentation and the Library Objects table for information on attach points. Specifying a blank AttachPointName will cause the effect to render at the location of the entity at the time the action fires. In this case the effect will not be tethered to the entity.">
+        </PropertyDef>
+    </PropertyDefs>
+
+
+    <SetDefs symbolprefix="SSID_">
+        
+        <cpptext pass="2">
+//  
+//  Property Set Identifiers
+//
+        </cpptext>
+        <SetDef 
+            id="{7DEE5988-368E-424d-A5E6-AC21D65A0FD5}"
+            name="Effect" 
+            policy="inclusive"
+			cardinality = "multiple"
+            descr="List of effects attached to this object">
+            <property name = "Descr"/>
+            <property name = "EffectName"/>
+            <property name = "AttachPointName"/>
+        </SetDef>
+
+        <SetDef 
+            id="{75678BB8-2C3B-4124-A396-B1722E093B92}"
+            classid = "{94BE183D-F9BE-45C0-9BCA-1AD92EDC2340}" 
+            name="LibraryObject" 
+            policy="inclusive"
+            descr="A basic Library Scenery Object.  Can further modify by scaling and setting object orientation.">
+            <property name = "InstanceId"/>
+            <property name = "Descr"/>
+            <property name = "WorldPosition"/>
+            <property name = "Orientation" />
+            <property name = "MDLGuid" />
+            <property name = "AltitudeIsAGL" />
+            <property name = "Scale"/>
+            <property name = "ImageComplexity"/>
+            <property name = "Effect"/> <!-- may be multiple instances -->
+            <property name = "ModelAnimation"/>
+            <property name = "Activated"/>
+			<property name = "PositionLock"/>
+        </SetDef>
+
+    </SetDefs>
+
+</SymbolDef>

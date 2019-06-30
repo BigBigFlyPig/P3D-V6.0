@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AddOnXml" version="4,1" id="add-on">
+    <AddOn.Name>Icon Services</AddOn.Name>
+    <AddOn.Description>Icon Services Sample.</AddOn.Description>
+    <AddOn.Component>
+        <Category>DLL</Category>
+        <Path>CustomIcons.dll</Path>
+        <DLLType>PDK</DLLType>
+    </AddOn.Component>
+</SimBase.Document>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document
+        Type="Controls"
+        version="1,0"
+        id="Standard">
+    <Descr>Controls Mapping File</Descr>
+    <Filename>DefaultControlMap.XML</Filename>
+    <SimControls.Map>
+        <Name>KEYBOARD_MAIN.SimpleCar</Name>
+        <Entry>
+            <Key>W</Key>
+            <Down>IncThrottle</Down>
+        </Entry>
+        <Entry>
+            <Key>S</Key>
+            <Down>DecThrottle</Down>
+        </Entry>
+    </SimControls.Map>
+    <SimControls.Map>
+        <Name>Logitech Extreme 3D.SimpleCar</Name>
+        <Axis>
+            <AxName>YAxis</AxName>
+            <Index>1</Index>
+            <AxEvent>Throttle</AxEvent>
+            <AxScale>128</AxScale>
+            <AxNull>8</AxNull>
+        </Axis>
+    </SimControls.Map>
+    <SimControls.Map>
+        <Name>SideWinder Precision 2 Joystick.SimpleCar</Name>
+        <Axis>
+            <AxName>Slider</AxName>
+            <Index>6</Index>
+            <AxEvent>Throttle</AxEvent>
+            <AxScale>127</AxScale>
+            <AxNull>1</AxNull>
+        </Axis>
+    </SimControls.Map>
+        <SimControls.Map>
+        <Name>Mouse Yoke.SimpleCar</Name>
+    </SimControls.Map>
+    <SimControls.Map>
+        <Name>Mouse Look.SimpleCar</Name>
+    </SimControls.Map>
+    <SimControls.Map>
+        <Name>Generic</Name>
+        <Axis>
+            <AxName>Slider</AxName>
+            <Index>6</Index>
+            <AxEvent>Throttle</AxEvent>
+            <AxScale>127</AxScale>
+            <AxNull>1</AxNull>
+        </Axis>
+    </SimControls.Map>
+
+ </SimBase.Document>

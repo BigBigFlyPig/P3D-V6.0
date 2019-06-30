@@ -1,0 +1,17 @@
+[Source]
+Type                = GeoTIFF
+SourceDir           = "SourceData"
+SourceFile          = "MillenniumImage_water_blend.Tif"
+Layer               = Imagery
+Variation           = Day
+
+; This treats all pixels with a zero in the blend mask as if it were missing.
+; This can result in better compression ratios (i.e. smaller .BGL files) if much of the image 
+; is fully transparent.
+NullValue           = ,,,,0
+
+[Destination]
+DestDir             = "Output"
+DestBaseFileName    = "MillenniumImage_water_blend"
+DestFileType        = BGL
+LOD                 = Auto

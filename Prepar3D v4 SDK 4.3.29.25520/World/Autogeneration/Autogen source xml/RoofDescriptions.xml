@@ -1,0 +1,3069 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document
+        Type="AceXML"
+        version="1,0"
+        id="FenceXMLMappings">
+    <Descr>AceXML Document</Descr>
+    <Filename>roofdescriptions.xml</Filename>
+    <Autogen.BuildingRoofs>
+        <RoofEntry id="{4BF10DCD-7E78-474e-BAB9-EC57AA9A8234}">
+            <FriendlyName>Default Flat Roof 01</FriendlyName>
+            <ModelGuid>{B28E8B51-5DC5-46BC-A2B3-57C286A6C01B}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{6089A0BD-CED1-4c47-9A9E-64CDD0E16983}">
+            <FriendlyName>Default Flat Roof 03</FriendlyName>
+            <ModelGuid>{B28E8B51-5DC5-46BC-A2B3-57C286A6C01B}</ModelGuid>
+            <FixedUVBias>-0.250,0.000</FixedUVBias>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{F9D16C62-86FD-409b-AE69-882A0D1275C9}">
+            <FriendlyName>Default Flat Roof 05</FriendlyName>
+            <ModelGuid>{B28E8B51-5DC5-46BC-A2B3-57C286A6C01B}</ModelGuid>
+            <FixedUVBias>0.000,-0.250</FixedUVBias>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{57FDE248-095A-411f-967C-32BD74798C1D}">
+            <FriendlyName>Default Flat Roof 07</FriendlyName>
+            <ModelGuid>{B28E8B51-5DC5-46BC-A2B3-57C286A6C01B}</ModelGuid>
+            <FixedUVBias>-0.250,-0.250</FixedUVBias>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{AC80451E-AF91-42af-945A-4EE53E70EAF7}">
+            <FriendlyName>Default Flat Roof 09</FriendlyName>
+            <ModelGuid>{B28E8B51-5DC5-46BC-A2B3-57C286A6C01B}</ModelGuid>
+            <FixedUVBias>-0.750,-0.500</FixedUVBias>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{C08DF35E-325F-442d-86BC-5AF122BD4092}">
+            <FriendlyName>Default Flat Roof 11</FriendlyName>
+            <ModelGuid>{B28E8B51-5DC5-46BC-A2B3-57C286A6C01B}</ModelGuid>
+            <FixedUVBias>-0.500,-0.500</FixedUVBias>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{73D16452-636A-4753-9A17-85D88E4511BA}">
+            <FriendlyName>Default Flat Roof 12</FriendlyName>
+            <ModelGuid>{B28E8B51-5DC5-46BC-A2B3-57C286A6C01B}</ModelGuid>
+            <FixedUVBias>-0.250,-0.500</FixedUVBias>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{70872768-F6CB-4e58-A55F-66FC9F3CE7D2}">
+            <FriendlyName>Default Flat Roof 10</FriendlyName>
+            <ModelGuid>{B28E8B51-5DC5-46BC-A2B3-57C286A6C01B}</ModelGuid>
+            <FixedUVBias>0.000,-0.500</FixedUVBias>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{84EB8834-6816-49db-BE71-DF47F26D7D5E}">
+            <FriendlyName>Default Flat Roof 06</FriendlyName>
+            <ModelGuid>{B28E8B51-5DC5-46BC-A2B3-57C286A6C01B}</ModelGuid>
+            <FixedUVBias>-0.750,-0.750</FixedUVBias>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{F631FE2D-0EC6-4c8a-B060-15B612011063}">
+            <FriendlyName>Default Flat Roof 08</FriendlyName>
+            <ModelGuid>{B28E8B51-5DC5-46BC-A2B3-57C286A6C01B}</ModelGuid>
+            <FixedUVBias>-0.500,-0.750</FixedUVBias>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{20C04F69-7A80-4d42-8586-BAA2AEB5B054}">
+            <FriendlyName>Default Flat Roof 02</FriendlyName>
+            <ModelGuid>{B28E8B51-5DC5-46BC-A2B3-57C286A6C01B}</ModelGuid>
+            <FixedUVBias>-0.250,-0.750</FixedUVBias>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{99C8975A-B6F5-4de1-9EA5-73E63EE23473}">
+            <FriendlyName>Default Flat Roof 04</FriendlyName>
+            <ModelGuid>{B28E8B51-5DC5-46BC-A2B3-57C286A6C01B}</ModelGuid>
+            <FixedUVBias>0.000,-0.750</FixedUVBias>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{3AFCC180-5B65-471d-AE11-316A6030BD59}">
+            <FriendlyName>Default FS9 ridge roof 0,0</FriendlyName>
+            <ModelGuid>{64B8B6BC-F7E4-440D-AE7D-6EEA2DA0D042}</ModelGuid>
+            <FixedUVBias>0.000,-0.500</FixedUVBias>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{9A6BF115-BD73-4d70-B6C7-4E855F64EC54}">
+            <FriendlyName>Default FS9 ridge roof 0,1</FriendlyName>
+            <ModelGuid>{64B8B6BC-F7E4-440D-AE7D-6EEA2DA0D042}</ModelGuid>
+            <FixedUVBias>0.125,-0.500</FixedUVBias>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{8BB8B27F-6CCC-426b-AE43-40B28B6B6521}">
+            <FriendlyName>Default FS9 ridge roof 0,2</FriendlyName>
+            <ModelGuid>{64B8B6BC-F7E4-440D-AE7D-6EEA2DA0D042}</ModelGuid>
+            <FixedUVBias>0.250,-0.500</FixedUVBias>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{058B11C5-ED6D-4e30-8C06-BA311691861E}">
+            <FriendlyName>Default FS9 ridge roof 0,3</FriendlyName>
+            <ModelGuid>{64B8B6BC-F7E4-440D-AE7D-6EEA2DA0D042}</ModelGuid>
+            <FixedUVBias>0.375,-0.500</FixedUVBias>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{8012666D-C05E-47a8-B3F5-325377779904}">
+            <FriendlyName>Default FS9 ridge roof 1,0a</FriendlyName>
+            <ModelGuid>{64B8B6BC-F7E4-440D-AE7D-6EEA2DA0D042}</ModelGuid>
+            <FixedUVBias>0.000,-0.375</FixedUVBias>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{9A44DC39-8B98-4a00-ADF6-E8D3C4BD2878}">
+            <FriendlyName>Default FS9 ridge roof 1,1</FriendlyName>
+            <ModelGuid>{64B8B6BC-F7E4-440D-AE7D-6EEA2DA0D042}</ModelGuid>
+            <FixedUVBias>0.125,-0.375</FixedUVBias>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{EB769DB5-1238-4747-A96C-3CD44DD9C1EB}">
+            <FriendlyName>Default FS9 ridge roof 1,2</FriendlyName>
+            <ModelGuid>{64B8B6BC-F7E4-440D-AE7D-6EEA2DA0D042}</ModelGuid>
+            <FixedUVBias>0.250,-0.375</FixedUVBias>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{BFE91A18-FC5A-487d-85A5-6808296E1E8D}">
+            <FriendlyName>Default FS9 ridge roof 1,3</FriendlyName>
+            <ModelGuid>{64B8B6BC-F7E4-440D-AE7D-6EEA2DA0D042}</ModelGuid>
+            <FixedUVBias>0.375,-0.375</FixedUVBias>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{372E2ED9-8335-4106-9850-2AE2CB91FDA6}">
+            <FriendlyName>Default FS9 ridge roof 1,0b</FriendlyName>
+            <ModelGuid>{64B8B6BC-F7E4-440D-AE7D-6EEA2DA0D042}</ModelGuid>
+            <FixedUVBias>0.000,-0.250</FixedUVBias>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{5C98688B-190B-4b81-8E37-55F507031C1A}">
+            <FriendlyName>Default FS9 ridge roof 2,1</FriendlyName>
+            <ModelGuid>{64B8B6BC-F7E4-440D-AE7D-6EEA2DA0D042}</ModelGuid>
+            <FixedUVBias>0.125,-0.250</FixedUVBias>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{F5FF93C8-993B-4407-8060-D40D5FAB5E08}">
+            <FriendlyName>Default FS9 ridge roof 2,2</FriendlyName>
+            <ModelGuid>{64B8B6BC-F7E4-440D-AE7D-6EEA2DA0D042}</ModelGuid>
+            <FixedUVBias>0.250,-0.250</FixedUVBias>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{AE1D92F4-E847-4576-9C93-4C2C051B9F60}">
+            <FriendlyName>Default FS9 ridge roof 2,3</FriendlyName>
+            <ModelGuid>{64B8B6BC-F7E4-440D-AE7D-6EEA2DA0D042}</ModelGuid>
+            <FixedUVBias>0.375,-0.250</FixedUVBias>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{0812E29C-E394-4dad-A636-5173E025A468}">
+            <FriendlyName>Default FS9 ridge roof 3,0</FriendlyName>
+            <ModelGuid>{64B8B6BC-F7E4-440D-AE7D-6EEA2DA0D042}</ModelGuid>
+            <FixedUVBias>0.000,-0.125</FixedUVBias>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{B7AB550D-C45E-432a-BCD7-8C2543E6C422}">
+            <FriendlyName>Default FS9 ridge roof 3,1</FriendlyName>
+            <ModelGuid>{64B8B6BC-F7E4-440D-AE7D-6EEA2DA0D042}</ModelGuid>
+            <FixedUVBias>0.125,-0.125</FixedUVBias>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{4BFDE2FC-1A61-4617-8E0D-145083456FDB}">
+            <FriendlyName>Default FS9 ridge roof 3,2</FriendlyName>
+            <ModelGuid>{64B8B6BC-F7E4-440D-AE7D-6EEA2DA0D042}</ModelGuid>
+            <FixedUVBias>0.250,-0.125</FixedUVBias>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{D3E31A5C-B7EF-4e5a-9F56-F3294B3407C8}">
+            <FriendlyName>Default FS9 ridge roof 3,3</FriendlyName>
+            <ModelGuid>{64B8B6BC-F7E4-440D-AE7D-6EEA2DA0D042}</ModelGuid>
+            <FixedUVBias>0.375,-0.125</FixedUVBias>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{ecf5a26e-4c18-467e-bf42-7013f11b3e1a}">
+            <FriendlyName>FS9Ridge</FriendlyName>
+            <ModelGuid>{64B8B6BC-F7E4-440D-AE7D-6EEA2DA0D042}</ModelGuid>
+        </RoofEntry>
+        <RoofEntry id="{bceb0559-e44f-4c88-b58f-3f026081430f}">
+            <FriendlyName>Roof_Pavillion_Hipped_High_Pitch_01 (0, 0)</FriendlyName>
+            <ModelGuid>{7E4B87CF-1116-4B90-A780-976DD30FFA31}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{571c6e87-7e22-4aaf-ba41-769323e3bf0e}">
+            <FriendlyName>Roof_Pavillion_Hipped_01 (0, 0)</FriendlyName>
+            <ModelGuid>{435B483F-4663-49FF-AAD8-8C2980EC2319}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{4f510373-dac1-4eef-a39b-31ea152d54fe}">
+            <FriendlyName>Roof_Mansard_08</FriendlyName>
+            <ModelGuid>{15AE052B-5DE4-4CE8-958C-6C55E0C04A95}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{cad2d691-7d53-4e85-9979-6ec7f66d9db3}">
+            <FriendlyName>Roof_Mansard_07</FriendlyName>
+            <ModelGuid>{4D8F98A9-83E9-4453-B468-E0A954F84450}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{3d62ffb6-906c-46bd-a60d-e37f6857093a}">
+            <FriendlyName>Roof_Mansard_06</FriendlyName>
+            <ModelGuid>{BAF090CC-56EB-44A9-988C-A55C180FA3CE}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{606846f8-cbfa-4fd9-8d14-a0fe1b0da4d7}">
+            <FriendlyName>Roof_Mansard_05</FriendlyName>
+            <ModelGuid>{C7E460D5-B34D-4660-B942-DFA1F06409E6}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{ce6d63f2-e886-4c02-a469-fef7389731cc}">
+            <FriendlyName>Roof_Mansard_04</FriendlyName>
+            <ModelGuid>{C673B33F-8C28-49B4-A44F-0EAA087FFE19}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{763171be-0790-41cb-8b57-3b359a84c2b5}">
+            <FriendlyName>Roof_Mansard_03</FriendlyName>
+            <ModelGuid>{AB4E802F-E47B-45F2-BF79-981A84F22957}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{8076a415-6af5-4422-bd2d-520e73648a70}">
+            <FriendlyName>Roof_Mansard_02</FriendlyName>
+            <ModelGuid>{A4E2193D-6F9D-4132-B942-3E233DF2BA32}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{8c31403e-4a85-4ebc-a179-e7f2504a96e6}">
+            <FriendlyName>Roof_Mansard_01</FriendlyName>
+            <ModelGuid>{2AC84293-AC73-4D85-BCE6-7768849D3189}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{7c1ea0b8-b54f-4d53-8905-fdf846148a4b}">
+            <FriendlyName>Roof_Hipped_Low_Pitch_01 (0, 0)</FriendlyName>
+            <ModelGuid>{06937081-1015-49C0-8220-EC90A1905CB8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{480dd397-719d-4f33-9ce1-6e13052fef3d}">
+            <FriendlyName>Roof_Hipped_High_Pitch__01 (0, 0)</FriendlyName>
+            <ModelGuid>{F8F2C776-BD15-4677-9EC1-E129AE5BB4F6}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{0230e7fd-701b-472b-8fa6-b7a2884e38a6}">
+            <FriendlyName>Roof_Gabled_16</FriendlyName>
+            <ModelGuid>{D7592063-A075-4A28-AF11-8214EC39D9C4}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{89a023a1-c5e2-4c8c-954e-c1597dab6ea5}">
+            <FriendlyName>Roof_Gabled_15</FriendlyName>
+            <ModelGuid>{5D17CB80-0976-4347-A950-9CBAE3C2EA1D}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{67437d14-4e3b-4490-b494-d45fcff7745b}">
+            <FriendlyName>Roof_Gabled_14</FriendlyName>
+            <ModelGuid>{41A14487-D136-41BD-9ECB-4FAA33052614}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{104b33ff-e5f6-43fd-adfe-b589a02a6dac}">
+            <FriendlyName>Roof_Gabled_13</FriendlyName>
+            <ModelGuid>{59BAA917-9838-4313-AC77-188DC19661D8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{f9c09395-0519-4856-8f31-102be2208d8e}">
+            <FriendlyName>Roof_Gabled_12</FriendlyName>
+            <ModelGuid>{2E5B19EF-621B-4472-8BCC-B970DD763FCF}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{d88d198b-1a91-4e21-ac35-092390c2b90d}">
+            <FriendlyName>Roof_Gabled_11</FriendlyName>
+            <ModelGuid>{EBCBC465-9C26-4372-BC0A-B7778AEC89A5}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{420b3b5d-78cc-4885-9483-06ff982e21bd}">
+            <FriendlyName>Roof_Gabled_10</FriendlyName>
+            <ModelGuid>{C73A96FA-1330-4305-8567-A1EFB36F2F00}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{02403423-da76-467d-bd0b-db0f13d8a0a3}">
+            <FriendlyName>Roof_Gabled_09</FriendlyName>
+            <ModelGuid>{B6D16ABD-D093-4239-904E-F6F00E15BA80}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{c155c895-fb70-47d2-a06b-be340499f261}">
+            <FriendlyName>Roof_Gabled_08</FriendlyName>
+            <ModelGuid>{BE7A62C1-38BB-46EE-9384-A978BDA64A02}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{a2d6617d-1009-479c-afa4-6ca59c589b0e}">
+            <FriendlyName>Roof_Gabled_07</FriendlyName>
+            <ModelGuid>{7038C46F-7E74-4CC3-A710-A71BCF42DD00}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{3f8a70bc-ef12-4041-b41b-16e71d2ebd07}">
+            <FriendlyName>Roof_Gabled_06</FriendlyName>
+            <ModelGuid>{9A816133-D2B7-4D9D-B8C0-C3DADC4C956C}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{56c05be8-a693-4208-94e0-ec26aaaa0559}">
+            <FriendlyName>Roof_Gabled_05</FriendlyName>
+            <ModelGuid>{272D212D-5279-429E-8D59-C5C816ED58A4}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{a0b999e8-9415-425f-bfef-0f1afd40e5f8}">
+            <FriendlyName>Roof_Gabled_04</FriendlyName>
+            <ModelGuid>{F34FCEF8-735F-40BB-ACED-23D16AEC0F5A}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{b268805f-6d9e-45c3-9eda-26ef65740969}">
+            <FriendlyName>Roof_Gabled_03</FriendlyName>
+            <ModelGuid>{6D821017-8623-4BE7-9B64-857AF400BC10}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{e53d5dfd-0f6c-4f7e-a310-1232cbe2050a}">
+            <FriendlyName>Roof_Gabled_02</FriendlyName>
+            <ModelGuid>{6569E5C0-AFA3-467D-91E1-D51208BB1D57}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{34c886da-987d-480b-b18f-1b4dacb99012}">
+            <FriendlyName>Roof_Gabled_01</FriendlyName>
+            <ModelGuid>{D2B5C8D1-59E5-40CB-B2FC-CE84C9ECC51B}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{3ac30f94-2b86-4d11-ad4d-1df9302caf5b}">
+            <FriendlyName>Roof_Flat_Walled__01 (0, 0)</FriendlyName>
+            <ModelGuid>{67F1D0E4-0EC9-4A30-A2F2-36633DA9F3F8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+        </RoofEntry>
+        <RoofEntry id="{1f2683d4-14f7-45e3-a923-02b3986f0973}">
+            <FriendlyName>Roof_Bonnet__01 (0, 0)</FriendlyName>
+            <ModelGuid>{D698AD3A-80D6-4EA9-B386-EC21ACB723C7}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <Dimensions>9.000,9.000</Dimensions>
+        </RoofEntry>
+        <RoofEntry id="{686705ec-f949-4fff-8213-08884b75fe09}">
+            <FriendlyName>Roof_Bonnet__09 (0.25, 0)</FriendlyName>
+            <ModelGuid>{D698AD3A-80D6-4EA9-B386-EC21ACB723C7}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,0.000</FixedUVBias>
+            <Dimensions>9.000,9.000</Dimensions>
+        </RoofEntry>
+        <RoofEntry id="{5e85e284-f3c3-46d3-bc4b-eec4ad74dca9}">
+            <FriendlyName>Roof_Bonnet__17 (0.5, 0)</FriendlyName>
+            <ModelGuid>{D698AD3A-80D6-4EA9-B386-EC21ACB723C7}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.500,0.000</FixedUVBias>
+            <Dimensions>9.000,9.000</Dimensions>
+        </RoofEntry>
+        <RoofEntry id="{8cd8116d-e40e-4c50-b113-b4b004b1a797}">
+            <FriendlyName>Roof_Bonnet__25 (0.75, 0)</FriendlyName>
+            <ModelGuid>{D698AD3A-80D6-4EA9-B386-EC21ACB723C7}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.750,0.000</FixedUVBias>
+            <Dimensions>9.000,9.000</Dimensions>
+        </RoofEntry>
+        <RoofEntry id="{2f0daee0-0502-46db-b88a-03c96bf5a2df}">
+            <FriendlyName>Roof_Bonnet__02 (0, 0.125)</FriendlyName>
+            <ModelGuid>{D698AD3A-80D6-4EA9-B386-EC21ACB723C7}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.125</FixedUVBias>
+            <Dimensions>9.000,9.000</Dimensions>
+        </RoofEntry>
+        <RoofEntry id="{8011b511-3fa5-473a-a916-6a3fdb085126}">
+            <FriendlyName>Roof_Bonnet__10 (0.25, 0.125)</FriendlyName>
+            <ModelGuid>{D698AD3A-80D6-4EA9-B386-EC21ACB723C7}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.125</FixedUVBias>
+            <Dimensions>9.000,9.000</Dimensions>
+        </RoofEntry>
+        <RoofEntry id="{94725d6b-6d55-492c-bf57-bc56918d51e4}">
+            <FriendlyName>Roof_Bonnet__18 (0.5, 0.125)</FriendlyName>
+            <ModelGuid>{D698AD3A-80D6-4EA9-B386-EC21ACB723C7}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.500,-0.125</FixedUVBias>
+            <Dimensions>9.000,9.000</Dimensions>
+        </RoofEntry>
+        <RoofEntry id="{f828ccad-487a-4111-883f-6cc788ef7724}">
+            <FriendlyName>Roof_Bonnet__26 (0.75, 0.125)</FriendlyName>
+            <ModelGuid>{D698AD3A-80D6-4EA9-B386-EC21ACB723C7}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.750,-0.125</FixedUVBias>
+            <Dimensions>9.000,9.000</Dimensions>
+        </RoofEntry>
+        <RoofEntry id="{36487290-0891-4e4d-9421-b0ff1f1e6b02}">
+            <FriendlyName>Roof_Bonnet__03 (0, 0.25)</FriendlyName>
+            <ModelGuid>{D698AD3A-80D6-4EA9-B386-EC21ACB723C7}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.250</FixedUVBias>
+            <Dimensions>10.000,10.000</Dimensions>
+        </RoofEntry>
+        <RoofEntry id="{060839f9-f7ca-46d6-a979-ac1a47107991}">
+            <FriendlyName>Roof_Bonnet__11 (0.25, 0.25)</FriendlyName>
+            <ModelGuid>{D698AD3A-80D6-4EA9-B386-EC21ACB723C7}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.250</FixedUVBias>
+            <Dimensions>9.000,9.000</Dimensions>
+        </RoofEntry>
+        <RoofEntry id="{5decc1ce-dac4-4cbb-ad7a-279d3eee20e7}">
+            <FriendlyName>Roof_Bonnet__19 (0.5, 0.25)</FriendlyName>
+            <ModelGuid>{D698AD3A-80D6-4EA9-B386-EC21ACB723C7}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.500,-0.250</FixedUVBias>
+            <Dimensions>9.000,9.000</Dimensions>
+        </RoofEntry>
+        <RoofEntry id="{83cb2c8a-6cda-411e-80ec-f5557a519963}">
+            <FriendlyName>Roof_Bonnet__27 (0.75, 0.25)</FriendlyName>
+            <ModelGuid>{D698AD3A-80D6-4EA9-B386-EC21ACB723C7}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.750,-0.250</FixedUVBias>
+            <Dimensions>9.000,9.000</Dimensions>
+        </RoofEntry>
+        <RoofEntry id="{d83ae466-42f3-4961-9925-645f174b5223}">
+            <FriendlyName>Roof_Bonnet__04 (0, 0.375)</FriendlyName>
+            <ModelGuid>{D698AD3A-80D6-4EA9-B386-EC21ACB723C7}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.375</FixedUVBias>
+            <Dimensions>9.000,9.000</Dimensions>
+        </RoofEntry>
+        <RoofEntry id="{9527ae73-5e8a-464b-bd0e-4d0527f04f26}">
+            <FriendlyName>Roof_Bonnet__12 (0.25, 0.375)</FriendlyName>
+            <ModelGuid>{D698AD3A-80D6-4EA9-B386-EC21ACB723C7}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.375</FixedUVBias>
+            <Dimensions>9.000,9.000</Dimensions>
+        </RoofEntry>
+        <RoofEntry id="{074bf224-0ba8-4285-9ad1-8b240e934c71}">
+            <FriendlyName>Roof_Bonnet__20 (0.5, 0.375)</FriendlyName>
+            <ModelGuid>{D698AD3A-80D6-4EA9-B386-EC21ACB723C7}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.500,-0.375</FixedUVBias>
+            <Dimensions>9.000,9.000</Dimensions>
+        </RoofEntry>
+        <RoofEntry id="{b92d44f1-5179-444e-ba2b-7bc59a1a2fd1}">
+            <FriendlyName>Roof_Bonnet__28 (0.75, 0.375)</FriendlyName>
+            <ModelGuid>{D698AD3A-80D6-4EA9-B386-EC21ACB723C7}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.750,-0.375</FixedUVBias>
+            <Dimensions>9.000,9.000</Dimensions>
+        </RoofEntry>
+        <RoofEntry id="{5a1975a3-18f8-4ee2-b87f-0dfb14d5d06d}">
+            <FriendlyName>Roof_Bonnet__05 (0, 0.5)</FriendlyName>
+            <ModelGuid>{D698AD3A-80D6-4EA9-B386-EC21ACB723C7}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.500</FixedUVBias>
+            <Dimensions>9.000,9.000</Dimensions>
+        </RoofEntry>
+        <RoofEntry id="{85c41452-03ef-4670-8250-efab79359416}">
+            <FriendlyName>Roof_Bonnet__13 (0.25, 0.5)</FriendlyName>
+            <ModelGuid>{D698AD3A-80D6-4EA9-B386-EC21ACB723C7}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.500</FixedUVBias>
+            <Dimensions>9.000,9.000</Dimensions>
+        </RoofEntry>
+        <RoofEntry id="{1e91a2f8-7a65-4154-8cbb-f09c8928899c}">
+            <FriendlyName>Roof_Bonnet__21 (0.5, 0.5)</FriendlyName>
+            <ModelGuid>{D698AD3A-80D6-4EA9-B386-EC21ACB723C7}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.500,-0.500</FixedUVBias>
+            <Dimensions>9.000,9.000</Dimensions>
+        </RoofEntry>
+        <RoofEntry id="{bba94fc1-e551-4690-92ea-d6f2ef32e62e}">
+            <FriendlyName>Roof_Bonnet__06 (0, 0.625)</FriendlyName>
+            <ModelGuid>{D698AD3A-80D6-4EA9-B386-EC21ACB723C7}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.625</FixedUVBias>
+            <Dimensions>9.000,9.000</Dimensions>
+        </RoofEntry>
+        <RoofEntry id="{d97e1a5a-df1b-4d3e-826c-66804ac76c34}">
+            <FriendlyName>Roof_Bonnet__14 (0.25, 0.625)</FriendlyName>
+            <ModelGuid>{D698AD3A-80D6-4EA9-B386-EC21ACB723C7}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.625</FixedUVBias>
+            <Dimensions>9.000,9.000</Dimensions>
+        </RoofEntry>
+        <RoofEntry id="{7aee73be-94fe-4332-a93c-ce408b9babbb}">
+            <FriendlyName>Roof_Bonnet__07 (0, 0.75)</FriendlyName>
+            <ModelGuid>{D698AD3A-80D6-4EA9-B386-EC21ACB723C7}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.750</FixedUVBias>
+            <Dimensions>9.000,9.000</Dimensions>
+        </RoofEntry>
+        <RoofEntry id="{9a6a3a58-743a-4d69-9346-fd8d69f98f4a}">
+            <FriendlyName>Roof_Bonnet__15 (0.25, 0.75)</FriendlyName>
+            <ModelGuid>{D698AD3A-80D6-4EA9-B386-EC21ACB723C7}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.750</FixedUVBias>
+            <Dimensions>9.000,9.000</Dimensions>
+        </RoofEntry>
+        <RoofEntry id="{a310f42a-0ea1-4e4b-9491-9a7d9b18e6c7}">
+            <FriendlyName>Roof_Bonnet__22 (0.5, 0.625)</FriendlyName>
+            <ModelGuid>{D698AD3A-80D6-4EA9-B386-EC21ACB723C7}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.500,-0.625</FixedUVBias>
+            <Dimensions>9.000,9.000</Dimensions>
+        </RoofEntry>
+        <RoofEntry id="{9a845ee5-b3bc-44a1-8673-2564b7203d53}">
+            <FriendlyName>Roof_Bonnet__08 (0, 0.875)</FriendlyName>
+            <ModelGuid>{D698AD3A-80D6-4EA9-B386-EC21ACB723C7}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.875</FixedUVBias>
+            <Dimensions>9.000,9.000</Dimensions>
+        </RoofEntry>
+        <RoofEntry id="{e6d8abb4-739a-4788-a7de-9756452afbcf}">
+            <FriendlyName>Roof_Flat_Walled__05 (0.25, 0)</FriendlyName>
+            <ModelGuid>{67F1D0E4-0EC9-4A30-A2F2-36633DA9F3F8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,0.000</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{70c73d75-2649-4ff6-9832-fba53279532a}">
+            <FriendlyName>Roof_Flat_Walled__09 (0.5, 0)</FriendlyName>
+            <ModelGuid>{67F1D0E4-0EC9-4A30-A2F2-36633DA9F3F8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.500,0.000</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{fc1ec387-76d2-4d16-8a6c-4e86cc5c76ce}">
+            <FriendlyName>Roof_Flat_Walled__13 (0.75, 0)</FriendlyName>
+            <ModelGuid>{67F1D0E4-0EC9-4A30-A2F2-36633DA9F3F8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.750,0.000</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{11a0b790-e8e7-4a06-a24a-3ac9aaab77c2}">
+            <FriendlyName>Roof_Flat_Walled__02 (0, 0.25)</FriendlyName>
+            <ModelGuid>{67F1D0E4-0EC9-4A30-A2F2-36633DA9F3F8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.250</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{6a521217-d9b7-4b9b-be26-c8a0eacd719e}">
+            <FriendlyName>Roof_Flat_Walled__06 (0.25, 0.25)</FriendlyName>
+            <ModelGuid>{67F1D0E4-0EC9-4A30-A2F2-36633DA9F3F8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.250</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{43328391-a51d-4d27-ab79-98d60bb4733c}">
+            <FriendlyName>Roof_Flat_Walled__10 (0.5, 0.25)</FriendlyName>
+            <ModelGuid>{67F1D0E4-0EC9-4A30-A2F2-36633DA9F3F8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.500,-0.250</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{eb33e6d6-a1b5-4e27-99c6-9d4c21e58f55}">
+            <FriendlyName>Roof_Flat_Walled__14 (0.75, 0.25)</FriendlyName>
+            <ModelGuid>{67F1D0E4-0EC9-4A30-A2F2-36633DA9F3F8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.750,-0.250</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{bac6aee6-2adf-4c55-b229-4753e9668011}">
+            <FriendlyName>Roof_Flat_Walled__03 (0, 0.5)</FriendlyName>
+            <ModelGuid>{67F1D0E4-0EC9-4A30-A2F2-36633DA9F3F8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.500</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{2414af82-a596-45c5-9d22-27b7672cbf45}">
+            <FriendlyName>Roof_Flat_Walled__07 (0.25, 0.5)</FriendlyName>
+            <ModelGuid>{67F1D0E4-0EC9-4A30-A2F2-36633DA9F3F8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.500</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{d6f417d3-0491-40c8-9e03-5ad7dba85c65}">
+            <FriendlyName>Roof_Flat_Walled__11 (0.5, 0.5)</FriendlyName>
+            <ModelGuid>{67F1D0E4-0EC9-4A30-A2F2-36633DA9F3F8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.500,-0.500</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{608ae291-b701-4ccf-83e9-22a8d40962dd}">
+            <FriendlyName>Roof_Flat_Walled__04 (0, 0.75)</FriendlyName>
+            <ModelGuid>{67F1D0E4-0EC9-4A30-A2F2-36633DA9F3F8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.750</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{85640316-d1bd-4a91-ad19-ee6e9354b446}">
+            <FriendlyName>Roof_Flat_Walled__08 (0.25, 0.75)</FriendlyName>
+            <ModelGuid>{67F1D0E4-0EC9-4A30-A2F2-36633DA9F3F8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.750</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{66ed1da5-c1d5-4f35-96b5-7c4cbb6f0ccf}">
+            <FriendlyName>Roof_Flat_Walled__12 (0.5, 0.75)</FriendlyName>
+            <ModelGuid>{67F1D0E4-0EC9-4A30-A2F2-36633DA9F3F8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.500,-0.750</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{b011b1f5-a247-42f3-9a95-08450cf8426f}">
+            <FriendlyName>Roof_Hipped_High_Pitch__09 (0.25, 0)</FriendlyName>
+            <ModelGuid>{F8F2C776-BD15-4677-9EC1-E129AE5BB4F6}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,0.000</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{a16bf5e6-0132-44dd-b3f9-cce7a28ea577}">
+            <FriendlyName>Roof_Hipped_High_Pitch__17 (0.5, 0)</FriendlyName>
+            <ModelGuid>{F8F2C776-BD15-4677-9EC1-E129AE5BB4F6}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.500,0.000</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{216f1338-2544-4172-9411-2525429a9420}">
+            <FriendlyName>Roof_Hipped_High_Pitch__25 (0.75, 0)</FriendlyName>
+            <ModelGuid>{F8F2C776-BD15-4677-9EC1-E129AE5BB4F6}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.750,0.000</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{f17b8aaa-67b7-4d77-a9e7-782c2cad6527}">
+            <FriendlyName>Roof_Hipped_High_Pitch__02 (0, 0.125)</FriendlyName>
+            <ModelGuid>{F8F2C776-BD15-4677-9EC1-E129AE5BB4F6}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.125</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{5d1ad0c8-2b3b-4f36-b660-4920eb778189}">
+            <FriendlyName>Roof_Hipped_High_Pitch__10 (0.25, 0.125)</FriendlyName>
+            <ModelGuid>{F8F2C776-BD15-4677-9EC1-E129AE5BB4F6}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.125</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{15d2ba00-94de-4720-9599-824fbe82ab85}">
+            <FriendlyName>Roof_Hipped_High_Pitch__18 (0.5, 0.125)</FriendlyName>
+            <ModelGuid>{F8F2C776-BD15-4677-9EC1-E129AE5BB4F6}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.500,-0.125</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{fb4e71aa-a7a5-41af-b2bf-4681cd7d4bc6}">
+            <FriendlyName>Roof_Hipped_High_Pitch__26 (0.75, 0.125)</FriendlyName>
+            <ModelGuid>{F8F2C776-BD15-4677-9EC1-E129AE5BB4F6}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.750,-0.125</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{b39b9353-0e4b-40f4-8473-0c804926e537}">
+            <FriendlyName>Roof_Hipped_High_Pitch__03 (0, 0.25)</FriendlyName>
+            <ModelGuid>{F8F2C776-BD15-4677-9EC1-E129AE5BB4F6}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.250</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{4a83447c-f612-4102-b069-d35373ccb7e4}">
+            <FriendlyName>Roof_Hipped_High_Pitch__11 (0.25, 0.25)</FriendlyName>
+            <ModelGuid>{F8F2C776-BD15-4677-9EC1-E129AE5BB4F6}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.250</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{0d0fe4b7-9157-4ba2-bf81-f2502c035627}">
+            <FriendlyName>Roof_Hipped_High_Pitch__19 (0.5, 0.25)</FriendlyName>
+            <ModelGuid>{F8F2C776-BD15-4677-9EC1-E129AE5BB4F6}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.500,-0.250</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{daaaae1a-df27-49bf-8721-ba94bfba46be}">
+            <FriendlyName>Roof_Hipped_High_Pitch__27 (0.75, 0.25)</FriendlyName>
+            <ModelGuid>{F8F2C776-BD15-4677-9EC1-E129AE5BB4F6}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.750,-0.250</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{299d4d96-dfd0-42e4-9faa-ecb7920e3e80}">
+            <FriendlyName>Roof_Hipped_High_Pitch__04 (0, 0.375)</FriendlyName>
+            <ModelGuid>{F8F2C776-BD15-4677-9EC1-E129AE5BB4F6}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.375</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{310b9a64-eee3-4883-be07-261c405aeb00}">
+            <FriendlyName>Roof_Hipped_High_Pitch__12 (0.25, 0.375)</FriendlyName>
+            <ModelGuid>{F8F2C776-BD15-4677-9EC1-E129AE5BB4F6}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.375</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{bf001a46-36f4-43eb-a9d8-e1260ba8a2f5}">
+            <FriendlyName>Roof_Hipped_High_Pitch__20 (0.5, 0.375)</FriendlyName>
+            <ModelGuid>{F8F2C776-BD15-4677-9EC1-E129AE5BB4F6}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.500,-0.375</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{fde5e805-eab7-4bbb-981c-df6581d23e70}">
+            <FriendlyName>Roof_Hipped_High_Pitch__28 (0.75, 0.375)</FriendlyName>
+            <ModelGuid>{F8F2C776-BD15-4677-9EC1-E129AE5BB4F6}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.750,-0.375</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{f29cbe43-622f-42e2-b8ed-65908350a266}">
+            <FriendlyName>Roof_Hipped_High_Pitch__05 (0, 0.5)</FriendlyName>
+            <ModelGuid>{F8F2C776-BD15-4677-9EC1-E129AE5BB4F6}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.500</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{62f7b6bc-1ea2-4c16-92b0-b52c874f609c}">
+            <FriendlyName>Roof_Hipped_High_Pitch__13 (0.25, 0.5)</FriendlyName>
+            <ModelGuid>{F8F2C776-BD15-4677-9EC1-E129AE5BB4F6}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.500</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{a6f78f4f-0826-425f-b8e8-b4a348be3b4f}">
+            <FriendlyName>Roof_Hipped_High_Pitch__21 (0.5, 0.5)</FriendlyName>
+            <ModelGuid>{F8F2C776-BD15-4677-9EC1-E129AE5BB4F6}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.500,-0.500</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{0da5233b-825f-484e-8cb4-8906f5314fd8}">
+            <FriendlyName>Roof_Hipped_High_Pitch__06 (0, 0.625)</FriendlyName>
+            <ModelGuid>{F8F2C776-BD15-4677-9EC1-E129AE5BB4F6}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.625</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{1cef86c8-0d06-4a5e-b048-044dea5f6450}">
+            <FriendlyName>Roof_Hipped_High_Pitch__14 (0.25, 0.625)</FriendlyName>
+            <ModelGuid>{F8F2C776-BD15-4677-9EC1-E129AE5BB4F6}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.625</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{822e7dcb-8ed1-46d8-90bd-6e0be1d4f5c5}">
+            <FriendlyName>Roof_Hipped_High_Pitch__07 (0, 0.75)</FriendlyName>
+            <ModelGuid>{F8F2C776-BD15-4677-9EC1-E129AE5BB4F6}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.750</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{a1bbddb5-c9d6-4da7-b1bd-f90f822f0b34}">
+            <FriendlyName>Roof_Hipped_High_Pitch__15 (0.25, 0.75)</FriendlyName>
+            <ModelGuid>{F8F2C776-BD15-4677-9EC1-E129AE5BB4F6}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.750</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{8adf3a1a-ed26-4aef-9867-9a3c76351ed0}">
+            <FriendlyName>Roof_Hipped_High_Pitch__22 (0.5, 0.625)</FriendlyName>
+            <ModelGuid>{F8F2C776-BD15-4677-9EC1-E129AE5BB4F6}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.500,-0.625</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{512f21f4-5e35-4876-9cad-92f3ce01dfc7}">
+            <FriendlyName>Roof_Hipped_Low_Pitch_02 (0, 0.125)</FriendlyName>
+            <ModelGuid>{06937081-1015-49C0-8220-EC90A1905CB8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.125</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{a3886570-caa9-47a6-ada9-c2c3b863a8cc}">
+            <FriendlyName>Roof_Hipped_Low_Pitch_03 (0, 0.25)</FriendlyName>
+            <ModelGuid>{06937081-1015-49C0-8220-EC90A1905CB8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.250</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{51a09bef-fa5a-4a56-bac6-e9b70651cb3f}">
+            <FriendlyName>Roof_Hipped_Low_Pitch_04 (0, 0.375)</FriendlyName>
+            <ModelGuid>{06937081-1015-49C0-8220-EC90A1905CB8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.375</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{2c2ab097-5b9e-4c86-a8f1-978b28e4e90a}">
+            <FriendlyName>Roof_Hipped_Low_Pitch_05 (0, 0.5)</FriendlyName>
+            <ModelGuid>{06937081-1015-49C0-8220-EC90A1905CB8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.500</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{7ab24363-8fbd-445a-9f51-5e14dd6ec7b4}">
+            <FriendlyName>Roof_Hipped_Low_Pitch_06 (0, 0.625)</FriendlyName>
+            <ModelGuid>{06937081-1015-49C0-8220-EC90A1905CB8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.625</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{f0b43bb9-b8d8-413e-893c-256dff13172e}">
+            <FriendlyName>Roof_Hipped_Low_Pitch_07 (0, 0.75)</FriendlyName>
+            <ModelGuid>{06937081-1015-49C0-8220-EC90A1905CB8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.750</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{cbe3db07-744b-448f-b0df-ea6e951ec3e4}">
+            <FriendlyName>Roof_Hipped_Low_Pitch_08 (0, 0.875)</FriendlyName>
+            <ModelGuid>{06937081-1015-49C0-8220-EC90A1905CB8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.875</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{83c4a8a3-4509-4651-86f2-4848b24f6590}">
+            <FriendlyName>Roof_Hipped_Low_Pitch_09 (0.25, 0)</FriendlyName>
+            <ModelGuid>{06937081-1015-49C0-8220-EC90A1905CB8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,0.000</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{24a975d2-924f-4b87-893e-8df098defb98}">
+            <FriendlyName>Roof_Hipped_Low_Pitch_10 (0.25, 0.125)</FriendlyName>
+            <ModelGuid>{06937081-1015-49C0-8220-EC90A1905CB8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.125</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{c9f2e68f-ba5a-4fd0-8d1d-7e88f6765c5c}">
+            <FriendlyName>Roof_Hipped_Low_Pitch_11 (0.25, 0.25)</FriendlyName>
+            <ModelGuid>{06937081-1015-49C0-8220-EC90A1905CB8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.250</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{e33ec519-c4ae-4a02-9cf0-91933a6b89f0}">
+            <FriendlyName>Roof_Hipped_Low_Pitch_12 (0.25, 0.375)</FriendlyName>
+            <ModelGuid>{06937081-1015-49C0-8220-EC90A1905CB8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.375</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{20c18cd3-c9d3-4449-8f90-9faaf2ff3505}">
+            <FriendlyName>Roof_Hipped_Low_Pitch_13 (0.25, 0.5)</FriendlyName>
+            <ModelGuid>{06937081-1015-49C0-8220-EC90A1905CB8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.500</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{ab8d70b7-7693-4a39-9b52-1f8c8fa32b47}">
+            <FriendlyName>Roof_Hipped_Low_Pitch_14 (0.25, 0.625)</FriendlyName>
+            <ModelGuid>{06937081-1015-49C0-8220-EC90A1905CB8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.625</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{a9bbc1bd-97ca-4f60-a9a2-5707a6b8bad5}">
+            <FriendlyName>Roof_Hipped_Low_Pitch_15 (0.25, 0.75)</FriendlyName>
+            <ModelGuid>{06937081-1015-49C0-8220-EC90A1905CB8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.750</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{f01267be-105a-403f-b0e2-4e949694d125}">
+            <FriendlyName>Roof_Hipped_Low_Pitch_16 (0.25, 0.875)</FriendlyName>
+            <ModelGuid>{06937081-1015-49C0-8220-EC90A1905CB8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.875</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{0385d67c-c671-4800-889a-cf3c0fab77f2}">
+            <FriendlyName>Roof_Hipped_Low_Pitch_17 (0.5, 0)</FriendlyName>
+            <ModelGuid>{06937081-1015-49C0-8220-EC90A1905CB8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.500,0.000</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{199e9d7c-d72a-4f60-84f7-68bf44651f52}">
+            <FriendlyName>Roof_Hipped_Low_Pitch_18 (0.5, 0.125)</FriendlyName>
+            <ModelGuid>{06937081-1015-49C0-8220-EC90A1905CB8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.500,-0.125</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{9f6095b3-37c8-4dae-8b9e-669fed9c59ad}">
+            <FriendlyName>Roof_Hipped_Low_Pitch_19 (0.5, 0.25)</FriendlyName>
+            <ModelGuid>{06937081-1015-49C0-8220-EC90A1905CB8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.500,-0.250</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{a6655823-f94d-4283-8212-9724f80259d2}">
+            <FriendlyName>Roof_Hipped_Low_Pitch_20 (0.5, 0.375)</FriendlyName>
+            <ModelGuid>{06937081-1015-49C0-8220-EC90A1905CB8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.500,-0.375</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{8eeac8f4-ad90-4d5a-932d-4f32b159ee98}">
+            <FriendlyName>Roof_Hipped_Low_Pitch_21 (0.5, 0.5)</FriendlyName>
+            <ModelGuid>{06937081-1015-49C0-8220-EC90A1905CB8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.500,-0.500</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{11319b07-0fe5-4527-bafe-3bdc6b0ebb83}">
+            <FriendlyName>Roof_Hipped_Low_Pitch_22 (0.5, 0.625)</FriendlyName>
+            <ModelGuid>{06937081-1015-49C0-8220-EC90A1905CB8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.500,-0.625</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{73457256-4619-4f91-a6f3-ba556ee82fbc}">
+            <FriendlyName>Roof_Hipped_Low_Pitch_25 (0.75, 0)</FriendlyName>
+            <ModelGuid>{06937081-1015-49C0-8220-EC90A1905CB8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.750,0.000</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{74cc9d24-c057-4314-ae71-72272a1066c0}">
+            <FriendlyName>Roof_Hipped_Low_Pitch_26 (0.75, 0.125)</FriendlyName>
+            <ModelGuid>{06937081-1015-49C0-8220-EC90A1905CB8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.750,-0.125</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{760cff50-5e2e-4ffd-a53c-26abb710d2c9}">
+            <FriendlyName>Roof_Hipped_Low_Pitch_27 (0.75, 0.25)</FriendlyName>
+            <ModelGuid>{06937081-1015-49C0-8220-EC90A1905CB8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.750,-0.250</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{b89230dc-6d59-47bc-80e3-80a210be815f}">
+            <FriendlyName>Roof_Hipped_Low_Pitch_28 (0.75, 0.375)</FriendlyName>
+            <ModelGuid>{06937081-1015-49C0-8220-EC90A1905CB8}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.750,-0.375</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{f00e5730-cf3b-48ab-a9e3-0483195f45b6}">
+            <FriendlyName>Roof_Pavillion_Hipped_High_Pitch_02 (0, 0.125)</FriendlyName>
+            <ModelGuid>{7E4B87CF-1116-4B90-A780-976DD30FFA31}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.125</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{7c64e390-ee53-44cc-bcc2-96b15e720ac7}">
+            <FriendlyName>Roof_Pavillion_Hipped_High_Pitch_03 (0, 0.25)</FriendlyName>
+            <ModelGuid>{7E4B87CF-1116-4B90-A780-976DD30FFA31}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.250</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{be7fff45-73d3-459e-915b-1069a218d09c}">
+            <FriendlyName>Roof_Pavillion_Hipped_High_Pitch_04 (0, 0.375)</FriendlyName>
+            <ModelGuid>{7E4B87CF-1116-4B90-A780-976DD30FFA31}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.375</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{bee63fe5-022b-4bc5-99e1-77bc96b31d18}">
+            <FriendlyName>Roof_Pavillion_Hipped_High_Pitch_05 (0, 0.5)</FriendlyName>
+            <ModelGuid>{7E4B87CF-1116-4B90-A780-976DD30FFA31}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.500</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{87438be6-acb1-4f40-985a-e0c124fd61b7}">
+            <FriendlyName>Roof_Pavillion_Hipped_High_Pitch_06 (0, 0.625)</FriendlyName>
+            <ModelGuid>{7E4B87CF-1116-4B90-A780-976DD30FFA31}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.625</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{2f7ea380-0f41-42aa-8c44-8964405d9d0a}">
+            <FriendlyName>Roof_Pavillion_Hipped_High_Pitch_07 (0, 0.75)</FriendlyName>
+            <ModelGuid>{7E4B87CF-1116-4B90-A780-976DD30FFA31}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.750</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{97541e29-3c97-4d73-b4cd-1778e7b8b6ed}">
+            <FriendlyName>Roof_Pavillion_Hipped_High_Pitch_08 (0, 0.875)</FriendlyName>
+            <ModelGuid>{7E4B87CF-1116-4B90-A780-976DD30FFA31}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.875</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{2b5a31ad-471c-4902-bab6-4a756837c202}">
+            <FriendlyName>Roof_Pavillion_Hipped_High_Pitch_09 (0.25, 0)</FriendlyName>
+            <ModelGuid>{7E4B87CF-1116-4B90-A780-976DD30FFA31}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,0.000</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{dd72396e-2395-4ed4-8d00-b99c8f496e8d}">
+            <FriendlyName>Roof_Pavillion_Hipped_High_Pitch_10 (0.25, 0.125)</FriendlyName>
+            <ModelGuid>{7E4B87CF-1116-4B90-A780-976DD30FFA31}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.125</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{e93a263a-a3de-41e4-8ed9-ab2f22f96b64}">
+            <FriendlyName>Roof_Pavillion_Hipped_High_Pitch_11 (0.25, 0.25)</FriendlyName>
+            <ModelGuid>{7E4B87CF-1116-4B90-A780-976DD30FFA31}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.250</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{110ffc4e-4db4-4c77-804a-a81d1d2ae8a1}">
+            <FriendlyName>Roof_Pavillion_Hipped_High_Pitch_12 (0.25, 0.375)</FriendlyName>
+            <ModelGuid>{7E4B87CF-1116-4B90-A780-976DD30FFA31}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.375</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{63068ca6-8f66-4bf7-bc85-af2562281446}">
+            <FriendlyName>Roof_Pavillion_Hipped_High_Pitch_13 (0.25, 0.5)</FriendlyName>
+            <ModelGuid>{7E4B87CF-1116-4B90-A780-976DD30FFA31}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.500</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{674ed5ef-8a8a-41b4-8aed-474d2c6f519f}">
+            <FriendlyName>Roof_Pavillion_Hipped_High_Pitch_14 (0.25, 0.625)</FriendlyName>
+            <ModelGuid>{7E4B87CF-1116-4B90-A780-976DD30FFA31}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.625</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{042eea02-a7de-4cc2-9f07-bb4e8cd13bc2}">
+            <FriendlyName>Roof_Pavillion_Hipped_High_Pitch_15 (0.25, 0.75)</FriendlyName>
+            <ModelGuid>{7E4B87CF-1116-4B90-A780-976DD30FFA31}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.750</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{8704352e-a395-4b1f-ac56-4a3d6875b537}">
+            <FriendlyName>Roof_Pavillion_Hipped_High_Pitch_16 (0.25, 0.875)</FriendlyName>
+            <ModelGuid>{7E4B87CF-1116-4B90-A780-976DD30FFA31}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.875</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{81ad9fc0-edc2-4523-baa5-124d7d9d51df}">
+            <FriendlyName>Roof_Pavillion_Hipped_High_Pitch_17 (0.5, 0)</FriendlyName>
+            <ModelGuid>{7E4B87CF-1116-4B90-A780-976DD30FFA31}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.500,0.000</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{586c0ef9-3499-4105-bfa2-b49f68dd1d3b}">
+            <FriendlyName>Roof_Pavillion_Hipped_High_Pitch_18 (0.5, 0.125)</FriendlyName>
+            <ModelGuid>{7E4B87CF-1116-4B90-A780-976DD30FFA31}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.500,-0.125</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{ea6cf084-4059-4e8d-9b75-d47ac0eb50c3}">
+            <FriendlyName>Roof_Pavillion_Hipped_High_Pitch_19 (0.5, 0.25)</FriendlyName>
+            <ModelGuid>{7E4B87CF-1116-4B90-A780-976DD30FFA31}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.500,-0.250</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{01633d65-beea-4139-bcf7-d6771769a6e6}">
+            <FriendlyName>Roof_Pavillion_Hipped_High_Pitch_20 (0.5, 0.375)</FriendlyName>
+            <ModelGuid>{7E4B87CF-1116-4B90-A780-976DD30FFA31}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.500,-0.375</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{87c059cf-3b6a-459c-895c-fc1bf9b017e9}">
+            <FriendlyName>Roof_Pavillion_Hipped_High_Pitch_21 (0.5, 0.5)</FriendlyName>
+            <ModelGuid>{7E4B87CF-1116-4B90-A780-976DD30FFA31}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.500,-0.500</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{a3b96746-41f9-45ca-833d-ff6dcb155e10}">
+            <FriendlyName>Roof_Pavillion_Hipped_High_Pitch_22 (0.5, 0.625)</FriendlyName>
+            <ModelGuid>{7E4B87CF-1116-4B90-A780-976DD30FFA31}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.500,-0.625</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{b3fdd780-b63d-4b23-a59f-2a3cbae40422}">
+            <FriendlyName>Roof_Pavillion_Hipped_High_Pitch_25 (0.75, 0)</FriendlyName>
+            <ModelGuid>{7E4B87CF-1116-4B90-A780-976DD30FFA31}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.750,0.000</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{f05225af-b938-44a8-a3f3-71ef1164be13}">
+            <FriendlyName>Roof_Pavillion_Hipped_High_Pitch_26 (0.75, 0.125)</FriendlyName>
+            <ModelGuid>{7E4B87CF-1116-4B90-A780-976DD30FFA31}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.750,-0.125</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{c3ed0985-a4ce-4885-9571-055ae0adf94e}">
+            <FriendlyName>Roof_Pavillion_Hipped_High_Pitch_27 (0.75, 0.25)</FriendlyName>
+            <ModelGuid>{7E4B87CF-1116-4B90-A780-976DD30FFA31}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.750,-0.250</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{5991f196-56e5-43b9-9a63-1793a63340ac}">
+            <FriendlyName>Roof_Pavillion_Hipped_High_Pitch_28 (0.75, 0.375)</FriendlyName>
+            <ModelGuid>{7E4B87CF-1116-4B90-A780-976DD30FFA31}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.750,-0.375</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{576ecbba-4c05-4293-b55f-3fda96d5c5c0}">
+            <FriendlyName>Roof_Pavillion_Hipped_02 (0, 0.125)</FriendlyName>
+            <ModelGuid>{435B483F-4663-49FF-AAD8-8C2980EC2319}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.125</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{4eb24a3d-abdc-4088-8d7d-c3611fcf22ca}">
+            <FriendlyName>Roof_Pavillion_Hipped_03 (0, 0.25)</FriendlyName>
+            <ModelGuid>{435B483F-4663-49FF-AAD8-8C2980EC2319}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.250</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{aa6e1b3c-a4df-4c14-9307-ccc64ad4bcb9}">
+            <FriendlyName>Roof_Pavillion_Hipped_04 (0, 0.375)</FriendlyName>
+            <ModelGuid>{435B483F-4663-49FF-AAD8-8C2980EC2319}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.375</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{0c9be2d8-a61b-468e-bbc6-1adf4653b647}">
+            <FriendlyName>Roof_Pavillion_Hipped_05 (0, 0.5)</FriendlyName>
+            <ModelGuid>{435B483F-4663-49FF-AAD8-8C2980EC2319}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.500</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{5b2f5221-fc09-47d6-b185-1a1f3115dbae}">
+            <FriendlyName>Roof_Pavillion_Hipped_06 (0, 0.625)</FriendlyName>
+            <ModelGuid>{435B483F-4663-49FF-AAD8-8C2980EC2319}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.625</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{0bb079e8-818b-466c-aa6a-679d575f1eab}">
+            <FriendlyName>Roof_Pavillion_Hipped_07 (0, 0.75)</FriendlyName>
+            <ModelGuid>{435B483F-4663-49FF-AAD8-8C2980EC2319}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.750</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{8089cda3-6246-4bb7-a931-080b63c8fabf}">
+            <FriendlyName>Roof_Pavillion_Hipped_08 (0, 0.875)</FriendlyName>
+            <ModelGuid>{435B483F-4663-49FF-AAD8-8C2980EC2319}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.875</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{4a1fccea-d4a8-4ec3-948b-2bba2a1ab794}">
+            <FriendlyName>Roof_Pavillion_Hipped_09 (0.25, 0)</FriendlyName>
+            <ModelGuid>{435B483F-4663-49FF-AAD8-8C2980EC2319}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,0.000</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{f4e448af-cc00-42c6-ab58-de41fe5f04ef}">
+            <FriendlyName>Roof_Pavillion_Hipped_10 (0.25, 0.125)</FriendlyName>
+            <ModelGuid>{435B483F-4663-49FF-AAD8-8C2980EC2319}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.125</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{0d583373-90c7-45e4-9774-014cdd460ee3}">
+            <FriendlyName>Roof_Pavillion_Hipped_11 (0.25, 0.25)</FriendlyName>
+            <ModelGuid>{435B483F-4663-49FF-AAD8-8C2980EC2319}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.250</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{18dc3e93-2a91-4c65-a30d-085550e0aac0}">
+            <FriendlyName>Roof_Pavillion_Hipped_12 (0.25, 0.375)</FriendlyName>
+            <ModelGuid>{435B483F-4663-49FF-AAD8-8C2980EC2319}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.375</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{abf6b91e-bb91-49c4-ba9e-f0d4b4a42e55}">
+            <FriendlyName>Roof_Pavillion_Hipped_13 (0.25, 0.5)</FriendlyName>
+            <ModelGuid>{435B483F-4663-49FF-AAD8-8C2980EC2319}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.500</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{3597eef2-9e91-4079-9c3a-070389f920c6}">
+            <FriendlyName>Roof_Pavillion_Hipped_14 (0.25, 0.625)</FriendlyName>
+            <ModelGuid>{435B483F-4663-49FF-AAD8-8C2980EC2319}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.625</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{4214ba5f-1a2f-4cd4-b3bf-8f271c395980}">
+            <FriendlyName>Roof_Pavillion_Hipped_15 (0.25, 0.75)</FriendlyName>
+            <ModelGuid>{435B483F-4663-49FF-AAD8-8C2980EC2319}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.750</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{fed4b080-baa7-411b-b1e0-d954927af3fb}">
+            <FriendlyName>Roof_Pavillion_Hipped_16 (0.25, 0.875)</FriendlyName>
+            <ModelGuid>{435B483F-4663-49FF-AAD8-8C2980EC2319}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.875</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{87a19a5b-79ce-4008-a049-900ef092b4a6}">
+            <FriendlyName>Roof_Pavillion_Hipped_17 (0.5, 0)</FriendlyName>
+            <ModelGuid>{435B483F-4663-49FF-AAD8-8C2980EC2319}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.500,0.000</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{7f77e785-dbd5-495c-bfff-49eca311595f}">
+            <FriendlyName>Roof_Pavillion_Hipped_18 (0.5, 0.125)</FriendlyName>
+            <ModelGuid>{435B483F-4663-49FF-AAD8-8C2980EC2319}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.500,-0.125</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{f163d676-f247-4128-9026-c87772168887}">
+            <FriendlyName>Roof_Pavillion_Hipped_19 (0.5, 0.25)</FriendlyName>
+            <ModelGuid>{435B483F-4663-49FF-AAD8-8C2980EC2319}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.500,-0.250</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{d00e9936-83e3-4f9d-8342-876f690d2fab}">
+            <FriendlyName>Roof_Pavillion_Hipped_20 (0.5, 0.375)</FriendlyName>
+            <ModelGuid>{435B483F-4663-49FF-AAD8-8C2980EC2319}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.500,-0.375</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{c6d8207a-631d-4779-8a57-bf2139cc1af4}">
+            <FriendlyName>Roof_Pavillion_Hipped_21 (0.5, 0.5)</FriendlyName>
+            <ModelGuid>{435B483F-4663-49FF-AAD8-8C2980EC2319}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.500,-0.500</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{7a07b920-cd15-4950-9aae-3f7065e069de}">
+            <FriendlyName>Roof_Pavillion_Hipped_22 (0.5, 0.625)</FriendlyName>
+            <ModelGuid>{435B483F-4663-49FF-AAD8-8C2980EC2319}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.500,-0.625</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{9e8ea920-ba8c-4480-8b0f-bfb642368343}">
+            <FriendlyName>Roof_Pavillion_Hipped_25 (0.75, 0)</FriendlyName>
+            <ModelGuid>{435B483F-4663-49FF-AAD8-8C2980EC2319}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.750,0.000</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{1854c34b-23a8-4b4c-a0f1-a0742c14fb2e}">
+            <FriendlyName>Roof_Pavillion_Hipped_26 (0.75, 0.125)</FriendlyName>
+            <ModelGuid>{435B483F-4663-49FF-AAD8-8C2980EC2319}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.750,-0.125</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{5a066c92-d44e-4572-b512-b588a180c7ad}">
+            <FriendlyName>Roof_Pavillion_Hipped_27 (0.75, 0.25)</FriendlyName>
+            <ModelGuid>{435B483F-4663-49FF-AAD8-8C2980EC2319}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.750,-0.250</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{7533dc24-82fe-4942-a7f7-edf7d7a4ce99}">
+            <FriendlyName>Roof_Pavillion_Hipped_28 (0.75, 0.375)</FriendlyName>
+            <ModelGuid>{435B483F-4663-49FF-AAD8-8C2980EC2319}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.750,-0.375</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{96c7b19c-0ff7-455e-8703-c140891a6136}">
+            <FriendlyName>Roof_Large_Flat_Walled_01</FriendlyName>
+            <ModelGuid>{73FF389A-7907-46C6-B904-D8B64D39851A}</ModelGuid>
+            <MaterialOverride>{FD80661F-166B-4370-8238-2A2D95D12C80}</MaterialOverride>
+            <FixedUVBias>0.750,0.000</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{eeba619f-e108-490e-b833-cf9d82e88fe4}">
+            <FriendlyName>Roof_Large_Flat_Walled_02</FriendlyName>
+            <ModelGuid>{73FF389A-7907-46C6-B904-D8B64D39851A}</ModelGuid>
+            <MaterialOverride>{FD80661F-166B-4370-8238-2A2D95D12C80}</MaterialOverride>
+            <FixedUVBias>0.750,-0.125</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{8214f293-05a3-4447-a901-37b53cb96061}">
+            <FriendlyName>Roof_Large_Flat_Walled_03</FriendlyName>
+            <ModelGuid>{73FF389A-7907-46C6-B904-D8B64D39851A}</ModelGuid>
+            <MaterialOverride>{FD80661F-166B-4370-8238-2A2D95D12C80}</MaterialOverride>
+            <FixedUVBias>0.750,-0.250</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{6bcf769f-439b-4ca0-a0ec-0a214ead87cb}">
+            <FriendlyName>Roof_Large_Flat_Walled_07</FriendlyName>
+            <ModelGuid>{73FF389A-7907-46C6-B904-D8B64D39851A}</ModelGuid>
+            <MaterialOverride>{FD80661F-166B-4370-8238-2A2D95D12C80}</MaterialOverride>
+            <FixedUVBias>0.875,0.000</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{29731513-7cc4-4571-8e7e-7c8daa667b2e}">
+            <FriendlyName>Roof_Large_Flat_Walled_05</FriendlyName>
+            <ModelGuid>{73FF389A-7907-46C6-B904-D8B64D39851A}</ModelGuid>
+            <MaterialOverride>{FD80661F-166B-4370-8238-2A2D95D12C80}</MaterialOverride>
+            <FixedUVBias>0.750,-0.500</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{63052e39-9358-4193-b4b6-2e205199075a}">
+            <FriendlyName>Roof_Large_Flat_Walled_09</FriendlyName>
+            <ModelGuid>{73FF389A-7907-46C6-B904-D8B64D39851A}</ModelGuid>
+            <MaterialOverride>{FD80661F-166B-4370-8238-2A2D95D12C80}</MaterialOverride>
+            <FixedUVBias>0.875,-0.250</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{bd3dc497-7c39-496b-9b87-9f4c32a57254}">
+            <FriendlyName>Roof_Large_Flat_Walled_10</FriendlyName>
+            <ModelGuid>{73FF389A-7907-46C6-B904-D8B64D39851A}</ModelGuid>
+            <MaterialOverride>{FD80661F-166B-4370-8238-2A2D95D12C80}</MaterialOverride>
+            <FixedUVBias>0.875,-0.375</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{6f6bc6be-e85f-40ce-8eed-1fe8c0493368}">
+            <FriendlyName>Roof_Large_Flat_Walled_06</FriendlyName>
+            <ModelGuid>{73FF389A-7907-46C6-B904-D8B64D39851A}</ModelGuid>
+            <MaterialOverride>{FD80661F-166B-4370-8238-2A2D95D12C80}</MaterialOverride>
+            <FixedUVBias>0.750,-0.625</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{db7190ec-1213-4b34-8271-78fe797fdbdf}">
+            <FriendlyName>Roof_Large_Flat_Walled_11</FriendlyName>
+            <ModelGuid>{73FF389A-7907-46C6-B904-D8B64D39851A}</ModelGuid>
+            <MaterialOverride>{FD80661F-166B-4370-8238-2A2D95D12C80}</MaterialOverride>
+            <FixedUVBias>0.875,-0.500</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{70b14a7b-70c7-4ea9-855d-247006823e40}">
+            <FriendlyName>Roof_Large_Flat_Walled_08</FriendlyName>
+            <ModelGuid>{73FF389A-7907-46C6-B904-D8B64D39851A}</ModelGuid>
+            <MaterialOverride>{FD80661F-166B-4370-8238-2A2D95D12C80}</MaterialOverride>
+            <FixedUVBias>0.875,-0.125</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{9cb91734-e5b7-415f-8193-8f0ccf150351}">
+            <FriendlyName>Roof_Large_Flat_Walled_04</FriendlyName>
+            <ModelGuid>{73FF389A-7907-46C6-B904-D8B64D39851A}</ModelGuid>
+            <MaterialOverride>{FD80661F-166B-4370-8238-2A2D95D12C80}</MaterialOverride>
+            <FixedUVBias>0.750,-0.375</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{88d158ea-86d5-4d7c-b4c9-afd566ff6771}">
+            <FriendlyName>Roof_Large_Flat_Walled_12</FriendlyName>
+            <ModelGuid>{73FF389A-7907-46C6-B904-D8B64D39851A}</ModelGuid>
+            <MaterialOverride>{FD80661F-166B-4370-8238-2A2D95D12C80}</MaterialOverride>
+            <FixedUVBias>0.875,-0.625</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{581d8a8a-6058-420b-adca-ab6bcbf0b95d}">
+            <FriendlyName>Roof_Bonnet__16 (0.25, 0.875)</FriendlyName>
+            <ModelGuid>{D698AD3A-80D6-4EA9-B386-EC21ACB723C7}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.875</FixedUVBias>
+            <Dimensions>9.000,9.000</Dimensions>
+        </RoofEntry>
+        <RoofEntry id="{73a39cb8-6e11-4487-aabc-b98e704b5dfb}">
+            <FriendlyName>Roof_Hipped_High_Pitch__08 (0, 0.875)</FriendlyName>
+            <ModelGuid>{F8F2C776-BD15-4677-9EC1-E129AE5BB4F6}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.000,-0.875</FixedUVBias>
+        </RoofEntry>
+        <RoofEntry id="{d4927f8a-1944-40d8-bd09-3699fccb0d4f}">
+            <FriendlyName>Roof_Hipped_High_Pitch__16 (0.25, 0.875)</FriendlyName>
+            <ModelGuid>{F8F2C776-BD15-4677-9EC1-E129AE5BB4F6}</ModelGuid>
+            <MaterialOverride>{460ACFD6-7E4E-4D9A-AF5B-FE1B142C1C20}</MaterialOverride>
+            <FixedUVBias>0.250,-0.875</FixedUVBias>
+        </RoofEntry>
+    </Autogen.BuildingRoofs>
+    <Autogen.BuildingRoofGroups>
+        <Grouping id="{113308B7-B910-4c6b-8750-6678F0C76F35}">
+            <FriendlyName>Roofs for legacy annotations</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{3AFCC180-5B65-471D-AE11-316A6030BD59}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{9A6BF115-BD73-4D70-B6C7-4E855F64EC54}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{8BB8B27F-6CCC-426B-AE43-40B28B6B6521}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{058B11C5-ED6D-4E30-8C06-BA311691861E}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{8012666D-C05E-47A8-B3F5-325377779904}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{9A44DC39-8B98-4A00-ADF6-E8D3C4BD2878}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{EB769DB5-1238-4747-A96C-3CD44DD9C1EB}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{BFE91A18-FC5A-487D-85A5-6808296E1E8D}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{372E2ED9-8335-4106-9850-2AE2CB91FDA6}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{5C98688B-190B-4B81-8E37-55F507031C1A}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{F5FF93C8-993B-4407-8060-D40D5FAB5E08}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{AE1D92F4-E847-4576-9C93-4C2C051B9F60}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{0812E29C-E394-4DAD-A636-5173E025A468}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{B7AB550D-C45E-432A-BCD7-8C2543E6C422}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{4BFDE2FC-1A61-4617-8E0D-145083456FDB}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{D3E31A5C-B7EF-4E5A-9F56-F3294B3407C8}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{32c95b3e-dd85-44aa-936a-d959087341ac}">
+            <FriendlyName>Roofs_Africa_Central_Flat_walled</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{70C73D75-2649-4FF6-9832-FBA53279532A}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{FC1EC387-76D2-4D16-8A6C-4E86CC5C76CE}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{4a86ca2e-bc24-4c15-97a7-acdfcd231b7f}">
+            <FriendlyName>Roofs Gabled Row 1</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{34C886DA-987D-480B-B18F-1B4DACB99012}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{E53D5DFD-0F6C-4F7E-A310-1232CBE2050A}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{B268805F-6D9E-45C3-9EDA-26EF65740969}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{A0B999E8-9415-425F-BFEF-0F1AFD40E5F8}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{56C05BE8-A693-4208-94E0-EC26AAAA0559}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{3F8A70BC-EF12-4041-B41B-16E71D2EBD07}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{A2D6617D-1009-479C-AFA4-6CA59C589B0E}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{C155C895-FB70-47D2-A06B-BE340499F261}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{07b750f9-8091-4a42-bbbf-b117d0ef6869}">
+            <FriendlyName>Roofs Gabled Row 2</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{02403423-DA76-467D-BD0B-DB0F13D8A0A3}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{420B3B5D-78CC-4885-9483-06FF982E21BD}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{D88D198B-1A91-4E21-AC35-092390C2B90D}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{F9C09395-0519-4856-8F31-102BE2208D8E}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{104B33FF-E5F6-43FD-ADFE-B589A02A6DAC}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{67437D14-4E3B-4490-B494-D45FCFF7745B}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{89A023A1-C5E2-4C8C-954E-C1597DAB6EA5}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{0230E7FD-701B-472B-8FA6-B7A2884E38A6}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{4df3ad1b-0553-42c7-a4c8-348d8d087913}">
+            <FriendlyName>Roofs_Africa_Gabled</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{4A86CA2E-BC24-4C15-97A7-ACDFCD231B7F}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{07B750F9-8091-4A42-BBBF-B117D0EF6869}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{9c11e048-dee6-46b8-9734-c11d51dd3786}">
+            <FriendlyName>Roofs Hipped Low Pitch Row 2</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{83C4A8A3-4509-4651-86F2-4848B24F6590}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{24A975D2-924F-4B87-893E-8DF098DEFB98}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{C9F2E68F-BA5A-4FD0-8D1D-7E88F6765C5C}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{E33EC519-C4AE-4A02-9CF0-91933A6B89F0}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{20C18CD3-C9D3-4449-8F90-9FAAF2FF3505}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{AB8D70B7-7693-4A39-9B52-1F8C8FA32B47}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{A9BBC1BD-97CA-4F60-A9A2-5707A6B8BAD5}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{F01267BE-105A-403F-B0E2-4E949694D125}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{4db228d2-73d7-42ba-b2eb-c76a743f05d1}">
+            <FriendlyName>Roofs Hipped Low Pitch Row 1</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{7C1EA0B8-B54F-4D53-8905-FDF846148A4B}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{512F21F4-5E35-4876-9CAD-92F3CE01DFC7}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{A3886570-CAA9-47A6-ADA9-C2C3B863A8CC}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{51A09BEF-FA5A-4A56-BAC6-E9B70651CB3F}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{2C2AB097-5B9E-4C86-A8F1-978B28E4E90A}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{7AB24363-8FBD-445A-9F51-5E14DD6EC7B4}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{F0B43BB9-B8D8-413E-893C-256DFF13172E}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{CBE3DB07-744B-448F-B0DF-EA6E951EC3E4}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{59cb53b0-95e8-4765-948d-e482a5649af0}">
+            <FriendlyName>Roofs_Africa_Central_PavHip</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{9C11E048-DEE6-46B8-9734-C11D51DD3786}</TargetGuid>
+                <RelativeWeight>8.000</RelativeWeight>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{4DB228D2-73D7-42BA-B2EB-C76A743F05D1}</TargetGuid>
+                <RelativeWeight>8.000</RelativeWeight>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{F163D676-F247-4128-9026-C87772168887}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{D00E9936-83E3-4F9D-8342-876F690D2FAB}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{C6D8207A-631D-4779-8A57-BF2139CC1AF4}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{7A07B920-CD15-4950-9AAE-3F7065E069DE}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{5A066C92-D44E-4572-B512-B588A180C7AD}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{7533DC24-82FE-4942-A7F7-EDF7D7A4CE99}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{98ef84fd-1406-432c-a803-bc49dafc462f}">
+            <FriendlyName>Roofs Pavillion Hipped Low Row 3</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{87A19A5B-79CE-4008-A049-900EF092B4A6}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{7F77E785-DBD5-495C-BFFF-49ECA311595F}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{F163D676-F247-4128-9026-C87772168887}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{D00E9936-83E3-4F9D-8342-876F690D2FAB}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{C6D8207A-631D-4779-8A57-BF2139CC1AF4}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{7A07B920-CD15-4950-9AAE-3F7065E069DE}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{5d763da5-4d5e-4da2-82bf-5a90491d2a10}">
+            <FriendlyName>Roofs Pavillion Hipped Low Row 4</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{9E8EA920-BA8C-4480-8B0F-BFB642368343}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{1854C34B-23A8-4B4C-A0F1-A0742C14FB2E}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{5A066C92-D44E-4572-B512-B588A180C7AD}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{7533DC24-82FE-4942-A7F7-EDF7D7A4CE99}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{4e060a70-db3e-4d4e-b3a1-4e2f7dd36609}">
+            <FriendlyName>Roofs_Africa_South_PavHip</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{9C11E048-DEE6-46B8-9734-C11D51DD3786}</TargetGuid>
+                <RelativeWeight>8.000</RelativeWeight>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{4DB228D2-73D7-42BA-B2EB-C76A743F05D1}</TargetGuid>
+                <RelativeWeight>8.000</RelativeWeight>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{98EF84FD-1406-432C-A803-BC49DAFC462F}</TargetGuid>
+                <RelativeWeight>6.000</RelativeWeight>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{5D763DA5-4D5E-4DA2-82BF-5A90491D2A10}</TargetGuid>
+                <RelativeWeight>4.000</RelativeWeight>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{f7b99ae4-80ca-4652-b2df-2fee994d70f9}">
+            <FriendlyName>Roofs Mansard Row 1</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{8C31403E-4A85-4EBC-A179-E7F2504A96E6}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{8076A415-6AF5-4422-BD2D-520E73648A70}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{763171BE-0790-41CB-8B57-3B359A84C2B5}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{CE6D63F2-E886-4C02-A469-FEF7389731CC}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{606846F8-CBFA-4FD9-8D14-A0FE1B0DA4D7}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{3D62FFB6-906C-46BD-A60D-E37F6857093A}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{CAD2D691-7D53-4E85-9979-6EC7F66D9DB3}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{4F510373-DAC1-4EEF-A39B-31EA152D54FE}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{5ae04eb6-934c-4f63-bb48-5e7dee601212}">
+            <FriendlyName>Roofs Gabled _ALL_</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{4A86CA2E-BC24-4C15-97A7-ACDFCD231B7F}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{07B750F9-8091-4A42-BBBF-B117D0EF6869}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{afaa93a0-a668-4bc7-b2df-30d1d7df7258}">
+            <FriendlyName>Roofs Hipped Low Pitch Row 3</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{0385D67C-C671-4800-889A-CF3C0FAB77F2}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{199E9D7C-D72A-4F60-84F7-68BF44651F52}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{9F6095B3-37C8-4DAE-8B9E-669FED9C59AD}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{A6655823-F94D-4283-8212-9724F80259D2}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{8EEAC8F4-AD90-4D5A-932D-4F32B159EE98}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{11319B07-0FE5-4527-BAFE-3BDC6B0EBB83}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{429132c5-cfa2-4d4e-9fb8-b5330c827184}">
+            <FriendlyName>Roofs Hipped Low Pitch Row 4</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{73457256-4619-4F91-A6F3-BA556EE82FBC}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{760CFF50-5E2E-4FFD-A53C-26ABB710D2C9}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{B89230DC-6D59-47BC-80E3-80A210BE815F}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{74CC9D24-C057-4314-AE71-72272A1066C0}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{6f1e985a-1f64-4c73-925b-c0a327bda2df}">
+            <FriendlyName>Roofs Hipped Low Pitch _ALL_</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{4DB228D2-73D7-42BA-B2EB-C76A743F05D1}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{9C11E048-DEE6-46B8-9734-C11D51DD3786}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{AFAA93A0-A668-4BC7-B2DF-30D1D7DF7258}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{429132C5-CFA2-4D4E-9FB8-B5330C827184}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{48a23c7c-f366-48d6-85a7-e142291e1a2c}">
+            <FriendlyName>Roofs Pavillion Hipped Low Row 1</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{571C6E87-7E22-4AAF-BA41-769323E3BF0E}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{576ECBBA-4C05-4293-B55F-3FDA96D5C5C0}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{4EB24A3D-ABDC-4088-8D7D-C3611FCF22CA}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{AA6E1B3C-A4DF-4C14-9307-CCC64AD4BCB9}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{0C9BE2D8-A61B-468E-BBC6-1ADF4653B647}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{5B2F5221-FC09-47D6-B185-1A1F3115DBAE}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{0BB079E8-818B-466C-AA6A-679D575F1EAB}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{8089CDA3-6246-4BB7-A931-080B63C8FABF}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{06433578-1f60-48f4-ba4d-a4fe87923c20}">
+            <FriendlyName>Roofs Pavillion Hipped Low Row 2</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{4A1FCCEA-D4A8-4EC3-948B-2BBA2A1AB794}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{F4E448AF-CC00-42C6-AB58-DE41FE5F04EF}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{0D583373-90C7-45E4-9774-014CDD460EE3}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{18DC3E93-2A91-4C65-A30D-085550E0AAC0}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{ABF6B91E-BB91-49C4-BA9E-F0D4B4A42E55}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{3597EEF2-9E91-4079-9C3A-070389F920C6}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{4214BA5F-1A2F-4CD4-B3BF-8F271C395980}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{FED4B080-BAA7-411B-B1E0-D954927AF3FB}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{2a7b473f-6203-4a5e-ac06-338ef40037db}">
+            <FriendlyName>Roofs Pavillion Hipped Low _ALL_</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{48A23C7C-F366-48D6-85A7-E142291E1A2C}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{06433578-1F60-48F4-BA4D-A4FE87923C20}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{98EF84FD-1406-432C-A803-BC49DAFC462F}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{5D763DA5-4D5E-4DA2-82BF-5A90491D2A10}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{6ed565ae-ec93-4a3b-87fd-4c3a9a1ef77b}">
+            <FriendlyName>Roofs Pavillion Hipped High Pitch Row 2</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{2B5A31AD-471C-4902-BAB6-4A756837C202}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{DD72396E-2395-4ED4-8D00-B99C8F496E8D}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{E93A263A-A3DE-41E4-8ED9-AB2F22F96B64}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{110FFC4E-4DB4-4C77-804A-A81D1D2AE8A1}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{63068CA6-8F66-4BF7-BC85-AF2562281446}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{674ED5EF-8A8A-41B4-8AED-474D2C6F519F}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{042EEA02-A7DE-4CC2-9F07-BB4E8CD13BC2}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{8704352E-A395-4B1F-AC56-4A3D6875B537}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{dfe6a443-f153-42bc-96fa-4a6d07f2b90c}">
+            <FriendlyName>Roofs Pavillion Hipped High Pitch Row 1</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{BCEB0559-E44F-4C88-B58F-3F026081430F}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{F00E5730-CF3B-48AB-A9E3-0483195F45B6}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{7C64E390-EE53-44CC-BCC2-96B15E720AC7}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{BE7FFF45-73D3-459E-915B-1069A218D09C}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{BEE63FE5-022B-4BC5-99E1-77BC96B31D18}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{87438BE6-ACB1-4F40-985A-E0C124FD61B7}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{2F7EA380-0F41-42AA-8C44-8964405D9D0A}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{97541E29-3C97-4D73-B4CD-1778E7B8B6ED}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{89f827bb-49ab-43a3-af25-2ab7f14d00c0}">
+            <FriendlyName>Roofs Hipped High Pitch Row 1</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{480DD397-719D-4F33-9CE1-6E13052FEF3D}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{F17B8AAA-67B7-4D77-A9E7-782C2CAD6527}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{B39B9353-0E4B-40F4-8473-0C804926E537}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{299D4D96-DFD0-42E4-9FAA-ECB7920E3E80}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{F29CBE43-622F-42E2-B8ED-65908350A266}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{0DA5233B-825F-484E-8CB4-8906F5314FD8}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{822E7DCB-8ED1-46D8-90BD-6E0BE1D4F5C5}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{73A39CB8-6E11-4487-AABC-B98E704B5DFB}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{7eeb4353-a0d5-466e-8b46-0fbe28b181a3}">
+            <FriendlyName>Roofs Hipped High Pitch Row 2</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{B011B1F5-A247-42F3-9A95-08450CF8426F}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{5D1AD0C8-2B3B-4F36-B660-4920EB778189}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{4A83447C-F612-4102-B069-D35373CCB7E4}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{310B9A64-EEE3-4883-BE07-261C405AEB00}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{62F7B6BC-1EA2-4C16-92B0-B52C874F609C}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{1CEF86C8-0D06-4A5E-B048-044DEA5F6450}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{A1BBDDB5-C9D6-4DA7-B1BD-F90F822F0B34}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{D4927F8A-1944-40D8-BD09-3699FCCB0D4F}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{b368b897-df50-499c-8920-5a5d8dcc5e11}">
+            <FriendlyName>Roofs Flat Walled right side</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{02403423-DA76-467D-BD0B-DB0F13D8A0A3}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{420B3B5D-78CC-4885-9483-06FF982E21BD}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{D88D198B-1A91-4E21-AC35-092390C2B90D}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{104B33FF-E5F6-43FD-ADFE-B589A02A6DAC}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{67437D14-4E3B-4490-B494-D45FCFF7745B}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{48083652-4a50-428a-ae8c-f4b2568d30b6}">
+            <FriendlyName>Roofs Hipped High Pitch Row 3</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{A16BF5E6-0132-44DD-B3F9-CCE7A28EA577}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{15D2BA00-94DE-4720-9599-824FBE82AB85}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{0D0FE4B7-9157-4BA2-BF81-F2502C035627}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{BF001A46-36F4-43EB-A9D8-E1260BA8A2F5}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{A6F78F4F-0826-425F-B8E8-B4A348BE3B4F}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{8ADF3A1A-ED26-4AEF-9867-9A3C76351ED0}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{9f27bf37-504c-4682-9324-6b6b7000dc77}">
+            <FriendlyName>Roofs Hipped High Pitch Row 4</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{216F1338-2544-4172-9411-2525429A9420}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{FB4E71AA-A7A5-41AF-B2BF-4681CD7D4BC6}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{DAAAAE1A-DF27-49BF-8721-BA94BFBA46BE}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{FDE5E805-EAB7-4BBB-981C-DF6581D23E70}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{e3967d70-e470-44c2-8866-4e9be443d575}">
+            <FriendlyName>Roofs Hipped High Pitch _ALL_</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{89F827BB-49AB-43A3-AF25-2AB7F14D00C0}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{7EEB4353-A0D5-466E-8B46-0FBE28B181A3}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{48083652-4A50-428A-AE8C-F4B2568D30B6}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{9F27BF37-504C-4682-9324-6B6B7000DC77}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{7bb4153f-050c-4b4c-9bf5-43f905e299a2}">
+            <FriendlyName>Roofs Pavillion Hipped High Pitch Row 3</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{81AD9FC0-EDC2-4523-BAA5-124D7D9D51DF}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{586C0EF9-3499-4105-BFA2-B49F68DD1D3B}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{EA6CF084-4059-4E8D-9B75-D47AC0EB50C3}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{01633D65-BEEA-4139-BCF7-D6771769A6E6}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{87C059CF-3B6A-459C-895C-FC1BF9B017E9}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{A3B96746-41F9-45CA-833D-FF6DCB155E10}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{55c178dd-03b9-4a20-85b3-331d676318d9}">
+            <FriendlyName>Roofs Pavillion Hipped High Pitch Row 4</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{B3FDD780-B63D-4B23-A59F-2A3CBAE40422}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{F05225AF-B938-44A8-A3F3-71EF1164BE13}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{C3ED0985-A4CE-4885-9571-055AE0ADF94E}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{5991F196-56E5-43B9-9A63-1793A63340AC}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{7d6e09d6-3954-4ea2-bbb7-43b2b3083482}">
+            <FriendlyName>Roofs Pavillion Hipped High Pitch _ALL_</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{DFE6A443-F153-42BC-96FA-4A6D07F2B90C}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{6ED565AE-EC93-4A3B-87FD-4C3A9A1EF77B}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{7BB4153F-050C-4B4C-9BF5-43F905E299A2}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{55C178DD-03B9-4A20-85B3-331D676318D9}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{d0bae819-5ab3-4899-954d-8e7829fdc29e}">
+            <FriendlyName>Roofs_Mediterranean_Flat_Walled</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{43328391-A51D-4D27-AB79-98D60BB4733C}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{EB33E6D6-A1B5-4E27-99C6-9D4C21E58F55}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{D6F417D3-0491-40C8-9E03-5AD7DBA85C65}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{f952d757-2e7f-4f69-8072-e6081a2b76a1}">
+            <FriendlyName>Roofs_Mediterranean_Hipped</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{4DB228D2-73D7-42BA-B2EB-C76A743F05D1}</TargetGuid>
+                <RelativeWeight>8.000</RelativeWeight>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{9C11E048-DEE6-46B8-9734-C11D51DD3786}</TargetGuid>
+                <RelativeWeight>8.000</RelativeWeight>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{0385D67C-C671-4800-889A-CF3C0FAB77F2}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{199E9D7C-D72A-4F60-84F7-68BF44651F52}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{73457256-4619-4F91-A6F3-BA556EE82FBC}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{74CC9D24-C057-4314-AE71-72272A1066C0}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{f8d16195-b3e7-467d-a741-111f98be6abc}">
+            <FriendlyName>Roofs_Mediterranean_Pav_Hipped</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{48A23C7C-F366-48D6-85A7-E142291E1A2C}</TargetGuid>
+                <RelativeWeight>8.000</RelativeWeight>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{06433578-1F60-48F4-BA4D-A4FE87923C20}</TargetGuid>
+                <RelativeWeight>8.000</RelativeWeight>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{87A19A5B-79CE-4008-A049-900EF092B4A6}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{7F77E785-DBD5-495C-BFFF-49ECA311595F}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{9E8EA920-BA8C-4480-8B0F-BFB642368343}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{1854C34B-23A8-4B4C-A0F1-A0742C14FB2E}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{ad8ec3cb-3a4a-4777-aa9b-fead73332907}">
+            <FriendlyName>Roofs Flat Walled Row 2</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{E6D8ABB4-739A-4788-A7DE-9756452AFBCF}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{6A521217-D9B7-4B9B-BE26-C8A0EACD719E}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{2414AF82-A596-45C5-9D22-27B7672CBF45}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{85640316-D1BD-4A91-AD19-EE6E9354B446}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{b084506e-1d35-4f54-be4d-d0955f019ebe}">
+            <FriendlyName>Roofs Flat Walled Row 3</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{70C73D75-2649-4FF6-9832-FBA53279532A}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{43328391-A51D-4D27-AB79-98D60BB4733C}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{D6F417D3-0491-40C8-9E03-5AD7DBA85C65}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{784265b1-11b9-41cb-ad7e-890aa6469e86}">
+            <FriendlyName>Roofs Flat Walled Row 4</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{FC1EC387-76D2-4D16-8A6C-4E86CC5C76CE}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{EB33E6D6-A1B5-4E27-99C6-9D4C21E58F55}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{dd3d4618-8503-4fcc-8571-1023bc61a754}">
+            <FriendlyName>Roofs_South_America_East_FlatRoofs</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{70C73D75-2649-4FF6-9832-FBA53279532A}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{FC1EC387-76D2-4D16-8A6C-4E86CC5C76CE}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{37c5a3e2-32d3-4fbc-b656-7e1acfd0c317}">
+            <FriendlyName>Roofs_South_America_East_Hipped</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{9F6095B3-37C8-4DAE-8B9E-669FED9C59AD}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{A6655823-F94D-4283-8212-9724F80259D2}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{8EEAC8F4-AD90-4D5A-932D-4F32B159EE98}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{11319B07-0FE5-4527-BAFE-3BDC6B0EBB83}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{760CFF50-5E2E-4FFD-A53C-26ABB710D2C9}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{B89230DC-6D59-47BC-80E3-80A210BE815F}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{9C11E048-DEE6-46B8-9734-C11D51DD3786}</TargetGuid>
+                <RelativeWeight>8.000</RelativeWeight>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{4DB228D2-73D7-42BA-B2EB-C76A743F05D1}</TargetGuid>
+                <RelativeWeight>8.000</RelativeWeight>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{4fcd1f20-bc72-4ad9-ae5a-9b85071e778f}">
+            <FriendlyName>Roofs_South_America_East_Pav_Hipped</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{48A23C7C-F366-48D6-85A7-E142291E1A2C}</TargetGuid>
+                <RelativeWeight>8.000</RelativeWeight>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{06433578-1F60-48F4-BA4D-A4FE87923C20}</TargetGuid>
+                <RelativeWeight>8.000</RelativeWeight>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{F163D676-F247-4128-9026-C87772168887}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{7A07B920-CD15-4950-9AAE-3F7065E069DE}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{7533DC24-82FE-4942-A7F7-EDF7D7A4CE99}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{5A066C92-D44E-4572-B512-B588A180C7AD}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{C6D8207A-631D-4779-8A57-BF2139CC1AF4}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{D00E9936-83E3-4F9D-8342-876F690D2FAB}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{f1af395f-1b0b-4878-ba33-7c41a515e3f9}">
+            <FriendlyName>Roofs_North_America_South_Flat</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{D6F417D3-0491-40C8-9E03-5AD7DBA85C65}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{EB33E6D6-A1B5-4E27-99C6-9D4C21E58F55}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{57f04858-47ac-4f4c-b2b1-a2f747c716d3}">
+            <FriendlyName>Roofs_North_America_South_Pav_hipped</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{06433578-1F60-48F4-BA4D-A4FE87923C20}</TargetGuid>
+                <RelativeWeight>8.000</RelativeWeight>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{48A23C7C-F366-48D6-85A7-E142291E1A2C}</TargetGuid>
+                <RelativeWeight>8.000</RelativeWeight>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{87A19A5B-79CE-4008-A049-900EF092B4A6}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{7F77E785-DBD5-495C-BFFF-49ECA311595F}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{F163D676-F247-4128-9026-C87772168887}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{D00E9936-83E3-4F9D-8342-876F690D2FAB}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{9E8EA920-BA8C-4480-8B0F-BFB642368343}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{1854C34B-23A8-4B4C-A0F1-A0742C14FB2E}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{6a44d200-1052-4d1f-995c-0274972f5d6f}">
+            <FriendlyName>Roofs_North_America_South_Hipped</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{0385D67C-C671-4800-889A-CF3C0FAB77F2}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{199E9D7C-D72A-4F60-84F7-68BF44651F52}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{9F6095B3-37C8-4DAE-8B9E-669FED9C59AD}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{A6655823-F94D-4283-8212-9724F80259D2}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{73457256-4619-4F91-A6F3-BA556EE82FBC}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{74CC9D24-C057-4314-AE71-72272A1066C0}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{4DB228D2-73D7-42BA-B2EB-C76A743F05D1}</TargetGuid>
+                <RelativeWeight>8.000</RelativeWeight>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{9C11E048-DEE6-46B8-9734-C11D51DD3786}</TargetGuid>
+                <RelativeWeight>8.000</RelativeWeight>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{a6ca5a87-53a4-46ae-9926-92a31bf564fb}">
+            <FriendlyName>Roofs Bonnet Row 1</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{1F2683D4-14F7-45E3-A923-02B3986F0973}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{2F0DAEE0-0502-46DB-B88A-03C96BF5A2DF}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{36487290-0891-4E4D-9421-B0FF1F1E6B02}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{D83AE466-42F3-4961-9925-645F174B5223}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{5A1975A3-18F8-4EE2-B87F-0DFB14D5D06D}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{BBA94FC1-E551-4690-92EA-D6F2EF32E62E}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{7AEE73BE-94FE-4332-A93C-CE408B9BABBB}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{9A845EE5-B3BC-44A1-8673-2564B7203D53}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{0da62553-e2a0-4a34-b91a-49beea6f98fd}">
+            <FriendlyName>Roofs Bonnet Row 2</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{686705EC-F949-4FFF-8213-08884B75FE09}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{8011B511-3FA5-473A-A916-6A3FDB085126}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{060839F9-F7CA-46D6-A979-AC1A47107991}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{9527AE73-5E8A-464B-BD0E-4D0527F04F26}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{85C41452-03EF-4670-8250-EFAB79359416}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{D97E1A5A-DF1B-4D3E-826C-66804AC76C34}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{581D8A8A-6058-420B-ADCA-AB6BCBF0B95D}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{9A6A3A58-743A-4D69-9346-FD8D69F98F4A}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{5965feaa-634f-4134-9a74-67ec1fddc73b}">
+            <FriendlyName>Roofs Bonnet Row 3</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{5E85E284-F3C3-46D3-BC4B-EEC4AD74DCA9}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{94725D6B-6D55-492C-BF57-BC56918D51E4}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{5DECC1CE-DAC4-4CBB-AD7A-279D3EEE20E7}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{074BF224-0BA8-4285-9AD1-8B240E934C71}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{1E91A2F8-7A65-4154-8CBB-F09C8928899C}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{A310F42A-0EA1-4E4B-9491-9A7D9B18E6C7}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{cb84f488-230e-48bb-82e6-ce2b30ae786f}">
+            <FriendlyName>Roofs Bonnet Row 4</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{8CD8116D-E40E-4C50-B113-B4B004B1A797}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{F828CCAD-487A-4111-883F-6CC788EF7724}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{83CB2C8A-6CDA-411E-80EC-F5557A519963}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{B92D44F1-5179-444E-BA2B-7BC59A1A2FD1}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{1d9d68e8-e672-4de7-a848-a114c941d244}">
+            <FriendlyName>Roofs Bonnet _ALL_</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{A6CA5A87-53A4-46AE-9926-92A31BF564FB}</TargetGuid>
+                <RelativeWeight>8.000</RelativeWeight>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{0DA62553-E2A0-4A34-B91A-49BEEA6F98FD}</TargetGuid>
+                <RelativeWeight>8.000</RelativeWeight>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{5965FEAA-634F-4134-9A74-67EC1FDDC73B}</TargetGuid>
+                <RelativeWeight>6.000</RelativeWeight>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{CB84F488-230E-48BB-82E6-CE2B30AE786F}</TargetGuid>
+                <RelativeWeight>4.000</RelativeWeight>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{2bc85e7e-f2f9-4152-b2f7-80a3c6d9a632}">
+            <FriendlyName>Roofs_Tropics_American_Hipped</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{4DB228D2-73D7-42BA-B2EB-C76A743F05D1}</TargetGuid>
+                <RelativeWeight>8.000</RelativeWeight>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{9C11E048-DEE6-46B8-9734-C11D51DD3786}</TargetGuid>
+                <RelativeWeight>8.000</RelativeWeight>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{8EEAC8F4-AD90-4D5A-932D-4F32B159EE98}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{11319B07-0FE5-4527-BAFE-3BDC6B0EBB83}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{760CFF50-5E2E-4FFD-A53C-26ABB710D2C9}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{B89230DC-6D59-47BC-80E3-80A210BE815F}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{88b84495-3248-437a-8dda-fbcb09141877}">
+            <FriendlyName>Roofs_Tropics_American_Pav_Hipped</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{48A23C7C-F366-48D6-85A7-E142291E1A2C}</TargetGuid>
+                <RelativeWeight>8.000</RelativeWeight>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{06433578-1F60-48F4-BA4D-A4FE87923C20}</TargetGuid>
+                <RelativeWeight>8.000</RelativeWeight>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{760CFF50-5E2E-4FFD-A53C-26ABB710D2C9}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{B89230DC-6D59-47BC-80E3-80A210BE815F}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{8EEAC8F4-AD90-4D5A-932D-4F32B159EE98}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{11319B07-0FE5-4527-BAFE-3BDC6B0EBB83}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Regionalization id="{c3cfa029-e92e-4865-9082-e5467811afe7}">
+            <FriendlyName>Legacy roofs</FriendlyName>
+            <RegionDescription>
+                <RegionId>-1</RegionId>
+                <ReferenceEntry>
+                    <TargetGuid>{5AE04EB6-934C-4F63-BB48-5E7DEE601212}</TargetGuid>
+                    <RelativeWeight>55.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{E3967D70-E470-44C2-8866-4E9BE443D575}</TargetGuid>
+                    <RelativeWeight>5.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{6F1E985A-1F64-4C73-925B-C0A327BDA2DF}</TargetGuid>
+                    <RelativeWeight>10.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{F7B99AE4-80CA-4652-B2DF-2FEE994D70F9}</TargetGuid>
+                    <RelativeWeight>10.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{7D6E09D6-3954-4EA2-BBB7-43B2B3083482}</TargetGuid>
+                    <RelativeWeight>10.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{2A7B473F-6203-4A5E-AC06-338EF40037DB}</TargetGuid>
+                    <RelativeWeight>20.000</RelativeWeight>
+                </ReferenceEntry>
+            </RegionDescription>
+            <RegionDescription>
+                <RegionId>4</RegionId>
+                <ReferenceEntry>
+                    <TargetGuid>{32C95B3E-DD85-44AA-936A-D959087341AC}</TargetGuid>
+                    <RelativeWeight>2.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{4DF3AD1B-0553-42C7-A4C8-348D8D087913}</TargetGuid>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{59CB53B0-95E8-4765-948D-E482A5649AF0}</TargetGuid>
+                </ReferenceEntry>
+            </RegionDescription>
+            <RegionDescription>
+                <RegionId>19</RegionId>
+                <ReferenceEntry>
+                    <TargetGuid>{4E060A70-DB3E-4D4E-B3A1-4E2F7DD36609}</TargetGuid>
+                    <RelativeWeight>4.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{4DF3AD1B-0553-42C7-A4C8-348D8D087913}</TargetGuid>
+                    <RelativeWeight>8.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{F7B99AE4-80CA-4652-B2DF-2FEE994D70F9}</TargetGuid>
+                </ReferenceEntry>
+            </RegionDescription>
+            <RegionDescription>
+                <RegionId>5</RegionId>
+                <ReferenceEntry>
+                    <TargetGuid>{5AE04EB6-934C-4F63-BB48-5E7DEE601212}</TargetGuid>
+                    <RelativeWeight>6.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{6F1E985A-1F64-4C73-925B-C0A327BDA2DF}</TargetGuid>
+                    <RelativeWeight>3.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{2A7B473F-6203-4A5E-AC06-338EF40037DB}</TargetGuid>
+                    <RelativeWeight>3.000</RelativeWeight>
+                </ReferenceEntry>
+            </RegionDescription>
+            <RegionDescription>
+                <RegionId>20</RegionId>
+                <ReferenceEntry>
+                    <TargetGuid>{6ED565AE-EC93-4A3B-87FD-4C3A9A1EF77B}</TargetGuid>
+                    <RelativeWeight>2.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{DFE6A443-F153-42BC-96FA-4A6D07F2B90C}</TargetGuid>
+                    <RelativeWeight>2.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{89F827BB-49AB-43A3-AF25-2AB7F14D00C0}</TargetGuid>
+                    <RelativeWeight>5.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{7EEB4353-A0D5-466E-8B46-0FBE28B181A3}</TargetGuid>
+                    <RelativeWeight>5.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{9C11E048-DEE6-46B8-9734-C11D51DD3786}</TargetGuid>
+                    <RelativeWeight>5.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{4DB228D2-73D7-42BA-B2EB-C76A743F05D1}</TargetGuid>
+                    <RelativeWeight>5.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{48A23C7C-F366-48D6-85A7-E142291E1A2C}</TargetGuid>
+                    <RelativeWeight>3.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{06433578-1F60-48F4-BA4D-A4FE87923C20}</TargetGuid>
+                    <RelativeWeight>3.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{B368B897-DF50-499C-8920-5A5D8DCC5E11}</TargetGuid>
+                    <RelativeWeight>40.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{5AE04EB6-934C-4F63-BB48-5E7DEE601212}</TargetGuid>
+                    <RelativeWeight>30.000</RelativeWeight>
+                </ReferenceEntry>
+            </RegionDescription>
+            <RegionDescription>
+                <RegionId>22</RegionId>
+                <ReferenceEntry>
+                    <TargetGuid>{5AE04EB6-934C-4F63-BB48-5E7DEE601212}</TargetGuid>
+                    <RelativeWeight>50.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{6F1E985A-1F64-4C73-925B-C0A327BDA2DF}</TargetGuid>
+                    <RelativeWeight>10.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{E3967D70-E470-44C2-8866-4E9BE443D575}</TargetGuid>
+                    <RelativeWeight>5.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{7D6E09D6-3954-4EA2-BBB7-43B2B3083482}</TargetGuid>
+                    <RelativeWeight>10.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{2A7B473F-6203-4A5E-AC06-338EF40037DB}</TargetGuid>
+                    <RelativeWeight>20.000</RelativeWeight>
+                </ReferenceEntry>
+            </RegionDescription>
+            <RegionDescription>
+                <RegionId>21</RegionId>
+                <ReferenceEntry>
+                    <TargetGuid>{5AE04EB6-934C-4F63-BB48-5E7DEE601212}</TargetGuid>
+                    <RelativeWeight>80.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{6F1E985A-1F64-4C73-925B-C0A327BDA2DF}</TargetGuid>
+                    <RelativeWeight>5.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{E3967D70-E470-44C2-8866-4E9BE443D575}</TargetGuid>
+                    <RelativeWeight>5.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{7D6E09D6-3954-4EA2-BBB7-43B2B3083482}</TargetGuid>
+                    <RelativeWeight>5.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{2A7B473F-6203-4A5E-AC06-338EF40037DB}</TargetGuid>
+                    <RelativeWeight>5.000</RelativeWeight>
+                </ReferenceEntry>
+            </RegionDescription>
+            <RegionDescription>
+                <RegionId>6</RegionId>
+                <ReferenceEntry>
+                    <TargetGuid>{5AE04EB6-934C-4F63-BB48-5E7DEE601212}</TargetGuid>
+                    <RelativeWeight>45.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{F7B99AE4-80CA-4652-B2DF-2FEE994D70F9}</TargetGuid>
+                    <RelativeWeight>10.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{7D6E09D6-3954-4EA2-BBB7-43B2B3083482}</TargetGuid>
+                    <RelativeWeight>15.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{2A7B473F-6203-4A5E-AC06-338EF40037DB}</TargetGuid>
+                    <RelativeWeight>15.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{E3967D70-E470-44C2-8866-4E9BE443D575}</TargetGuid>
+                    <RelativeWeight>7.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{6F1E985A-1F64-4C73-925B-C0A327BDA2DF}</TargetGuid>
+                    <RelativeWeight>8.000</RelativeWeight>
+                </ReferenceEntry>
+            </RegionDescription>
+            <RegionDescription>
+                <RegionId>23</RegionId>
+                <ReferenceEntry>
+                    <TargetGuid>{5AE04EB6-934C-4F63-BB48-5E7DEE601212}</TargetGuid>
+                    <RelativeWeight>45.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{E3967D70-E470-44C2-8866-4E9BE443D575}</TargetGuid>
+                    <RelativeWeight>7.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{6F1E985A-1F64-4C73-925B-C0A327BDA2DF}</TargetGuid>
+                    <RelativeWeight>8.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{F7B99AE4-80CA-4652-B2DF-2FEE994D70F9}</TargetGuid>
+                    <RelativeWeight>10.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{7D6E09D6-3954-4EA2-BBB7-43B2B3083482}</TargetGuid>
+                    <RelativeWeight>15.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{2A7B473F-6203-4A5E-AC06-338EF40037DB}</TargetGuid>
+                    <RelativeWeight>15.000</RelativeWeight>
+                </ReferenceEntry>
+            </RegionDescription>
+            <RegionDescription>
+                <RegionId>12</RegionId>
+                <ReferenceEntry>
+                    <TargetGuid>{5AE04EB6-934C-4F63-BB48-5E7DEE601212}</TargetGuid>
+                    <RelativeWeight>70.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{E3967D70-E470-44C2-8866-4E9BE443D575}</TargetGuid>
+                    <RelativeWeight>5.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{6F1E985A-1F64-4C73-925B-C0A327BDA2DF}</TargetGuid>
+                    <RelativeWeight>5.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{7D6E09D6-3954-4EA2-BBB7-43B2B3083482}</TargetGuid>
+                    <RelativeWeight>10.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{2A7B473F-6203-4A5E-AC06-338EF40037DB}</TargetGuid>
+                    <RelativeWeight>10.000</RelativeWeight>
+                </ReferenceEntry>
+            </RegionDescription>
+            <RegionDescription>
+                <RegionId>11</RegionId>
+                <ReferenceEntry>
+                    <TargetGuid>{5AE04EB6-934C-4F63-BB48-5E7DEE601212}</TargetGuid>
+                    <RelativeWeight>50.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{2A7B473F-6203-4A5E-AC06-338EF40037DB}</TargetGuid>
+                    <RelativeWeight>40.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{6F1E985A-1F64-4C73-925B-C0A327BDA2DF}</TargetGuid>
+                    <RelativeWeight>7.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{E3967D70-E470-44C2-8866-4E9BE443D575}</TargetGuid>
+                    <RelativeWeight>3.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{F7B99AE4-80CA-4652-B2DF-2FEE994D70F9}</TargetGuid>
+                    <RelativeWeight>15.000</RelativeWeight>
+                </ReferenceEntry>
+            </RegionDescription>
+            <RegionDescription>
+                <RegionId>14</RegionId>
+                <ReferenceEntry>
+                    <TargetGuid>{D0BAE819-5AB3-4899-954D-8E7829FDC29E}</TargetGuid>
+                    <RelativeWeight>30.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{5AE04EB6-934C-4F63-BB48-5E7DEE601212}</TargetGuid>
+                    <RelativeWeight>15.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{F952D757-2E7F-4F69-8072-E6081A2B76A1}</TargetGuid>
+                    <RelativeWeight>15.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{F8D16195-B3E7-467D-A741-111F98BE6ABC}</TargetGuid>
+                    <RelativeWeight>20.000</RelativeWeight>
+                </ReferenceEntry>
+            </RegionDescription>
+            <RegionDescription>
+                <RegionId>13</RegionId>
+                <ReferenceEntry>
+                    <TargetGuid>{F952D757-2E7F-4F69-8072-E6081A2B76A1}</TargetGuid>
+                    <RelativeWeight>10.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{F8D16195-B3E7-467D-A741-111F98BE6ABC}</TargetGuid>
+                    <RelativeWeight>15.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{5AE04EB6-934C-4F63-BB48-5E7DEE601212}</TargetGuid>
+                    <RelativeWeight>20.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{D0BAE819-5AB3-4899-954D-8E7829FDC29E}</TargetGuid>
+                    <RelativeWeight>30.000</RelativeWeight>
+                </ReferenceEntry>
+            </RegionDescription>
+            <RegionDescription>
+                <ReferenceEntry>
+                    <TargetGuid>{5AE04EB6-934C-4F63-BB48-5E7DEE601212}</TargetGuid>
+                    <RelativeWeight>70.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{E3967D70-E470-44C2-8866-4E9BE443D575}</TargetGuid>
+                    <RelativeWeight>10.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{7D6E09D6-3954-4EA2-BBB7-43B2B3083482}</TargetGuid>
+                    <RelativeWeight>20.000</RelativeWeight>
+                </ReferenceEntry>
+            </RegionDescription>
+            <RegionDescription>
+                <RegionId>10</RegionId>
+                <ReferenceEntry>
+                    <TargetGuid>{5AE04EB6-934C-4F63-BB48-5E7DEE601212}</TargetGuid>
+                    <RelativeWeight>50.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{6F1E985A-1F64-4C73-925B-C0A327BDA2DF}</TargetGuid>
+                    <RelativeWeight>10.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{2A7B473F-6203-4A5E-AC06-338EF40037DB}</TargetGuid>
+                    <RelativeWeight>25.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{7D6E09D6-3954-4EA2-BBB7-43B2B3083482}</TargetGuid>
+                    <RelativeWeight>10.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{E3967D70-E470-44C2-8866-4E9BE443D575}</TargetGuid>
+                    <RelativeWeight>5.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{F7B99AE4-80CA-4652-B2DF-2FEE994D70F9}</TargetGuid>
+                    <RelativeWeight>25.000</RelativeWeight>
+                </ReferenceEntry>
+            </RegionDescription>
+            <RegionDescription>
+                <RegionId>9</RegionId>
+                <ReferenceEntry>
+                    <TargetGuid>{AD8EC3CB-3A4A-4777-AA9B-FEAD73332907}</TargetGuid>
+                    <RelativeWeight>40.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{B084506E-1D35-4F54-BE4D-D0955F019EBE}</TargetGuid>
+                    <RelativeWeight>30.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{784265B1-11B9-41CB-AD7E-890AA6469E86}</TargetGuid>
+                    <RelativeWeight>20.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{4A86CA2E-BC24-4C15-97A7-ACDFCD231B7F}</TargetGuid>
+                    <RelativeWeight>10.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{48A23C7C-F366-48D6-85A7-E142291E1A2C}</TargetGuid>
+                    <RelativeWeight>5.000</RelativeWeight>
+                </ReferenceEntry>
+            </RegionDescription>
+            <RegionDescription>
+                <RegionId>1</RegionId>
+                <ReferenceEntry>
+                    <TargetGuid>{5AE04EB6-934C-4F63-BB48-5E7DEE601212}</TargetGuid>
+                    <RelativeWeight>55.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{E3967D70-E470-44C2-8866-4E9BE443D575}</TargetGuid>
+                    <RelativeWeight>5.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{6F1E985A-1F64-4C73-925B-C0A327BDA2DF}</TargetGuid>
+                    <RelativeWeight>10.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{7D6E09D6-3954-4EA2-BBB7-43B2B3083482}</TargetGuid>
+                    <RelativeWeight>10.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{2A7B473F-6203-4A5E-AC06-338EF40037DB}</TargetGuid>
+                    <RelativeWeight>20.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{F7B99AE4-80CA-4652-B2DF-2FEE994D70F9}</TargetGuid>
+                    <RelativeWeight>10.000</RelativeWeight>
+                </ReferenceEntry>
+            </RegionDescription>
+            <RegionDescription>
+                <RegionId>15</RegionId>
+                <ReferenceEntry>
+                    <TargetGuid>{5AE04EB6-934C-4F63-BB48-5E7DEE601212}</TargetGuid>
+                    <RelativeWeight>50.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{F1AF395F-1B0B-4878-BA33-7C41A515E3F9}</TargetGuid>
+                    <RelativeWeight>35.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{F7B99AE4-80CA-4652-B2DF-2FEE994D70F9}</TargetGuid>
+                    <RelativeWeight>5.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{57F04858-47AC-4F4C-B2B1-A2F747C716D3}</TargetGuid>
+                    <RelativeWeight>20.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{6A44D200-1052-4D1F-995C-0274972F5D6F}</TargetGuid>
+                    <RelativeWeight>5.000</RelativeWeight>
+                </ReferenceEntry>
+            </RegionDescription>
+            <RegionDescription>
+                <RegionId>3</RegionId>
+                <ReferenceEntry>
+                    <TargetGuid>{DD3D4618-8503-4FCC-8571-1023BC61A754}</TargetGuid>
+                    <RelativeWeight>35.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{F7B99AE4-80CA-4652-B2DF-2FEE994D70F9}</TargetGuid>
+                    <RelativeWeight>5.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{5AE04EB6-934C-4F63-BB48-5E7DEE601212}</TargetGuid>
+                    <RelativeWeight>50.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{37C5A3E2-32D3-4FBC-B656-7E1ACFD0C317}</TargetGuid>
+                    <RelativeWeight>5.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{4FCD1F20-BC72-4AD9-AE5A-9B85071E778F}</TargetGuid>
+                    <RelativeWeight>10.000</RelativeWeight>
+                </ReferenceEntry>
+            </RegionDescription>
+            <RegionDescription>
+                <RegionId>16</RegionId>
+                <ReferenceEntry>
+                    <TargetGuid>{F1AF395F-1B0B-4878-BA33-7C41A515E3F9}</TargetGuid>
+                    <RelativeWeight>30.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{5AE04EB6-934C-4F63-BB48-5E7DEE601212}</TargetGuid>
+                    <RelativeWeight>50.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{57F04858-47AC-4F4C-B2B1-A2F747C716D3}</TargetGuid>
+                    <RelativeWeight>15.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{6A44D200-1052-4D1F-995C-0274972F5D6F}</TargetGuid>
+                    <RelativeWeight>5.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{F7B99AE4-80CA-4652-B2DF-2FEE994D70F9}</TargetGuid>
+                    <RelativeWeight>2.000</RelativeWeight>
+                </ReferenceEntry>
+            </RegionDescription>
+            <RegionDescription>
+                <RegionId>2</RegionId>
+                <ReferenceEntry>
+                    <TargetGuid>{5AE04EB6-934C-4F63-BB48-5E7DEE601212}</TargetGuid>
+                    <RelativeWeight>50.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{F7B99AE4-80CA-4652-B2DF-2FEE994D70F9}</TargetGuid>
+                    <RelativeWeight>5.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{F1AF395F-1B0B-4878-BA33-7C41A515E3F9}</TargetGuid>
+                    <RelativeWeight>35.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{6A44D200-1052-4D1F-995C-0274972F5D6F}</TargetGuid>
+                    <RelativeWeight>5.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{57F04858-47AC-4F4C-B2B1-A2F747C716D3}</TargetGuid>
+                    <RelativeWeight>20.000</RelativeWeight>
+                </ReferenceEntry>
+            </RegionDescription>
+            <RegionDescription>
+                <RegionId>7</RegionId>
+                <ReferenceEntry>
+                    <TargetGuid>{1D9D68E8-E672-4DE7-A848-A114C941D244}</TargetGuid>
+                    <RelativeWeight>20.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{5AE04EB6-934C-4F63-BB48-5E7DEE601212}</TargetGuid>
+                    <RelativeWeight>55.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{2A7B473F-6203-4A5E-AC06-338EF40037DB}</TargetGuid>
+                    <RelativeWeight>10.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{6F1E985A-1F64-4C73-925B-C0A327BDA2DF}</TargetGuid>
+                    <RelativeWeight>5.000</RelativeWeight>
+                </ReferenceEntry>
+            </RegionDescription>
+            <RegionDescription>
+                <RegionId>18</RegionId>
+                <ReferenceEntry>
+                    <TargetGuid>{1D9D68E8-E672-4DE7-A848-A114C941D244}</TargetGuid>
+                    <RelativeWeight>20.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{5AE04EB6-934C-4F63-BB48-5E7DEE601212}</TargetGuid>
+                    <RelativeWeight>45.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{6F1E985A-1F64-4C73-925B-C0A327BDA2DF}</TargetGuid>
+                    <RelativeWeight>10.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{2A7B473F-6203-4A5E-AC06-338EF40037DB}</TargetGuid>
+                    <RelativeWeight>10.000</RelativeWeight>
+                </ReferenceEntry>
+            </RegionDescription>
+            <RegionDescription>
+                <RegionId>17</RegionId>
+                <ReferenceEntry>
+                    <TargetGuid>{5AE04EB6-934C-4F63-BB48-5E7DEE601212}</TargetGuid>
+                    <RelativeWeight>20.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{2BC85E7E-F2F9-4152-B2F7-80A3C6D9A632}</TargetGuid>
+                    <RelativeWeight>5.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{88B84495-3248-437A-8DDA-FBCB09141877}</TargetGuid>
+                    <RelativeWeight>10.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{70C73D75-2649-4FF6-9832-FBA53279532A}</TargetGuid>
+                    <RelativeWeight>5.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{43328391-A51D-4D27-AB79-98D60BB4733C}</TargetGuid>
+                    <RelativeWeight>5.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{EB33E6D6-A1B5-4E27-99C6-9D4C21E58F55}</TargetGuid>
+                    <RelativeWeight>5.000</RelativeWeight>
+                </ReferenceEntry>
+            </RegionDescription>
+            <RegionDescription>
+                <RegionId>8</RegionId>
+                <ReferenceEntry>
+                    <TargetGuid>{5AE04EB6-934C-4F63-BB48-5E7DEE601212}</TargetGuid>
+                    <RelativeWeight>70.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{7EEB4353-A0D5-466E-8B46-0FBE28B181A3}</TargetGuid>
+                    <RelativeWeight>30.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{89F827BB-49AB-43A3-AF25-2AB7F14D00C0}</TargetGuid>
+                    <RelativeWeight>30.000</RelativeWeight>
+                </ReferenceEntry>
+            </RegionDescription>
+            <RegionDescription>
+                <RegionId>24</RegionId>
+                <ReferenceEntry>
+                    <TargetGuid>{5AE04EB6-934C-4F63-BB48-5E7DEE601212}</TargetGuid>
+                    <RelativeWeight>45.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{E3967D70-E470-44C2-8866-4E9BE443D575}</TargetGuid>
+                    <RelativeWeight>7.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{6F1E985A-1F64-4C73-925B-C0A327BDA2DF}</TargetGuid>
+                    <RelativeWeight>8.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{F7B99AE4-80CA-4652-B2DF-2FEE994D70F9}</TargetGuid>
+                    <RelativeWeight>10.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{7D6E09D6-3954-4EA2-BBB7-43B2B3083482}</TargetGuid>
+                    <RelativeWeight>15.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{2A7B473F-6203-4A5E-AC06-338EF40037DB}</TargetGuid>
+                    <RelativeWeight>15.000</RelativeWeight>
+                </ReferenceEntry>
+            </RegionDescription>
+            <RegionDescription>
+                <RegionId>25</RegionId>
+                <ReferenceEntry>
+                    <TargetGuid>{5AE04EB6-934C-4F63-BB48-5E7DEE601212}</TargetGuid>
+                    <RelativeWeight>45.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{E3967D70-E470-44C2-8866-4E9BE443D575}</TargetGuid>
+                    <RelativeWeight>7.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{6F1E985A-1F64-4C73-925B-C0A327BDA2DF}</TargetGuid>
+                    <RelativeWeight>8.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{F7B99AE4-80CA-4652-B2DF-2FEE994D70F9}</TargetGuid>
+                    <RelativeWeight>10.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{7D6E09D6-3954-4EA2-BBB7-43B2B3083482}</TargetGuid>
+                    <RelativeWeight>15.000</RelativeWeight>
+                </ReferenceEntry>
+                <ReferenceEntry>
+                    <TargetGuid>{2A7B473F-6203-4A5E-AC06-338EF40037DB}</TargetGuid>
+                    <RelativeWeight>15.000</RelativeWeight>
+                </ReferenceEntry>
+            </RegionDescription>
+        </Regionalization>
+        <Grouping id="{214E9E1C-6F98-4CED-9667-0CD57592CEA1}">
+            <FriendlyName>Legacy house roofs</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{C3CFA029-E92E-4865-9082-E5467811AFE7}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{f5d3c9b7-59af-4df1-be66-b06933ebd3ba}">
+            <FriendlyName>Flat Roofs Large Grp</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{96C7B19C-0FF7-455E-8703-C140891A6136}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{EEBA619F-E108-490E-B833-CF9D82E88FE4}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{8214F293-05A3-4447-A901-37B53CB96061}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{9CB91734-E5B7-415F-8193-8F0CCF150351}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{29731513-7CC4-4571-8E7E-7C8DAA667B2E}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{6F6BC6BE-E85F-40CE-8EED-1FE8C0493368}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{6BCF769F-439B-4CA0-A0EC-0A214EAD87CB}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{70B14A7B-70C7-4EA9-855D-247006823E40}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{63052E39-9358-4193-B4B6-2E205199075A}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{BD3DC497-7C39-496B-9B87-9F4C32A57254}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{DB7190EC-1213-4B34-8271-78FE797FDBDF}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{88D158EA-86D5-4D7C-B4C9-AFD566FF6771}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{B597DDC9-4AA1-4391-8383-231620161427}">
+            <FriendlyName>Grouping of all flat roofs</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{4BF10DCD-7E78-474E-BAB9-EC57AA9A8234}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{6089A0BD-CED1-4C47-9A9E-64CDD0E16983}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{F9D16C62-86FD-409B-AE69-882A0D1275C9}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{57FDE248-095A-411F-967C-32BD74798C1D}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{AC80451E-AF91-42AF-945A-4EE53E70EAF7}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{C08DF35E-325F-442D-86BC-5AF122BD4092}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{73D16452-636A-4753-9A17-85D88E4511BA}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{70872768-F6CB-4E58-A55F-66FC9F3CE7D2}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{84EB8834-6816-49DB-BE71-DF47F26D7D5E}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{F631FE2D-0EC6-4C8A-B060-15B612011063}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{20C04F69-7A80-4D42-8586-BAA2AEB5B054}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{99C8975A-B6F5-4DE1-9EA5-73E63EE23473}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{F5D3C9B7-59AF-4DF1-BE66-B06933EBD3BA}</TargetGuid>
+                <RelativeWeight>50.000</RelativeWeight>
+            </ReferenceEntry>
+        </Grouping>
+        <Regionalization id="{84EFB20B-530A-4838-80C5-ADB86D49A6BE}">
+            <FriendlyName>Regionalization of flat roofs for medium short buildings</FriendlyName>
+            <RegionDescription>
+                <RegionId>-1</RegionId>
+                <ReferenceEntry>
+                    <TargetGuid>{B597DDC9-4AA1-4391-8383-231620161427}</TargetGuid>
+                </ReferenceEntry>
+            </RegionDescription>
+        </Regionalization>
+        <Grouping id="{311DE8C7-E596-4e28-A94D-DA09D0252CE4}">
+            <FriendlyName>Flat roofs for medium short buildings</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{84EFB20B-530A-4838-80C5-ADB86D49A6BE}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{F5D3C9B7-59AF-4DF1-BE66-B06933EBD3BA}</TargetGuid>
+                <RelativeWeight>30.000</RelativeWeight>
+            </ReferenceEntry>
+        </Grouping>
+        <Regionalization id="{70E289A9-F742-4fc9-A550-8BAF4EE5023D}">
+            <FriendlyName>Regionalization of flat roofs for medium tall buildings</FriendlyName>
+            <RegionDescription>
+                <RegionId>-1</RegionId>
+                <ReferenceEntry>
+                    <TargetGuid>{B597DDC9-4AA1-4391-8383-231620161427}</TargetGuid>
+                </ReferenceEntry>
+            </RegionDescription>
+        </Regionalization>
+        <Grouping id="{60A1E938-D2EF-4a65-A017-DE7D811C17EB}">
+            <FriendlyName>Flat roofs for medium tall buildings</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{70E289A9-F742-4FC9-A550-8BAF4EE5023D}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{F5D3C9B7-59AF-4DF1-BE66-B06933EBD3BA}</TargetGuid>
+                <RelativeWeight>30.000</RelativeWeight>
+            </ReferenceEntry>
+        </Grouping>
+        <Regionalization id="{830511C7-2DE8-48ae-87C8-85CFE762F4F6}">
+            <FriendlyName>Regionalization of flat roofs for large short buildings</FriendlyName>
+            <RegionDescription>
+                <RegionId>-1</RegionId>
+                <ReferenceEntry>
+                    <TargetGuid>{B597DDC9-4AA1-4391-8383-231620161427}</TargetGuid>
+                </ReferenceEntry>
+            </RegionDescription>
+        </Regionalization>
+        <Grouping id="{4EB68BE7-2F1F-4cd2-920E-BECFA2D8C888}">
+            <FriendlyName>Flat roofs for large short buildings</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{830511C7-2DE8-48AE-87C8-85CFE762F4F6}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{F5D3C9B7-59AF-4DF1-BE66-B06933EBD3BA}</TargetGuid>
+                <RelativeWeight>30.000</RelativeWeight>
+            </ReferenceEntry>
+        </Grouping>
+        <Grouping id="{099feaed-f059-49ab-8e45-140e2547fa30}">
+            <FriendlyName>Roofs Flat Walled Row 1</FriendlyName>
+            <ReferenceEntry>
+                <TargetGuid>{3AC30F94-2B86-4D11-AD4D-1DF9302CAF5B}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{11A0B790-E8E7-4A06-A24A-3AC9AAAB77C2}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{BAC6AEE6-2ADF-4C55-B229-4753E9668011}</TargetGuid>
+            </ReferenceEntry>
+            <ReferenceEntry>
+                <TargetGuid>{608AE291-B701-4CCF-83E9-22A8D40962DD}</TargetGuid>
+            </ReferenceEntry>
+        </Grouping>
+    </Autogen.BuildingRoofGroups>
+    <Autogen.ExternalDependencies>
+        <ExternalDependency>
+            <Filename>Materials.xml</Filename>
+        </ExternalDependency>
+    </Autogen.ExternalDependencies>
+</SimBase.Document>

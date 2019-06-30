@@ -1,0 +1,37 @@
+C:\SDK\Environment Kit\Terrain SDK\Vector Examples\Example1_SourceData> shp2vec . 7824
+
+Shp2Vec.exe version 10.0.60712.0  -  VectorQuad 6
+Copyright (c) 2006 Microsoft Corporation. All Rights Reserved.
+
+Processing FLX7824.shp
+
+Processing FWX7824.shp
+
+Processing HGX7824.shp
+
+Processing HLX7824.shp
+..
+Processing HPX7824.shp
+
+Processing PKX7824.shp
+
+Processing RDX7824.shp
+.
+Processing RRX7824.shp
+
+Processing STX7824.shp
+..
+Processing UTX7824.shp
+
+
+Writing vector data to .\cvx7824
+
+DONE (528 shapes)
+
+Compression statistics
+                          Type      Count   Bytes in  Bytes out
+               Null (raw data)          0          0          0
+              Predictive Delta        492     201872      72121
+                  Quantization       1281      65936      33138
+
+C:\SDK\Environment Kit\Terrain SDK\Vector Examples\Example1_SourceData>

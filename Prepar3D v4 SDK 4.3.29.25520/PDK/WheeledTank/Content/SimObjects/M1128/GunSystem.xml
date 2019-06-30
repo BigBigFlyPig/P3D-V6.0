@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+
+    <GunSystem.GunDefinitions>
+        <GunDefinition ObjectTitle="M68A2" GunType="Rifled Cannon" Ammunition="105 x 607 mm" Stationary="TRUE">
+            <GunFeatures Caliber="4.13" RateOfFire="10" MuzzleVelocity="5000" />
+            <GunMovement PitchMax="0.0" PitchAccelerationTime="0.0" PitchTurnRate="0.0" HeadingMax="0.0" HeadingAccelerationTime="0.0" HeadingTurnRate="0.0" />
+            <GunEffect EffectName="fx_MuzzleCannon" GunEffectType="FIRE" />
+        </GunDefinition>
+        <GunDefinition ObjectTitle="M240C" GunType="Machine Gun" Ammunition="7.62 x 51 mm" Stationary="TRUE">
+            <GunFeatures Caliber="0.3" RateOfFire="850" MuzzleVelocity="2800" />
+            <GunMovement PitchMax="0.0" PitchAccelerationTime="0.0" PitchTurnRate="0.0" HeadingMax="0.0" HeadingAccelerationTime="0.0" HeadingTurnRate="0.0" />
+            <GunEffect EffectName="fx_MuzzleFlash_Lrg" GunEffectType="FIRE" />
+        </GunDefinition>
+    </GunSystem.GunDefinitions>
+
+    <GunSystem.RoundDefinitions>
+        <RoundDefinition ObjectTitle="105 x 607 mm" Weight="18.41" Caliber="4.13" DragCf="1.0" TracerRatio="0" DamagePoints="1" Lifetime="10">
+            <RoundEffect EffectName="fx_dirtspray_l"           RoundEffectType="IMPACT_LAND" />
+            <RoundEffect EffectName="fx_wtrspray_l"            RoundEffectType="IMPACT_WATER" />
+            <RoundEffect EffectName="fx_cargoDestroyLandMetal" RoundEffectType="IMPACT_BUILDING" />
+            <RoundEffect EffectName="fx_cargoDestroyLandMetal" RoundEffectType="IMPACT_VEHICLE" />
+            <RoundEffect EffectName="fx_tracer_l"              RoundEffectType="TRACER" />
+            <EntityTypeString>2.2.225.2.10.0.0</EntityTypeString>
+        </RoundDefinition>
+        <RoundDefinition ObjectTitle="7.62 x 51 mm" Weight="0.4" Caliber="0.3" DragCf="1.0" TracerRatio="5" DamagePoints="1" Lifetime="5">
+            <RoundEffect EffectName="fx_bulletMetalHit" RoundEffectType="IMPACT_BUILDING" />
+            <RoundEffect EffectName="fx_bulletMetalHit" RoundEffectType="IMPACT_VEHICLE" />
+            <RoundEffect EffectName="fx_tracer_s"       RoundEffectType="TRACER" />
+            <EntityTypeString>2.8.225.2.2.0.0</EntityTypeString>
+        </RoundDefinition>
+    </GunSystem.RoundDefinitions>
+
+</SimBase.Document>

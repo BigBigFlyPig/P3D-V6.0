@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ModelInfo>
+
+    <Animation name="main_rotor_rotation_percent" guid="5154077E-57AE-4C42-B033-5CE95A5FD50B" length="100" type="Sim" typeparam2="main_rotor_rotation_percent" typeparam="AutoPlay" />
+    <Animation name="tail_rotor_rotation_percent" guid="977945D6-B69B-4170-990D-0D9FD477406C" length="100" type="Sim" typeparam2="tail_rotor_rotation_percent" typeparam="AutoPlay" />
+
+    <PartInfo>
+        <Name>main_rotor_rotation_percent</Name>
+        <AnimLength>100</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>GetMainRotorRotationPercent</Variable>
+                    <Units>percent</Units>
+                </Sim>
+            </Parameter>
+        </Animation>
+    </PartInfo>
+    
+    <PartInfo>
+        <Name>tail_rotor_rotation_percent</Name>
+        <AnimLength>100</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>GetTailRotorRotationPercent</Variable>
+                    <Units>percent</Units>
+                </Sim>
+            </Parameter>
+        </Animation>
+    </PartInfo>
+    
+</ModelInfo>

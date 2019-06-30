@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document
+        Type="AceXML"
+        version="1,0"
+        id="Fuel Pressure Gauge">
+    <Descr>AceXML Document</Descr>
+    <SimGauge.Gauge id="Gauge" ArtDirectory="C:\Prepar3D\SDK\SimObject SDK\Panels and Gauges SDK\XML Gauge samples">
+        <FloatPosition>0.000,0.000</FloatPosition>
+        <Size>100,80</Size>
+        <Image id="FuelPressureBackground.bmp" Name="FuelPressureBackground.bmp">
+            <Transparent>True</Transparent>
+        </Image>
+        <Element id="Element">
+            <FloatPosition>5.000,10.000</FloatPosition>
+            <GaugeText id="GaugeText">
+                <Bold>True</Bold>
+                <Fixed>True</Fixed>
+                <FontFace>ARIAL</FontFace>
+                <FontColor>gold</FontColor>
+                <FontHeight>13</FontHeight>
+                <GaugeString>Fuel Pressure</GaugeString>
+                <HilightColor>blue</HilightColor>
+                <Length>32</Length>
+                <Size>90,15</Size>
+                <Transparent>True</Transparent>
+                <VerticalAlign>CENTER</VerticalAlign>
+            </GaugeText>
+        </Element>
+        <Element id="Element">
+            <FloatPosition>5.000,40.000</FloatPosition>
+            <Rectangle id="Rectangle">
+                <LineWidth>1</LineWidth>
+                <Width>90</Width>
+                <Height>24</Height>
+                <LineColor>darkslateblue</LineColor>
+                <FillColor>black</FillColor>
+            </Rectangle>
+        </Element>
+        <Element id="Element">
+            <FloatPosition>10.000,44.000</FloatPosition>
+            <GaugeText id="GaugeText">
+                <FontFace>COURIER</FontFace>
+                <FontColor>red</FontColor>
+                <FontHeight>16</FontHeight>
+                <GaugeString>%( (A:GENERAL ENG FUEL PRESSURE:1, psi) )%!09d!</GaugeString>
+                <Length>9</Length>
+                <Size>90,16</Size>
+                <Transparent>True</Transparent>
+                <VerticalAlign>CENTER</VerticalAlign>
+            </GaugeText>
+        </Element>
+    </SimGauge.Gauge>
+</SimBase.Document>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Filename>PropertyDebugging.xml</Filename>
+    <!-- Properties -->
+    <Simvar.PropertyOutputWindow CategoryId="{3389C282-752D-49C8-B6C1-B60D357B8DC7}" WindowTitle="RadarAltimeterTest">
+        <Property>
+          <Name>RadarAltitude</Name>
+          <Units>Feet</Units>
+        </Property>
+        <Property>
+          <Name>RadarAngle</Name>
+          <Type>Vector</Type>
+          <Units>Degrees</Units>
+        </Property>
+        <Property>
+          <Name>RadarState</Name>
+          <Type>String</Type>
+        </Property>
+    </Simvar.PropertyOutputWindow>
+</SimBase.Document>

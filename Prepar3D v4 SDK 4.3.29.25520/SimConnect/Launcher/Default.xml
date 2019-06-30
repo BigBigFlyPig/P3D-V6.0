@@ -1,0 +1,72 @@
+<SimBase.Document Type="Launch" version="1,0">
+<Solution>
+    <Name>Sample Solution for Prepar3D Launcher</Name>
+   	<Description>This is a sample solution for populating the information in the Lockheed Martin Prepar3D 1.0 Launcher.</Description>
+   	<VersionMajor>1.0</VersionMajor>
+   	<VersionMinor>1.0</VersionMinor>
+    <Publisher>Lockheed Martin</Publisher>
+	<Scenario>
+		<Name>Tutorial: First Takeoff</Name>
+		<Description>This is a basic training mission (simulator and flight familiarity). Estimated time to complete: 5 minutes.</Description>
+		<IsMultiplayer>false</IsMultiplayer>
+		<Image>%PREPAR3DPATH%\Scenarios\Tutorials\First Takeoff\imgM_i.bmp</Image>
+		<ScenarioFile>%PREPAR3DPATH%\Scenarios\Tutorials\First Takeoff\First Takeoff.flt</ScenarioFile>
+	</Scenario>
+	<Scenario>
+		<Name>Tutorial: Basics of Flight</Name>
+		<Description>This is a basic training mission (aircraft turns). Estimated time to complete: 10 minutes.</Description>
+		<IsMultiplayer>false</IsMultiplayer>
+		<Image>%PREPAR3DPATH%\Scenarios\Tutorials\Basics of Flight\imgM_i.bmp</Image>
+		<ScenarioFile>%PREPAR3DPATH%\Scenarios\Tutorials\Basics of Flight\Basics of Flight.flt</ScenarioFile>
+	</Scenario>
+	<Scenario>
+		<Name>Tutorial: Finding Your Way</Name>
+		<Description>This is a basic training mission (using the Mission Compass and Pointer). Estimated time to complete: 10 minutes.</Description>
+		<IsMultiplayer>false</IsMultiplayer>
+		<Image>%PREPAR3DPATH%\Scenarios\Tutorials\Finding Your Way\imgM_i.bmp</Image>
+		<ScenarioFile>%PREPAR3DPATH%\Scenarios\Tutorials\Finding Your Way\Finding Your Way.flt</ScenarioFile>
+	</Scenario>
+	<Scenario>
+		<Name>Tutorial: Introduction to Mountain Flying</Name>
+		<Description>This is a basic training mission (short-field takeoff and landing). Estimated time to complete: 10 minutes.</Description>
+		<IsMultiplayer>false</IsMultiplayer>
+		<Image>%PREPAR3DPATH%\Scenarios\Tutorials\Introduction to Mountain Flying\imgM_i.bmp</Image>
+		<ScenarioFile>%PREPAR3DPATH%\Scenarios\Tutorials\Introduction to Mountain Flying\Introduction to Mountain Flying.flt</ScenarioFile>
+	</Scenario>
+	<Scenario>
+		<Name>Tutorial: Helicopter Basics</Name>
+		<Description>This is a basic helicopter training mission. Estimated time to complete: 10 minutes.</Description>
+		<IsMultiplayer>false</IsMultiplayer>
+		<Image>%PREPAR3DPATH%\Scenarios\Tutorials\Helicopter Basics\imgM_i.bmp</Image>
+		<ScenarioFile>%PREPAR3DPATH%\Scenarios\Tutorials\Helicopter Basics\Helicopter Basics.flt</ScenarioFile>
+	</Scenario>
+	<Scenario>
+		<Name>Tutorial: Helicopter Takeoff and Landing</Name>
+		<Description>This is a basic helicopter training mission (takeoff and landing). Estimated time to complete: 10 minutes.</Description>
+		<IsMultiplayer>false</IsMultiplayer>
+		<Image>%PREPAR3DPATH%\Scenarios\Tutorials\Helicopter Takeoff and Landing\imgM_i.bmp</Image>
+		<ScenarioFile>%PREPAR3DPATH%\Scenarios\Tutorials\Helicopter Takeoff and Landing\Helicopter Takeoff and Landing.flt</ScenarioFile>
+	</Scenario>
+	<Scenario>
+		<Name>Tutorial: Helicopter Maneuvers 1</Name>
+		<Description>This is a helicopter mission (landing on a moving object). Estimated time to complete: 15 minutes.</Description>
+		<IsMultiplayer>false</IsMultiplayer>
+		<Image>%PREPAR3DPATH%\Scenarios\Tutorials\Helicopter Maneuvers 1\imgM_i.bmp</Image>
+		<ScenarioFile>%PREPAR3DPATH%\Scenarios\Tutorials\Helicopter Maneuvers 1\Helicopter Maneuvers 1.flt</ScenarioFile>
+	</Scenario>
+	<Scenario>
+		<Name>Tutorial: Helicopter Maneuvers 2</Name>
+		<Description>This is an advanced helicopter mission (landing on a moving, turning object). Estimated time to complete: 15 minutes.</Description>
+		<IsMultiplayer>false</IsMultiplayer>
+		<Image>%PREPAR3DPATH%\Scenarios\Tutorials\Helicopter Maneuvers 2\imgM_i.bmp</Image>
+		<ScenarioFile>%PREPAR3DPATH%\Scenarios\Tutorials\Helicopter Maneuvers 2\Helicopter Maneuvers 2.flt</ScenarioFile>
+	</Scenario>
+	<Scenario>
+		<Name>Foul Weather Water Rescue</Name>
+		<Description>This is a search-and-rescue mission in bad weather. Estimated time to complete: 40 minutes.</Description>
+		<IsMultiplayer>false</IsMultiplayer>
+		<Image>%PREPAR3DPATH%\Scenarios\Emergency\Weather Water Rescue\imgM_i.bmp</Image>
+		<ScenarioFile>%PREPAR3DPATH%\Scenarios\Emergency\Weather Water Rescue\Weather Water Rescue.flt</ScenarioFile>
+	</Scenario>
+</Solution>
+</SimBase.Document>

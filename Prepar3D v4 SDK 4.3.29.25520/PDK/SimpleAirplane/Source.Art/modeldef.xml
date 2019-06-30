@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ModelInfo>
+
+    <Animation name="lever_landing_gear" guid="8de35bd4-0bdb-4e11-b4ed-491599bd95b1" length="100" type="Sim" typeparam2="lever_landing_gear" typeparam="AutoPlay" />
+    <Animation name="c_gear" guid="E2E339A6-FCBF-43a9-A780-3473E03AB54B" length="200" type="Sim" typeparam2="c_gear" typeparam="AutoPlay" />
+    <Animation name="l_gear" guid="E6A307E6-D0D8-4ca0-8A8E-77B7EA22FFB9" length="200" type="Sim" typeparam2="l_gear" typeparam="AutoPlay" />
+    <Animation name="r_gear" guid="77C00B94-DDA1-450a-B725-1E2B4ADF6BC8" length="200" type="Sim" typeparam2="r_gear" typeparam="AutoPlay" />
+    <Animation name="elevator_percent_key" guid="69fced03-9a10-49a7-aa82-2b79ab5b63e0" length="100" type="Sim" typeParam2="elevator_percent_key" typeParam="AutoPlay" />    
+    <Animation name="l_aileron_percent_key" guid="bad53e9a-1958-4b22-90fe-23513d121db3" length="100" type="Sim" typeParam2="l_aileron_percent_key" typeParam="AutoPlay" />
+    <Animation name="r_aileron_percent_key" guid="77db62be-36d4-4c03-bea7-c4cc2a224d9d" length="100" type="Sim" typeParam2="r_aileron_percent_key" typeParam="AutoPlay" /> 
+    <Animation name="rudder_percent_key" guid="5433b2a0-0fd9-4192-8f7d-0ba36bf7191d" length="100" type="Sim" typeParam2="rudder_percent_key" typeParam="AutoPlay" />    
+    <Animation name="jet_primary_exhaust_nozzle_pct_0" guid="6CD1E020-1A59-442f-A3E8-ADD719F24658" length="100" type="Sim" typeParam2="jet_primary_exhaust_nozzle_pct_0" typeParam="AutoPlay" />
+
+	<PartInfo>
+        <Name>lever_landing_gear</Name>
+        <AnimLength>100</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>PctGearExtended:0</Variable>
+                    <Units>keyframe</Units>                    
+                </Sim>
+            </Parameter>
+        </Animation>		
+<!-- Sample MouseRect - simple event -->		
+        <MouseRect>
+            <Cursor>Hand</Cursor>
+            <MouseFlags>LeftSingle+LeftDrag+Wheel</MouseFlags>
+            <EventID>ToggleGear</EventID>
+        </MouseRect>
+
+<!-- Sample MouseRect - Callback drag
+        <MouseRect>
+            <Cursor>Hand</Cursor>
+            <MouseFlags>LeftSingle+LeftDrag+Wheel</MouseFlags>
+            <CallbackDragging>
+                <Variable>PctGearExtended</Variable>
+                <Units>percent</Units>
+                <Scale>163.84</Scale>
+                <YScale>-163.84</YScale>
+                <MinValue>-16384</MinValue>
+                <MaxValue>16384</MaxValue>
+                <EventID>GearLeverSet</EventID>
+            </CallbackDragging>
+        </MouseRect>
+-->		
+<!-- Sample MouseRect - Callback jump
+     <MouseRect>
+      <Cursor>Hand</Cursor>
+      <MouseFlags>LeftSingle+LeftDrag+Wheel</MouseFlags>
+      <CallbackJumpDragging>
+        <YMovement>
+          <Delta>3</Delta>
+          <EventIdInc>IncGearLever</EventIdInc>
+          <EventIdDec>DecGearLever</EventIdDec>
+        </YMovement>
+      </CallbackJumpDragging>
+    </MouseRect>
+-->	
+<!-- Sample MouseRect - script
+    <MouseRect>
+        <Cursor>Hand</Cursor>
+        <CallbackCode>
+			(&gt;K:ToggleGear)			
+        </CallbackCode>
+    </MouseRect>
+-->	
+    </PartInfo>
+
+    <PartInfo>
+        <Name>c_gear</Name>
+        <AnimLength>200</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>PctGearExtended:0</Variable>
+                    <Units>keyframe</Units>                    
+                </Sim>
+            </Parameter>
+        </Animation>
+    </PartInfo>
+
+    <PartInfo>
+        <Name>l_gear</Name>
+        <Copy>c_gear</Copy>
+        <AnimLength>200</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>PctGearExtended:1</Variable>
+                    <Units>keyframe</Units>                    
+                </Sim>
+            </Parameter>
+        </Animation>
+    </PartInfo>
+
+    <PartInfo>
+        <Name>r_gear</Name>
+        <Copy>c_gear</Copy>
+        <AnimLength>200</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>PctGearExtended:2</Variable>
+                    <Units>keyframe</Units>                    
+                </Sim>
+            </Parameter>
+        </Animation>
+    </PartInfo>
+
+    <PartInfo>
+        <Name>elevator_percent_key</Name>
+        <AnimLength>100</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>PctElevator</Variable>
+                    <Scale>1</Scale>
+                    <Units>percent</Units>
+                    <Bias>50</Bias>
+                </Sim>                
+            </Parameter>
+        </Animation>
+    </PartInfo>
+
+    <PartInfo>
+        <Name>l_aileron_percent_key</Name>
+        <AnimLength>100</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>PctAilerons</Variable>
+                    <Scale>-1</Scale>
+                    <Units>percent</Units>
+                    <Bias>50</Bias>
+                </Sim>                
+            </Parameter>
+        </Animation>
+    </PartInfo>
+
+    <PartInfo>
+        <Name>r_aileron_percent_key</Name>
+        <AnimLength>100</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>PctAilerons</Variable>
+                    <Scale>-1</Scale>
+                    <Units>percent</Units>
+                    <Bias>50</Bias>
+                </Sim>                
+            </Parameter>
+        </Animation>
+    </PartInfo>
+
+    <PartInfo>
+        <Name>rudder_percent_key</Name>
+        <AnimLength>100</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>PctRudder</Variable>
+                    <Scale>1</Scale>
+                    <Units>percent</Units>
+                    <Bias>50</Bias>
+                </Sim>                
+            </Parameter>
+        </Animation>
+    </PartInfo>
+
+    <PartInfo>
+        <Name>jet_primary_exhaust_nozzle_pct_0</Name>
+        <AnimLength>100</AnimLength>
+        <Animation>
+            <Parameter>
+<!--            
+                <Sim>
+                    <Variable>TURB ENG PRIMARY NOZZLE PERCENT:1</Variable>
+                    <Units>percent</Units>
+                </Sim>
+-->                
+                <Code>0</Code>
+            </Parameter>
+        </Animation>
+    </PartInfo>
+
+    <PartInfo>
+      <Name>Afterburner_Engine1_Stage1</Name>
+      <Visibility>
+        <Parameter>
+ <!--
+          <Code>
+            (A:AfterburnerActive, bool) 1 == if{ 1 } els{ 0 }
+          </Code>         
+-->
+          <Sim>
+            <Variable>AfterburnerActive</Variable>
+            <Units>bool</Units>
+          </Sim>
+        </Parameter>
+      </Visibility>
+    </PartInfo>
+  
+  <PartInfo>
+    <Name>Afterburner_Engine1_Stage2</Name>
+    <Visibility>
+      <Parameter>
+<!--
+          <Code>
+            (A:AfterburnerActive, bool) 1 == if{ 1 } els{ 0 }
+          </Code>         
+-->
+        <Sim>
+          <Variable>AfterburnerActive</Variable>
+          <Units>bool</Units>
+        </Sim>
+      </Parameter>
+    </Visibility>
+  </PartInfo>
+  <PartInfo>
+    <Name>Afterburner_Engine1_Stage3</Name>
+    <Visibility>
+      <Parameter>
+<!--
+          <Code>
+            (A:AfterburnerActive, bool) 1 == if{ 1 } els{ 0 }
+          </Code>         
+-->
+        <Sim>
+          <Variable>AfterburnerActive</Variable>
+          <Units>bool</Units>
+        </Sim>
+      </Parameter>
+    </Visibility>
+  </PartInfo>
+  <PartInfo>
+    <Name>Afterburner_Engine1_Stage4</Name>
+    <Visibility>
+      <Parameter>
+<!--
+          <Code>
+            (A:AfterburnerActive, bool) 1 == if{ 1 } els{ 0 }
+          </Code>         
+-->
+        <Sim>
+          <Variable>AfterburnerActive</Variable>
+          <Units>bool</Units>
+        </Sim>
+      </Parameter>
+    </Visibility>
+  </PartInfo>
+  <PartInfo>
+    <Name>Afterburner_Engine1_Stage5</Name>
+    <Visibility>
+      <Parameter>
+<!--
+          <Code>
+            (A:AfterburnerActive, bool) 1 == if{ 1 } els{ 0 }
+          </Code>         
+-->
+        <Sim>
+          <Variable>AfterburnerActive</Variable>
+          <Units>bool</Units>
+        </Sim>
+      </Parameter>
+    </Visibility>
+  </PartInfo>
+  <PartInfo>
+    <Name>Afterburner_Engine1_Stage6</Name>
+    <Visibility>
+      <Parameter>
+<!--
+          <Code>
+            (A:AfterburnerActive, bool) 1 == if{ 1 } els{ 0 }
+          </Code>         
+-->
+        <Sim>
+          <Variable>AfterburnerActive</Variable>
+          <Units>bool</Units>
+        </Sim>
+      </Parameter>
+    </Visibility>
+  </PartInfo>
+
+</ModelInfo>

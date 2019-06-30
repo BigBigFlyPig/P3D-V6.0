@@ -1,0 +1,288 @@
+<?xml version= "1.0" encoding= "utf-8" ?>
+
+<!-- Core property symbol definition document
+
+    Element: SymbolDef - Mandatory root element
+
+        name:       Mandatory symbol definition namespace Name
+        id:         Mandatory globally unique namespace identifier
+        descr:      Optional namespace description
+        chdr:       Optional C/C++ header filename.  If none is provided, the namespace name is used with a ".h" extension
+        version:    Optional version number formatatted as "vermajor,verminor".
+
+-->
+
+<SymbolDef 
+    name    = "Attachments"
+    id      = "{B083FFBC-21FB-4929-89F9-84FA41C5616B}"
+    descr   = ""
+    chdr    = "propAttachments.h" version="1,0">
+    version = "1,0">
+
+    <SymbolInclude
+        filename = "propbase.xml"
+        id      = "{8042AB84-8003-4ff1-9D4A-6D0D057F00DE}"
+        version  = "1,0"/>
+
+    <cpptext pass="1">
+//-------------------------------------------------------------------------//
+//
+//  Base AceXML data type, property and property set definitions
+//-------------------------------------------------------------------------//
+//
+ 
+//
+//  Namespace
+//
+    </cpptext>
+
+    <PropertyDefs symbolprefix = "SPID_AM_">
+
+        <cpptext pass = "2">
+//
+//  Property identifiers
+//
+        </cpptext>
+
+//  Stations
+        <PropertyDef
+            name    = "ModelAttachPointName"
+            id      = "{0345E931-1712-413D-A4AB-CB6B14CCB10D}"
+            type    = "text"
+            default = ""
+            xml_io  = "attribute"
+            descr   = ""/>
+        <PropertyDef
+            name    = "PositionOffset"
+            id      = "{1B32BA63-C232-4080-BE8A-293A89CB60BC}"
+            type    = "FLOAT3"
+            default = "0,0,0"
+            xml_io  = "attribute"
+            descr   = "Offset of station from object centroid (Longitude, Latitude, Altitude) in feet"/>
+        <PropertyDef
+            name    = "OrientationOffset"
+            id      = "{6571FD73-05CB-411D-8B61-9A79EB51AB56}"
+            type    = "FLOAT3"
+            default = "0,0,0"
+            xml_io  = "attribute"
+            descr   = "Pitch, Bank, and Heading angles for orientation (in degrees)"/>
+        <PropertyDef
+            name    = "AttachmentVisible"
+            id      = "{3BAEBB23-2916-4DA4-B28C-96F1A65F621B}"
+            type    = "BOOL"
+            default = "TRUE"
+            xml_io  = "attribute"
+            descr   = ""/>
+        <PropertyDef
+            name    = "StationIndex"
+            id      = "{A910691A-CF2D-4ABA-B86B-599853C1F1F2}"
+            type    = "LONG"
+            default = "-1"
+            xml_io  = "attribute"
+            descr   = ""/>
+        <PropertyDef
+            name    = "StationDescription"
+            id      = "{6B344223-2D26-40DE-B85B-33AD9102B97F}"
+            type    = "text"
+            default = ""
+            xml_io  = "attribute"
+            descr   = ""/>
+        <PropertyDef
+            name    = "DoorAssociation"
+            id      = "{9FBC901D-0B60-42ED-9C3A-DC8B1AFD08DA}"
+            type    = "LONG"
+            default = "-1"
+            xml_io  = "attribute"
+            descr   = ""/>
+        <PropertyDef
+            name    = "Internal"
+            id      = "{1AFA12B0-DB02-46BA-996A-9D0F77445494}"
+            type    = "BOOL"
+            default = "FALSE"
+            xml_io  = "attribute"
+            descr   = ""/>
+        <PropertyDef
+            name    = "SupportedPylons"
+            id      = "{16FC4ADF-650E-45D4-9742-2FB19AE7EC51}"
+            type    = "text"
+            default = ""
+            xml_io  = "attribute"
+            descr   = ""/>
+        <PropertyDef
+            name    = "SupportedObjects"
+            id      = "{60D88AEF-4403-4675-8CCC-286E7F4AAC09}"
+            type    = "text"
+            default = ""
+            xml_io  = "attribute"
+            descr   = ""/>
+// Loadouts (ObjectTitle/Quantity maps to the PointName)
+		<PropertyDef
+            name    = "SelectedWeaponLoadout"
+            id      = "{10819446-6B56-480D-A2B0-05A9DA8B11F7}"
+            type    = "text"
+            default = ""
+            xml_io  = "attribute"
+            descr   = ""/>
+		<PropertyDef
+            name    = "SelectedGunLoadout"
+            id      = "{B6D94C77-F57B-4E2B-BEED-0FB63DCE76FB}"
+            type    = "text"
+            default = ""
+            xml_io  = "attribute"
+            descr   = ""/>
+		<PropertyDef
+            name    = "SelectedCountermeasureLoadout"
+            id      = "{3571BE5E-A64A-4DA7-84C7-2DFA3A21C197}"
+            type    = "text"
+            default = ""
+            xml_io  = "attribute"
+            descr   = ""/>
+        <PropertyDef
+            name    = "LoadoutTitle"
+            id      = "{330E9FD4-504A-49A4-9D5F-E3CFEC7E852C}"
+            type    = "text"
+            default = ""
+            xml_io  = "attribute"
+            descr   = ""/>
+        <PropertyDef
+            name    = "LoadoutType"
+            id      = "{AF3FBCF3-2F7C-4C02-AE21-009245524CD1}"
+            type    = "ENUM"
+            default = "OTHER"
+            xml_io  = "attribute">
+            <EnumDef symbolprefix="LOADOUT_TYPE_">
+                <EnumVal name = "WEAPON"/>
+                <EnumVal name = "GUN"/>
+                <EnumVal name = "COUNTERMEASURE"/>
+                <EnumVal name = "OTHER"/>
+            </EnumDef>
+        </PropertyDef>
+        <PropertyDef
+            name    = "ObjectTitle"
+            id      = "{1F34CBAD-C059-4562-BFE8-3D1AC46D740B}"
+            type    = "text"
+            default = ""
+            xml_io  = "attribute"
+            descr   = ""/>   
+        <PropertyDef
+            name    = "Quantity"
+            id      = "{5814E36A-411C-4D6B-9E2A-F17F7D69789A}"
+            type    = "ULONG"
+            default = "0"
+            xml_io  = "attribute"
+            descr   = ""/>
+// Pylons
+        <PropertyDef
+            name    = "PylonTitle"
+            id      = "{49A37FB5-799A-42F4-8577-5D3AB495ACD3}"
+            type    = "text"
+            default = ""
+            xml_io  = "attribute"
+            descr   = ""/>
+
+
+    </PropertyDefs>
+
+
+    <SetDefs symbolprefix = "SSID_AM_">
+
+    <cpptext pass = "2">
+//
+//  Set identifiers
+//
+    </cpptext>
+
+//  Stations        
+        <SetDef 
+            name    = "Stations" 
+            id      = "{2C3D639C-A330-41BD-9695-C9C09A6663CD}"
+            descr   = "Stations">
+            <property name = "Station"/>
+        </SetDef>
+        <SetDef
+            name    = "Station"
+            id      = "{4B865EB6-5C70-4497-A90B-251BA8B8F89E}"
+            endtag  = "empty"
+            descr   = "Station">
+            <property name = "ModelAttachPointName"/>
+            <property name = "PositionOffset"/>
+            <property name = "OrientationOffset"/>
+            <property name = "AttachmentVisible"/>
+            <property name = "StationDescription"/>
+            <property name = "DoorAssociation"/>
+            <property name = "Internal"/>
+            <property name = "SupportedPylons"/>
+            <property name = "SupportedObjects"/>
+        </SetDef>
+// Loadouts
+        <SetDef 
+            name    = "Loadouts" 
+            id      = "{C94B96DF-6564-4C2E-A7EA-BEAB889B1DFD}"
+            descr   = "Loadouts">
+            <property name = "SelectedWeaponLoadout"/>
+			<property name = "SelectedGunLoadout"/>
+			<property name = "SelectedCountermeasureLoadout"/>
+            <property name = "Loadout"/>
+        </SetDef>
+        <SetDef 
+            name    = "Loadout" 
+            id      = "{21E7FC0F-AD02-437E-8F01-0C1F0437247D}"
+            descr   = "Loadout">
+            <property name = "LoadoutTitle"/>
+            <property name = "LoadoutType"/>
+            <property name = "Attachment"/>
+        </SetDef>
+        <SetDef
+            name    = "Attachment"
+            id      = "{E3BDF4A3-9CDF-4BAF-B041-CEC0BD3C6405}"
+            endtag  = "empty"
+            descr   = "Attachment">
+            <property name = "StationIndex"/>
+            <property name = "ObjectTitle"/>
+            <property name = "Quantity"/>
+            <property name = "PylonTitle"/>
+        </SetDef>
+// Pylons
+        <SetDef 
+            name    = "Pylons" 
+            id      = "{4D8B8E7D-9A13-4D0B-8398-59DB32C30AD6}"
+            descr   = "Pylons">
+            <property name = "Pylon"/>
+        </SetDef>
+        <SetDef
+            name    = "Pylon"
+            id      = "{6B76762B-C6C5-40C8-8E19-9C2B72195F4D}"
+            endtag  = "empty"
+            descr   = "Pylon">
+            <property name = "PylonTitle"/>
+            <property name = "PylonPoint"/>
+            <property name = "SupportedObjects"/>
+        </SetDef>
+        <SetDef
+            name    = "PylonPoint"
+            id      = "{47937EB0-06F2-430E-964C-797133E43022}"
+            descr   = "Point on a pylon that an object can be attached to.">
+            <property name = "ModelAttachPointName"/>
+            <property name = "PositionOffset"/>
+            <property name = "OrientationOffset"/>
+        </SetDef>
+
+      <SetDef
+          name    = "WeaponSelectType"
+          id      = "{18DA7580-9BA7-4E14-994B-9A146ABDDB95}"
+          descr   = "List of types to generate indexed list">
+        <property name = "Type"/>
+      </SetDef>
+
+      <SetDef
+          name    = "WeaponSelectorTypes"
+          id      = "{0D26C4F9-7C86-48D1-AD2E-622404753593}"
+          descr   = "List of types to generate indexed list">
+        <property name = "WeaponSelectType"/>
+      </SetDef>
+
+      
+    </SetDefs>
+
+</SymbolDef>
+

@@ -1,0 +1,13 @@
+[Source]
+Type                = GeoTIFF
+SourceDir           = "SourceData"
+SourceFile          = "MillenniumImage3.Tif"
+Layer               = Imagery
+Variation           = Day
+NullValue           = 255,255,255
+
+[Destination]
+DestDir             = "Output"
+DestBaseFileName    = "Millennium_Image"
+DestFileType        = BGL
+LOD                 = Auto

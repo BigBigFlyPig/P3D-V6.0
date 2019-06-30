@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Gauge Name="FlightInfo" Version="1.0"><Size X="640" Y="25"/> 
+  <Element>
+	 <Text X="640" Y="25" Length="100" Font="Arial"
+	  Color="White" BackgroundColor="Gray" Bright="Yes">
+		<String>Type: %((A:ATC TYPE,string))%!s!, Model: %((A:ATC MODEL,string))%!s!, ATC: %((A:ATC ID,string))%!s!, Airline: %((A:ATC AIRLINE,string))%!s!, Flight: %((A:ATC FLIGHT NUMBER,string))%!s!</String>
+	 </Text>
+  </Element>
+</Gauge> 

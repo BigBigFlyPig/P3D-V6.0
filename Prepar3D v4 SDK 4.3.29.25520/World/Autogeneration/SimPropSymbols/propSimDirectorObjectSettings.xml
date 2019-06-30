@@ -1,0 +1,51 @@
+<?xml version= "1.0" encoding= "utf-8" ?>
+
+<!-- SimDirector Placed Object Settings definition document -->
+
+<SymbolDef
+    name         = "Settings"
+    id           = "{06d21f03-c49c-43b7-92ae-f086bbc17839}"
+    descr        = "Settings that are applied to Placed Objects
+	in SimDirector."
+    chdr         = "propSimDirectorObjectSettings.h"
+    version      = "1,0" >
+
+	<SymbolInclude
+        filename = "propbase.xml"
+        id       = "{8042AB84-8003-4ff1-9D4A-6D0D057F00DE}"
+        version  = "1,0" />
+
+  <SymbolInclude
+        filename = "propmission.xml"
+        id       = "{A2E52D91-C9FB-46ae-8958-B3CB121EDDBC}"
+        version  = "1,0" />
+		
+    <cpptext pass="1">
+//-------------------------------------------------------------------------//
+//  propSimDirectorObjectSettings.h
+//
+//  AceXML properties that are settings which can be applied
+//  to Placed Objects in SimDirector
+//-------------------------------------------------------------------------//
+//
+
+//
+//  Namespace
+//
+    </cpptext>
+
+    <PropertyDefs
+        symbolprefix = "SPID_">
+
+        <cpptext pass="2">
+//
+//  Property Identifiers
+//
+        </cpptext>
+
+    </PropertyDefs>
+
+    <SetDefs>
+    </SetDefs>
+
+</SymbolDef>

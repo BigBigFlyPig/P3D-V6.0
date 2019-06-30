@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Simvar.RecordAndPlaybackDefinition id = "{0052EC38-AE35-4E38-B217-8C6BD25B09AD}">        
+		<Property NameGet ="GearLever" 	NameSet = "GearLeverSetPct"	Units="Percent Over 100" Index = "0"  Type="Number"/>
+    </Simvar.RecordAndPlaybackDefinition>
+</SimBase.Document>

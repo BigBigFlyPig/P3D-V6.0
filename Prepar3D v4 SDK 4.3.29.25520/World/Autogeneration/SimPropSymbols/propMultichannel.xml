@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<!--  Sim Image Generation (for multichannel) property symbol definition document
+  
+    see propbase.xml for an explanation of property symbol definition document schema
+-->
+
+<SymbolDef
+    name="Multichannel"
+    id="{3D9FD7FE-EE8C-4ab3-B26F-CF5C02DF7D64}"
+    descr="Multichannel property, type, and set definitions."
+    chdr="propIG.h"
+    version="1,0">
+
+  <SymbolInclude
+      filename="propbaseui.xml"
+      id="{4E8ACFBF-79DE-4136-9DA2-A0AE96185229}"
+      version="1,0" />
+
+  <cpptext pass="1">
+    //-------------------------------------------------------------------------//
+    //  propIG.h
+    //
+    //  Sim Image Generation (for multichannel) property, type, and set defs
+    //-------------------------------------------------------------------------//
+    //
+
+    //
+    //  Namespace
+    //
+  </cpptext>
+
+  <PropertyDefs symbolprefix="SPID_MULTICHANNEL_">
+
+    <cpptext pass="2">
+      //
+      //  Property Identifiers
+      //
+    </cpptext>
+
+	<PropertyDef
+        id          = "{3F470D0A-7761-407b-9FE7-4AD4AD41C0B7}"
+        name        = "ConfigurationName"
+		descr       = "Name of this multichannel configuration"
+        type        = "TEXT" />
+		
+    <PropertyDef
+        id          = "{2397A855-FABF-4159-B0DF-50AB507C7BF2}"
+        name        = "MachineName"
+		descr       = "Name of this machine"
+        type        = "TEXT" />
+		
+	<PropertyDef
+        id     		= "{2F997C00-2339-4d10-89AF-C81D9A40D481}"
+        name        = "MachineID"
+        default		= "0"
+		descr       = "Machine index used to associate displays with machines in the Display settings"
+        type        = "LONG" />
+  </PropertyDefs>
+  
+  <SetDefs symbolprefix="SSID_MULTICHANNEL_">
+    <cpptext pass="2">
+      //
+      //  Property Sets
+      //
+    </cpptext>
+	
+	<SetDef
+        id      = "{35CE17C2-A953-44a4-9715-A683DC969B6B}"
+        name    = "Machine"
+		cardinality = "multiple"
+		descr       = "Defines settings for a machine used in a multichannel configuration"
+        policy  = "inclusive">
+      <property name = "MachineName" />
+      <property name = "MachineID" />
+    </SetDef>
+	
+    <SetDef
+        id      = "{A34E2E2A-DAFC-44c8-83EF-FFEE81328AF0}"
+        name    = "Configuration"
+		cardinality = "multiple"
+        policy  = "inclusive">
+      <property name = "ConfigurationName" />
+      <property name = "Machine" />
+	</SetDef>
+		
+	<SetDef
+		id      = "{ac8dba6a-744b-4822-952e-43c78a09ee34}"
+		name    = "ConfigurationSet"
+		policy  = "inclusive">
+		<property name  = "Configuration" />
+	</SetDef>		
+	
+  </SetDefs>
+
+</SymbolDef>

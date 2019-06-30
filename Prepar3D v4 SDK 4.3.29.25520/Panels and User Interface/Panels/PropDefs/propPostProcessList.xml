@@ -1,0 +1,77 @@
+<?xml version= "1.0" encoding= "utf-8" ?>
+
+<!-- Core property symbol definition document
+
+    Element: SymbolDef - Mandatory root element
+
+        name:       Mandatory symbol definition namespace Name
+        id:         Mandatory globally unique namespace identifier
+        descr:      Optional namespace description
+        chdr:       Optional C/C++ header filename.  If none is provided, the namespace name is used with a ".h" extension
+        version:    Optional version number formatatted as "vermajor,verminor".
+
+-->
+
+<SymbolDef 
+    name    = "PostProcessList"
+    id      = "{eacbc803-afbf-46dd-b0e7-7a9b593c9d8b}"
+    descr   = ""
+    chdr    = "propPostProcessList.h" version="1,0">
+    version = "1,0">
+
+	<SymbolInclude
+		filename = "propbase.xml"
+	    id      = "{8042AB84-8003-4ff1-9D4A-6D0D057F00DE}"
+		version  = "1,0"/>
+		
+    <cpptext pass="1">
+//-------------------------------------------------------------------------//
+//
+//  Base AceXML data type, property and property set definitions
+//-------------------------------------------------------------------------//
+//
+ 
+//
+//  Namespace
+//
+    </cpptext>
+
+	<PropertyDefs symbolprefix = "SPID_">
+
+		<cpptext pass = "2">
+//
+//	Property identifiers
+//
+		</cpptext>
+
+        <PropertyDef
+    	    name    = "PPFilePath"
+        	ID      = "{1b3c076d-caab-41aa-b013-8b18292d446a}"
+	        type    = "MLTEXT"
+	        descr   = "Relative path to file directory">
+        </PropertyDef>
+
+		
+//	Add property Defs for rest of stream types
+
+    </PropertyDefs>
+
+	<SetDefs symbolprefix = "SSID_">
+
+		<cpptext pass = "2">
+//
+//	Set identifiers
+//
+		</cpptext>
+
+	    <SetDef 
+    	    name    = "PostprocessEntry" 
+        	ID      = "{c0dd09d6-86ed-489e-b358-c1bd70ad2331}"
+	        descr   = "Postprocess description xml entry">
+			<property name = "PPFilePath"/>
+    	</SetDef>
+		
+    </SetDefs>
+	
+</SymbolDef>
+

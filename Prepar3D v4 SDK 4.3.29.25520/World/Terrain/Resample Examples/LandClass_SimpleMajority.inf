@@ -1,0 +1,13 @@
+[Source]
+Type                = GeoTIFF
+SourceDir           = "SourceData"
+SourceFile          = "ModifiedGlccSubset2.tif"
+Layer               = LandClass
+SamplingMethod      = Majority
+MajorityMode        = Simple
+
+[Destination]
+DestDir             = "Output"
+DestBaseFileName    = LandClass_SimpleMajority
+DestFileType        = BGL
+UseSourceDimensions = 1

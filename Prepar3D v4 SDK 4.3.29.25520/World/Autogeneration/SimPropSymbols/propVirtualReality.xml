@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<!--  Virtual Reality configuration property symbol definition document
+  
+    see propbase.xml for an explanation of property symbol definition document schema
+-->
+
+<SymbolDef 
+    name="VirtualReality" 
+    id="{64E44A1B-6E0D-46F9-8C69-1DD110BAF931}" 
+    descr="Virtual Reality configuration options." 
+    chdr="propVirtualReality.h" 
+    version="1,0">
+
+    <SymbolInclude 
+        filename="propbaseui.xml" 
+        id="{4E8ACFBF-79DE-4136-9DA2-A0AE96185229}" 
+        version="1,0" />
+    
+    <cpptext pass="1">
+//-------------------------------------------------------------------------//
+//  propVirualReality.h
+//
+//  Virtual Reality configuration options
+//-------------------------------------------------------------------------//
+//
+
+//  
+//  Namespace
+//
+</cpptext>
+
+    <PropertyDefs symbolprefix="SPID_VIRTUALREALITY_">
+
+        <cpptext pass="2">
+//
+//  Property Identifiers
+//
+        </cpptext>
+
+        <PropertyDef
+            id          = "{060C535F-B9B3-4BD1-968F-83C8938E58C1}"
+            name        = "HMDDisplayMode" 
+            default     = "Stereo"
+            type        = "ENUM" 
+            serialize = "both,default"
+			descr       = "An enum that represents which display mode will be used in the headset.">
+			<EnumDef symbolprefix="HMD_DISPLAY_MODES">
+                <EnumVal 
+                    name = "MONO" 
+                    xml_name = "Mono"/>
+                <EnumVal 
+                    name = "STEREO" 
+                    xml_name = "Stereo"/>
+				<EnumVal 
+                    name = "SINGLE_PASS" 
+                    xml_name = "Single-Pass"/>
+            </EnumDef>
+         </PropertyDef>
+      
+         <PropertyDef 
+            id          = "{EC5931C0-EEF0-45D5-AEB5-A8E76E596D99}"
+            name        = "OnScreenDisplayMode" 
+			default 	= "Double"
+            type        = "ENUM" 
+			serialize = "both,default"
+			descr       = "An enum that represents which display mode will be used on the monitor.">
+			
+			<EnumDef symbolprefix="ONSCREEN_DISPLAY_MODES">
+                <EnumVal 
+                    name = "SINGLE" 
+                    xml_name = "Single"/>
+                <EnumVal 
+                    name = "DOUBLE" 
+                    xml_name = "Double"/>
+            </EnumDef>
+        </PropertyDef>
+			
+        <PropertyDef 
+            id          = "{987608BA-329C-4BE2-9359-4E0160D497E9}"
+            name        = "EnableDevMode" 
+            default     = "0"
+            type        = "BOOL"
+            serialize = "both,default"
+			descr       = "A boolean that determines whether or not development mode is on. Requires restart.">
+        </PropertyDef>
+			
+		<PropertyDef 
+            id          = "{43556F58-3A61-4EC3-8E82-FA585E46C22B}"
+            name        = "EnableZoom" 
+            default     = "0"
+            type        = "BOOL"
+            serialize = "both,default"
+			descr       = "A boolean that determines whether or not zooming capability is allowed.">
+        </PropertyDef>
+		
+        <PropertyDef 
+            id          = "{C7F6AB5A-2C91-42A1-8549-9B3A6662579A}" 
+            name        = "EyepointZOffset" 
+			default		= "0.0"
+            type        = "FLOAT" 
+            serialize = "both,default"
+			descr       = "The offset from your eyes to your stereo camera.">
+        </PropertyDef>
+			
+        <PropertyDef
+            id          = "{4596346D-F6C4-46C6-8602-3DE4862AEFAD}"
+            name        = "DoColorKey" 
+            default     = "1"
+            type        = "BOOL" 
+            serialize = "both,default"
+			descr       = "A boolean that enables color keying stereo camera feed for use with a green screen.">
+        </PropertyDef>
+			
+        <PropertyDef
+            id          = "{D1F6C7E3-6B9C-4DA9-A1A6-F5D5CDC33EF1}"
+            name        = "DoCameraPortals" 
+            default     = "0"
+            type        = "BOOL" 
+            serialize = "both,default"
+			descr       = "A boolean that enables area masking to display stereo camera feed within.">
+        </PropertyDef>
+			
+        <PropertyDef
+            id          = "{26347B0D-3C72-4E13-84FE-BA9D0FB108D0}"
+            name        = "DrawCameraFirst" 
+            default     = "0"
+            type        = "BOOL" 
+            serialize = "both,default"
+			descr       = "A boolean that determines the draw order priority of the stero camera feed.">
+        </PropertyDef>
+			
+        <PropertyDef
+            id          = "{1CB4AC48-018D-42F5-AE78-71F6B49C3011}"
+            name        = "KeyCodeColor" 
+            default     = "0,1,0"
+            type        = "FLOAT3" 
+            serialize = "both,default"
+			descr       = "Represents the color that the color keyer will be looking for. RGB format.">
+        </PropertyDef>
+			
+        <PropertyDef
+            id          = "{77B0F3F7-DFE5-4AC1-BA28-469FE5CD34E3}"
+            name        = "KeyCodeThreshold" 
+            default     = "0,0"
+            type        = "FLOAT2" 
+            serialize   = "both,default"
+			descr       = "Represents the color margin of error for the color set above. ">
+        </PropertyDef>
+			
+        <PropertyDef
+            id          = "{96B923F6-C372-4526-8908-99EF77915163}"
+            name        = "ZedBrightness" 
+            default     = "4"
+            type        = "LONG" 
+            serialize   = "both,default"
+			descr       = "Values from 0 - 8">
+        </PropertyDef>
+			
+        <PropertyDef
+            id          = "{998A6F0A-1773-4E1A-9DD9-B91779CD47AA}"
+            name        = "ZedContrast" 
+            default     = "4"
+            type        = "LONG" 
+            serialize   = "both,default"
+			descr       = "Values from 0 - 8">
+        </PropertyDef>
+			
+        <PropertyDef
+            id          = "{74F78A5E-90CB-4146-8B6C-7DD68D7CD568}"
+            name        = "ZedExposure" 
+            default     = "50"
+            type        = "LONG" 
+            serialize = "both,default"
+			descr       = "Values from 0 - 100">
+        </PropertyDef>
+			
+        <PropertyDef
+            id          = "{FDD67DCE-0D5D-425C-B0AD-605BD5FF802C}"
+            name        = "ZedFPS" 
+            default     = "Auto"
+            type        = "ENUM" 
+            serialize   = "both,default"
+			descr       = "Auto, 15FPS, 30FPS, 60FPS">
+			<EnumDef symbolprefix="ZED_FPS_MODES">
+                <EnumVal 
+                    name = "FPS_AUTO" 
+                    xml_name = "Auto"/>
+                <EnumVal 
+                    name = "FPS_15" 
+                    xml_name = "15FPS"/>
+                <EnumVal 
+                    name = "FPS_30" 
+                    xml_name = "30FPS"/>
+				<EnumVal 
+                    name = "FPS_60" 
+                    xml_name = "60FPS"/>
+            </EnumDef>
+        </PropertyDef>
+			
+        <PropertyDef
+            id          = "{EE40E101-49B0-4043-8200-968E4DA44A54}"
+            name        = "ZedGain" 
+            default     = "50"
+            type        = "LONG" 
+            serialize   = "both,default"
+			descr       = "Values from 0 - 100">
+        </PropertyDef>
+			
+        <PropertyDef
+            id          = "{F6902DB7-0699-4F52-BA69-C1D3C424F1EC}"
+            name        = "ZedHFOV" 
+            default     = "85"
+            type        = "FLOAT" 
+            serialize = "both,default"
+			descr       = "Represents the horizonatal field of view.">
+        </PropertyDef>
+			
+        <PropertyDef
+            id          = "{834C3748-F98B-4144-BE8D-E4E933CC3745}"
+            name        = "ZedHue" 
+            default     = "0"
+            type        = "LONG" 
+            serialize   = "both,default"
+			descr       = "Values from 0 - 11.">
+        </PropertyDef>
+			
+        <PropertyDef
+            id          = "{7EDB7590-10EA-4A55-A83B-68C9CC0C6568}"
+            name        = "ZedResolutionMode" 
+			default		= "HD720"
+            type        = "ENUM" 
+            serialize   = "both,default"
+			descr       = "HD2K, HD1080, HD720, VGA - HD2K is not recommended.">
+			<EnumDef symbolprefix="ZED_RESOLUTION_MODES">
+                <EnumVal 
+                    name = "RESOLUTION_HD2K" 
+                    xml_name = "HD2K"/>
+                <EnumVal 
+                    name = "RESOLUTION_HD1080" 
+                    xml_name = "HD1080"/>
+				<EnumVal 
+                    name = "RESOLUTION_HD720" 
+                    xml_name = "HD720"/>
+				<EnumVal 
+                    name = "RESOLUTION_VGA" 
+                    xml_name = "VGA"/>
+            </EnumDef>
+        </PropertyDef>
+			
+        <PropertyDef
+            id          = "{A0E38E7F-630C-4F99-BF40-6279E4955AED}"
+            name        = "ZedSaturation" 
+            default     = "4"
+            type        = "LONG" 
+            serialize   = "both,default"
+			descr       = "Values 0 - 8">
+        </PropertyDef>
+			
+        <PropertyDef
+            id          = "{9936F376-6F85-4D87-83FF-7D6A9CBFA89B}"
+            name        = "ZedVFOV" 
+            default     = "60"
+            type        = "FLOAT" 
+            serialize   = "both,default"
+			descr       = "Represents the vertical field of view.">
+        </PropertyDef>
+			
+        <PropertyDef
+            id          = "{270057FD-4845-4F43-8ABF-6794890E0B95}"
+            name        = "ZedWhiteBalance" 
+            default     = "4300"
+            type        = "LONG" 
+            serialize   = "both,default"
+			descr       = "Values from 2800 - 6500">
+        </PropertyDef>
+        
+        <PropertyDef
+            name        = "CameraEmulatorTexture"
+            id          = "{16F72A57-FD3A-4248-BA1C-A73957B526BC}"
+            type        = "TEXT"
+            descr       = "The texture to be used by the Camera Emulator. Include the full path.">
+        </PropertyDef>
+    </PropertyDefs>
+            
+    <SetDefs symbolprefix="SPID_VIRTUALREALITY_">
+            
+        <cpptext pass="2">
+//
+//  Property Sets
+//
+        </cpptext>
+		<SetDef
+            id      = "{5896A388-F028-4444-92C8-FA3679A08DC7}"
+            name    = "VirtualRealitySettings"
+			cardinality = "multiple"
+            policy  = "inclusive"
+			descr       = "The configurable options in Virtual Reality.">
+            <property name  = "HMDDisplayMode" />
+			<property name  = "OnScreenDisplayMode" />
+			<property name  = "EnableDevMode" />
+			<property name  = "EnableZoom" />
+        </SetDef>
+		
+		<SetDef
+		id      = "{5343962A-1F63-4394-85E3-806B4B833225}"
+		name    = "ZedSettings"
+		cardinality = "multiple"
+		descr       = "The configurable options of ZED.">
+		<property name  = "ZedBrightness" />
+			<property name  = "ZedContrast" />
+			<property name  = "ZedExposure" />
+			<property name  = "ZedFPS" />
+			<property name  = "ZedGain" />
+			<property name  = "ZedHFOV" />
+			<property name  = "ZedHue" />
+			<property name  = "ZedResolutionMode" />
+			<property name  = "ZedSaturation" />
+			<property name  = "ZedVFOV" />
+			<property name  = "ZedWhiteBalance" />
+        </SetDef>
+	
+		<SetDef
+            id      = "{69D89762-C070-4A45-9166-BB5BB1E0C460}"
+            name    = "AugmentedRealitySettings"
+			cardinality = "multiple"
+            policy  = "inclusive"
+			descr       = "The configurable options in Augmented Reality.">
+			<property name  = "EyepointZOffset" />
+            <property name  = "DoColorKey" />
+			<property name  = "DoCameraPortals" />
+			<property name  = "DrawCameraFirst" />
+			<property name  = "KeyCodeColor" />
+			<property name  = "KeyCodeThreshold" />
+            <property name  = "CameraEmulatorTexture" />
+			<property name  = "ZedSettings" />
+        </SetDef>
+		
+    </SetDefs>
+
+</SymbolDef>

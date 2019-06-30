@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--  High Level Architecture (HLA) property symbol definition document
+
+    see propbase.xml for an explanation of property symbol definition document schema
+-->
+
+<SymbolDef
+    name    = "HLA"
+    id      = "{093F9D17-3BEB-4ABD-95DE-9FDB2541B719}"
+    descr   = "High Level Architecture (HLA) property, type, and set definitions."
+    chdr    = "propHLA.h"
+    version = "1,0">
+
+    <SymbolInclude
+        filename    = "propworldbase.xml"
+        id          = "{AE1B7598-3DE6-40d8-A8B8-ED52E281399F}"
+        version     = "1,0" />
+
+    <cpptext pass="1">
+//-------------------------------------------------------------------------//
+//  propDIS.h
+//
+//  High Level Architecture (HLA) property, type, and set defs
+//-------------------------------------------------------------------------//
+//
+
+//
+//  Namespace
+//
+</cpptext>
+
+    <PropertyDefs symbolprefix="SPID_HLA_">
+
+        <cpptext pass="2">
+//
+//  Property Identifiers
+//
+</cpptext>
+
+        <!-- Begin Entity Configuration Properties -->
+
+        <PropertyDef
+            id          = "{27C57D7F-4AFC-482F-806A-463323FF3EC0}"
+            name        = "SiteId"
+            type        = "ULONG"
+            serialize   = "default"
+            default     = "0"
+            descr       = "The Site ID of this application instance. Site IDs may be the same for multiple applications as long as each application's Application ID is unique. Valid Site IDs range from 0 to 65535." />
+
+        <PropertyDef
+            id          = "{F6CEC3BB-E58C-4784-9C6F-A97AD11A1550}"
+            name        = "ApplicationId"
+            type        = "ULONG"
+            serialize   = "default"
+            default     = "0"
+            descr       = "The Application ID of this application instance. Application IDs should be unique for all applications participating in a given exercise from a given site. For example, the Application ID should be unique for all simulations sharing the same Exercise ID and Site ID. Valid Application IDs range from 0 to 65535." />
+
+        <PropertyDef
+            id          = "{78490830-0A9C-426A-9294-251E06132244}"
+            name        = "EntityId"
+            type        = "ULONG"
+            serialize   = "default"
+            default     = "0"
+            descr       = "The Entity ID of the user entity. Valid Entity IDs range from 0 to 65535." />
+
+        <!-- End Entity Configuration Properties -->
+
+        <!-- Begin Connection Configuration Properties -->
+
+        <PropertyDef
+            id          = "{B823B09D-0C5B-4229-85B4-83F6DE7980F0}"
+            name        = "LocalParameters"
+            type        = "TEXT"
+            descr       = "The local parameters to be passed into the RTI's connect() function. For OpenRTI, this should be of the form rti://[ip_address]:[port] where [ip_address] and [port] are the IP address and port of the machine running the remote RTINode server." />
+
+        <PropertyDef
+            id          = "{1CB55032-415F-4449-B67F-302A86D90CC9}"
+            name        = "FederationExecutionName"
+            type        = "TEXT"
+            descr       = "The name of the federation execution to join." />
+
+        <!-- End Connection Configuration Properties -->
+
+        <!-- Begin Federate Configuration Properties -->
+
+        <PropertyDef
+            id          = "{8A7F3DBE-01E0-4AF1-9B3C-D33732E46480}"
+            name        = "FederateName"
+            type        = "TEXT"
+            descr       = "The federate name of this machine." />
+
+        <PropertyDef
+            id          = "{57B239C4-FA07-4F4B-AD89-6C533DC6271E}"
+            name        = "FederateType"
+            type        = "TEXT"
+            descr       = "The federate type of this machine (optional)." />
+
+        <PropertyDef
+            id          = "{A9045D7E-FEB5-47B0-B051-CB0A34E5B85D}"
+            name        = "RPRFOM2FilePath"
+            type        = "TEXT"
+            descr       = "The full file path of the RPR FOM v2 XML file." />
+
+        <!-- End Federate Configuration Properties -->
+
+        <!-- Begin Options Configuration Properties -->
+
+        <PropertyDef
+            id          = "{99142CB4-F2F7-491F-AD5D-8BF15B3F0B03}"
+            name        = "AttributeUpdateRate"
+            type        = "FLOAT"
+            serialize   = "default"
+            default     = "1.0"
+            descr       = "The amount of time between sending attribute updates in seconds. Attribute data is only sent if it has changed." />
+
+        <PropertyDef
+            id          = "{6D27B7F6-26E6-4728-AE75-3AF446A19B4C}"
+            name        = "Endianness"
+            type        = "ENUM"
+            serialize   = "default"
+            default     = "Big-Endian"
+            descr       = "The endianness in which attribute data is broadcast.">
+            <EnumDef symbolprefix="SIMPROP_ENDIANNESS">
+                <EnumVal name = "BIG_ENDIAN"
+                         xml_name = "Big-Endian" />
+                <EnumVal name = "LITTLE_ENDIAN"
+                         xml_name = "Little-Endian" />
+            </EnumDef>
+        </PropertyDef>
+
+        <!-- End Options Configuration Properties -->
+
+    </PropertyDefs>
+
+
+    <SetDefs symbolprefix="SSID_HLA_">
+
+        <cpptext pass="2">
+//
+//  Property Sets
+//
+</cpptext>
+
+        <SetDef
+            id      = "{E42AC0A6-774D-49AD-A521-204D043C1CDA}"
+            name    = "Configuration"
+            policy  = "inclusive"
+            descr   = "The root configuration set provides access to all other inner configuration sets.">
+            <property name = "Entity" />
+            <property name = "Connection" />
+            <property name = "Federate" />
+            <property name = "Options" />
+        </SetDef>
+
+        <SetDef
+            id          = "{D281B73C-F2FB-4D63-9FF5-7259831D7CA1}"
+            name        = "Entity"
+            policy      = "inclusive"
+            descr       = "This set provides site, application, and entity based configurations.">
+            <property name = "SiteId" />
+            <property name = "ApplicationId" />
+            <property name = "EntityId" />
+        </SetDef>
+
+        <SetDef
+            id          = "{AC491BF5-7DE7-4E13-9D8A-DD83FCEBBABE}"
+            name        = "Connection"
+            policy      = "inclusive"
+            descr       = "This set provides connection based configuration such as federation execution name and address.">
+            <property name = "LocalParameters" />
+            <property name = "FederationExecutionName" />
+        </SetDef>
+
+        <SetDef
+            id          = "{32BF6620-C095-44FF-88D1-C3962CB6C964}"
+            name        = "Federate"
+            policy      = "inclusive"
+            descr       = "This set provides federate based configuration such as federate name and type.">
+            <property name = "FederateName" />
+            <property name = "FederateType" />
+            <property name = "RPRFOM2FilePath" />
+        </SetDef>
+
+        <SetDef
+            id          = "{B1BAA754-20A8-43D5-A61E-BC6489314072}"
+            name        = "Options"
+            policy      = "inclusive"
+            descr       = "This set provides general options such as attribute update rate.">
+            <property name = "AttributeUpdateRate" />
+            <property name = "Endianness" />
+        </SetDef>
+
+    </SetDefs>
+
+</SymbolDef>

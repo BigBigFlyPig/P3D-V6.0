@@ -1,0 +1,5 @@
+LIBRARY	"Cabin_Comfort"
+EXPORTS
+module_init
+module_deinit
+Panels DATA

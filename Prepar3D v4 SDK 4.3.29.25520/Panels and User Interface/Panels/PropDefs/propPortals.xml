@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<!--  Virtual Reality configuration property symbol definition document
+  
+    see propbase.xml for an explanation of property symbol definition document schema
+-->
+
+<SymbolDef 
+    name="Portals" 
+    id="{2256A349-AAA7-40BD-9B5A-A1B415F6112A}" 
+    descr="Portal save file." 
+    chdr="propPortals.h" 
+    version="1,0">
+
+    <SymbolInclude 
+        filename="propbaseui.xml" 
+        id="{4E8ACFBF-79DE-4136-9DA2-A0AE96185229}" 
+        version="1,0" />
+    
+    <cpptext pass="1">
+//-------------------------------------------------------------------------//
+//  propPortals.h
+//
+//  Portal save file
+//-------------------------------------------------------------------------//
+//
+
+//  
+//  Namespace
+//
+</cpptext>
+
+    <PropertyDefs symbolprefix="SPID_PORTAL_">
+
+        <cpptext pass="2">
+//
+//  Property Identifiers
+//
+        </cpptext>
+
+        <PropertyDef
+            id          = "{0BC87859-2484-48AE-8D49-88F3A6681F27}"
+            name        = "Color" 
+            default     = "0,0,0,0"
+            type        = "FLOAT4" 
+            serialize = "both,default"
+			descr       = "Color the portal will be drawn. ARGB format.">
+         </PropertyDef>
+      
+         <PropertyDef 
+            id          = "{D863F69B-CC21-4749-B580-0EAFD055AD56}"
+            name        = "Dimensions" 
+			default 	= "0,0,0"
+            type        = "FLOAT3" 
+			serialize = "both,default"
+			descr       = "Represents height, width. and depth of portal.">
+        </PropertyDef>
+			
+        <PropertyDef 
+            id          = "{E4DF0499-8B0A-4907-A22D-828548136A63}"
+            name        = "XYZ" 
+            default     = "0,0,0"
+            type        = "FLOAT3"
+            serialize = "both,default"
+			descr       = "Coordinates of portal.">
+        </PropertyDef>
+			
+		<PropertyDef 
+            id          = "{F746D8CD-ED1A-4F82-98B4-B977F00958C3}"
+            name        = "PBH" 
+            default     = "0,0,0"
+            type        = "PBH"
+            serialize = "both,default"
+			descr       = "Pitch, Bank, Heading.">
+        </PropertyDef>
+		
+		<PropertyDef 
+            id          = "{845D2618-46EC-4191-9A58-A7E90B8320AA}" 
+            name        = "Name" 
+            type        = "TEXT" 
+			serialize 	= "both,default"
+			descr       = "The name of this portal configuration.">
+		</PropertyDef>
+		
+    </PropertyDefs>
+            
+    <SetDefs symbolprefix="SPID_PORTAL_">
+            
+        <cpptext pass="2">
+//
+//  Property Sets
+//
+        </cpptext>
+		<SetDef
+            id      = "{ECCD0300-984F-42B0-9478-AC67B0371A9F}"
+            name    = "Portal"
+			cardinality = "multiple"
+			descr       = "The configurable options for a portal.">
+            <property name  = "Color" />
+			<property name  = "Dimensions" />
+			<property name  = "XYZ" />
+			<property name  = "PBH" />
+        </SetDef>
+		
+		<SetDef
+            id      = "{C59ED9FA-B06E-419A-88CE-BB049321C506}"
+            name    = "PortalSet"
+			cardinality  = "multiple">
+			<property name  = "Name" />
+			<property name  = "Portal" />
+        </SetDef>	
+		
+		<SetDef
+            id      = "{AD4B917F-4C87-4220-9E1E-78F3F00B0721}"
+            name    = "ConfigurationSet">
+			<property name  = "PortalSet" />
+        </SetDef>	
+		
+    </SetDefs>
+
+</SymbolDef>

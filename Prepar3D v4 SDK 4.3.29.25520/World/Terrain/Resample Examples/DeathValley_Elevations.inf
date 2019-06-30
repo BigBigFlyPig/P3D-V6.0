@@ -1,0 +1,11 @@
+[Source]
+Type                = GeoTIFF
+Layer               = Elevation
+SourceDir           = "SourceData"
+SourceFile          = "DeathValleyTif.Tif"
+
+[Destination]
+DestDir             = "Output"
+DestBaseFileName    = "DeathValley_Elevations"
+DestFileType        = BGL
+LOD                 = Auto

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<AnimLib version="9.1">
+  <Anim name="door_0" guid="9B5ED86C-B114-4924-B5C9-163A99042F2F" length="100.000000"
+        type="Sim" typeParam="AutoPlay" typeParam2="door_0">
+    <AnimStream name="Rotation" id="0" partName="left_hatch" length="100.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="50.000000" type="Quaternion" data="-0.382683;0.000000;0.000000;0.923880"/>
+      <Keyframe time="100.000000" type="Quaternion" data="-0.707107;0.000000;-0.000000;0.707107"/>
+    </AnimStream>
+    <AnimStream name="Position" id="2" partName="left_hatch" length="100.000000">
+      <Keyframe time="0.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="50.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="100.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+    </AnimStream>
+  </Anim>
+  <Anim name="door_1" guid="3A57E6F3-93D9-470e-A7DA-5878A033D933" length="100.000000"
+        type="Sim" typeParam="AutoPlay" typeParam2="door_1">
+    <AnimStream name="Rotation" id="0" partName="mg_hatch" length="100.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="50.000000" type="Quaternion" data="-0.382683;0.000000;0.000000;0.923880"/>
+      <Keyframe time="100.000000" type="Quaternion" data="-0.707107;0.000000;-0.000000;0.707107"/>
+    </AnimStream>
+    <AnimStream name="Position" id="2" partName="mg_hatch" length="100.000000">
+      <Keyframe time="0.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="50.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="100.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+    </AnimStream>
+  </Anim>
+  <Anim name="strut_compression_0" guid="3BC0CDC9-E83E-4041-A652-60349E99F367" length="100.000000"
+        type="Sim" typeParam="AutoPlay" typeParam2="strut_compression_0">
+    <AnimStream name="Position" id="2" partName="RFsuspension01_gear_100" length="100.000000">
+      <Keyframe time="0.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="25.000000" type="Vector" data="0.000000;0.000000;-0.050000;0.0"/>
+      <Keyframe time="50.000000" type="Vector" data="0.000000;0.000000;-0.100000;0.0"/>
+      <Keyframe time="75.000000" type="Vector" data="0.000000;0.000000;-0.150000;0.0"/>
+      <Keyframe time="100.000000" type="Vector" data="0.000000;0.000000;-0.200000;0.0"/>
+    </AnimStream>
+  </Anim>
+  <Anim name="strut_compression_1" guid="7CEC33E4-E08F-4591-9244-985D3070DB67" length="100.000000"
+        type="Sim" typeParam="AutoPlay" typeParam2="strut_compression_1">
+    <AnimStream name="Position" id="2" partName="RFsuspension02_gear_100" length="100.000000">
+      <Keyframe time="0.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="25.000000" type="Vector" data="0.000000;0.000000;-0.050000;0.0"/>
+      <Keyframe time="50.000000" type="Vector" data="0.000000;0.000000;-0.100000;0.0"/>
+      <Keyframe time="75.000000" type="Vector" data="0.000000;0.000000;-0.150000;0.0"/>
+      <Keyframe time="100.000000" type="Vector" data="0.000000;0.000000;-0.200000;0.0"/>
+    </AnimStream>
+  </Anim>
+  <Anim name="strut_compression_2" guid="055DC336-7C91-433B-9F20-EF956A2A45CC" length="100.000000"
+        type="Sim" typeParam="AutoPlay" typeParam2="strut_compression_2">
+    <AnimStream name="Position" id="2" partName="RearMidRsuspension_02_100" length="100.000000">
+      <Keyframe time="0.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="25.000000" type="Vector" data="0.000000;0.000000;-0.050000;0.0"/>
+      <Keyframe time="50.000000" type="Vector" data="0.000000;0.000000;-0.100000;0.0"/>
+      <Keyframe time="75.000000" type="Vector" data="0.000000;0.000000;-0.150000;0.0"/>
+      <Keyframe time="100.000000" type="Vector" data="0.000000;0.000000;-0.200000;0.0"/>
+    </AnimStream>
+  </Anim>
+  <Anim name="strut_compression_3" guid="5E9E5F7B-31EA-4796-95CC-CC7087BE68F5" length="100.000000"
+        type="Sim" typeParam="AutoPlay" typeParam2="strut_compression_3">
+    <AnimStream name="Position" id="2" partName="RearBackRsuspension_03_LOD_100" length="100.000000">
+      <Keyframe time="0.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="25.000000" type="Vector" data="0.000000;0.000000;-0.050000;0.0"/>
+      <Keyframe time="50.000000" type="Vector" data="0.000000;0.000000;-0.100000;0.0"/>
+      <Keyframe time="75.000000" type="Vector" data="0.000000;0.000000;-0.150000;0.0"/>
+      <Keyframe time="100.000000" type="Vector" data="0.000000;0.000000;-0.200000;0.0"/>
+    </AnimStream>
+  </Anim>
+  <Anim name="strut_compression_4" guid="f31f9aff-2385-4cb5-a8cf-fa43b4fcf071" length="100.000000"
+        type="Sim" typeParam="AutoPlay" typeParam2="strut_compression_4">
+    <AnimStream name="Position" id="2" partName="LFsuspension_gear_100" length="100.000000">
+      <Keyframe time="0.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="25.000000" type="Vector" data="0.000000;0.000000;-0.050000;0.0"/>
+      <Keyframe time="50.000000" type="Vector" data="0.000000;0.000000;-0.100000;0.0"/>
+      <Keyframe time="75.000000" type="Vector" data="0.000000;0.000000;-0.150000;0.0"/>
+      <Keyframe time="100.000000" type="Vector" data="0.000000;0.000000;-0.200000;0.0"/>
+    </AnimStream>
+  </Anim>
+  <Anim name="strut_compression_5" guid="66ffa461-af3b-4ad2-b476-ff5dbf7edcf5" length="100.000000"
+        type="Sim" typeParam="AutoPlay" typeParam2="strut_compression_5">
+    <AnimStream name="Position" id="2" partName="LFsuspension02_gear_100" length="100.000000">
+      <Keyframe time="0.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="25.000000" type="Vector" data="0.000000;0.000000;-0.050000;0.0"/>
+      <Keyframe time="50.000000" type="Vector" data="0.000000;0.000000;-0.100000;0.0"/>
+      <Keyframe time="75.000000" type="Vector" data="0.000000;0.000000;-0.150000;0.0"/>
+      <Keyframe time="100.000000" type="Vector" data="0.000000;0.000000;-0.200000;0.0"/>
+    </AnimStream>
+  </Anim>
+  <Anim name="strut_compression_6" guid="9253b0ef-3405-4752-a2ef-9bc4b91ffecc" length="100.000000"
+        type="Sim" typeParam="AutoPlay" typeParam2="strut_compression_6">
+    <AnimStream name="Position" id="2" partName="RearMidLsuspension_06_100" length="100.000000">
+      <Keyframe time="0.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="25.000000" type="Vector" data="0.000000;0.000000;-0.050000;0.0"/>
+      <Keyframe time="50.000000" type="Vector" data="0.000000;0.000000;-0.100000;0.0"/>
+      <Keyframe time="75.000000" type="Vector" data="0.000000;0.000000;-0.150000;0.0"/>
+      <Keyframe time="100.000000" type="Vector" data="0.000000;0.000000;-0.200000;0.0"/>
+    </AnimStream>
+  </Anim>
+  <Anim name="strut_compression_7" guid="b6cf2827-14ee-4a93-9172-f368fed49a6c" length="100.000000"
+        type="Sim" typeParam="AutoPlay" typeParam2="strut_compression_7">
+    <AnimStream name="Position" id="2" partName="RearBackLsuspension_07_100" length="100.000000">
+      <Keyframe time="0.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="25.000000" type="Vector" data="0.000000;0.000000;-0.050000;0.0"/>
+      <Keyframe time="50.000000" type="Vector" data="0.000000;0.000000;-0.100000;0.0"/>
+      <Keyframe time="75.000000" type="Vector" data="0.000000;0.000000;-0.150000;0.0"/>
+      <Keyframe time="100.000000" type="Vector" data="0.000000;0.000000;-0.200000;0.0"/>
+    </AnimStream>
+  </Anim>
+  <Anim name="tire_still_0" guid="ea57a256-b735-426d-b32d-1dcabc6ba3ea" length="100.000000"
+        type="Sim" typeParam="AutoPlay" typeParam2="tire_still_0">
+    <AnimStream name="Rotation" id="0" partName="LRearMidWheel" length="100.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="25.000000" type="Quaternion" data="0.707107;-0.000000;0.000000;0.707107"/>
+      <Keyframe time="50.000000" type="Quaternion" data="1.000001;0.000000;-0.000000;-0.000000"/>
+      <Keyframe time="75.000000" type="Quaternion" data="-0.707107;0.000000;0.000000;0.707107"/>
+      <Keyframe time="100.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+    </AnimStream>
+    <AnimStream name="Rotation" id="0" partName="RFrontWheel_01_100" length="100.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="25.000000" type="Quaternion" data="0.707107;-0.000000;0.000000;0.707107"/>
+      <Keyframe time="50.000000" type="Quaternion" data="1.000001;0.000000;-0.000000;-0.000000"/>
+      <Keyframe time="75.000000" type="Quaternion" data="-0.707107;0.000000;0.000000;0.707107"/>
+      <Keyframe time="100.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+    </AnimStream>
+    <AnimStream name="Rotation" id="0" partName="RRearMidWheel" length="100.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="25.000000" type="Quaternion" data="0.707107;-0.000000;0.000000;0.707107"/>
+      <Keyframe time="50.000000" type="Quaternion" data="1.000001;0.000000;-0.000000;-0.000000"/>
+      <Keyframe time="75.000000" type="Quaternion" data="-0.707107;0.000000;0.000000;0.707107"/>
+      <Keyframe time="100.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+    </AnimStream>
+    <AnimStream name="Rotation" id="0" partName="RearBackLWheel" length="100.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="25.000000" type="Quaternion" data="0.707107;-0.000000;0.000000;0.707107"/>
+      <Keyframe time="50.000000" type="Quaternion" data="1.000001;0.000000;-0.000000;-0.000000"/>
+      <Keyframe time="75.000000" type="Quaternion" data="-0.707107;0.000000;0.000000;0.707107"/>
+      <Keyframe time="100.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+    </AnimStream>
+    <AnimStream name="Position" id="2" partName="RearBackLWheel" length="100.000000">
+      <Keyframe time="0.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="100.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+    </AnimStream>
+    <AnimStream name="Rotation" id="0" partName="RearBackRWheel" length="100.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="25.000000" type="Quaternion" data="0.707107;-0.000000;0.000000;0.707107"/>
+      <Keyframe time="50.000000" type="Quaternion" data="1.000001;0.000000;-0.000000;-0.000000"/>
+      <Keyframe time="75.000000" type="Quaternion" data="-0.707107;0.000000;0.000000;0.707107"/>
+      <Keyframe time="100.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+    </AnimStream>
+    <AnimStream name="Position" id="2" partName="RearBackRWheel" length="100.000000">
+      <Keyframe time="0.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="100.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+    </AnimStream>
+  </Anim>
+  <Anim name="tire_still_1" guid="02149900-bbee-493f-b6b4-f44a0ab59922" length="100.000000"
+        type="Sim" typeParam="AutoPlay" typeParam2="tire_still_1">
+    <AnimStream name="Rotation" id="0" partName="RFrontWheel_02_100" length="100.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="25.000000" type="Quaternion" data="0.707107;-0.000000;0.000000;0.707107"/>
+      <Keyframe time="50.000000" type="Quaternion" data="1.000001;0.000000;-0.000000;-0.000000"/>
+      <Keyframe time="75.000000" type="Quaternion" data="-0.707107;0.000000;0.000000;0.707107"/>
+      <Keyframe time="100.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+    </AnimStream>
+  </Anim>
+  <Anim name="tire_still_2" guid="fcec8ac3-8ca3-4935-b672-e1f6c9603742" length="100.000000"
+        type="Sim" typeParam="AutoPlay" typeParam2="tire_still_2">
+    <AnimStream name="Rotation" id="0" partName="LFrontWheel_01_100" length="100.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="25.000000" type="Quaternion" data="0.707107;-0.000000;0.000000;0.707107"/>
+      <Keyframe time="50.000000" type="Quaternion" data="1.000001;0.000000;-0.000000;-0.000000"/>
+      <Keyframe time="75.000000" type="Quaternion" data="-0.707107;0.000000;0.000000;0.707107"/>
+      <Keyframe time="100.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+    </AnimStream>
+    <AnimStream name="Position" id="2" partName="LFrontWheel_01_100" length="100.000000">
+      <Keyframe time="0.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="100.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+    </AnimStream>
+  </Anim>
+  <Anim name="tire_still_3" guid="444ad25b-f3b3-4fe4-a638-098e25737de1" length="100.000000"
+        type="Sim" typeParam="AutoPlay" typeParam2="tire_still_3">
+    <AnimStream name="Rotation" id="0" partName="LFrontWheel_02_100" length="100.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="25.000000" type="Quaternion" data="0.707107;-0.000000;0.000000;0.707107"/>
+      <Keyframe time="50.000000" type="Quaternion" data="1.000001;0.000000;-0.000000;-0.000000"/>
+      <Keyframe time="75.000000" type="Quaternion" data="-0.707107;0.000000;0.000000;0.707107"/>
+      <Keyframe time="100.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+    </AnimStream>
+    <AnimStream name="Position" id="2" partName="LFrontWheel_02_100" length="100.000000">
+      <Keyframe time="0.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="100.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+    </AnimStream>
+  </Anim>
+  <Anim name="turret_pitch" guid="aaea4ec9-9387-4dd1-8967-82bc406718eb" length="200.000000"
+        type="Sim" typeParam="AutoPlay" typeParam2="turret_pitch">
+    <AnimStream name="Rotation" id="0" partName="main_gun_pitch" length="200.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="50.000000" type="Quaternion" data="-0.707107;0.000000;-0.000000;0.707107"/>
+      <Keyframe time="100.000000" type="Quaternion" data="1.000001;0.000000;0.000000;0.000000"/>
+      <Keyframe time="150.000000" type="Quaternion" data="0.707107;0.000000;0.000000;0.707107"/>
+      <Keyframe time="200.000000" type="Quaternion" data="-0.000000;0.000000;0.000000;1.000000"/>
+    </AnimStream>
+    <AnimStream name="Position" id="2" partName="main_gun_pitch" length="200.000000">
+      <Keyframe time="0.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="200.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+    </AnimStream>
+  </Anim>
+  <Anim name="turret_rotation" guid="d9094e1c-c52c-4699-8bca-bcfb0ec5347d" length="200.000000"
+        type="Sim" typeParam="AutoPlay" typeParam2="turret_rotation">
+    <AnimStream name="Rotation" id="0" partName="Turret" length="200.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="50.000000" type="Quaternion" data="-0.000000;0.000000;-0.707107;0.707107"/>
+      <Keyframe time="100.000000" type="Quaternion" data="0.000000;-0.000000;1.000001;0.000000"/>
+      <Keyframe time="150.000000" type="Quaternion" data="0.000000;0.000000;0.707107;0.707107"/>
+      <Keyframe time="200.000000" type="Quaternion" data="0.000000;0.000000;-0.000000;1.000000"/>
+    </AnimStream>
+    <AnimStream name="Position" id="2" partName="Turret" length="200.000000">
+      <Keyframe time="0.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="200.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+    </AnimStream>
+  </Anim>
+  <Anim name="wheel_steer_0" guid="31749659-4594-46d1-91c2-a6f4caf354b5" length="200.000000"
+        type="Sim" typeParam="AutoPlay" typeParam2="wheel_steer_0">
+    <AnimStream name="Rotation" id="0" partName="RFrontWheel_01_turn_100" length="200.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;-0.000098;1.000000"/>
+      <Keyframe time="49.993752" type="Quaternion" data="-0.000000;0.000000;-0.707107;0.707107"/>
+      <Keyframe time="99.993752" type="Quaternion" data="0.000000;-0.000000;1.000001;0.000000"/>
+      <Keyframe time="149.993744" type="Quaternion" data="0.000000;0.000000;0.707107;0.707107"/>
+      <Keyframe time="199.993744" type="Quaternion" data="0.000000;0.000000;-0.000000;1.000000"/>
+      <Keyframe time="200.000000" type="Quaternion" data="0.000000;0.000000;-0.000000;1.000000"/>
+    </AnimStream>
+  </Anim>
+  <Anim name="wheel_steer_1" guid="5a34a73c-70de-49ab-a0e5-5b437b94c426" length="2600.000000"
+        type="Sim" typeParam="AutoPlay" typeParam2="wheel_steer_1">
+    <AnimStream name="Rotation" id="0" partName="LFrontWheel_01_turn_100" length="2600.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="50.000000" type="Quaternion" data="-0.000000;0.000000;-0.707107;0.707107"/>
+      <Keyframe time="100.000000" type="Quaternion" data="0.000000;-0.000000;1.000001;0.000000"/>
+      <Keyframe time="150.000000" type="Quaternion" data="0.000000;0.000000;0.707107;0.707107"/>
+      <Keyframe time="200.000000" type="Quaternion" data="0.000000;0.000000;-0.000000;1.000000"/>
+      <Keyframe time="2600.000000" type="Quaternion" data="0.000000;0.000000;-0.000000;1.000000"/>
+    </AnimStream>
+    <AnimStream name="Rotation" id="0" partName="LFrontWheel_02_turn_100" length="200.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="50.000000" type="Quaternion" data="-0.000000;0.000000;-0.707107;0.707107"/>
+      <Keyframe time="100.000000" type="Quaternion" data="0.000000;-0.000000;1.000001;0.000000"/>
+      <Keyframe time="150.000000" type="Quaternion" data="0.000000;0.000000;0.707107;0.707107"/>
+      <Keyframe time="200.000000" type="Quaternion" data="0.000000;0.000000;-0.000000;1.000000"/>
+    </AnimStream>
+    <AnimStream name="Rotation" id="0" partName="RFrontWheel_02_turn_100" length="200.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;-0.000098;1.000000"/>
+      <Keyframe time="49.993752" type="Quaternion" data="-0.000000;0.000000;-0.707107;0.707107"/>
+      <Keyframe time="99.993752" type="Quaternion" data="0.000000;-0.000000;1.000001;0.000000"/>
+      <Keyframe time="149.993744" type="Quaternion" data="0.000000;0.000000;0.707107;0.707107"/>
+      <Keyframe time="199.993744" type="Quaternion" data="0.000000;0.000000;-0.000000;1.000000"/>
+      <Keyframe time="200.000000" type="Quaternion" data="0.000000;0.000000;-0.000000;1.000000"/>
+    </AnimStream>
+  </Anim>
+</AnimLib>

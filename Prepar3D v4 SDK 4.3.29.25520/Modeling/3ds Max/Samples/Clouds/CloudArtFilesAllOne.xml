@@ -1,0 +1,937 @@
+<?xml version="1.0"?>
+<!-- XML file for locating cloud art files. Created by Niniane Wang, 09/2002 -->
+<CloudFiles xmlns="x-schema:CloudArtSchema.xml">
+	<cloud description="altocumulus">
+		<coverage amount="5">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="6">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="7">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="8">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+	</cloud>
+	<cloud description="stratocumulus">
+		<coverage amount="5">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="6">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="7">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="8">
+			<variation file="Test.cld" />
+		</coverage>
+	</cloud>
+	<cloud description="cumulus humilis">
+		<coverage amount="1">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="2">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="3">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="4">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+	</cloud>
+	<cloud description="cumulus mediocris">
+		<coverage amount="1">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="2">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="3">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="4">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="5">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="6">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="7">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="8">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+	</cloud>
+	<cloud description="cumulus congestus">
+		<coverage amount="1">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="2">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="3">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="4">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="5">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="6">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="7">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="8">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+	</cloud>
+	<cloud description="towering cumulus">
+		<coverage amount="1">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="2">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="3">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="4">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="5">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="6">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="7">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="8">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+	</cloud>
+	<cloud description="cumulonimbus calvus">
+		<coverage amount="1">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="2">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="3">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="4">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="5">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="6">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="7">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="8">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+	</cloud>
+	<cloud description="cumulonimbus incus">
+		<coverage amount="1">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="2">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="3">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="4">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="5">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="6">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="7">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="8">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+	</cloud>
+	<cloud description="anvil head">
+		<coverage amount="5">
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="6">
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="7">
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="8">
+			<variation file="Test.cld" />
+		</coverage>
+	</cloud>
+	<cloud description="nimbostratus">
+		<coverage amount="1">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="2">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="3">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="4">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="5">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="6">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="7">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="8">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+	</cloud>
+	<cloud description="altostratus">
+		<coverage amount="5">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="6">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="7">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="8">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+	</cloud>
+	<cloud description="stratus">
+		<coverage amount="1">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="2">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="3">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="4">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="5">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="6">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="7">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+		<coverage amount="8">
+			<variation file="Test.cld" />
+			<variation file="Test.cld" />
+		</coverage>
+	</cloud>
+	<cloud description="low end stratus">
+		<coverage amount="1">
+			<variation />
+			<variation />
+			<variation />
+			<variation />
+			<variation />
+		</coverage>
+		<coverage amount="2">
+			<variation />
+			<variation />
+			<variation />
+			<variation />
+			<variation />
+		</coverage>
+		<coverage amount="3">
+			<variation />
+			<variation />
+			<variation />
+		</coverage>
+		<coverage amount="4">
+			<variation />
+			<variation />
+			<variation />
+		</coverage>
+		<coverage amount="5">
+			<variation />
+			<variation />
+			<variation />
+		</coverage>
+		<coverage amount="6">
+			<variation />
+			<variation />
+			<variation />
+		</coverage>
+		<coverage amount="7">
+			<variation />
+			<variation />
+			<variation />
+		</coverage>
+		<coverage amount="8">
+			<variation />
+			<variation />
+			<variation />
+		</coverage>
+	</cloud>
+	<cloud description="low end cumulus">
+		<coverage amount="1">
+			<variation />
+			<variation />
+			<variation />
+			<variation />
+			<variation />
+		</coverage>
+		<coverage amount="2">
+			<variation />
+			<variation />
+			<variation />
+			<variation />
+			<variation />
+		</coverage>
+		<coverage amount="3">
+			<variation />
+			<variation />
+			<variation />
+		</coverage>
+		<coverage amount="4">
+			<variation />
+			<variation />
+			<variation />
+		</coverage>
+		<coverage amount="5">
+			<variation />
+			<variation />
+			<variation />
+		</coverage>
+		<coverage amount="6">
+			<variation />
+			<variation />
+			<variation />
+		</coverage>
+		<coverage amount="7">
+			<variation />
+			<variation />
+			<variation />
+		</coverage>
+		<coverage amount="8">
+			<variation />
+			<variation />
+			<variation />
+		</coverage>
+	</cloud>
+</CloudFiles>

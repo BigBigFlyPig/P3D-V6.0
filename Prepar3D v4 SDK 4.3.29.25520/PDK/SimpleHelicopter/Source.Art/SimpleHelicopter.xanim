@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<AnimLib version="9.1">
+  <Anim name="main_rotor_rotation_percent" guid="5154077E-57AE-4C42-B033-5CE95A5FD50B" length="100.000000"
+        type="Sim" typeParam="AutoPlay" typeParam2="main_rotor_rotation_percent">
+    <AnimStream name="Rotation" id="0" partName="MainAxel" length="100.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="25.000000" type="Quaternion" data="0.000000;-0.000000;0.707107;0.707107"/>
+      <Keyframe time="50.000000" type="Quaternion" data="0.000000;-0.000000;1.000001;-0.000000"/>
+      <Keyframe time="75.000000" type="Quaternion" data="0.000000;0.000000;-0.707107;0.707107"/>
+      <Keyframe time="100.000000" type="Quaternion" data="0.000000;-0.000000;0.000000;1.000000"/>
+    </AnimStream>
+    <AnimStream name="Position" id="2" partName="MainAxel" length="100.000000">
+      <Keyframe time="0.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="25.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="50.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="75.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="100.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+    </AnimStream>
+  </Anim>
+  <Anim name="tail_rotor_rotation_percent" guid="977945D6-B69B-4170-990D-0D9FD477406C" length="100.000000"
+        type="Sim" typeParam="AutoPlay" typeParam2="tail_rotor_rotation_percent">
+    <AnimStream name="Rotation" id="0" partName="TailAxel" length="100.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="25.000000" type="Quaternion" data="0.707107;-0.000000;0.000000;0.707107"/>
+      <Keyframe time="50.000000" type="Quaternion" data="1.000001;0.000000;-0.000000;-0.000000"/>
+      <Keyframe time="75.000000" type="Quaternion" data="-0.707107;0.000000;0.000000;0.707107"/>
+      <Keyframe time="100.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+    </AnimStream>
+    <AnimStream name="Position" id="2" partName="TailAxel" length="100.000000">
+      <Keyframe time="0.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="25.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="50.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="75.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="100.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+    </AnimStream>
+  </Anim>
+</AnimLib>

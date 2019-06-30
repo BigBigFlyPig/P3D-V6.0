@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+This file will generate debug output for the configured registered properties.  Multiple windows can be configured.  
+Be sure teh CategoryId matches the SimObject being queried.
+
+Add the path to this file in your Prepar3D.cfg file. E.g.:
+[Main]
+SimObjectApiPropertyDebugger=SDK\PDK\SimpleAirplane\PropertyDebugging.xml
+-->
+<SimBase.Document Type="AceXML" version="1,0">
+    <Filename>PropertyDebugging.xml</Filename>
+    <!-- Simple Airplane Properties -->
+    <Simvar.PropertyOutputWindow CategoryId="{85B2CDCD-8156-4C93-B069-61B2D0A96C12}" WindowTitle="Simple Airplane Modes" WindowWidth="4500" Priority="2">
+        <Property>
+        <Name>IsPaused</Name>
+          <Type>Double</Type>
+          <Units>Bool</Units>
+        </Property>        
+        <Property>
+          <Name>IsDisabled</Name>
+          <Type>Double</Type>
+          <Units>Bool</Units>
+        </Property>        
+        <Property>
+          <Name>IsSlewMode</Name>
+          <Type>Double</Type>
+          <Units>Bool</Units>
+        </Property>        
+        <Property>
+          <Name>IsCrashMode</Name>
+          <Type>Double</Type>
+          <Units>Bool</Units>
+        </Property>        
+        <Property>
+          <Name>CfgDir</Name>
+          <Type>String</Type>
+        </Property>
+        <Property>
+            <Name>CfgFilePath</Name>
+            <Type>String</Type>
+        </Property>
+        <Property>
+            <Name>CfgSectionName</Name>
+            <Type>String</Type>
+        </Property>
+    </Simvar.PropertyOutputWindow>
+    <Simvar.PropertyOutputWindow CategoryId="{85B2CDCD-8156-4C93-B069-61B2D0A96C12}" WindowTitle="Simple Airplane Misc" WindowWidth="4500" Priority="3">
+        <Property>
+          <Name>Throttle</Name>
+          <Type>Double</Type>
+          <Units>Percent</Units>
+        </Property>
+        <Property>
+          <Name>AfterburnerActive</Name>
+          <Type>Double</Type>
+          <Units>Bool</Units>
+        </Property>
+        <Property>
+          <Name>PctGearExtended</Name>
+          <Type>Double</Type>
+          <Units>Percent</Units>
+        </Property>        
+        <Property>
+          <Name>SurfaceElevation</Name>
+          <Type>Double</Type>
+          <Units>Feet</Units>
+        </Property>        
+        <Property>
+          <Name>IsOnGround</Name>
+          <Type>Double</Type>
+          <Units>Bool</Units>
+        </Property>        
+        <Property>
+          <Name>IsOverPlatform</Name>
+          <Type>Double</Type>
+          <Units>Bool</Units>
+        </Property>        
+        <Property>
+          <Name>Channel</Name>
+          <Substring>A</Substring>
+          <Type>Double</Type>
+          <Units>Bool</Units>
+        </Property>        
+        <Property>
+          <Name>Channel</Name>
+          <Substring>B</Substring>
+          <Type>Double</Type>
+          <Units>Bool</Units>
+        </Property>        
+    </Simvar.PropertyOutputWindow>
+    <Simvar.PropertyOutputWindow CategoryId="{85B2CDCD-8156-4C93-B069-61B2D0A96C12}" WindowTitle="Simple Airplane Aero">
+        <Property>
+            <Name>TotalVelocity</Name>
+            <Units>Feet Per Second</Units>
+        </Property>
+        <Property>
+            <Name>Alpha</Name>
+            <Units>Degrees</Units>
+        </Property>
+        <Property>
+            <Name>Beta</Name>
+            <Units>Degrees</Units>
+        </Property>
+        <Property>
+            <Name>IsOnGround</Name>
+            <Units>Bool</Units>
+        </Property>
+    </Simvar.PropertyOutputWindow>
+    <Simvar.PropertyOutputWindow CategoryId="{85B2CDCD-8156-4C93-B069-61B2D0A96C12}" WindowTitle="Simple Airplane Flight Controls">
+        <Property>
+          <Name>PctElevator</Name>
+          <Type>Double</Type>
+          <Units>Percent</Units>
+        </Property>        
+        <Property>
+          <Name>PctAilerons</Name>
+          <Type>Double</Type>
+          <Units>Percent</Units>
+        </Property>        
+        <Property>
+          <Name>PctRudder</Name>
+          <Type>Double</Type>
+          <Units>Percent</Units>
+        </Property>        
+    </Simvar.PropertyOutputWindow>
+ </SimBase.Document>

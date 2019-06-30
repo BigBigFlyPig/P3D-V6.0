@@ -1,0 +1,27 @@
+# List of boat types to use in the traffic database
+# Open in Excel as a comma delimited file for viewing/editing
+
+# Notes:
+#   typeKey = a unique keyword used to identify this type of aircraft (max 15 chars)
+#   title = the aircraft title string from aircraft.cfg
+#   speed = cruising speed in knots true airspeed (KTAS)
+#   routeTypes = OIL|CRUISE|CARGO|FERRY (choose one or more, refer to terminals.csv)
+#   AutoSchedule? = automatically generate schedules for this boat type (yes/no)
+
+# typeKey,Title,Cruise,routeTypes,AutoSchedule?
+CargoB,cargoB,25,CARGO,yes
+CargoA,CargoA,25,CARGO,yes
+cargoD,VEH_water_cargoD_sm,25,CARGO,yes
+cargoC,VEH_water_cargoC_sm,25,CARGO,yes
+cargoE,VEH_water_cargoE_sm,25,CARGO,yes
+cargoF,VEH_water_cargoF_sm,25,CARGO,yes
+cargoG,VEH_water_cargoG_sm,25,CARGO,yes
+supertanker_02_sm,VEH_water_supertanker_02_sm,25,OIL,yes
+tanker01_sm,VEH_water_tanker01_sm,25,OIL,yes
+tanker02_sm,VEH_water_tanker02_sm,25,OIL,yes
+tanker03_sm,VEH_water_tanker03_sm,25,OIL,yes
+Ferry1,ferry1,20,FERRY,yes
+Ferry2,ferry2,20,FERRY,yes
+wash_ferry_sm,wash_ferry_sm,20,FERRY,yes
+cruiseship1_sm,VEH_water_cruiseship1_sm,20,CRUISE,yes
+cruiseship2_sm,VEH_water_cruiseship2_sm,20,CRUISE,yes

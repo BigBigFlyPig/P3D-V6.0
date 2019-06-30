@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<!--  Sim Image Generation (for multichannel) property symbol definition document
+  
+    see propbase.xml for an explanation of property symbol definition document schema
+-->
+
+<SymbolDef
+    name="ViewGroups"
+    id="{e542f775-9390-46d4-a586-c5bda67d2e37}"
+    descr="View Groups used for multi monitor and multichannel configurations"
+    chdr="propViewGroups.h"
+    version="1,0">
+	  
+  <SymbolInclude
+      filename="propbaseui.xml"
+      id="{4E8ACFBF-79DE-4136-9DA2-A0AE96185229}"
+      version="1,0" />
+
+  <cpptext pass="1">
+    //-------------------------------------------------------------------------//
+    //  propViewGroup.h
+    //
+    //  View Groups for multi-monitor and multi-channel views
+    //-------------------------------------------------------------------------//
+    //
+
+    //
+    //  Namespace
+    //
+  </cpptext>
+
+  <PropertyDefs symbolprefix="SPID_VIEWGROUPS_">
+
+    <cpptext pass="2">
+      //
+      //  Property Identifiers
+      //
+    </cpptext>
+
+    <PropertyDef
+        id          = "{28c519d3-c51e-48cc-95fc-42878e59977f}"
+        name        = "Name"
+        type        = "TEXT" 
+		descr       = "The name of this View or ViewGroup"/>
+		
+    <PropertyDef
+        id     		= "{0754d942-1642-410d-bc0c-06ad5d622420}"
+        name        = "DisplayID"
+		descr     = "DisplayID of the display this view should open on when group is active."
+        default		= "1"
+        type        = "ULONG" />
+		
+    <PropertyDef
+        id          = "{1ecdaf7a-fb4b-41ca-b985-8ba5bf201613}"
+        name        = "OffsetXYZ"
+        default		= "0,0,0"
+        descr     = "View frustum origin offset (X, Y, Z) in meters"
+        type        = "FLOAT3" />
+
+    <PropertyDef
+        id          = "{e19d3862-c337-4b97-9f31-cd8e7b1e0e7e}"
+        name        = "OffsetPBH"
+        default     = "0,0,0"
+        descr     = "View frustum origin offset Pitch, Bank, and Heading angles in degrees for orientation"
+        type        = "FLOAT3" />
+
+    <PropertyDef
+        id          = "{e5147a91-c911-4d9b-ad64-bfb68e4bde55}"
+        name        = "SideAngles"
+        default	    = "0,0,0,0"
+        descr     = "View frustum's half angles in degrees from main axis to sides (allowing for off-axis projection). Example: A 120x40 degree field of view would be defined as: Left:-60, Right:60, Top:20, Bottom:-20"
+        type        = "FLOAT4" />
+
+    <PropertyDef
+        id          = "{2c530779-961c-489a-8bf2-a06c130ede84}"
+        name        = "AllowZoom"
+        default     = "TRUE"
+		descr     = "Allow zooming for this view group."
+        type        = "BOOL" />
+
+    <PropertyDef
+        id          = "{48ec2515-ddbb-4785-b016-5b5bfdf3fad7}"
+        name        = "AutoDetect"
+        default     = "FALSE"	
+		descr     = "If true, grid size is ignored and views are generated for each display based on their location on the windows desktop."
+        type        = "BOOL" />
+
+    <PropertyDef
+        id          = "{81ff3999-2db5-4794-97ae-3fd938fa27ac}"
+        name        = "GridSize"
+		descr     = "Horizontal and Vertical grid size to use for generating a view group.  If these values are set to 0, a view group will be generated based on the windows desktop display settings."
+        default     = "1,1"
+        type        = "LONG2" />
+
+    <PropertyDef
+        id          = "{e845b53e-55fe-4906-a347-8fc8c148e371}"
+        name        = "ViewGroupShape"
+        type        = "ENUM"		
+		descr     = "Shape of the virtual display described by this view group. Options are Flat, Cylindrical, and Spherical. Cylindrical or Spherical is recommended for groups with fields of view wider than 120 degrees to avoid distortion. "
+        default     = "Cylindrical">
+      <EnumDef symbolprefix="ViewGroupShape">
+        <EnumVal name = "Cylindrical"/>
+        <EnumVal name = "Spherical"/>
+		<EnumVal name = "Flat"/>
+      </EnumDef>
+    </PropertyDef>
+
+    <PropertyDef
+        id          = "{178a7b4f-8131-4085-a516-ab6b24065723}"
+        name        = "EdgeOverlap"
+		descr     = "Size of display overlap as a percent of display size. Positive values can be used for projector blending, and negative values can be used for bezel correction. Example: For a 20in by 10in monitor with a half inch bezel, left/right is -2.5 and top/bottom is -5.0"
+        default     = "0.0,0.0,0.0,0.0"
+        type        = "FLOAT4" />
+
+    <PropertyDef
+        id          = "{600252f4-5f7d-48fb-89e9-70f84020f305}"
+        name        = "Viewport"
+        type        = "FLOAT4"
+		descr     = "Viewport of this view relative to the entire display group.  This will be used to generate a view frustum unless of ViewFrustom is explicitly defined. The Viewport dimensions for the entire group is Left:0, Right:1.0, Bottom:0 Top:1.0."
+        default     = "0,0" />
+
+	<PropertyDef
+        id          = "{f0cf485d-6583-4e9c-b00a-f85d41743a64}"
+        name        = "FirstDisplayID"
+        type        = "ULONG"
+		descr       = "DisplayID of the top-left display of the grid. IDs will be assigned by incrementing the ID from left to right for each row starting at the top row."
+        default     = "1" />
+  </PropertyDefs>
+
+
+  <SetDefs symbolprefix="SSID_VIEWGROUPS_">
+
+    <cpptext pass="2">
+      //
+      //  Property Sets
+      //
+    </cpptext>
+    <SetDef
+        id      = "{2d13629f-5cda-4a4a-a8e3-915af1d1041d}"
+        name    = "ViewFrustum"
+		descr       = "Explicitly defines the position, orientation, and field of view of the camera.  This is only necessary for advanced display/projector configurations and will be ignored if a non-zero Viewport is provided for a view."
+        policy  = "inclusive">
+      <property name = "SideAngles" />    
+      <property name = "OffsetPBH" />
+	  <property name = "OffsetXYZ" />
+    </SetDef>
+	
+    <SetDef
+        id      = "{7f01bf29-555a-46f8-ac2a-766fd55542e8}"
+        name    = "View"
+		cardinality = "multiple"
+		descr       = "Defines the portion of the overall view which will be rendered on a given display."
+        policy  = "inclusive">
+      <property name = "Name" />
+	  <property name = "DisplayID" />
+	  <property name = "ViewPort" />
+      <property name = "EdgeOverlap" />
+	  <property name = "ViewFrustum" />
+    </SetDef>
+
+    <SetDef
+        id      = "{903d8d78-3e5a-4b6f-820e-d7045f77c769}"
+        name    = "ViewGroup"
+		cardinality = "multiple"
+		descr       = "A group of views which can be used to create one large display area that spans multiple displays by assigning a portion of the view to each display."
+
+        policy  = "inclusive">
+	  <property name = "Name" />
+	  <property name = "SideAngles" />
+      <property name = "ViewGroupShape" />
+	  <property name = "AllowZoom" />
+	  <property name = "GridSetup" />	      
+	  <property name = "View" />
+    </SetDef>
+
+    <SetDef
+        id      = "{2c322755-4988-40f0-9ed1-8ae6e6589b0c}"
+        name    = "GridSetup"
+		descr       = "A GridSetup can be used to automate the process of generating view definitions for a view group."
+        policy  = "inclusive">
+      <property name = "GridSize" />
+	  <property name = "EdgeOverlap" />
+	  <property name = "FirstDisplayID" />
+	  <property name = "AutoDetect" />
+	  
+    </SetDef>
+	
+	<SetDef
+		id      = "{fe6fd339-3dad-4e87-983a-1991938367e7}"
+		name    = "ViewGroupSet"
+		policy  = "inclusive">
+		<property name  = "ViewGroup" />
+	</SetDef>		
+  </SetDefs>
+
+</SymbolDef>

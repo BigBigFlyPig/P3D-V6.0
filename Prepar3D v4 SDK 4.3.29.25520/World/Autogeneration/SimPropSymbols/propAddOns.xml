@@ -1,0 +1,122 @@
+<?xml version= "1.0" encoding= "utf-8" ?>
+
+<!-- Add Ons symbol definition document
+
+    see propbase.xml for an explanation of property symbol definition document schema
+-->
+
+<SymbolDef
+    name         = "AddOn"
+    id           = "{B7706691-B8EB-49CF-B32E-CE3A388CFCC3}"
+    descr        = "SimProp XXX property, type and set definitions."
+    chdr         = "addons.h"
+    version      = "1,0" >
+
+    <SymbolInclude
+        filename = "proplaunch.xml"
+        id       = "{4CE92C8F-6339-4de0-8037-60F630BA79B2}"
+        version  = "1,0" />
+
+    <cpptext pass="1">
+//-------------------------------------------------------------------------//
+//  addons.h
+//
+//  Add Ons AceXML property and property set symbol definitions
+//-------------------------------------------------------------------------//
+//
+
+//
+//  Namespace
+//
+    </cpptext>
+
+    <PropertyDefs
+        symbolprefix = "SPID_ADDON_">
+
+        <cpptext pass="2">
+//
+//  Property Identifiers
+//
+        </cpptext>
+        
+		<PropertyDef
+			name        = "Name"
+			id          = "{2E6DB95A-7CD5-4EB8-A101-5924917469FD}"
+			default     = ""
+			serialize   = "both,default"
+			type        = "text">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "Description"
+			id          = "{2887941E-3250-4015-BD3A-181A20AA4924}"
+			default     = ""
+			serialize   = "both,default"
+			type        = "text">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "Category"
+			id          = "{7F59DF3A-6AF2-4519-BF16-3E015A412FB0}"
+			default     = ""
+			serialize   = "both,default"
+			type        = "text">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "Layer"
+			id          = "{AB48C95A-27EB-45E1-B1CD-D73D4C37E831}"
+			default     = ""
+			serialize   = "both,default"
+			type        = "long">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "SceneryCRC"
+			id          = "{9ED79ED5-616D-4EC7-8648-D485BC40AA79}"
+			default     = "0"
+			serialize   = "both,default"
+			type        = "long">
+		</PropertyDef>
+		
+    </PropertyDefs>
+
+    <SetDefs symbolprefix = "SSID_ADDON_">
+
+        <cpptext pass="2">
+//
+//  Property Set Identifiers
+//
+        </cpptext>
+        
+        <SetDef
+            id          = "{2F18089A-127A-4B4B-8AE2-B21613143715}"
+            name        = "Component" >
+            <property name = "id"/>
+            <property name = "Name"/>
+            <property name = "Path"/>
+            <property name = "Category"/>
+			
+			<property name = "Type" /> <!-- Texture.cfg only -->
+			
+            <property name = "CommandLine"/> <!-- DLL.xml and EXE.xml only -->
+            <property name = "DLLType"/> <!-- DLL.xml and EXE.xml only -->
+            <property name = "DLLStartName"/> <!-- DLL.xml and EXE.xml only -->
+            <property name = "DLLStopName"/> <!-- DLL.xml and EXE.xml only -->
+            <property name = "NewConsole"/> <!-- DLL.xml and EXE.xml only -->
+            <property name = "Layer"/> <!-- Scenery only -->
+			
+        </SetDef>
+		
+        <SetDef
+            id          = "{DE6327D6-4E7A-4B9C-8D7E-CD47C2286051}"
+            name        = "SceneryComponent" >
+            <property name = "Path"/>
+			<property name = "SceneryCRC" />
+        </SetDef>
+		
+		
+
+    </SetDefs>
+
+</SymbolDef>

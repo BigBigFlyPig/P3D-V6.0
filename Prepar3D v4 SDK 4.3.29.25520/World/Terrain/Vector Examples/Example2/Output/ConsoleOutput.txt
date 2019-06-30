@@ -1,0 +1,21 @@
+C:\SDK\Environment Kit\Terrain SDK\Vector Examples\Example2_SourceData> shp2vec . VHHX -ADDTOCELLS
+
+Shp2Vec.exe version 10.0.60712.0  -  VectorQuad 6
+Copyright (c) 2006 Microsoft Corporation. All Rights Reserved.
+
+Processing EXXVHHX.shp
+
+Processing FLXVHHX.shp
+
+
+Writing vector data to .\cvxVHHX
+
+DONE (2 shapes)
+
+Compression statistics
+                          Type      Count   Bytes in  Bytes out
+               Null (raw data)          0          0          0
+              Predictive Delta          0          0          0
+                  Quantization          4        248        123
+
+C:\SDK\Environment Kit\Terrain SDK\Vector Examples\Example2_SourceData>

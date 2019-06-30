@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document
+        Type="AceXML"
+        version="1,0"
+        id="CabinComfort">
+    <Descr>AceXML Document</Descr>
+    <Filename>CabinComfort.xml</Filename>
+    <SimGauge.Gauge id="Gauge" ArtDirectory="C:\GaugeArt">
+        <FloatPosition>0.000,0.000</FloatPosition>
+        <Size>225,145</Size>
+        <Image id="Stone.bmp" Name="Stone.bmp">
+            <Transparent>True</Transparent>
+            <Bilinear>False</Bilinear>
+        </Image>
+        <Element id="Element">
+            <FloatPosition>25.000,15.000</FloatPosition>
+            <GaugeText id="GaugeText">
+                <Bold>True</Bold>
+                <FontFace>Arial</FontFace>
+                <FontColor>yellow</FontColor>
+                <FontHeight>12</FontHeight>
+                <GaugeString>Passenger Cabin Comfort</GaugeString>
+                <HorizontalAlign>CENTER</HorizontalAlign>
+                <Size>160,13</Size>
+                <Transparent>True</Transparent>
+            </GaugeText>
+        </Element>
+        <Element id="Element">
+            <FloatPosition>42.000,35.000</FloatPosition>
+            <GaugeText id="GaugeText">
+                <Bold>True</Bold>
+                <FontColor>yellow</FontColor>
+                <FontHeight>11</FontHeight>
+                <GaugeString>Cabin Temp</GaugeString>
+                <Size>80,13</Size>
+                <Transparent>True</Transparent>
+            </GaugeText>
+        </Element>
+        <Element id="Element">
+            <FloatPosition>25.000,55.000</FloatPosition>
+            <GaugeText id="GaugeText">
+                <Bold>True</Bold>
+                <FontColor>yellow</FontColor>
+                <FontHeight>11</FontHeight>
+                <GaugeString>Bank Angle</GaugeString>
+                <Size>80,13</Size>
+                <Transparent>True</Transparent>
+            </GaugeText>
+        </Element>
+        <Element id="Element">
+            <FloatPosition>25.000,75.000</FloatPosition>
+            <GaugeText id="GaugeText">
+                <Bold>True</Bold>
+                <FontColor>yellow</FontColor>
+                <FontHeight>11</FontHeight>
+                <GaugeString>Attendants</GaugeString>
+                <Size>80,13</Size>
+                <Transparent>True</Transparent>
+            </GaugeText>
+        </Element>
+        <Element id="Element">
+            <FloatPosition>25.000,95.000</FloatPosition>
+            <GaugeText id="GaugeText">
+                <Bold>True</Bold>
+                <FontColor>yellow</FontColor>
+                <FontHeight>11</FontHeight>
+                <GaugeString>Restroom</GaugeString>
+                <Size>80,13</Size>
+                <Transparent>True</Transparent>
+            </GaugeText>
+        </Element>
+        <Element id="Element">
+            <FloatPosition>25.000,115.000</FloatPosition>
+            <GaugeText id="GaugeText">
+                <Bold>True</Bold>
+                <FontColor>yellow</FontColor>
+                <FontHeight>11</FontHeight>
+                <GaugeString>Comfort Level</GaugeString>
+                <Size>80,13</Size>
+                <Transparent>True</Transparent>
+            </GaugeText>
+        </Element>
+        <Element id="Element">
+            <FloatPosition>120.000,35.000</FloatPosition>
+            <GaugeText id="GaugeText">
+                <Bold>True</Bold>
+                <FontColor>yellow</FontColor>
+                <FontHeight>11</FontHeight>
+                <GaugeString>%((C:CABIN:CabinTemperature))%!2.2f!</GaugeString>
+                <HorizontalAlign>RIGHT</HorizontalAlign>
+                <Size>80,13</Size>
+                <Transparent>True</Transparent>
+            </GaugeText>
+        </Element>
+        <Element id="Element">
+            <FloatPosition>120.000,55.000</FloatPosition>
+            <GaugeText id="GaugeText">
+                <Bold>True</Bold>
+                <FontColor>yellow</FontColor>
+                <FontHeight>11</FontHeight>
+                <GaugeString>%((C:CABIN:BankAngle))%!2.2f!</GaugeString>
+                <HorizontalAlign>RIGHT</HorizontalAlign>
+                <Size>80,13</Size>
+                <Transparent>True</Transparent>
+            </GaugeText>
+        </Element>
+        <Element id="Element">
+            <FloatPosition>120.000,75.000</FloatPosition>
+            <GaugeText id="GaugeText">
+                <Bold>True</Bold>
+                <FontColor>yellow</FontColor>
+                <FontHeight>11</FontHeight>
+                <GaugeString>%((C:CABIN:FlightAttendants))%!s!</GaugeString>
+                <HorizontalAlign>RIGHT</HorizontalAlign>
+                <Size>80,13</Size>
+                <Transparent>True</Transparent>
+            </GaugeText>
+        </Element>
+        <Element id="Element">
+            <FloatPosition>120.000,95.000</FloatPosition>
+            <GaugeText id="GaugeText">
+                <Bold>True</Bold>
+                <FontColor>yellow</FontColor>
+                <FontHeight>11</FontHeight>
+                <GaugeString>%((C:CABIN:Restroom))%!s!</GaugeString>
+                <HorizontalAlign>RIGHT</HorizontalAlign>
+                <Size>80,13</Size>
+                <Transparent>True</Transparent>
+            </GaugeText>
+        </Element>
+        <Element id="Element">
+            <FloatPosition>120.000,115.000</FloatPosition>
+            <GaugeText id="GaugeText">
+                <Bold>True</Bold>
+                <FontColor>yellow</FontColor>
+                <FontHeight>11</FontHeight>
+                <GaugeString>%((C:CABIN:PassengerComfort))%!3.0f!</GaugeString>
+                <HorizontalAlign>RIGHT</HorizontalAlign>
+                <Size>80,13</Size>
+                <Transparent>True</Transparent>
+            </GaugeText>
+        </Element>
+        <Element id="Element">
+            <FloatPosition>5.000,5.000</FloatPosition>
+            <Rectangle id="Rectangle">
+                <LineWidth>2</LineWidth>
+                <Width>214</Width>
+                <Height>134</Height>
+                <LineColor>yellow</LineColor>
+            </Rectangle>
+        </Element>
+        <Element id="Element">
+            <FloatPosition>25.000,35.000</FloatPosition>
+            <Rectangle id="Rectangle">
+                <LineWidth>1</LineWidth>
+                <Width>12</Width>
+                <Height>12</Height>
+                <LineColor>black</LineColor>
+                <FillColor>red</FillColor>
+            </Rectangle>
+        </Element>
+        <Element id="Element">
+            <FloatPosition>110.000,35.000</FloatPosition>
+            <Rectangle id="Rectangle">
+                <LineWidth>1</LineWidth>
+                <Width>12</Width>
+                <Height>12</Height>
+                <LineColor>black</LineColor>
+                <FillColor>blue</FillColor>
+            </Rectangle>
+        </Element>
+        <MouseArea id="MouseArea">
+            <FloatPosition>0.000,0.000</FloatPosition>
+            <Size>225,145</Size>
+            <MouseArea id="MouseArea">
+                <FloatPosition>25.000,35.000</FloatPosition>
+                <Size>12,12</Size>
+                <CursorType>UpArrow</CursorType>
+                <MouseClick id="MouseClickUp">
+                    <Script>(C:CABIN:CabinTemperature) 50 &lt; if{ (C:CABIN:CabinTemperature) 1 + (&gt;C:CABIN:CabinTemperature) }</Script>
+                </MouseClick>
+            </MouseArea>
+            <MouseArea id="MouseArea">
+                <FloatPosition>110.000,35.000</FloatPosition>
+                <Size>12,12</Size>
+                <CursorType>DownArrow</CursorType>
+                <MouseClick id="MouseClickDown">
+                    <Script>(C:CABIN:CabinTemperature) 0 &gt; if{ (C:CABIN:CabinTemperature) 1 - (&gt;C:CABIN:CabinTemperature) }</Script>
+                </MouseClick>
+            </MouseArea>
+        </MouseArea>
+    </SimGauge.Gauge>
+</SimBase.Document>

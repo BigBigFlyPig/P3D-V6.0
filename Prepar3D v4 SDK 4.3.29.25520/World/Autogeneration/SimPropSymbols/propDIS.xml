@@ -1,0 +1,1088 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--  Distributed Interactive Simulation (DIS) property symbol definition document
+
+    see propbase.xml for an explanation of property symbol definition document schema
+-->
+
+<SymbolDef
+    name    = "DIS"
+    id      = "{897154C9-EF95-414E-935B-6B231BFD8F7B}"
+    descr   = "Distributed Interactive Simulation (DIS) property, type, and set definitions."
+    chdr    = "propDIS.h"
+    version = "1,0">
+
+    <SymbolInclude
+        filename    = "propworldbase.xml"
+        id          = "{AE1B7598-3DE6-40d8-A8B8-ED52E281399F}"
+        version     = "1,0" />
+
+    <SymbolInclude
+        filename    = "propmission.xml"
+        id          = "{A2E52D91-C9FB-46ae-8958-B3CB121EDDBC}"
+        version     = "1,0" />
+
+    <cpptext pass="1">
+//-------------------------------------------------------------------------//
+//  propDIS.h
+//
+//  Distributed Interactive Simulation (DIS) property, type, and set defs
+//-------------------------------------------------------------------------//
+//
+
+//
+//  Namespace
+//
+</cpptext>
+
+    <PropertyDefs symbolprefix="SPID_DIS_">
+
+        <cpptext pass="2">
+//
+//  Property Identifiers
+//
+</cpptext>
+
+        <!-- Begin Entity Type Properties -->
+
+        <PropertyDef
+            id          = "{CB39329B-AA81-44B3-87B0-FA478236F4A1}"
+            name        = "EntityTypeString"
+            type        = "TEXT"
+            descr       = "A period delimited string representing the entity's kind, domain, country, category, subcategory, specific, and extra. For example, 1.2.225.1.6.1.0" />
+
+        <!-- End Entity Type Properties -->
+
+        <!-- Begin Entity Appearance Properties -->
+
+        <PropertyDef
+            id          = "{A0B2EE19-8AE4-4C6B-96A4-874AE6687B7D}"
+            name        = "AppearanceMask"
+            type        = "TEXT"
+            descr       = "This hexadecimal value represents the bits that the property value should be written into." />
+
+        <PropertyDef
+            id          = "{E2799FA5-82C5-483B-86E2-547997037114}"
+            name        = "AppearanceType"
+            type        = "ENUM"
+            xml_io      = "attribute"
+            default     = "Unknown"
+            descr       = "The type of appearance to be bound.">
+            <EnumDef symbolprefix="SIMPROP_APPEARANCE_TYPE">
+                <EnumVal name = "UNKNOWN" xml_name = "Unknown" />
+                <EnumVal name = "CUSTOM" xml_name = "Custom" />
+                <EnumVal name = "PAINT_SCHEME" xml_name = "PaintScheme" />
+                <EnumVal name = "MOBILITY_KILLED" xml_name = "MobilityKilled" />
+                <EnumVal name = "FIRE_POWER_KILLED" xml_name = "FirePowerKilled" />
+                <EnumVal name = "DAMAGE" xml_name = "Damage" />
+                <EnumVal name = "IS_SMOKE_EMANATING" xml_name = "IsSmokeEmanating" />
+                <EnumVal name = "IS_ENGINE_EMITTING_SMOKE" xml_name = "IsEngineEmittingSmoke" />
+                <EnumVal name = "TRAILING_EFFECT" xml_name = "TrailingEffect" />
+                <EnumVal name = "HATCH" xml_name = "Hatch" />
+                <EnumVal name = "HEAD_LIGHTS_ON" xml_name = "HeadLightsOn" />
+                <EnumVal name = "TAIL_LIGHTS_ON" xml_name = "TailLightsOn" />
+                <EnumVal name = "BRAKE_LIGHTS_ON" xml_name = "BrakeLightsOn" />
+                <EnumVal name = "IS_FLAMING" xml_name = "IsFlaming" />
+                <EnumVal name = "LAUNCHER_OPERATIONAL" xml_name = "LauncherOperational" />
+                <EnumVal name = "CAMOUFLAGE_TYPE" xml_name = "CamouflageType" />
+                <EnumVal name = "CONCEALED_POSITION" xml_name = "ConcealedPosition" />
+                <EnumVal name = "POWER_PLANT_ON" xml_name = "PowerPlantOn" />
+                <EnumVal name = "TENT_EXTENDED" xml_name = "TentExtended" />
+                <EnumVal name = "RAMP_EXTENDED" xml_name = "RampExtended" />
+                <EnumVal name = "BLACKOUT_LIGHTS_ON" xml_name = "BlackoutLightsOn" />
+                <EnumVal name = "BLACKOUT_BRAKE_LIGHTS_ON" xml_name = "BlackoutBrakeLightsOn" />
+                <EnumVal name = "SPOT_SEARCH_LIGHTS_ON" xml_name = "SpotSearchLightsOn" />
+                <EnumVal name = "INTERIOR_LIGHTS_ON" xml_name = "InteriorLightsOn" />
+                <EnumVal name = "OCCUPANTS_SURRENDERED" xml_name = "OccupantsSurrendered" />
+                <EnumVal name = "MASKED_CLOAKED" xml_name = "MaskedCloaked" />
+                <EnumVal name = "NVG_MODE" xml_name = "NVGMode" />
+                <EnumVal name = "CANOPY_TROOP_DOOR" xml_name = "CanopyTroopDoor" />
+                <EnumVal name = "LANDING_LIGHTS_ON" xml_name = "LandingLightsOn" />
+                <EnumVal name = "NAVIGATION_LIGHTS_ON" xml_name = "NavigationLightsOn" />
+                <EnumVal name = "ANTI_COLLISION_LIGHTS_ON" xml_name = "AntiCollisionLightsOn" />
+                <EnumVal name = "AFTERBURNER_ON" xml_name = "AfterburnerOn" />
+                <EnumVal name = "LOWER_ANTI_COLLISION_LIGHT_ON" xml_name = "LowerAntiCollisionLightOn" />
+                <EnumVal name = "UPPER_ANTI_COLLISION_LIGHT_ON" xml_name = "UpperAntiCollisionLightOn" />
+                <EnumVal name = "ANTI_COLLISION_DAY_NIGHT" xml_name = "AntiCollisionDayNight" />
+                <EnumVal name = "IS_BLINKING" xml_name = "IsBlinking" />
+                <EnumVal name = "FORMATION_LIGHTS_ON" xml_name = "FormationLightsOn" />
+                <EnumVal name = "LANDING_GEAR_EXTENDED" xml_name = "LandingGearExtended" />
+                <EnumVal name = "CARGO_DOORS_OPENED" xml_name = "CargoDoorsOpened" />
+                <EnumVal name = "NAVIGATION_POSITION_BRIGHTNESS" xml_name = "NavigationPositionBrightness" />
+                <EnumVal name = "REVERSE_THRUST_ENGAGED" xml_name = "ReverseThrustEngaged" />
+                <EnumVal name = "WEIGHT_ON_WHEELS" xml_name = "WeightOnWheels" />
+                <EnumVal name = "RUNNING_LIGHTS_ON" xml_name = "RunningLightsOn" />
+                <EnumVal name = "LAUNCH_FLASH_PRESENT" xml_name = "LaunchFlashPresent" />
+                <EnumVal name = "COVER_SHROUD_STATUS" xml_name = "CoverShroudStatus" />
+                <EnumVal name = "HEALTH" xml_name = "Health" />
+                <EnumVal name = "COMPLIANCE_STATUS" xml_name = "ComplianceStatus" />
+                <EnumVal name = "SIGNAL_SMOKE_IN_USE" xml_name = "SignalSmokeInUse" />
+                <EnumVal name = "FLASH_LIGHTS_ON" xml_name = "FlashLightsOn" />
+                <EnumVal name = "SIGNAL_MIRROR_IN_USE" xml_name = "SignalMirrorInUse" />
+                <EnumVal name = "IR_STROBE_ON" xml_name = "IRStrobeOn" />
+                <EnumVal name = "IR_ILLUMINATOR_ON" xml_name = "IRIlluminatorOn" />
+                <EnumVal name = "LIFE_FORM_POSTURE" xml_name = "LifeFormPosture" />
+                <EnumVal name = "MOUNTED_HOISTED_STATUS" xml_name = "MountedHoistedStatus" />
+                <EnumVal name = "WEAPON_IMPLEMENT_1" xml_name = "WeaponImplement1" />
+                <EnumVal name = "WEAPON_IMPLEMENT_2" xml_name = "WeaponImplement2" />
+                <EnumVal name = "CONCEALED_STATIONARY" xml_name = "ConcealedStationary" /> <!-- Same as ConcealedPosition -->
+                <EnumVal name = "CONCEALED_MOVEMENT" xml_name = "ConcealedMovement" />
+                <EnumVal name = "PARACHUTE_STATUS" xml_name = "ParachuteStatus" />
+                <EnumVal name = "FLARE_SMOKE_COLOR" xml_name = "FlareSmokeColor" />
+                <EnumVal name = "FLARE_SMOKE_STATUS" xml_name = "FlareSmokeStatus" />
+                <EnumVal name = "SPOT_CHAFF_STATUS" xml_name = "SpotChaffStatus" />
+            </EnumDef>
+        </PropertyDef>
+
+        <!-- End Entity Appearance Properties -->
+
+        <!-- Begin Articulated Part Properties -->
+
+        <PropertyDef
+            id          = "{AF142369-4F5C-4335-95A1-2E07C4309B13}"
+            name        = "Name"
+            type        = "TEXT"
+            xml_io      = "attribute"
+            descr       = "The friendly name of the ArticulatedPartDefinition." />
+
+        <PropertyDef
+            id          = "{DFA8B9F6-4221-482E-8555-F9EA8AEFF651}"
+            name        = "DefinitionGuid"
+            type        = "GUID"
+            xml_io      = "attribute"
+            descr       = "The DefinitionGUID is used to look up ArticulatedPartDefinition sets. ArticulatedPartDefinition sets will first be looked up based on the object's simulation category ID. If a definition is not found, the DISArticulatedPartDefinitionGuid value in aircraft.cfg or sim.cfg will be used to look up the definition (if present)." />
+
+        <PropertyDef
+            id          = "{0F706D76-D16F-4497-B213-769513EE42A7}"
+            name        = "PropertyGet"
+            type        = "TEXT"
+            xml_io      = "attribute"
+            descr       = "The property or simulation variable to be used to retrieve the ArticulatedPart value. This property will be used by local DIS entities when a packet is sent." />
+
+        <PropertyDef
+            id          = "{D33142D7-DCA1-4682-A6C9-C81500DFF828}"
+            name        = "PropertySet"
+            type        = "TEXT"
+            xml_io      = "attribute"
+            descr       = "The property or simulation variable to be used to apply the ArticulatedPart value. This property will be used by remote DIS entities when a packet is received. If this value is not present, the PropertyGet value will be used instead." />
+
+        <PropertyDef
+            id          = "{85AFB275-152A-45E0-9BE5-E7DF6C5010CF}"
+            name        = "Units"
+            type        = "TEXT"
+            xml_io      = "attribute"
+            descr       = "The units to be used when getting or setting the PropertyGet and PropertySet variables." />
+
+        <PropertyDef
+            id          = "{570AAFEB-03AD-470F-98DE-50BE4C90E782}"
+            name        = "CustomClass"
+            type        = "ULONG"
+            xml_io      = "attribute"
+            default     = "-1"
+            descr       = "This value will represent the ArticulatedPart class if a Class enumeration value of Custom is selected. This value is required if Custom Class enumeration is selected." />
+
+        <PropertyDef
+            id          = "{A09D82B8-1BFE-4CD2-BD55-923F73D8913F}"
+            name        = "CustomMetric"
+            type        = "ULONG"
+            xml_io      = "attribute"
+            default     = "-1"
+            descr       = "This value will represent the ArticulatedPart metric if a Metric enumeration value of Custom is selected. This value is required if Custom Metric enumeration is selected." />
+
+        <PropertyDef
+            id          = "{817833EA-E134-496E-9F65-CB5824F7F50A}"
+            name        = "Offset"
+            type        = "FLOAT"
+            xml_io      = "attribute"
+            default     = "0.0"
+            descr       = "This value will be added to the ArticulatedPart property value before it is sent or subtracted from the ArticulatedPart value after it is received. This value will be added before the scale value is multiplied if being sent or subtracted after the scale value is divided if being received. The default value is 0.0. If being sent, the formula is: SendValue = (Property + Offset) * Scale. If being received, the formula is: Property = (ReceivedValue / Scale) - Offset." />
+
+        <PropertyDef
+            id          = "{B0E0D8EA-A2AD-4F43-8F16-6EEEC130C005}"
+            name        = "Scale"
+            type        = "FLOAT"
+            xml_io      = "attribute"
+            default     = "1.0"
+            descr       = "This value will be multiplied against the ArticulatedPart property value before it is sent or divided from the ArticulatedPart value after it is received. This value will be multiplied after the offset value is added if being sent or subtracted after the scale value is divided if being received. The default value is 1.0. If being sent, the formula is: SendValue = (Property + Offset) * Scale. If being received, the formula is: Property = (ReceivedValue / Scale) - Offset." />
+
+        <PropertyDef
+            id          = "{CCD06584-F2F2-425E-B743-F8F2E841243D}"
+            name        = "Class"
+            type        = "ENUM"
+            xml_io      = "attribute"
+            default     = "Custom"
+            descr       = "The ArticulatedPart class. If a value of Custom is selected, the CustomClass value must also be present.">
+            <EnumDef symbolprefix="SIMPROP_ARTICULATED_PART_CLASS">
+                <EnumVal name = "CUSTOM" xml_name = "Custom" />
+                <EnumVal name = "RUDDER" xml_name = "Rudder" />
+                <EnumVal name = "LEFT_FLAP" xml_name = "LeftFlap" />
+                <EnumVal name = "RIGHT_FLAP" xml_name = "RightFlap" />
+                <EnumVal name = "LEFT_AILERON" xml_name = "LeftAileron" />
+                <EnumVal name = "RIGHT_AILERON" xml_name = "RightAileron" />
+                <EnumVal name = "HELICOPTER_MAIN_ROTOR" xml_name = "HelicopterMainRotor" />
+                <EnumVal name = "HELICOPTER_TAIL_ROTOR" xml_name = "HelicopterTailRotor" />
+                <EnumVal name = "PROPELLER_1" xml_name = "Propeller1" />
+                <EnumVal name = "PROPELLER_2" xml_name = "Propeller2" />
+                <EnumVal name = "PROPELLER_3" xml_name = "Propeller3" />
+                <EnumVal name = "PROPELLER_4" xml_name = "Propeller4" />
+                <EnumVal name = "LEFT_STABILATOR" xml_name = "LeftStabilator" />
+                <EnumVal name = "RIGHT_STABILATOR" xml_name = "RightStabilator" />
+                <EnumVal name = "LEFT_RUDDERVATOR" xml_name = "LeftRuddervator" />
+                <EnumVal name = "RIGHT_RUDDERVATOR" xml_name = "RightRuddervator" />
+                <EnumVal name = "LEFT_LEADING_EDGE_FLAP" xml_name = "LeftLeadingEdgeFlap" />
+                <EnumVal name = "RIGHT_LEADING_EDGE_FLAP" xml_name = "RightLeadingEdgeFlap" />
+                <EnumVal name = "LEFT_ELEVATOR" xml_name = "LeftElevator" />
+                <EnumVal name = "RIGHT_ELEVATOR" xml_name = "RightElevator" />
+                <EnumVal name = "LANDING_GEAR" xml_name = "LandingGear" />
+                <EnumVal name = "TAIL_HOOK" xml_name = "TailHook" />
+                <EnumVal name = "SPEED_BRAKE" xml_name = "SpeedBrake" />
+                <EnumVal name = "LANDING_GEAR_NOSE" xml_name = "LandingGearNose" />
+                <EnumVal name = "LANDING_GEAR_LEFT_MAIN" xml_name = "LandingGearLeftMain" />
+                <EnumVal name = "LANDING_GEAR_RIGHT_MAIN" xml_name = "LandingGearRightMain" />
+                <EnumVal name = "DECK_ELEVATOR_1" xml_name = "DeckElevator1" />
+                <EnumVal name = "DECK_ELEVATOR_2" xml_name = "DeckElevator2" />
+                <EnumVal name = "CATAPULT_1" xml_name = "Catapult1" />
+                <EnumVal name = "CATAPULT_2" xml_name = "Catapult2" />
+                <EnumVal name = "JET_BLAST_DEFLECTOR_1" xml_name = "JetBlastDeflector1" />
+                <EnumVal name = "JET_BLAST_DEFLECTOR_2" xml_name = "JetBlastDeflector2" />
+                <EnumVal name = "WING_ROTOR_FOLD" xml_name = "WingRotorFold" />
+            </EnumDef>
+        </PropertyDef>
+
+        <PropertyDef
+            id          = "{05CC573A-7E82-4BB9-A1B0-0430BF281FE7}"
+            name        = "Metric"
+            type        = "ENUM"
+            xml_io      = "attribute"
+            default     = "Custom"
+            descr       = "The ArticulatedPart metric. If a value of Custom is selected, the CustomMetric value must also be present.">
+            <EnumDef symbolprefix="SIMPROP_ARTICULATED_PART_METRIC">
+                <EnumVal name = "CUSTOM" xml_name = "Custom" />
+                <EnumVal name = "POSITION" xml_name = "Position" />
+                <EnumVal name = "POSITION_RATE" xml_name = "PositionRate" />
+                <EnumVal name = "EXTENSION" xml_name = "Extension" />
+                <EnumVal name = "EXTENSION_RATE" xml_name = "ExtensionRate" />
+                <EnumVal name = "TRANSLATION_X" xml_name = "TranslationX" />
+                <EnumVal name = "TRANSLATION_RATE_X" xml_name = "TranslationRateX" />
+                <EnumVal name = "TRANSLATION_Y" xml_name = "TranslationY" />
+                <EnumVal name = "TRANSLATION_RATE_Y" xml_name = "TranslationRateY" />
+                <EnumVal name = "TRANSLATION_Z" xml_name = "TranslationZ" />
+                <EnumVal name = "TRANSLATION_RATE_Z" xml_name = "TranslationRateZ" />
+                <EnumVal name = "AZIMUTH" xml_name = "Azimuth" />
+                <EnumVal name = "AZIMUTH_RATE" xml_name = "AzimuthRate" />
+                <EnumVal name = "ELEVATION" xml_name = "Elevation" />
+                <EnumVal name = "ELEVATION_RATE" xml_name = "ElevationRate" />
+                <EnumVal name = "ROTATION" xml_name = "Rotation" />
+                <EnumVal name = "ROTATION_RATE" xml_name = "RotationRate" />
+            </EnumDef>
+        </PropertyDef>
+
+        <!-- End Articulated Part Properties -->
+
+        <!-- Begin Entity Configuration Properties -->
+
+        <PropertyDef
+            id          = "{51F184E5-4DA7-420B-B2B8-FC5BD5ADCC31}"
+            name        = "ExerciseId"
+            type        = "ULONG"
+            serialize   = "default"
+            default     = "0"
+            descr       = "The Exercise ID of the distributed interactive simulation. Applications participating in the same simulation should have matching Exercise IDs. A value of zero may be entered to receive network traffic from all connected exercises. Valid Exercise IDs range from 0 to 255." />
+
+        <PropertyDef
+            id          = "{FBB66E68-7D62-45A4-9743-2526ABB32D74}"
+            name        = "SiteId"
+            type        = "ULONG"
+            serialize   = "default"
+            default     = "0"
+            descr       = "The Site ID of this application instance. Site IDs may be the same for multiple applications as long as each application's Application ID is unique. Valid Site IDs range from 0 to 65535." />
+
+        <PropertyDef
+            id          = "{C1DE48A8-143A-4C51-AD08-C28BB11C82B7}"
+            name        = "ApplicationId"
+            type        = "ULONG"
+            serialize   = "default"
+            default     = "0"
+            descr       = "The Application ID of this application instance. Application IDs should be unique for all applications participating in a given exercise from a given site. For example, the Application ID should be unique for all simulations sharing the same Exercise ID and Site ID. Valid Application IDs range from 0 to 65535." />
+
+        <PropertyDef
+            id          = "{1DA56ACE-73AB-4EFF-915F-772F1DB46A0F}"
+            name        = "EntityId"
+            type        = "ULONG"
+            serialize   = "default"
+            default     = "0"
+            descr       = "The Entity ID of the user entity. Valid Entity IDs range from 0 to 65535." />
+
+        <PropertyDef
+            id          = "{33791DA9-B2A4-49A4-B6D0-E7EE6CCB533F}"
+            name        = "ForceId"
+            type        = "ULONG"
+            serialize   = "default"
+            default     = "0"
+            descr       = "The Force ID of the user entity. Valid Force IDs range from 0 to 255." />
+
+        <PropertyDef
+            id          = "{464832F0-A3D7-432A-9F00-DC9DA9746D4E}"
+            name        = "Marking"
+            type        = "TEXT"
+            descr       = "The Marking of the user entity. The Marking must be 11 characters or less." />
+
+        <!-- End Entity Configuration Properties -->
+
+        <!-- Begin Timing Configuration Properties -->
+
+        <PropertyDef
+            id          = "{3BDBB81E-2309-4666-832E-9164A84F6C55}"
+            name        = "Heartbeat"
+            type        = "FLOAT"
+            serialize   = "default"
+            default     = "5"
+            descr       = "The maximum time in seconds that an entity will wait between heartbeats. Simulation objects will automatically heartbeat when their current location or dead reckoning values exceed that of the DIS standard. The default value is 5 seconds." />
+
+        <PropertyDef
+            id          = "{E9F5F075-8DEA-428E-A886-7A6C92420E28}"
+            name        = "MaxHeartbeatFrequency"
+            type        = "FLOAT"
+            serialize   = "default"
+            default     = "60"
+            descr       = "The maximum frequency that an entity will heartbeat in Hertz. For example, a value of 60 Hz means that an entity will heartbeat no more than 60 times per second. The default value is 60 Hz." />
+
+        <PropertyDef
+            id          = "{DEB2440F-C516-4F4E-B456-28420AE8C1A3}"
+            name        = "Timeout"
+            type        = "FLOAT"
+            serialize   = "default"
+            default     = "10"
+            descr       = "The timeout value to remove non-heartbeating entities in seconds. The default value is 10 seconds." />
+
+        <PropertyDef
+            id          = "{24F6E936-AC6D-425E-B5DF-93F44B66AA5E}"
+            name        = "RelativeTimestamp"
+            type        = "BOOL"
+            serialize   = "default"
+            default     = "False"
+            descr       = "Set to true if relative timestamps should be used, false for absolute timestamps." />
+
+        <!-- End Timing Configuration Properties -->
+
+        <!-- Begin Connection Configuration Properties -->
+
+        <PropertyDef
+            id          = "{E59F9027-1686-4BDF-A43E-216B2505C416}"
+            name        = "ConnectionType"
+            type        = "ENUM"
+            serialize   = "default"
+            default     = "Multicast"
+            descr       = "The desired connection type, either Multicast or Broadcast. Multicast connection types must provide a valid Multicast Address. Broadcast connection types must provide a valid Subnet Mask. The default connection type is Multicast.">
+            <EnumDef symbolprefix="SIMPROP_CONNECTION_TYPE">
+                <EnumVal name = "MULTICAST" xml_name = "Multicast" />
+                <EnumVal name = "BROADCAST" xml_name = "Broadcast" />
+            </EnumDef>
+        </PropertyDef>
+
+        <PropertyDef
+            id          = "{E12EB7C3-8272-45E0-B1C9-830DD1BE5772}"
+            name        = "IpAddress"
+            type        = "TEXT"
+            descr       = "The local IP Address of this machine. The local IP Address is used in conjunction with the subnet mask to create the broadcast address when using the broadcast connection type. The local IP Address is also used to filter incoming packets that may have been sent from this machine." />
+
+		<PropertyDef
+            id          = "{F5A72DB3-CAF3-47C6-BBBA-759B5B944602}"
+            name        = "MulticastAddress"
+            type        = "TEXT"
+            descr       = "The Multicast Address is only used by the Multicast connection type. The valid Multicast Address range is 224.0.0.1 to 239.255.255.255." />
+
+        <PropertyDef
+            id          = "{D801F2B3-3A72-450A-A45B-4B37A3E94D6D}"
+            name        = "SubnetMask"
+            type        = "TEXT"
+            descr       = "The Subnet Mask to be used in conjunction with the machine's IP Address to create the final broadcast address. The default value of the Subnet Mask is 255.255.255.0 (class C network). The Subnet Mask should be within the range 0.0.0.0 to 255.255.255.254. For universal broadcast mode, a Subnet Mask of 0.0.0.0 should be entered. This value is only valid for Broadcast connection types." />
+
+        <PropertyDef
+            id          = "{021681F7-EB49-445B-8F26-5FA91535AC17}"
+            name        = "Port"
+            type        = "ULONG"
+            serialize   = "default"
+            default     = "3000"
+            descr       = "The Port used by both Multicast and Broadcast connection types. Valid Port ranges are from 1024 to 65535. The default value is 3000." />
+
+		<PropertyDef
+            id          = "{51809A90-84BD-47C3-9DAC-47D9BE96E542}"
+            name        = "TimeToLive"
+            type        = "ULONG"
+            serialize   = "default"
+            default     = "64"
+            descr       = "The packet Time to Live value. This value represents the number of routers that a packet is allowed to cross. The default value is 64 and the maximum value is 255." />
+
+        <!-- End Connection Configuration Properties -->
+
+        <!-- Begin Options Configuration Properties -->
+
+        <PropertyDef
+            name        = "ExerciseRegionTopLeft"
+            ID          = "{ED41ABE5-371C-4532-AC9F-55111F2831E4}"
+            type        = "LLA"
+            descr       = "The latitude and longitude of the top-left corner of the exercise region in degrees. Remote entities reporting outside of the exercise region will not be processed. To disable the exercise region, a value of zero should be entered for the latitude and longitude of both the top-left and bottom-right corners.">
+        </PropertyDef>
+
+        <PropertyDef
+            name        = "ExerciseRegionBottomRight"
+            ID          = "{0FCC92E6-722F-4FCC-B54E-A03E94BA44FC}"
+            type        = "LLA"
+            descr       = "The latitude and longitude of the bottom-right corner of the exercise region in degrees. Remote entities reporting outside of the exercise region will not be processed. To disable the exercise region, a value of zero should be entered for the latitude and longitude of both the top-left and bottom-right corners.">
+        </PropertyDef>
+
+        <PropertyDef
+            id          = "{309DC98A-CFCD-4CAF-83F2-E7911A73FE59}"
+            name        = "EnableLogging"
+            type        = "BOOL"
+            serialize   = "default"
+            default     = "True"
+            descr       = "Set to true enable logging." />
+
+        <PropertyDef
+            id          = "{FA8F0A1B-AAD5-4938-8893-CFC99DFF07B7}"
+            name        = "BroadcastAITraffic"
+            type        = "BOOL"
+            serialize   = "default"
+            default     = "False"
+            descr       = "Set to true to enable the broadcasting of AI traffic as DIS entities." />
+
+            <PropertyDef
+            id          = "{AC411F7D-5953-4D36-8281-0576FEA3528E}"
+            name        = "BroadcastNavAids"
+            type        = "BOOL"
+            serialize   = "default"
+            default     = "False"
+            descr       = "Set to true to enable the broadcasting of navigation aids such as VOR, DME, TACAN, and NDB." />
+
+        <PropertyDef
+            id          = "{B115A336-658A-4959-A4AE-08069882FF76}"
+            name        = "DisableArticulatedParts"
+            type        = "BOOL"
+            serialize   = "default"
+            default     = "False"
+            descr       = "Set to true to disable the serialization and deserialization of articulated parts." />
+
+        <PropertyDef
+            id          = "{D6A8F6F6-E757-4DC9-A046-38F028C374B0}"
+            name        = "DisableEntityAppearance"
+            type        = "BOOL"
+            serialize   = "default"
+            default     = "False"
+            descr       = "Set to true to disable the serialization and deserialization of entity appearances." />
+
+        <PropertyDef
+            id          = "{C79A2F60-0790-4401-A99A-0C41A78F999D}"
+            name        = "DisableDeadReckoning"
+            type        = "BOOL"
+            serialize   = "default"
+            default     = "False"
+            descr       = "Set to true to disable the dead reckoning of remote entities." />
+
+        <PropertyDef
+            id          = "{C35AF0D7-055F-4CEA-870E-5FB24EE1BE46}"
+            name        = "PullToGround"
+            type        = "BOOL"
+            serialize   = "default"
+            default     = "False"
+            descr       = "Set to true to  ground based platforms and lifeforms onto the terrain and surface based platforms onto the water." />
+
+		<PropertyDef
+            id          = "{C35AF0D7-055F-4CEA-870E-5FB24EE1BA92}"
+            name        = "AutoFindIPAddress"
+            type        = "BOOL"
+            serialize   = "default"
+            default     = "True"
+            descr       = "Set to true to Automatically fill in the IPAddress with the local machine's address" />
+
+        <!-- End Options Configuration Properties -->
+
+        <!-- Begin Radio Configuration Properties -->
+
+        <PropertyDef
+            id          = "{D492BB9A-AFA4-4BFA-ADC4-9A75B3D188B6}"
+            name        = "IntercomChannel"
+            type        = "ULONG"
+            serialize   = "default"
+            default     = "1"
+            descr       = "The channel number (frequency) of the intercom. Valid values range from 1 to 100,000. Only intercom transmissions on the same channel will be heard." />
+
+        <PropertyDef
+            id          = "{C7C67DDE-32D7-4131-BCDE-814A4BDCFCBC}"
+            name        = "IntercomPriority"
+            type        = "ULONG"
+            serialize   = "default"
+            default     = "0"
+            descr       = "The priority associated with the intercom transmission. A value of 0 represents exempt meaning the transmission will always be heard. Valid values are within the range 1 to 255 with 1 being the highest priority and 255 being the lower priority. Intercoms with higher priorities will be heard over intercoms with lower priorities when transmitting at the same time. The intercom with the lower priority in this case will be muted." />
+
+        <!-- End Radio Configuration Properties -->
+
+        <!-- Begin Emission Configuration Properties -->
+
+        <PropertyDef
+            id          = "{E23EAFED-568A-4D74-AEA0-56A14883B728}"
+            name        = "EmissionName"
+            type        = "TEXT"
+            descr       = "Text based friendly name of the emission." />
+
+        <PropertyDef
+            id          = "{83488DD4-1FCE-4508-9E8C-194C5860C1E7}"
+            name        = "EmissionSystemName"
+            type        = "TEXT"
+            descr       = "Text based friendly name of the emission system." />
+
+        <PropertyDef
+            id          = "{24867C86-7033-41BD-BDEA-CBDF7C147E66}"
+            name        = "EmitterName"
+            type        = "ULONG"
+            descr       = "An integer value representing the emitter name." />
+
+        <PropertyDef
+            id          = "{E048090B-0C8D-4EF3-9B3C-1661FAE0CFBF}"
+            name        = "EmitterFunction"
+            type        = "ULONG"
+            serialize   = "default"
+            default     = "0"
+            descr       = "An integer value representing the emitter function." />
+
+        <PropertyDef
+            id          = "{893078D6-6361-4F3D-9D59-BD1FCE8E1253}"
+            name        = "EmitterNumber"
+            type        = "ULONG"
+            serialize   = "default"
+            default     = "1"
+            descr       = "The unique emitter identification number for a specific emitter. Valid values are within the range 1 to 254 inclusively." />
+
+        <PropertyDef
+            id          = "{58CDDC50-824D-4B42-80F7-7C465D881A4E}"
+            name        = "EmitterBeamName"
+            type        = "TEXT"
+            descr       = "Text based friendly name for the emitter beam." />
+
+        <PropertyDef
+            id          = "{F6A1FB2C-263C-4AD5-A697-361238E9E625}"
+            name        = "BeamNumber"
+            type        = "ULONG"
+            serialize   = "default"
+            default     = "1"
+            descr       = "The unique beam identification number for a specific beam. Valid values are within the range 1 to 254 inclusively." />
+
+        <PropertyDef
+            id          = "{CDCE19B5-4653-4934-ABCF-40C72F15641C}"
+            name        = "BeamParameter"
+            type        = "ULONG"
+            serialize   = "default"
+            default     = "0"
+            descr       = "The beam parameter used in conjunction with the emitter name for database look-ups." />
+
+        <PropertyDef
+            id          = "{D720593B-7797-4438-B663-34960546B3D5}"
+            name        = "Frequency"
+            type        = "FLOAT"
+            serialize   = "default"
+            default     = "0"
+            descr       = "The average center frequency of the beam emission in Hertz." />
+
+        <PropertyDef
+            id          = "{6407FD79-64B9-4A9C-AA9D-5CFB4766AC17}"
+            name        = "FrequencyRange"
+            type        = "FLOAT"
+            serialize   = "default"
+            default     = "0"
+            descr       = "The difference between the upper and lower limits of the center frequency." />
+
+        <PropertyDef
+            id          = "{40D36C4C-97AF-4523-B1B3-5DB03D8BE366}"
+            name        = "EffectiveRadiatedPower"
+            type        = "FLOAT"
+            serialize   = "default"
+            default     = "0"
+            descr       = "The average effective radiated power for the emission in dBm." />
+
+        <PropertyDef
+            id          = "{D87FF81F-526E-4A38-BCB7-E1B8FD37ECEE}"
+            name        = "PulseRepetitionFrequency"
+            type        = "FLOAT"
+            serialize   = "default"
+            default     = "0"
+            descr       = "The average pulse repetition frequency of the emission in Hertz." />
+
+        <PropertyDef
+            id          = "{165A4A2C-E625-49A5-AE23-CC814B8D8F71}"
+            name        = "PulseWidth"
+            type        = "FLOAT"
+            serialize   = "default"
+            default     = "0"
+            descr       = "The average pulse with of the emission in micro-seconds." />
+
+        <PropertyDef
+            id          = "{BFD671EA-B316-4298-9385-A795EEFACF07}"
+            name        = "AzimuthCenter"
+            type        = "FLOAT"
+            serialize   = "default"
+            default     = "0"
+            descr       = "The center azimuth of the beam in degrees relative to the emitter." />
+
+        <PropertyDef
+            id          = "{FF6DA21D-A459-45A6-A650-87D3279E2577}"
+            name        = "AzimuthSweep"
+            type        = "FLOAT"
+            serialize   = "default"
+            default     = "0"
+            descr       = "The half-angle sweep of the azimuth in degrees relative to the center azimuth." />
+
+        <PropertyDef
+            id          = "{D90F262F-DC01-4A41-9DEF-2E26293D82E5}"
+            name        = "ElevationCenter"
+            type        = "FLOAT"
+            serialize   = "default"
+            default     = "0"
+            descr       = "The center elevation of the beam in degrees relative to the emitter." />
+
+        <PropertyDef
+            id          = "{279B6B89-7432-4922-8D62-BCDBB3019BDB}"
+            name        = "ElevationSweep"
+            type        = "FLOAT"
+            serialize   = "default"
+            default     = "0"
+            descr       = "The half-angle sweep of the elevation in degrees relative to the center elevation." />
+
+        <PropertyDef
+            id          = "{C2EB77E1-0DD0-4D3A-BD68-D254B75304EC}"
+            name        = "SweepSync"
+            type        = "FLOAT"
+            serialize   = "default"
+            default     = "0"
+            descr       = "The semi-open range from 0.0 to 100.0 representing the percentage of the pattern scanned from its origin." />
+
+        <PropertyDef
+            id          = "{37F97FAE-5BB8-457C-9F13-E7004301D8D8}"
+            name        = "BeamFunction"
+            type        = "ULONG"
+            serialize   = "default"
+            default     = "ULONG"
+            descr       = "An integer value representing the beam function." />
+
+        <PropertyDef
+            id          = "{1B7FE5ED-8B8F-4807-8476-A261E2C80921}"
+            name        = "IsHighDensityTrack"
+            type        = "BOOL"
+            serialize   = "default"
+            default     = "False"
+            descr       = "True if all targets in the scan pattern are to be considered tracked or jammed." />
+
+        <PropertyDef
+            id          = "{D0FBEAAE-C6E1-4A7E-8112-C4A9943A1A18}"
+            name        = "JammingMode"
+            type        = "TEXT"
+            descr       = "The jamming mode sequence for the given emitter in string representation. For example, 1.2.3.4" />
+
+        <!-- End Emission Configuration Properties -->
+
+        <!-- Begin Munition Configuration Properties -->
+
+        <PropertyDef
+            id          = "{5809A85C-595A-47A6-8270-A593EAC56789}"
+            name        = "MunitionEffectTimeOut"
+            type        = "ULONG"
+            serialize   = "default"
+            default     = "300"
+            descr       = "The time in seconds before infinite lifetime munition effects will be removed from the simulation. A value of 0 can be used to prevent munition effects from timing out." />
+
+        <PropertyDef
+            id          = "{BA3E2864-09EC-4A6B-88B1-2744E56F89A0}"
+            name        = "MunitionName"
+            type        = "TEXT"
+            descr       = "Text based friendly name of the munition." />
+
+        <PropertyDef
+            id          = "{AEE1BC9E-8651-44E8-A0E4-E6B4D9EC9243}"
+            name        = "DetonationName"
+            type        = "TEXT"
+            descr       = "Text based friendly name of the detonation." />
+
+        <PropertyDef
+            id          = "{C3EAF6DA-7916-476F-90A2-EE49E10DF27E}"
+            name        = "EffectName"
+            type        = "TEXT"
+            cardinality = "multiple"
+            descr       = "The file name of the particle effect (without the extension)." />
+
+        <PropertyDef
+            id          = "{E2E6E4FA-229E-4614-863C-BE9A10F1B341}"
+            name        = "DetonationResult"
+            type        = "ENUM"
+            serialize   = "default"
+            default     = "Other"
+            cardinality = "multiple"
+            descr       = "The detonation result type of the munition. Multiple detonation result types can be associated with a single detonation definition.">
+            <EnumDef symbolprefix="SIMPROP_DETONATION_RESULT">
+                <EnumVal name = "OTHER" xml_name = "Other" />
+                <EnumVal name = "ENTITY_IMPACT" xml_name = "Entity Impact" />
+                <EnumVal name = "ENTITY_PROXIMATE_DETONATION" xml_name = "Entity Proximate Detonation" />
+                <EnumVal name = "GROUND_IMPACT" xml_name = "Ground Impact" />
+                <EnumVal name = "GROUND_PROXIMATE_DETONATION" xml_name = "Ground Proximate Detonation" />
+                <EnumVal name = "DETONATION" xml_name = "Detonation" />
+                <EnumVal name = "NONE_OR_NO_DETONATION" xml_name = "None or No Detonation" />
+                <EnumVal name = "HE_HIT_SMALL" xml_name = "HE Hit Small" />
+                <EnumVal name = "HE_HIT_MEDIUM" xml_name = "HE Hit Medium" />
+                <EnumVal name = "HE_HIT_LARGE" xml_name = "HE Hit Large" />
+                <EnumVal name = "ARMOR_PIERCING_HIT" xml_name = "Armor Piercing Hit" />
+                <EnumVal name = "DIRT_BLAST_SMALL" xml_name = "Dirt Blast Small" />
+                <EnumVal name = "DIRT_BLAST_MEDIUM" xml_name = "Dirt Blast Medium" />
+                <EnumVal name = "DIRT_BLAST_LARGE" xml_name = "Dirt Blast Large" />
+                <EnumVal name = "WATER_BLAST_SMALL" xml_name = "Water Blast Small" />
+                <EnumVal name = "WATER_BLAST_MEDIUM" xml_name = "Water Blast Medium" />
+                <EnumVal name = "WATER_BLAST_LARGE" xml_name = "Water Blast Large" />
+                <EnumVal name = "AIR_HIT" xml_name = "Air Hit" />
+                <EnumVal name = "BUILDING_HIT_SMALL" xml_name = "Building Hit Small" />
+                <EnumVal name = "BUILDING_HIT_MEDIUM" xml_name = "Building Hit Medium" />
+                <EnumVal name = "BUILDING_HIT_LARGE" xml_name = "Building Hit Large" />
+                <EnumVal name = "MINE_CLEARING_LINE_CHARGE" xml_name = "Mine Clearing Line Charge" />
+                <EnumVal name = "ENVIRONMENT_OBJECT_IMPACT" xml_name = "Environment Object Impact" />
+                <EnumVal name = "ENVIRONMENT_OBJECT_PROXIMATE_DETONATION" xml_name = "Environment Object Proximate Detonation" />
+                <EnumVal name = "WATER_IMPACT" xml_name = "Water Impact" />
+                <EnumVal name = "AIR_BURST" xml_name = "Air Burst" />
+                <EnumVal name = "KILL_WITH_FRAGMENT_TYPE_1" xml_name = "Kill with Fragment Type 1" />
+                <EnumVal name = "KILL_WITH_FRAGMENT_TYPE_2" xml_name = "Kill with Fragment Type 2" />
+                <EnumVal name = "KILL_WITH_FRAGMENT_TYPE_3" xml_name = "Kill with Fragment Type 3" />
+                <EnumVal name = "KILL_WITH_FRAGMENT_TYPE_1_AFTER_FLY_OUT_FAILURE" xml_name = "Kill with Fragment Type 1 after Fly out Failure" />
+                <EnumVal name = "KILL_WITH_FRAGMENT_TYPE_2_AFTER_FLY_OUT_FAILURE" xml_name = "Kill with Fragment Type 2 after Fly out Failure" />
+                <EnumVal name = "MISS_DUE_TO_FLY_OUT_FAILURE" xml_name = "Miss Due to Fly out Failure" />
+                <EnumVal name = "MISS_DUE_TO_END_GAME_FAILURE" xml_name = "Miss Due to End Game Failure" />
+                <EnumVal name = "MISS_DUE_TO_FLY_OUT_AND_END_GAME_FAILURE" xml_name = "Miss Due to Fly out and End Game Failure" />
+            </EnumDef>
+        </PropertyDef>
+
+        <!-- End Munition Configuration Properties -->
+
+    </PropertyDefs>
+
+
+    <SetDefs symbolprefix="SSID_DIS_">
+
+        <cpptext pass="2">
+//
+//  Property Sets
+//
+</cpptext>
+
+        <!-- Begin Entity Type Sets -->
+
+        <SetDef
+            id          = "{E2ECAA8F-5C1F-4A00-87D5-237C21814369}"
+            name        = "EntityType"
+            policy      = "inclusive"
+            cardinality = "multiple"
+            descr       = "This set pairs an EntityTypeString with a ContainerTitle for entity substitution and broadcasting.">
+            <property name = "EntityTypeString" />
+            <property name = "ContainerTitle" />
+        </SetDef>
+
+        <SetDef
+            id      = "{5CC2FEE0-712B-4627-99E4-9DE7F510DA11}"
+            name    = "EntityTypes"
+            policy  = "inclusive"
+            descr   = "The parent set of all EntityType inner sets.">
+            <property name = "EntityType" />
+        </SetDef>
+
+        <!-- End Entity Type Sets -->
+
+        <!-- Begin Appearance Sets -->
+
+        <SetDef
+            id          = "{B107CC19-7703-474A-B707-47F558386B08}"
+            name        = "Appearance"
+            policy      = "inclusive"
+            cardinality = "multiple"
+            descr       = "This set represents a single appearance.">
+            <property name = "PropertyGet" />
+            <property name = "PropertySet" />
+            <property name = "AppearanceType" />
+            <property name = "AppearanceMask" />
+        </SetDef>
+
+        <SetDef
+            id          = "{AC86CD67-A7BC-4FF3-8F48-CE3F16B506A5}"
+            name        = "EntityAppearanceDefinition"
+            policy      = "inclusive"
+            cardinality = "multiple"
+            descr       = "This set represents a single EntityAppearanceDefinition.">
+            <property name = "Name" />
+            <property name = "DefinitionGuid" />
+            <property name = "Appearance" />
+        </SetDef>
+
+        <SetDef
+            id      = "{B8F60A3A-85C2-4F60-AF0F-0BB6433068D6}"
+            name    = "EntityAppearanceDefinitions"
+            policy  = "inclusive"
+            descr   = "This set represents a list of EntityAppearanceDefinitions.">
+            <property name = "EntityAppearanceDefinition" />
+        </SetDef>
+
+        <!-- End Appearance Sets -->
+
+        <!-- Begin Articulated Part Sets -->
+
+        <SetDef
+            id          = "{8252ADC4-A518-4471-9A02-C1A7FBB190F5}"
+            name        = "ArticulatedPart"
+            policy      = "inclusive"
+            cardinality = "multiple"
+            descr       = "This set represents a single ArticulatedPart instance.">
+            <property name = "PropertyGet" />
+            <property name = "PropertySet" />
+            <property name = "Units" />
+            <property name = "Class" />
+            <property name = "CustomClass" />
+            <property name = "Metric" />
+            <property name = "CustomMetric" />
+            <property name = "Offset" />
+            <property name = "Scale" />
+        </SetDef>
+
+        <SetDef
+            id          = "{D61B4AD9-3FFA-4DD6-92E9-0815091B9F33}"
+            name        = "ArticulatedPartDefinition"
+            policy      = "inclusive"
+            cardinality = "multiple"
+            descr       = "This set represents an ArticulatedPartDefinition which consists of a Name, DefinitionGuid, and a list of ArticulatedPart sets.">
+            <property name = "Name" />
+            <property name = "DefinitionGuid" />
+            <property name = "ArticulatedPart" />
+        </SetDef>
+
+        <SetDef
+            id      = "{F1693786-7DC7-4A62-BB33-BF08920E5495}"
+            name    = "ArticulatedPartDefinitions"
+            policy  = "inclusive"
+            descr   = "This set represents a list of ArticulatedPartDefinition sets.">
+            <property name = "ArticulatedPartDefinition" />
+        </SetDef>
+
+        <!-- End Articulated Part Sets -->
+
+        <!-- Begin Basic Configuration Sets -->
+
+        <SetDef
+            id      = "{BCA7668A-49F8-419B-B729-A99A11D3EF5D}"
+            name    = "Configuration"
+            policy  = "inclusive"
+            descr   = "The root configuration set provides access to all other inner configuration sets.">
+            <property name = "Entity" />
+            <property name = "Connection" />
+            <property name = "Timing" />
+            <property name = "Options" />
+            <property name = "Radios" />
+            <property name = "Emissions" />
+            <property name = "Munitions" />
+        </SetDef>
+
+        <SetDef
+            id      = "{97E2D44C-3AE2-42D8-9692-6035FBDABBA2}"
+            name    = "Entity"
+            policy  = "inclusive"
+            descr   = "This set provides exercise, site, application, and entity based configurations.">
+            <property name = "ExerciseId" />
+            <property name = "SiteId" />
+            <property name = "ApplicationId" />
+            <property name = "EntityId" />
+            <property name = "ForceId" />
+            <property name = "Marking" />
+        </SetDef>
+
+        <SetDef
+            id      = "{2D175132-2573-4D6F-A251-9012CD40BA6B}"
+            name    = "Connection"
+            policy  = "inclusive"
+            desc    = "This set provides connection based configuration such as connection type.">
+            <property name = "ConnectionType" />
+            <property name = "IpAddress" />
+            <property name = "MulticastAddress" />
+            <property name = "SubnetMask" />
+            <property name = "Port" />
+            <property name = "TimeToLive" />
+        </SetDef>
+
+        <SetDef
+            id      = "{B0E043CB-2381-4341-A241-61BA20A72EB5}"
+            name    = "Timing"
+            policy  = "inclusive"
+            descr   = "This set provides timing based configuration such entity heartbeat and timeout durations.">
+            <property name = "Heartbeat" />
+            <property name = "MaxHeartbeatFrequency" />
+            <property name = "Timeout" />
+            <property name = "RelativeTimestamp" />
+        </SetDef>
+
+        <SetDef
+            id      = "{E1534B4D-A743-48F2-92DE-CDA406633CE6}"
+            name    = "Options"
+            policy  = "inclusive"
+            descr   = "This set provides general option configuration.">
+            <property name = "ExerciseRegionTopLeft" />
+            <property name = "ExerciseRegionBottomRight" />
+            <property name = "EnableLogging" />
+            <property name = "BroadcastAITraffic" />
+            <property name = "BroadcastNavAids" />
+            <property name = "DisableArticulatedParts" />
+            <property name = "DisableEntityAppearance" />
+            <property name = "DisableDeadReckoning" />
+            <property name = "PullToGround" />
+			<property name = "AutoFindIPAddress" />
+        </SetDef>
+
+        <SetDef
+            id      = "{87AF522E-F48B-4FED-BE18-626D8D2E24F8}"
+            name    = "Radios"
+            policy  = "inclusive"
+            descr   = "This set provides radio and intercom based configuration. Users can broadcast communication on their current COM frequency using the CapsLock key. Users can broadcast to all entities on the selected intercom channel by using Shift+CapsLock.">
+            <property name = "IntercomChannel" />
+            <property name = "IntercomPriority" />
+        </SetDef>
+
+        <!-- End Basic Configuration Sets -->
+
+        <!-- Begin Emission Configuration Sets -->
+
+        <SetDef
+            id      = "{30903ADE-9794-4A2B-9066-1BF1CE44841A}"
+            name    = "Emissions"
+            policy  = "inclusive"
+            descr   = "This set provides electromagnetic emission based configuration.">
+            <property name = "ElectromagneticEmission" />
+        </SetDef>
+
+        <SetDef
+            id          = "{59147A05-89BE-4E37-9948-F846B1D9A96A}"
+            name        = "ElectromagneticEmission"
+            policy      = "inclusive"
+            cardinality = "multiple"
+            descr       = "This set represents an electromagnetic emission definition for a given EntityType which is composed of one or more ElectromagneticEmissionSystem.">
+            <property name = "EmissionName" />
+            <property name = "EntityTypeString" />
+            <property name = "ElectromagneticEmissionSystem" />
+        </SetDef>
+
+        <SetDef
+            id          = "{92A18386-0331-45B7-92E8-BEFCA97CF7F1}"
+            name        = "ElectromagneticEmissionSystem"
+            policy      = "inclusive"
+            cardinality = "multiple"
+            descr       = "This set represents a single electromagnetic emission system which is composed of one or more EmitterBeam.">
+            <property name = "EmissionSystemName" />
+            <property name = "EmitterName" />
+            <property name = "EmitterFunction" />
+            <property name = "EmitterNumber" />
+            <property name = "EmitterBeam" />
+        </SetDef>
+
+        <SetDef
+            id          = "{39890FD5-E306-4582-9CBD-98C419B7981F}"
+            name        = "EmitterBeam"
+            policy      = "inclusive"
+            cardinality = "multiple"
+            descr       = "This set represents a single emitter beam.">
+            <property name = "EmitterBeamName" />
+            <property name = "BeamNumber" />
+            <property name = "BeamParameter" />
+            <property name = "Frequency" />
+            <property name = "FrequencyRange" />
+            <property name = "EffectiveRadiatedPower" />
+            <property name = "PulseRepetitionFrequency" />
+            <property name = "PulseWidth" />
+            <property name = "AzimuthCenter" />
+            <property name = "AzimuthSweep" />
+            <property name = "ElevationCenter" />
+            <property name = "ElevationSweep" />
+            <property name = "SweepSync" />
+            <property name = "BeamFunction" />
+            <property name = "IsHighDensityTrack" />
+            <property name = "JammingMode" />
+        </SetDef>
+
+        <!-- End Emission Configuration Sets -->
+
+        <!-- Begin Munition Configuration Sets -->
+
+        <SetDef
+            id          = "{FC59A131-DAB9-499C-B350-1D6FB971CFBF}"
+            name        = "Munitions"
+            policy      = "inclusive"
+            descr       = "This set can be used to configure information about munition based types such as fire and detonation particle effects.">
+            <property name = "MunitionEffectTimeOut" />
+            <property name = "MunitionDefinition" />
+        </SetDef>
+
+        <SetDef
+            id          = "{6009D59D-736C-4F3B-812F-215618190941}"
+            name        = "MunitionDefinition"
+            policy      = "inclusive"
+            cardinality = "multiple"
+            descr       = "A MunitionDefinition is used to configure settings for a given munition type  (i.e. particle effects).">
+            <property name = "MunitionName" />
+            <property name = "EntityTypeString" />
+            <property name = "FireEffectList" />
+            <property name = "DetonationEffects" />
+        </SetDef>
+
+        <SetDef
+            id          = "{15DB0D79-C909-4449-9C9C-2739E9689D7B}"
+            name        = "FireEffectList"
+            policy      = "inclusive"
+            descr       = "The FireEffectList is used to configure the list of particle effects to be created at the time this munition type is fired.">
+            <property name = "EffectName" />
+        </SetDef>
+
+        <SetDef
+            id          = "{00C377F7-0E8C-4CF2-A001-A91E46EFDC7A}"
+            name        = "DefaultDetonationEffectList"
+            policy      = "inclusive"
+            descr       = "The DefaultDetonationEffectList is used to configure the default list of particle effects to be created for all detonation result types. The DefaultDetonationEffectList does not override a detonation type of NONE. The DefaultDetonationEffectList can be overridden by creating additional DetonationDefinitions.">
+            <property name = "EffectName" />
+        </SetDef>
+
+        <SetDef
+            id          = "{E8C5EDA7-C6D0-46E1-B8BC-8AD9272C5ACB}"
+            name        = "DetonationEffects"
+            policy      = "inclusive"
+            descr       = "The DetonationEffects section is used configure how particle effects should be created at the time this munition type is detonated.">
+            <property name = "DefaultDetonationEffectList" />
+            <property name = "DetonationDefinition" />
+        </SetDef>
+
+        <SetDef
+            id          = "{0A2CAB22-535B-4FAD-963C-9383751175E1}"
+            name        = "DetonationDefinition"
+            policy      = "inclusive"
+            cardinality = "multiple"
+            descr       = "The DetonationDefinition entry is used to bind a list of particle effects to a list of detonation results. Multiple particle effects can be bound to multiple detonation results using a single DetonationDefinition. For example, one could bind a list of water based particle effects to a list of water based detonation results.">
+            <property name = "DetonationName" />
+            <property name = "DetonationResults" />
+            <property name = "DetonationEffectList" />
+        </SetDef>
+
+        <SetDef
+            id          = "{A8188A69-FADD-4AC6-B1A9-1EDEB0794EB6}"
+            name        = "DetonationResults"
+            policy      = "inclusive"
+            descr       = "The DetonationResults list is used to configure the list of detonation results associated with this DetonationDefinition.">
+            <property name = "DetonationResult" />
+        </SetDef>
+
+        <SetDef
+            id          = "{75547340-45FE-4733-A171-2310C62E45C4}"
+            name        = "DetonationEffectList"
+            policy      = "inclusive"
+            descr       = "The DetonationEffectList is used to configure the list of particle effects to be created with this DetonationDefinition.">
+            <property name = "EffectName" />
+        </SetDef>
+
+        <!-- End Munition Configuration Sets -->
+
+    </SetDefs>
+
+</SymbolDef>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<AnimLib version="9.1">
+  <Anim name="c_gear" guid="E2E339A6-FCBF-43a9-A780-3473E03AB54B" length="200.000000"
+        type="Sim" typeParam="AutoPlay" typeParam2="c_gear">
+    <AnimStream name="Position" id="2" partName="F16_Cgear_new" length="200.000000">
+      <Keyframe time="0.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="100.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="200.000000" type="Vector" data="-0.000000;0.140998;0.000000;0.0"/>
+    </AnimStream>
+    <AnimStream name="Rotation" id="0" partName="Point_Helper_01" length="200.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="30.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="100.000000" type="Quaternion" data="-0.766044;-0.000000;0.000000;0.642788"/>
+      <Keyframe time="200.000000" type="Quaternion" data="-0.766044;-0.000000;0.000000;0.642788"/>
+    </AnimStream>
+    <AnimStream name="Position" id="2" partName="Point_Helper_01" length="200.000000">
+      <Keyframe time="0.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="200.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+    </AnimStream>
+    <AnimStream name="Rotation" id="0" partName="Point_Helper_02" length="200.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="30.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="100.000000" type="Quaternion" data="0.012934;-0.012933;-0.706870;0.707107"/>
+      <Keyframe time="200.000000" type="Quaternion" data="0.012934;-0.012933;-0.706870;0.707107"/>
+    </AnimStream>
+    <AnimStream name="Position" id="2" partName="Point_Helper_02" length="200.000000">
+      <Keyframe time="0.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="200.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+    </AnimStream>
+    <AnimStream name="Rotation" id="0" partName="Point_Helper_03" length="200.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="30.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="50.000000" type="Quaternion" data="0.154102;0.000000;0.000000;0.988055"/>
+      <Keyframe time="65.000000" type="Quaternion" data="0.269189;0.000000;0.000000;0.963087"/>
+      <Keyframe time="75.000000" type="Quaternion" data="0.276236;0.000000;0.000000;0.961090"/>
+      <Keyframe time="100.000000" type="Quaternion" data="0.248988;0.000000;0.000000;0.968507"/>
+      <Keyframe time="200.000000" type="Quaternion" data="0.248988;0.000000;0.000000;0.968507"/>
+    </AnimStream>
+    <AnimStream name="Position" id="2" partName="Point_Helper_03" length="200.000000">
+      <Keyframe time="0.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="200.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+    </AnimStream>
+    <AnimStream name="Rotation" id="0" partName="door_mid_anim" length="200.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="30.000000" type="Quaternion" data="0.939694;-0.000000;-0.000000;-0.342020"/>
+      <Keyframe time="200.000000" type="Quaternion" data="0.939694;-0.000000;-0.000000;-0.342020"/>
+    </AnimStream>
+  </Anim>
+  <Anim name="c_tire_still_key" guid="2788ac1a-4f88-402d-88fc-01a979ce48f8" length="100.000000"
+        type="Sim" typeParam="AutoPlay" typeParam2="c_tire_still_key">
+    <AnimStream name="Rotation" id="0" partName="wheel_C" length="100.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="25.000000" type="Quaternion" data="0.707107;-0.000000;-0.000000;0.707107"/>
+      <Keyframe time="50.000000" type="Quaternion" data="1.000001;-0.000000;0.000000;-0.000000"/>
+      <Keyframe time="75.000000" type="Quaternion" data="-0.707107;-0.000000;0.000000;0.707107"/>
+      <Keyframe time="100.000000" type="Quaternion" data="0.000000;-0.000000;-0.000000;1.000000"/>
+    </AnimStream>
+  </Anim>
+  <Anim name="c_wheel" guid="BC935F16-43CD-4046-8EF3-06E44A5940AB" length="200.000000"
+        type="Sim" typeParam="AutoPlay" typeParam2="c_wheel">
+    <AnimStream name="Rotation" id="0" partName="tube_03" length="200.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="50.000000" type="Quaternion" data="0.000000;0.166811;-0.687149;0.707107"/>
+      <Keyframe time="100.000000" type="Quaternion" data="0.000000;-0.235907;0.971777;0.000000"/>
+      <Keyframe time="150.000000" type="Quaternion" data="0.000000;-0.166811;0.687149;0.707107"/>
+      <Keyframe time="200.000000" type="Quaternion" data="0.000000;0.000000;-0.000000;1.000000"/>
+    </AnimStream>
+  </Anim>
+  <Anim name="elevator_percent_key" guid="69fced03-9a10-49a7-aa82-2b79ab5b63e0" length="100.000000"
+        type="Sim" typeParam="AutoPlay" typeParam2="elevator_percent_key">
+    <AnimStream name="Rotation" id="0" partName="elevator" length="100.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="50.000000" type="Quaternion" data="0.130526;0.000000;0.000000;0.991445"/>
+      <Keyframe time="100.000000" type="Quaternion" data="0.258819;0.000000;0.000000;0.965926"/>
+    </AnimStream>
+  </Anim>
+  <Anim name="jet_primary_exhaust_nozzle_pct_0" guid="6CD1E020-1A59-442f-A3E8-ADD719F24658" length="100.000000"
+        type="Sim" typeParam="AutoPlay" typeParam2="jet_primary_exhaust_nozzle_pct_0">
+  </Anim>
+  <Anim name="l_aileron_percent_key" guid="bad53e9a-1958-4b22-90fe-23513d121db3" length="100.000000"
+        type="Sim" typeParam="AutoPlay" typeParam2="l_aileron_percent_key">
+    <AnimStream name="Rotation" id="0" partName="Object05" length="100.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="50.000000" type="Quaternion" data="0.130526;0.000000;0.000000;0.991445"/>
+      <Keyframe time="100.000000" type="Quaternion" data="0.258819;0.000000;0.000000;0.965926"/>
+    </AnimStream>
+    <AnimStream name="Rotation" id="0" partName="Object" length="100.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="50.000000" type="Quaternion" data="0.258819;-0.000000;0.000000;0.965926"/>
+      <Keyframe time="100.000000" type="Quaternion" data="0.500000;-0.000000;-0.000000;0.866025"/>
+    </AnimStream>
+  </Anim>
+  <Anim name="l_gear" guid="E6A307E6-D0D8-4ca0-8A8E-77B7EA22FFB9" length="200.000000"
+        type="Sim" typeParam="AutoPlay" typeParam2="l_gear">
+    <AnimStream name="Rotation" id="0" partName="Dummy02" length="200.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="30.000000" type="Quaternion" data="0.754710;0.000000;-0.000000;0.656059"/>
+      <Keyframe time="200.000000" type="Quaternion" data="0.754710;0.000000;-0.000000;0.656059"/>
+    </AnimStream>
+    <AnimStream name="Rotation" id="0" partName="Dummy09x" length="200.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="30.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="100.000000" type="Quaternion" data="0.694191;-0.062510;-0.060734;0.714495"/>
+      <Keyframe time="200.000000" type="Quaternion" data="0.694191;-0.062510;-0.060734;0.714495"/>
+    </AnimStream>
+    <AnimStream name="Rotation" id="0" partName="Dummy09xcv" length="200.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="30.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="100.000000" type="Quaternion" data="0.357048;0.130474;0.029517;0.924458"/>
+      <Keyframe time="200.000000" type="Quaternion" data="0.357048;0.130474;0.029517;0.924458"/>
+    </AnimStream>
+    <AnimStream name="Rotation" id="0" partName="Dummy11" length="200.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="30.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="100.000000" type="Quaternion" data="0.685860;-0.062635;-0.060486;0.722505"/>
+      <Keyframe time="200.000000" type="Quaternion" data="0.685860;-0.062635;-0.060486;0.722505"/>
+    </AnimStream>
+    <AnimStream name="Rotation" id="0" partName="Dummy12" length="200.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="30.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="100.000000" type="Quaternion" data="-0.000000;-0.537300;-0.000000;0.843391"/>
+      <Keyframe time="200.000000" type="Quaternion" data="-0.000000;-0.537300;-0.000000;0.843391"/>
+    </AnimStream>
+    <AnimStream name="Rotation" id="0" partName="Dummy13" length="200.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="30.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="70.000000" type="Quaternion" data="0.031757;0.000000;-0.000000;0.999496"/>
+      <Keyframe time="100.000000" type="Quaternion" data="0.106636;-0.000000;-0.000000;0.994298"/>
+      <Keyframe time="200.000000" type="Quaternion" data="0.106636;-0.000000;-0.000000;0.994298"/>
+    </AnimStream>
+    <AnimStream name="Position" id="2" partName="Dummy13" length="200.000000">
+      <Keyframe time="0.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="30.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="60.000000" type="Vector" data="0.007308;-0.041144;-0.008085;0.0"/>
+      <Keyframe time="100.000000" type="Vector" data="-0.032176;-0.059275;0.036417;0.0"/>
+      <Keyframe time="200.000000" type="Vector" data="-0.032176;-0.059275;0.036417;0.0"/>
+    </AnimStream>
+    <AnimStream name="Position" id="2" partName="F16_LGL" length="200.000000">
+      <Keyframe time="0.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="200.000000" type="Vector" data="-0.000000;0.186509;0.000000;0.0"/>
+    </AnimStream>
+  </Anim>
+  <Anim name="l_tire_still_key" guid="33249ea2-f0e7-4e3f-9498-754697cf50bb" length="100.000000"
+        type="Sim" typeParam="AutoPlay" typeParam2="l_tire_still_key">
+    <AnimStream name="Rotation" id="0" partName="back_wheel01" length="100.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="25.000000" type="Quaternion" data="0.707107;-0.000000;0.000000;0.707107"/>
+      <Keyframe time="50.000000" type="Quaternion" data="1.000001;0.000000;-0.000000;-0.000000"/>
+      <Keyframe time="75.000000" type="Quaternion" data="-0.707107;0.000000;0.000000;0.707107"/>
+      <Keyframe time="100.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+    </AnimStream>
+  </Anim>
+  <Anim name="lever_speed_brake" guid="fb0ef2ea-47a9-41a7-8ad4-3f2a7601024a" length="100.000000"
+        type="Sim" typeParam="AutoPlay" typeParam2="lever_speed_brake">
+    <AnimStream name="Rotation" id="0" partName="Dummy03" length="100.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="30.000000" type="Quaternion" data="0.537300;-0.000000;0.000000;0.843391"/>
+      <Keyframe time="100.000000" type="Quaternion" data="0.537300;-0.000000;0.000000;0.843391"/>
+    </AnimStream>
+    <AnimStream name="Rotation" id="0" partName="Dummy04" length="100.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="30.000000" type="Quaternion" data="-0.537300;0.000000;0.000000;0.843391"/>
+      <Keyframe time="100.000000" type="Quaternion" data="-0.537300;0.000000;0.000000;0.843391"/>
+    </AnimStream>
+  </Anim>
+  <Anim name="r_aileron_percent_key" guid="77db62be-36d4-4c03-bea7-c4cc2a224d9d" length="100.000000"
+        type="Sim" typeParam="AutoPlay" typeParam2="r_aileron_percent_key">
+    <AnimStream name="Rotation" id="0" partName="Object09" length="100.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="50.000000" type="Quaternion" data="-0.130526;0.000000;-0.000000;0.991445"/>
+      <Keyframe time="100.000000" type="Quaternion" data="-0.258819;-0.000000;-0.000000;0.965926"/>
+    </AnimStream>
+    <AnimStream name="Rotation" id="0" partName="Object13" length="100.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="50.000000" type="Quaternion" data="-0.130526;-0.000000;0.000000;0.991445"/>
+      <Keyframe time="100.000000" type="Quaternion" data="-0.258819;-0.000000;0.000000;0.965926"/>
+    </AnimStream>
+  </Anim>
+  <Anim name="r_gear" guid="77C00B94-DDA1-450a-B725-1E2B4ADF6BC8" length="200.000000"
+        type="Sim" typeParam="AutoPlay" typeParam2="r_gear">
+    <AnimStream name="Rotation" id="0" partName="DUMMY09" length="200.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="30.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="100.000000" type="Quaternion" data="0.357048;0.130474;0.029517;0.924458"/>
+      <Keyframe time="200.000000" type="Quaternion" data="0.357048;0.130474;0.029517;0.924458"/>
+    </AnimStream>
+    <AnimStream name="Rotation" id="0" partName="Dummy05" length="200.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="30.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="100.000000" type="Quaternion" data="0.694191;-0.062510;-0.060734;0.714494"/>
+      <Keyframe time="200.000000" type="Quaternion" data="0.694191;-0.062510;-0.060734;0.714494"/>
+    </AnimStream>
+    <AnimStream name="Rotation" id="0" partName="Dummy06" length="200.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="30.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="100.000000" type="Quaternion" data="0.685860;-0.062635;-0.060486;0.722505"/>
+      <Keyframe time="200.000000" type="Quaternion" data="0.685860;-0.062635;-0.060486;0.722505"/>
+    </AnimStream>
+    <AnimStream name="Rotation" id="0" partName="Dummy07" length="200.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="30.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="100.000000" type="Quaternion" data="-0.000000;-0.537300;0.000000;0.843391"/>
+      <Keyframe time="200.000000" type="Quaternion" data="-0.000000;-0.537300;0.000000;0.843391"/>
+    </AnimStream>
+    <AnimStream name="Rotation" id="0" partName="Dummy08" length="200.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="30.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="70.000000" type="Quaternion" data="0.031757;-0.000000;0.000000;0.999496"/>
+      <Keyframe time="100.000000" type="Quaternion" data="0.106636;-0.000000;0.000000;0.994298"/>
+      <Keyframe time="200.000000" type="Quaternion" data="0.106636;-0.000000;0.000000;0.994298"/>
+    </AnimStream>
+    <AnimStream name="Position" id="2" partName="Dummy08" length="200.000000">
+      <Keyframe time="0.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="30.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="60.000000" type="Vector" data="0.007308;-0.041145;-0.008085;0.0"/>
+      <Keyframe time="100.000000" type="Vector" data="-0.032176;-0.059275;0.036417;0.0"/>
+      <Keyframe time="200.000000" type="Vector" data="-0.032176;-0.059275;0.036417;0.0"/>
+    </AnimStream>
+    <AnimStream name="Rotation" id="0" partName="Dummy29" length="200.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="30.000000" type="Quaternion" data="0.754709;-0.000000;0.000000;0.656059"/>
+      <Keyframe time="200.000000" type="Quaternion" data="0.754709;-0.000000;0.000000;0.656059"/>
+    </AnimStream>
+    <AnimStream name="Position" id="2" partName="F16_RLG" length="200.000000">
+      <Keyframe time="0.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="200.000000" type="Vector" data="-0.000000;0.186509;0.000000;0.0"/>
+    </AnimStream>
+  </Anim>
+  <Anim name="r_tire_still_key" guid="6114e2ca-5fb8-4d20-a880-56945094247f" length="100.000000"
+        type="Sim" typeParam="AutoPlay" typeParam2="r_tire_still_key">
+    <AnimStream name="Rotation" id="0" partName="back_wheel" length="100.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="25.000000" type="Quaternion" data="0.707107;0.000000;0.000000;0.707107"/>
+      <Keyframe time="50.000000" type="Quaternion" data="1.000001;0.000000;-0.000000;-0.000000"/>
+      <Keyframe time="75.000000" type="Quaternion" data="-0.707107;0.000000;-0.000000;0.707107"/>
+      <Keyframe time="100.000000" type="Quaternion" data="0.000000;0.000000;-0.000000;1.000000"/>
+    </AnimStream>
+  </Anim>
+  <Anim name="rudder_percent_key" guid="5433b2a0-0fd9-4192-8f7d-0ba36bf7191d" length="100.000000"
+        type="Sim" typeParam="AutoPlay" typeParam2="rudder_percent_key">
+    <AnimStream name="Rotation" id="0" partName="tail_fin" length="100.000000">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;0.000000;0.000000;1.000000"/>
+      <Keyframe time="25.000000" type="Quaternion" data="0.000000;-0.087156;0.000000;0.996195"/>
+      <Keyframe time="50.000000" type="Quaternion" data="0.000000;-0.173648;0.000000;0.984808"/>
+      <Keyframe time="75.000000" type="Quaternion" data="0.000000;-0.258819;0.000000;0.965926"/>
+      <Keyframe time="100.000000" type="Quaternion" data="0.000000;-0.342020;0.000000;0.939693"/>
+    </AnimStream>
+  </Anim>
+</AnimLib>

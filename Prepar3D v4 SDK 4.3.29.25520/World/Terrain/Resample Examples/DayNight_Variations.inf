@@ -1,0 +1,33 @@
+; Resample INFormation file
+; Variations test
+
+[Source]
+Type = MultiSource
+NumberOfSources = 2
+
+[Source1]
+Type = BMP
+Layer = Imagery
+SourceDir = "SourceData"
+SourceFile = "variation1.bmp"
+ULXMAP = -122.308
+ULYMAP = 0
+XDIM = 4.27484E-05
+YDIM = 4.27484E-05
+Variation = Day
+
+[Source2]
+Type = BMP
+Layer = Imagery
+SourceDir = "SourceData"
+SourceFile = "variation2.bmp"
+ULXMAP = -122.308
+ULYMap = 0
+XDIM = 4.27484E-05
+YDIM = 4.27484E-05
+Variation = Night
+
+[Destination]
+DestDir = "Output"
+DestBaseFileName = "Variations_DayNight"
+UseSourceDimensions = 1

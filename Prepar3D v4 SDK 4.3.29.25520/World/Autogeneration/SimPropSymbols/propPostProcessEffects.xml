@@ -1,0 +1,120 @@
+<?xml version= "1.0" encoding= "utf-8" ?>
+
+<!-- Core property symbol definition document
+
+    Element: SymbolDef - Mandatory root element
+
+        name:       Mandatory symbol definition namespace Name
+        id:         Mandatory globally unique namespace identifier
+        descr:      Optional namespace description
+        chdr:       Optional C/C++ header filename.  If none is provided, the namespace name is used with a ".h" extension
+        version:    Optional version number formatatted as "vermajor,verminor".
+
+-->
+
+ 
+<SymbolDef 
+    name    = "PostProcessEffects"
+    id      = "{7d1f00f6-45c4-4736-a07b-43afa4410a1f}"
+    descr   = ""
+    chdr    = "propPostProcessEffects.h" version="1,0">
+    version = "1,0">
+
+	<SymbolInclude
+		filename = "propbase.xml"
+	    id      = "{8042AB84-8003-4ff1-9D4A-6D0D057F00DE}"
+		version  = "1,0"/>
+		
+    <cpptext pass="1">
+//-------------------------------------------------------------------------//
+//
+//  Base AceXML data type, property and property set definitions
+//-------------------------------------------------------------------------//
+//
+ 
+//
+//  Namespace
+//
+    </cpptext>
+
+	<PropertyDefs symbolprefix = "SPID_">
+
+		<cpptext pass = "2">
+//
+//	Property identifiers
+//
+		</cpptext>
+
+	    <PropertyDef 
+    	    name    = "EffectName" 
+        	ID      = "{c63939ee-5ac3-4dba-92a4-4f497991fe2a}"
+	        type    = "MLTEXT"
+	        descr   = "Name of the effect">
+    	</PropertyDef>
+		
+		<PropertyDef
+    	    name    = "ShaderFileName"
+        	ID      = "{14059868-564b-4d56-a344-ca72f3b2e85d}"
+	        type    = "MLTEXT"
+	        descr   = "Shader File Name">
+        </PropertyDef>
+		
+        <PropertyDef
+    	    name    = "ShaderEntryPoint"
+        	ID      = "{e792268f-94fc-4924-b445-4956f87bd010}"
+	        type    = "MLTEXT"
+	        descr   = "Entry point for shader compile call">
+        </PropertyDef>
+
+        <PropertyDef
+    	    name    = "ColorRequest"
+        	ID      = "{4066421e-ce5e-48b1-9fe5-fee9ec8b247c}"
+	        type    = "BOOL"
+	        default = "0"
+	        descr   = "Does this effect require the color stream">
+        </PropertyDef>
+
+        <PropertyDef
+    	    name    = "DepthRequest"
+        	ID      = "{eed5cee2-db4f-48ee-bb01-31490b0740e1}"
+	        type    = "BOOL"
+	        default = "0"
+	        descr   = "Does this effect require the depth stream?">
+        </PropertyDef>
+        
+        <PropertyDef
+    	    name    = "PreVC"
+        	ID      = "{9A05A5E7-6F5A-420F-B7FA-C24513F658A4}"
+	        type    = "BOOL"
+	        default = "0"
+	        descr   = "Does this effect apply before the virtual cockpit is drawn?">
+        </PropertyDef>
+		
+//	Add property Defs for rest of stream types
+
+    </PropertyDefs>
+
+	<SetDefs symbolprefix = "SSID_">
+
+		<cpptext pass = "2">
+//
+//	Set identifiers
+//
+		</cpptext>
+
+	    <SetDef 
+    	    name    = "PostprocessDefinition" 
+        	ID      = "{62839e1f-e1cb-43f8-bc20-bb140489dd9d}"
+	        descr   = "Postprocess Parameters">
+	        <property name = "EffectName"/>
+			<property name = "ShaderFileName"/>
+			<property name = "ShaderEntryPoint"/>
+			<property name = "ColorRequest"/>
+			<property name = "DepthRequest"/>
+            <property name = "PreVC"/>
+    	</SetDef>
+		
+    </SetDefs>
+	
+</SymbolDef>
+

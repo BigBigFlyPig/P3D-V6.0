@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+
+    <GunSystem.GunDefinitions>
+        <GunDefinition ObjectTitle="M-61_Vulcan" GunType="GATLING" Ammunition="20 x 102 mm HEI (no ballistic table)" Stationary="FALSE">
+            <GunFeatures Caliber="0.787402" RateOfFire="6000" MuzzleVelocity="3450" />
+            <GunMovement PitchMax="15.0" PitchAccelerationTime="2.0" PitchTurnRate="6.0" HeadingMax="15.0" HeadingAccelerationTime="2.0" HeadingTurnRate="6.0"/>
+            <GunEffect EffectName="fx_MuzzleFlash_M60" GunEffectType="FIRE" />
+        </GunDefinition>
+        <GunDefinition ObjectTitle="GAU-8_Avenger" GunType="GATLING" Ammunition="30 x 173 mm HEI (ballistic table)" Stationary="FALSE">
+            <GunFeatures Caliber="1.1811" RateOfFire="4200" MuzzleVelocity="3500" />
+            <GunMovement PitchMax="15.0" PitchAccelerationTime="2.0" PitchTurnRate="6.0" HeadingMax="15.0" HeadingAccelerationTime="2.0" HeadingTurnRate="6.0" />
+            <GunEffect EffectName="fx_MuzzleFlash_M60" GunEffectType="FIRE" />
+        </GunDefinition>
+    </GunSystem.GunDefinitions>
+
+    <GunSystem.RoundDefinitions>
+        <RoundDefinition ObjectTitle="20 x 102 mm HEI (ballistic table)" Weight="0.220462" Caliber="0.787402" DragCf="0.0012" TracerRatio="4" DamagePoints="1" Lifetime="3">
+            <RoundEffect EffectName="fx_dirtspray_s" RoundEffectType="IMPACT_LAND" />
+            <RoundEffect EffectName="fx_wtrspray_s"  RoundEffectType="IMPACT_WATER" />
+            <RoundEffect EffectName="fx_tracer_m"    RoundEffectType="TRACER" />
+            <BallisticTable>
+                <Row Range="   0" Velocity="3450" Trajectory="   0.0"></Row>
+                <Row Range=" 500" Velocity="3000" Trajectory=" -10.0"></Row>
+                <Row Range="1000" Velocity="2500" Trajectory=" -25.0"></Row>
+                <Row Range="1500" Velocity="2000" Trajectory=" -50.0"></Row>
+                <Row Range="2500" Velocity="1000" Trajectory="-120.0"></Row>
+            </BallisticTable>
+            <EntityTypeString>2.2.225.2.2.0.0</EntityTypeString>
+        </RoundDefinition>
+        <RoundDefinition ObjectTitle="20 x 102 mm HEI (no ballistic table)" Weight="0.220462" Caliber="0.787402" DragCf="0.0012" TracerRatio="4" DamagePoints="1" Lifetime="3">
+            <RoundEffect EffectName="fx_dirtspray_s" RoundEffectType="IMPACT_LAND" />
+            <RoundEffect EffectName="fx_wtrspray_s"  RoundEffectType="IMPACT_WATER" />
+            <RoundEffect EffectName="fx_tracer_m"    RoundEffectType="TRACER" />
+            <EntityTypeString>2.2.225.2.2.0.0</EntityTypeString>
+        </RoundDefinition>
+        <RoundDefinition ObjectTitle="30 x 173 mm HEI (ballistic table)" Weight="0.798073" Caliber="1.1811" DragCf="0.04" TracerRatio="10" DamagePoints="1" Lifetime="3">
+            <RoundEffect EffectName="fx_dirtspray_s" RoundEffectType="IMPACT_LAND" />
+            <RoundEffect EffectName="fx_wtrspray_s"  RoundEffectType="IMPACT_WATER" />
+            <RoundEffect EffectName="fx_tracer_m"    RoundEffectType="TRACER" />
+            <BallisticTable>
+                <Row Range="   0" Velocity="3450" Trajectory="   0.0"></Row>
+                <Row Range=" 500" Velocity="3000" Trajectory=" -10.0"></Row>
+                <Row Range="1000" Velocity="2500" Trajectory=" -25.0"></Row>
+                <Row Range="1500" Velocity="2000" Trajectory=" -50.0"></Row>
+                <Row Range="2500" Velocity="1000" Trajectory="-120.0"></Row>
+            </BallisticTable>
+            <EntityTypeString>2.2.225.2.4.0.0</EntityTypeString>
+        </RoundDefinition>
+        <RoundDefinition ObjectTitle="30 x 173 mm HEI (no ballistic table)" Weight="0.798073" Caliber="1.1811" DragCf="0.04" TracerRatio="10" DamagePoints="1" Lifetime="3">
+            <RoundEffect EffectName="fx_dirtspray_s" RoundEffectType="IMPACT_LAND" />
+            <RoundEffect EffectName="fx_wtrspray_s"  RoundEffectType="IMPACT_WATER" />
+            <RoundEffect EffectName="fx_tracer_m"    RoundEffectType="TRACER" />
+            <EntityTypeString>2.2.225.2.4.0.0</EntityTypeString>
+        </RoundDefinition>
+    </GunSystem.RoundDefinitions>
+
+</SimBase.Document>

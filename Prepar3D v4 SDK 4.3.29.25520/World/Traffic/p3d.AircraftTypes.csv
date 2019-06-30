@@ -1,0 +1,127 @@
+# List of aircraft types to use in the traffic database
+# Open in Excel as a comma delimited file for viewing/editing
+
+# Notes:
+#   typeKey = a unique keyword used to identify this type of aircraft (max 15 chars)
+#   title = the aircraft title string from aircraft.cfg
+#   speed = cruising speed in knots true airspeed (KTAS)
+#   minAlt maxAlt = minimum and maximum cruise flight levels in hundreds of feet
+#   minRange maxRange = minimum and maximum range in nautical miles
+#   minRwyLen = minimum runway length in feet required by this aircraft
+#   runwayTypes = HARD|SOFT|WATER|SNOW (choose one or more)
+#   radius = minimum parking radius in meters required by this aircraft
+#   parkingTypes = RAMP|CARGO|GATE|DOCK|MIL_CARGO|MIL_COMBAT (choose one or more)
+#   IFR% = probability of this aircraft flying IFR (0 - 100)
+#   AutoRoute? = automatically generate route for this aircraft (yes/no)
+#   TouchAndGo? = allow touch and goes when automatically generating routes (yes/no)
+#
+#   Duplicate entries are used to roughly allocate weight to various aircraft (e.g. we
+#   want the Maul to be 40% as common as the 172. Also note that some radius values may
+#   not be accurate. They can be tweaked upward to get desireable distribution - CARGO
+#   spots are 50 meters so we call the 747 cargo variant 40 meters to make them be accepted
+#   as valid for CARGO parking areas.
+#
+
+# typeKey,Title,Cruise,minAlt,maxAlt,minRange,maxRange,minRwyLen,runwayTypes,radius,parkingTypes,IFR%,AutoRoute?,TouchAndGo?
+#,,(KTAS),(FL),(FL),(nm),(nm),(ft),,(m),,,,
+A36-1,CARENADO A36 BONANZA WHITE,169,40,185,50,835,2040,HARD,6,RAMP,50,yes,no
+A36-2,CARENADO A36 BONANZA STRIPES,169,40,185,50,835,2040,HARD,6,RAMP,50,yes,no
+A36-3,CARENADO A36 BONANZA DEEP GREEN,169,40,185,50,835,2040,HARD,6,RAMP,50,yes,no
+A36-4,CARENADO A36 BONANZA 60th ANNIVERSARY,169,40,185,50,835,2040,HARD,6,RAMP,50,yes,no
+A36-1a,CARENADO A36 BONANZA WHITE,169,40,185,50,835,2040,HARD,6,RAMP,50,yes,no
+A36-2a,CARENADO A36 BONANZA STRIPES,169,40,185,50,835,2040,HARD,6,RAMP,50,yes,no
+A36-3a,CARENADO A36 BONANZA DEEP GREEN,169,40,185,50,835,2040,HARD,6,RAMP,50,yes,no
+A36-4a,CARENADO A36 BONANZA 60th ANNIVERSARY,169,40,185,50,835,2040,HARD,6,RAMP,50,yes,no
+A36-1b,CARENADO A36 BONANZA WHITE,169,40,185,50,835,2040,HARD,6,RAMP,50,yes,no
+A36-2b,CARENADO A36 BONANZA STRIPES,169,40,185,50,835,2040,HARD,6,RAMP,50,yes,no
+A36-3b,CARENADO A36 BONANZA DEEP GREEN,169,40,185,50,835,2040,HARD,6,RAMP,50,yes,no
+A36-4b,CARENADO A36 BONANZA 60th ANNIVERSARY,169,40,185,50,835,2040,HARD,6,RAMP,50,yes,no
+MA-1,Mooney Acclaim With G1000,234,50,250,50,1400,2500,HARD,6,RAMP,50,yes,no
+MA-2,Mooney Acclaim With G1000 1,234,50,250,50,1400,2500,HARD,6,RAMP,50,yes,no
+MA-3,Mooney Acclaim With G1000 2,234,50,250,50,1400,2500,HARD,6,RAMP,50,yes,no
+MA-4,Mooney Acclaim With G1000 3,234,50,250,50,1400,2500,HARD,6,RAMP,50,yes,no
+MA-5,Mooney Acclaim With G1000 4,234,50,250,50,1400,2500,HARD,6,RAMP,50,yes,no
+MA-1a,Mooney Acclaim With G1000,234,50,250,50,1400,2500,HARD,6,RAMP,50,yes,no
+MA-2a,Mooney Acclaim With G1000 1,234,50,250,50,1400,2500,HARD,6,RAMP,50,yes,no
+MA-3a,Mooney Acclaim With G1000 2,234,50,250,50,1400,2500,HARD,6,RAMP,50,yes,no
+MA-4a,Mooney Acclaim With G1000 3,234,50,250,50,1400,2500,HARD,6,RAMP,50,yes,no
+MA-5a,Mooney Acclaim With G1000 4,234,50,250,50,1400,2500,HARD,6,RAMP,50,yes,no
+A321-2,Commercial Airliner Paint2,477,250,350,200,2400,5600,HARD,18,GATE,100,yes,no
+A321-4,Commercial Airliner Paint4,477,250,350,200,2400,5600,HARD,18,GATE,100,yes,no
+A321-5,Commercial Airliner Paint5,477,250,350,200,2400,5600,HARD,18,GATE,100,yes,no
+A321-2a,Commercial Airliner Paint2,477,250,350,200,2400,5600,HARD,18,GATE,100,yes,no
+A321-4a,Commercial Airliner Paint4,477,250,350,200,2400,5600,HARD,18,GATE,100,yes,no
+A321-5a,Commercial Airliner Paint5,477,250,350,200,2400,5600,HARD,18,GATE,100,yes,no
+A321-2b,Commercial Airliner Paint2,477,250,350,200,2400,5600,HARD,18,GATE,100,yes,no
+A321-4b,Commercial Airliner Paint4,477,250,350,200,2400,5600,HARD,18,GATE,100,yes,no
+BE58-1,Beech Baron 58 Paint1,200,40,120,50,661,4000,HARD,6,RAMP,50,yes,no
+BE58-2,Beech Baron 58 Paint2,200,40,120,50,661,4000,HARD,6,RAMP,50,yes,no
+BE58-3,Beech Baron 58 Paint3,200,40,120,50,661,4000,HARD,6,RAMP,50,yes,no
+BE58-1a,Beech Baron 58 Paint1,200,40,120,50,661,4000,HARD,6,RAMP,50,yes,no
+BE58-2a,Beech Baron 58 Paint2,200,40,120,50,661,4000,HARD,6,RAMP,50,yes,no
+BE58-3a,Beech Baron 58 Paint3,200,40,120,50,661,4000,HARD,6,RAMP,50,yes,no
+BE58-1b,Beech Baron 58 Paint1,200,40,120,50,661,4000,HARD,6,RAMP,50,yes,no
+BE58-2b,Beech Baron 58 Paint2,200,40,120,50,661,4000,HARD,6,RAMP,50,yes,no
+BE58-3b,Beech Baron 58 Paint3,200,40,120,50,661,4000,HARD,6,RAMP,50,yes,no
+B350-1,Beech King Air 350 Paint1,315,150,250,100,1298,4000,HARD,9,RAMP,75,yes,no
+B350-2,Beech King Air 350 Paint2,315,150,250,100,1298,4000,HARD,9,RAMP,75,yes,no
+B350-3,Beech King Air 350 Paint3,315,150,250,100,1298,4000,HARD,9,RAMP,75,yes,no
+B350-1a,Beech King Air 350 Paint1,315,150,250,100,1298,4000,HARD,9,RAMP,75,yes,no
+B350-2a,Beech King Air 350 Paint2,315,150,250,100,1298,4000,HARD,9,RAMP,75,yes,no
+B350-3a,Beech King Air 350 Paint3,315,150,250,100,1298,4000,HARD,9,RAMP,75,yes,no
+B350-1b,Beech King Air 350 Paint1,315,150,250,100,1298,4000,HARD,9,RAMP,75,yes,no
+B350-2b,Beech King Air 350 Paint2,315,150,250,100,1298,4000,HARD,9,RAMP,75,yes,no
+CRJ7-0,Bombardier CRJ 700 Paint1,464,300,360,100,2423,5038,HARD,13,GATE|RAMP,100,yes,no
+CRJ7-1,Bombardier CRJ 700 Paint2,464,300,360,100,2423,5038,HARD,13,GATE|RAMP,100,yes,no
+CRJ7-0a,Bombardier CRJ 700 Paint1,464,300,360,100,2423,5038,HARD,13,GATE|RAMP,100,yes,no
+CRJ7-1a,Bombardier CRJ 700 Paint2,464,300,360,100,2423,5038,HARD,13,GATE|RAMP,100,yes,no
+CRJ7-0b,Bombardier CRJ 700 Paint1,464,300,360,100,2423,5038,HARD,13,GATE|RAMP,100,yes,no
+CRJ7-1b,Bombardier CRJ 700 Paint2,464,300,360,100,2423,5038,HARD,13,GATE|RAMP,100,yes,no
+CRJ7-0c,Bombardier CRJ 700 Paint1,464,300,360,100,2423,5038,HARD,13,GATE|RAMP,100,yes,no
+CRJ7-1c,Bombardier CRJ 700 Paint2,464,300,360,100,2423,5038,HARD,13,GATE|RAMP,100,yes,no
+DHC2-1,DeHavilland Beaver DHC2 Paint1,175,30,70,50,1519,4000,WATER,8,DOCK,40,no,no
+DHC2-2,DeHavilland Beaver DHC2 Paint2,175,30,70,50,1519,4000,WATER,8,DOCK,40,no,no
+DH8A-1,de Havilland Dash 8-100 Paint1,265,100,200,50,603,4000,HARD,13,RAMP,100,yes,no
+DH8A-2,de Havilland Dash 8-100 Paint2,265,100,200,50,603,4000,HARD,13,RAMP,100,yes,no
+DH8A-1a,de Havilland Dash 8-100 Paint1,265,100,200,50,603,4000,HARD,13,RAMP,100,yes,no
+DH8A-2a,de Havilland Dash 8-100 Paint2,265,100,200,50,603,4000,HARD,13,RAMP,100,yes,no
+DH8A-1b,de Havilland Dash 8-100 Paint1,265,100,200,50,603,4000,HARD,13,RAMP,100,yes,no
+DH8A-2b,de Havilland Dash 8-100 Paint2,265,100,200,50,603,4000,HARD,13,RAMP,100,yes,no
+DH8A-1c,de Havilland Dash 8-100 Paint1,265,100,200,50,603,4000,HARD,13,RAMP,100,yes,no
+DH8A-2c,de Havilland Dash 8-100 Paint2,265,100,200,50,603,4000,HARD,13,RAMP,100,yes,no
+#Extra,Extra 300S,178,20,120,50,326,2500,HARD,4,RAMP,0,no,no
+G21-1,Grumman Goose G21A paint1,175,30,70,50,1519,4000,HARD,8,RAMP,40,no,no
+G21-2,Grumman Goose G21A paint2,175,30,70,50,1519,4000,HARD,8,RAMP,40,no,no
+G21-3,Grumman Goose G21A paint3,175,30,70,50,1519,4000,HARD,8,RAMP,40,no,no
+G21-5,Grumman Goose G21A paint5,175,30,70,50,1519,4000,HARD,8,RAMP,40,no,no
+LJ45-0,Learjet 45,464,300,360,100,2423,5038,HARD,8,RAMP,100,yes,no
+LJ45-1,Learjet 45 Limited Edition,464,300,360,100,2423,5038,HARD,8,RAMP,100,yes,no
+LJ45-0a,Learjet 45,464,300,360,100,2423,5038,HARD,8,RAMP,100,yes,no
+LJ45-1a,Learjet 45 Limited Edition,464,300,360,100,2423,5038,HARD,8,RAMP,100,yes,no
+LJ45-0b,Learjet 45,464,300,360,100,2423,5038,HARD,8,RAMP,100,yes,no
+LJ45-1b,Learjet 45 Limited Edition,464,300,360,100,2423,5038,HARD,8,RAMP,100,yes,no
+LJ45-0c,Learjet 45,464,300,360,100,2423,5038,HARD,8,RAMP,100,yes,no
+M7-1,Maule M7 260C paint1,129,20,100,15,554,2500,HARD|SOFT,6,RAMP,20,yes,yes
+M7-4,Maule M7 260C paint4,129,20,100,15,554,2500,HARD|SOFT,6,RAMP,20,yes,yes
+M7-1a,Maule M7 260C paint1,129,20,100,15,554,2500,HARD|SOFT,6,RAMP,20,yes,yes
+M7-4a,Maule M7 260C paint4,129,20,100,15,554,2500,HARD|SOFT,6,RAMP,20,yes,yes
+M7SKI,Maule M7 260C Ski,129,20,100,15,554,2500,SNOW,6,RAMP,10,yes,no
+M20-0,Mooney Bravo,195,50,220,50,1029,2500,HARD,6,RAMP,50,yes,no
+M20-1,Mooney Bravo Retro,195,50,220,50,1029,2500,HARD,6,RAMP,50,yes,no
+M20-0a,Mooney Bravo,195,50,220,50,1029,2500,HARD,6,RAMP,50,yes,no
+M20-1a,Mooney Bravo Retro,195,50,220,50,1029,2500,HARD,6,RAMP,50,yes,no
+M20-0b,Mooney Bravo,195,50,220,50,1029,2500,HARD,6,RAMP,50,yes,no
+M20-1b,Mooney Bravo Retro,195,50,220,50,1029,2500,HARD,6,RAMP,50,yes,no
+PA28-0,Piper Cherokee 180,124,20,100,15,497,2500,HARD|SOFT,5,RAMP,10,yes,yes
+PA28-1,Piper Cherokee 180 Paint1,124,20,100,15,497,2500,HARD|SOFT,5,RAMP,10,yes,yes
+PA28-2,Piper Cherokee 180 Paint2,124,20,100,15,497,2500,HARD|SOFT,5,RAMP,10,yes,yes
+PA28-0a,Piper Cherokee 180,124,20,100,15,497,2500,HARD|SOFT,5,RAMP,10,yes,yes
+PA28-1a,Piper Cherokee 180 Paint1,124,20,100,15,497,2500,HARD|SOFT,5,RAMP,10,yes,yes
+PA28-2a,Piper Cherokee 180 Paint2,124,20,100,15,497,2500,HARD|SOFT,5,RAMP,10,yes,yes
+PA28-0b,Piper Cherokee 180,124,20,100,15,497,2500,HARD|SOFT,5,RAMP,10,yes,yes
+PA28-1b,Piper Cherokee 180 Paint1,124,20,100,15,497,2500,HARD|SOFT,5,RAMP,10,yes,yes
+PA28-2b,Piper Cherokee 180 Paint2,124,20,100,15,497,2500,HARD|SOFT,5,RAMP,10,yes,yes
+PA28-0c,Piper Cherokee 180,124,20,100,15,497,2500,HARD|SOFT,5,RAMP,10,yes,yes
+J3C65-0,Piper Cub,63,1,119,15,152,2500,HARD|SOFT|SNOW,6,RAMP,0,no,no
+J3C65-1,Piper Cub Paint 1,63,1,119,15,152,2500,HARD|SOFT|SNOW,6,RAMP,0,no,no
+J3C65-2,Piper Cub Paint 2,63,1,119,15,152,2500,HARD|SOFT|SNOW,6,RAMP,0,no,no

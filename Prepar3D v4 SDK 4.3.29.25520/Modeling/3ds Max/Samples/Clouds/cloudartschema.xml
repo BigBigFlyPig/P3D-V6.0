@@ -1,0 +1,25 @@
+<Schema xmlns="urn:schemas-microsoft-com:xml-data"
+	xmlns:dt="urn:schemas-microsoft-com:datatypes">
+	<AttributeType name='description' dt:type='string' required='yes'/>
+	<AttributeType name='shadowGuid' dt:type='string' required='yes'/>	
+	<AttributeType name='file' dt:type='string' required='yes'/>
+	<AttributeType name='amount' dt:type='int' required='yes'/>
+	<ElementType name='variation'>
+		<attribute type='shadowGuid'/>
+		<attribute type='file'/>
+	</ElementType>
+
+	<ElementType name='coverage' content="eltOnly" model="closed">
+		<attribute type='amount'/>
+		<element type='variation' maxOccurs="*"/>
+	</ElementType>
+
+	<ElementType name='cloud' content="eltOnly" model="closed">
+		<attribute type='description'/>
+		<element type='coverage' maxOccurs="*"/>
+	</ElementType>
+
+	<ElementType name='CloudFiles' content="eltOnly" model="closed">
+		<element type='cloud' maxOccurs="*"/>
+	</ElementType>
+</Schema>

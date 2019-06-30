@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+
+  <Attachments.Stations>
+    <Station ModelAttachPointName="attachpt_maingun"/>    <!--00-->
+    <Station ModelAttachPointName="attachpt_machinegun"/> <!--01-->
+  </Attachments.Stations>
+
+  <Attachments.Loadouts>
+    <Attachments.Loadout LoadoutTitle="Cannon and Machine Gun" LoadoutType="GUN">
+      <Attachment StationIndex="0" ObjectTitle="M68A2" Quantity="15" />
+      <Attachment StationIndex="1" ObjectTitle="M240C" Quantity="1000" />
+    </Attachments.Loadout>
+    <Attachments.Loadout LoadoutTitle="Custom IGunSystem" LoadoutType="GUN">
+    </Attachments.Loadout>
+  </Attachments.Loadouts>
+
+</SimBase.Document>

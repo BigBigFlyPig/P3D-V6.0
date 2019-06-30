@@ -1,0 +1,16 @@
+[Source]
+Type                = GeoTIFF
+SourceDir           = "SourceData"
+SourceFile          = "ModifiedGlccSubset1.tif"
+Layer               = LandClass
+SamplingMethod      = Dither
+
+[Destination]
+DestDir             = "Output"
+DestBaseFileName    = LandClass_Dither
+DestFileType        = BGL
+UseSourceDimensions = 0
+NorthLat = 47.3
+SouthLat = 47
+WestLon = -122.3
+EastLon = -122

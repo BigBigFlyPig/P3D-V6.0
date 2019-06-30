@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This file will generate debug output for the configured registered properties.  Multiple windows can be configured.  
+Be sure teh CategoryId matches the SimObject being queried.
+
+Add the path to this file in your Prepar3D.cfg file. E.g.:
+[Main]
+SimObjectApiPropertyDebugger=SDK\PDK\Missile\PropertyDebugging.xml
+-->
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Filename>PropertyDebugging.xml</Filename>
+    <!-- Missile Properties -->
+    <Simvar.PropertyOutputWindow CategoryId="{722F784D-1196-4C40-BCAA-F1D6482B1958}" WindowTitle="Missile">
+        <Property>
+          <Name>Throttle</Name>
+          <Type>Double</Type>
+          <Units>Percent</Units>
+        </Property>        
+    </Simvar.PropertyOutputWindow>
+ </SimBase.Document>

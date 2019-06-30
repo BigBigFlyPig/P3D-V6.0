@@ -1,0 +1,12 @@
+[Source]
+Type                = GeoTIFF
+SourceDir           = "SourceData"
+SourceFile          = "ModifiedGlccSubset2.tif"
+Layer               = LandClass
+SamplingMethod      = Point
+
+[Destination]
+DestDir             = "Output"
+DestBaseFileName    = LandClass_PointSample
+DestFileType        = BGL
+UseSourceDimensions = 1

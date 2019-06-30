@@ -1,0 +1,349 @@
+<?xml version= "1.0" encoding= "utf-8" ?>
+
+<!-- Core property symbol definition document
+
+    Element: SymbolDef - Mandatory root element
+
+        name:       Mandatory symbol definition namespace Name
+        id:         Mandatory globally unique namespace identifier
+        descr:      Optional namespace description
+        chdr:       Optional C/C++ header filename.  If none is provided, the namespace name is used with a ".h" extension
+        version:    Optional version number formatatted as "vermajor,verminor".
+
+-->
+
+ 
+<SymbolDef 
+    name    = "WeaponDynamics"
+    id      = "{2BE1249B-AAB8-4D5D-B54B-FF13CFEF3C2B}"
+    descr   = ""
+    chdr    = "propWeaponDynamics.h" version="1,0">
+    version = "1,0">
+
+	<SymbolInclude
+		filename = "propbase.xml"
+	    id      = "{8042AB84-8003-4ff1-9D4A-6D0D057F00DE}"
+		version  = "1,0"/>
+		
+    <cpptext pass="1">
+//-------------------------------------------------------------------------//
+//
+//  Base AceXML data type, property and property set definitions
+//-------------------------------------------------------------------------//
+//
+ 
+//
+//  Namespace
+//
+    </cpptext>
+
+	<PropertyDefs symbolprefix = "SPID_WEAPON_">
+
+		<cpptext pass = "2">
+//
+//	Property identifiers
+//
+		</cpptext>
+
+        <PropertyDef
+    	    name    = "PropulsionType"
+        	ID      = "{0D4A7E86-AF9B-4E1C-AA99-42662FEDCC99}"
+	        type    = "ENUM"
+            xml_io  = "attribute"
+	        default = "None"
+	        descr   = "">
+            <EnumDef symbolprefix="WEAPON_PROPULSION_TYPE_">
+                <EnumVal name = "NONE"    xml_name = "None"/>
+                <EnumVal name = "ROCKET"  xml_name = "Rocket"/>
+            </EnumDef>
+        </PropertyDef>
+
+        <PropertyDef
+    	    name    = "Delay"
+        	ID      = "{4A2B168D-9A16-4162-97B5-BEEEF6F6CE74}"
+	        type    = "float"
+	        default = "0"
+	        descr   = "">
+        </PropertyDef>
+
+        <PropertyDef
+    	    name    = "Thrust"
+        	ID      = "{EDA175F7-9F49-439D-BB0F-1126159165DE}"
+	        type    = "float"
+	        default = "0"
+	        descr   = "">
+        </PropertyDef>
+
+        <PropertyDef
+    	    name    = "Duration"
+        	ID      = "{0CE937EA-F57D-4142-8B48-FB86E1864C28}"
+	        type    = "float"
+	        default = "0"
+	        descr   = "">
+        </PropertyDef>
+
+        <PropertyDef
+    	    name    = "Cf"
+        	ID      = "{91F77D04-B8F3-4F65-9FF1-C6069832CD9E}"
+	        type    = "float"
+	        default = "0"
+	        descr   = "">
+        </PropertyDef>
+
+        <PropertyDef
+    	    name    = "Mach"
+        	ID      = "{717FD510-AAA3-4378-B513-71C436DAB0A9}"
+	        type    = "float"
+	        default = "0"
+	        descr   = "">
+        </PropertyDef>
+
+        <PropertyDef
+    	    name    = "EngageAngle"
+        	ID      = "{05419695-1E46-49EF-8547-5F09183D4207}"
+	        type    = "float"
+	        default = "0"
+	        descr   = "Max angle in which to engage guidance">
+        </PropertyDef>
+
+        <PropertyDef
+    	    name    = "DisengageAngle"
+        	ID      = "{E2516F77-7AA3-44C4-B461-4B3A41357DC0}"
+	        type    = "float"
+	        default = "0"
+	        descr   = "Max angle in which active controller will remain engaged">
+        </PropertyDef>
+
+        <PropertyDef
+    	    name    = "ErrorToRateGain"
+        	ID      = "{60692341-44FD-4243-A7B9-C231DB57D00D}"
+	        type    = "float"
+	        default = "0"
+	        descr   = "Controller gain on error (proportional)">
+        </PropertyDef>
+
+        <PropertyDef
+    	    name    = "MaxRate"
+        	ID      = "{7561FAF5-28B5-49C2-AF13-F0E31937A45C}"
+	        type    = "float"
+	        default = "0"
+	        descr   = "Limited rate to try to control">
+        </PropertyDef>
+
+        <PropertyDef
+    	    name    = "OutputToFlightControlGain"
+        	ID      = "{2D1900AF-6E70-4390-B3BE-83F3D6106F0C}"
+	        type    = "float"
+	        default = "0"
+	        descr   = "Controller gain from desired rate to control input">
+        </PropertyDef>
+
+        <PropertyDef
+    	    name    = "FlightControlTimeConstant"
+        	ID      = "{7A7CF79C-D8E8-4AE2-92E9-509455D59F36}"
+	        type    = "float"
+	        default = "0"
+	        descr   = "1st order time constant on control input">
+        </PropertyDef>
+
+        <PropertyDef
+    	    name    = "AxisControl"
+        	ID      = "{8F9763D8-ADF2-43EE-A280-59F1483B3909}"
+	        type    = "text"
+            xml_io  = "attribute"
+	        descr   = "Pitch, Heading, or Both Symmetry">
+        </PropertyDef>
+
+        <PropertyDef
+    	    name    = "MaxRangeLimit"
+        	ID      = "{878B30BE-5ACD-43E3-8DA7-6F0CDB4A1CA7}"
+	        type    = "float"
+	        default = "0"
+	        descr   = "">
+        </PropertyDef>
+
+        <PropertyDef
+    	    name    = "MaxAngleLimit"
+        	ID      = "{321B3AF6-8FF2-48BF-B972-0B99A2460D3E}"
+	        type    = "float"
+	        default = "0"
+	        descr   = "">
+        </PropertyDef>
+
+        <PropertyDef
+    	    name    = "IntegratorGain"
+        	ID      = "{382CD312-C156-4B23-A29C-91791DB349D9}"
+	        type    = "float"
+	        default = "0"
+	        descr   = "">
+        </PropertyDef>
+
+    </PropertyDefs>
+
+
+	<SetDefs symbolprefix = "SSID_">
+
+		<cpptext pass = "2">
+//
+//	Set identifiers
+//
+		</cpptext>
+
+        <SetDef 
+    	    name    = "Aerodynamics" 
+        	ID      = "{A2DB0CB3-23AC-461F-9172-1E72A916D0A3}"
+	        descr   = "Aerodynamic Parameters">
+	        <property name = "Coefficients"/>	        
+    	</SetDef>
+
+        <SetDef
+    	    name    = "Coefficients"
+        	ID      = "{947AC326-8DE3-46F0-8858-A3CA56B5B89D}"
+	        descr   = "Stability and Control Coefficients">
+            <property name = "LiftSlope"/>
+            <property name = "Drag"/>
+            <property name = "DragSlope"/>
+            <property name = "SideSlope"/>
+            <property name = "PitchSlope"/>
+            <property name = "YawSlope"/>
+            <property name = "PitchDamp"/>
+            <property name = "RollDamp"/>
+            <property name = "YawDamp"/>
+            <property name = "PitchControl"/>
+            <property name = "YawControl"/>
+            
+        </SetDef>
+
+        <SetDef
+    	    name    = "LiftSlope"
+        	ID      = "{40C0634A-802A-45BF-9E1E-55335E693C32}"
+	        descr   = "">
+            <property name = "Mach"/>
+            <property name = "Cf"/>
+        </SetDef>
+
+        <SetDef
+    	    name    = "Drag"
+        	ID      = "{422071E7-FE7D-4E2F-B5D6-465704780194}"
+	        descr   = "">
+            <property name = "Mach"/>
+            <property name = "Cf"/>
+        </SetDef>
+
+        <SetDef
+    	    name    = "DragSlope"
+        	ID      = "{C20E6FAD-9EBA-41EE-BB50-E5929419DAC1}"
+	        descr   = "">
+            <property name = "Mach"/>
+            <property name = "Cf"/>
+        </SetDef>
+
+        <SetDef
+    	    name    = "SideSlope"
+        	ID      = "{9A8B282E-0827-41EF-858D-FD6A4933E543}"
+	        descr   = "">
+            <property name = "Mach"/>
+            <property name = "Cf"/>
+        </SetDef>
+        <SetDef
+    	    name    = "PitchSlope"
+        	ID      = "{368EB21D-B9C1-46C8-829E-FBF0203B1E4C}"
+	        descr   = "">
+            <property name = "Mach"/>
+            <property name = "Cf"/>
+        </SetDef>
+        <SetDef
+    	    name    = "YawSlope"
+        	ID      = "{02C58E63-0DFB-4D12-9A1E-7FCB26E52236}"
+	        descr   = "">
+            <property name = "Mach"/>
+            <property name = "Cf"/>
+        </SetDef>
+        <SetDef
+    	    name    = "PitchDamp"
+        	ID      = "{227C1533-035B-4A6F-BEA8-ACB7D67ADB7A}"
+	        descr   = "">
+            <property name = "Mach"/>
+            <property name = "Cf"/>
+        </SetDef>
+        <SetDef
+    	    name    = "RollDamp"
+        	ID      = "{96DE2594-B446-49EE-B96D-7941C1C46B00}"
+	        descr   = "">
+            <property name = "Mach"/>
+            <property name = "Cf"/>
+        </SetDef>
+        <SetDef
+    	    name    = "YawDamp"
+        	ID      = "{ACC90C7E-2FAF-4662-A4DC-5A7AC1484A0B}"
+	        descr   = "">
+            <property name = "Mach"/>
+            <property name = "Cf"/>
+        </SetDef>
+        <SetDef
+    	    name    = "PitchControl"
+        	ID      = "{EB2924B5-1E9F-41CE-83AD-9BE0E407C8BF}"
+	        descr   = "">
+            <property name = "Mach"/>
+            <property name = "Cf"/>
+        </SetDef>
+        <SetDef
+    	    name    = "YawControl"
+        	ID      = "{E1CFF575-1D29-4573-8C9F-BC3AED968557}"
+	        descr   = "">
+            <property name = "Mach"/>
+            <property name = "Cf"/>
+        </SetDef>
+
+        <SetDef
+    	    name    = "Propulsion"
+        	ID      = "{4484FA2C-4765-4DDB-9D9A-544D3051F7E5}"
+	        descr   = "Propulsion definition">
+            <property name = "Type"/>
+            <property name = "ThrustStage"/>
+            
+        </SetDef>
+
+        <SetDef
+    	    name    = "ThrustStage"
+        	ID      = "{F92CEF3A-0386-44A1-8D82-2DC721EB7467}"
+	        descr   = "">
+            <property name = "Delay"/>
+            <property name = "Thrust"/>
+            <property name = "Duration"/>
+        </SetDef>
+
+        <SetDef
+    	    name    = "RateErrorIntegrator"
+        	ID      = "{C0976C95-199F-4946-94A6-BDB5DDC2E74E}"
+	        descr   = "Guidance integrator Properties">
+            <property name = "MaxRangeLimit"/>
+            <property name = "MaxAngleLimit"/>
+            <property name = "IntegratorGain"/>
+        </SetDef>
+
+        <SetDef
+    	    name    = "Controller"
+        	ID      = "{06E7E8C1-2502-464C-A1CA-0C8F075FF735}"
+	        descr   = "Guidance Guidance Controller Properties">
+            <property name = "AxisControl"/>
+            <property name = "ErrorToRateGain"/>
+            <property name = "MaxRate"/>
+            <property name = "RateErrorIntegrator"/>
+            <property name = "OutputToFlightControlGain"/>
+            <property name = "FlightControlTimeConstant"/>
+        </SetDef>
+
+        <SetDef
+    	    name    = "GuidanceSystem"
+        	ID      = "{F4962BA9-F533-4E83-AD4C-93495D5EB7AA}"
+	        descr   = "Guidance System Properties">
+            <property name = "Controller"/>
+            <property name = "EngageAngle"/>
+            <property name = "DisengageAngle"/>
+        </SetDef>
+
+    </SetDefs>
+	
+</SymbolDef>
+

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Filename>PropertyDebugging.xml</Filename>
+    <!-- WheeledTank Properties -->
+    <Simvar.PropertyOutputWindow CategoryId="{41A7D829-A12E-4550-AF70-868E3BF69F50}" WindowTitle="WheeledTank">
+        <Property>
+          <Name>EngineOffset</Name>
+          <Type>Vector</Type>
+          <Units>Feet</Units>
+        </Property>
+        <Property>
+          <Name>GetSteeringDirection</Name>
+          <Type>Double</Type>
+          <Units>Radians</Units>
+        </Property>
+        <Property>
+          <Name>SteerAngle</Name>
+          <Type>Double</Type>
+          <Units>Radians</Units>
+        </Property>
+        <Property>
+          <Name>Door_0</Name>
+          <Type>Double</Type>
+          <Units>Percent over 100</Units>
+        </Property> 
+    </Simvar.PropertyOutputWindow>
+ </SimBase.Document>

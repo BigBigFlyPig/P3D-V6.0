@@ -1,0 +1,44 @@
+<SimBase.Document Type="AceXML" version="1,0">
+
+<Simvar.DataContainer Name = "Engine">
+
+    <!-- Sample data 1 -->
+    <DataSet Name = "EngineData">
+        <FloatArray>
+            <!-- in, out -->
+                0.0, 0.2, 0.5, 1.0
+        </FloatArray>
+    </DataSet>
+    
+    <!-- Sample data 2 -->
+    <DataSet Name = "Thrust">
+        <FloatArray>            
+                0.0, 1.0, 100.0, 100.0
+                <!-- Y -->
+                0.1, <!-- X --> 2.0, 100.0, 100.0
+                0.2, <!-- X --> 3.0, 100.0, 100.0
+                0.3, <!-- X --> 4.0, 100.0, 100.0 
+                0.4, <!-- X --> 5.0, 100.0, 100.0
+                0.5, <!-- X --> 6.0, 100.0, 100.0
+            <!-- in, out -->
+        </FloatArray>
+    </DataSet>
+    
+    <!-- Sample data 3 -->
+    <DataSet Name = "FuelBurn" 
+        FloatArray = "0.0, 1.0,
+                      0.5, 6.0"/>
+
+    <!-- Sample data 4 -->
+    <DataSet Name = "MaxNe" 
+        FloatArray = "101.0"/>
+
+    <!-- Sample STRING data-->
+    <DataSet Name = "EngineName">
+        <String>Left Engine</String>
+    </DataSet>
+
+
+</Simvar.DataContainer>
+
+</SimBase.Document>

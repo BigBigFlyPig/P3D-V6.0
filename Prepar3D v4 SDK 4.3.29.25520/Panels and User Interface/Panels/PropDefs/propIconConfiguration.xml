@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<!--  Sim Image Generation (for iconConfiguration) property symbol definition document
+  
+    see propbase.xml for an explanation of property symbol definition document schema
+-->
+
+<SymbolDef
+    name="Icon"
+    id="{2849C549-AA45-4CFB-BDAC-58B21B6B93EE}"
+    descr="IconConfiguration property, type, and set definitions."
+    chdr=""
+    version="1,0">
+
+  <SymbolInclude
+      filename="propbaseui.xml"
+      id="{4E8ACFBF-79DE-4136-9DA2-A0AE96185229}"
+      version="1,0" />
+
+  <cpptext pass="1">
+    //-------------------------------------------------------------------------//
+    //  propIcon.xml - Icon/symbology definitions
+    //-------------------------------------------------------------------------//
+    //
+
+    //
+    //  Namespace
+    //
+  </cpptext>
+
+  <PropertyDefs symbolprefix="SPID_ICON_">
+
+    <cpptext pass="2">
+      //
+      //  Property Identifiers
+      //
+    </cpptext>
+
+	<PropertyDef
+        id          = "{CABD122F-3B71-4820-B375-DF4DB6099DD3}"
+        name        = "Name"
+		descr       = "Name of this object"
+        type        = "TEXT" />
+	    
+    <PropertyDef
+        id          = "{68C5439A-2F97-49D2-9818-4DB3472D17E8}"
+        name        = "ObjectCategory"
+        cardinality = "multiple"
+		descr       = "Category of this object"
+        type        = "TEXT" />
+		
+	<PropertyDef
+        id          = "{B78A76C1-95C2-487A-B489-32F74376406F}"
+        name        = "ContainerTitle"
+		cardinality = "multiple"
+		descr       = ""
+        type        = "TEXT" />
+        
+	<PropertyDef
+        id          = "{B36E217D-5CBD-41CC-8C84-6399E25138BF}"
+        name        = "ModelGuid"
+		cardinality = "multiple"
+		descr       = ""
+        type        = "GUID" />
+        
+	<PropertyDef
+        id     		= "{06B7843D-917B-4158-9415-64603B30604B}"
+        name        = "AssociationId"
+        default		= "0"
+		descr       = "Affiliation to user i.e. friendly, hostile, unknown"
+        type        = "LONG" />
+        
+    <PropertyDef
+        id          = "{530951A6-45F0-4CAA-A29F-E8B1F37D2F1D}"
+        name        = "TextureGuid"
+		descr       = ""
+        type        = "GUID" />
+        
+    <PropertyDef
+        id          = "{2F5FE9CF-6D58-482C-AD60-9F02B174AA60}"
+        name        = "Filename"
+		descr       = "Icons filename"
+        type        = "TEXT" />
+        
+  </PropertyDefs>
+  
+  <SetDefs symbolprefix="SSID_ICON_">
+    <cpptext pass="2">
+      //
+      //  Property Sets
+      //
+    </cpptext>
+    
+    <SetDef
+		id      = "{0E381781-F2E9-41A6-84BF-5ED1951F2200}"
+		name    = "ObjectCategorySet"
+		policy  = "inclusive"
+        descr   = "">
+        <property name  = "ObjectCategory" />
+	</SetDef>
+    
+    <SetDef
+		id      = "{31BBA591-1A42-46FE-ABE5-2164FFC349CC}"
+		name    = "ContainerTitleSet"
+		policy  = "inclusive"
+        descr   = "">
+        <property name  = "ContainerTitle" />
+	</SetDef>
+    
+    <SetDef
+		id      = "{942D1488-1FDF-467A-B87A-2E9F1233FF57}"
+		name    = "ModelGuidSet"
+		policy  = "inclusive"
+        descr   = "">
+        <property name  = "ModelGuid" />
+	</SetDef>
+    
+    <SetDef
+		id      = "{DBB8DC32-0502-4BDF-96F2-18B0F78FBF1E}"
+		name    = "ForceAssociation"
+        cardinality = "multiple"
+		policy  = "inclusive"
+        descr   = "">
+        <property name  = "TextureGuid" />
+		<property name  = "AssociationId" />
+	</SetDef>
+    
+    <SetDef
+		id      = "{16C851FA-3E00-4BB9-B632-29F853116C8A}"
+		name    = "ForceAssociationSet"
+		policy  = "inclusive"
+        descr   = "">
+        <property name  = "ForceAssociation" />
+	</SetDef>
+    
+    <SetDef
+		id      = "{1AABADD4-9EC7-4350-BE2E-C830473A00F3}"
+		name    = "IconDefinition"
+        cardinality = "multiple"
+		policy  = "inclusive"
+        descr   = "">
+        <property name  = "Name" />
+        <property name  = "TextureGuid" />
+        <property name  = "ObjectCategorySet" />
+        <property name  = "ContainerTitleSet" />
+        <property name  = "ModelGuidSet" />
+        <property name  = "ForceAssociationSet" />
+	</SetDef>
+
+	<SetDef
+		id      = "{B3A4DEA5-E652-459E-B606-0D832EC77141}"
+		name    = "IconDefinitionSet"
+		policy  = "inclusive"
+        descr   = "">
+		<property name  = "IconDefinition" />
+	</SetDef>    
+    
+    <SetDef
+		id      = "{20753CC3-F2E8-4139-B0DB-C7E4DD319064}"
+		name    = "TextureDefinition"
+        cardinality = "multiple"
+		policy  = "inclusive"
+        descr   = "">
+		<property name  = "TextureGuid" />
+        <property name  = "Filename" />
+	</SetDef>    
+    
+    <SetDef
+		id      = "{2E658903-0181-4463-ACD0-33DBB965A1BF}"
+		name    = "TextureDefinitionSet"
+		policy  = "inclusive"
+        descr   = "">
+		<property name  = "TextureDefinition" />
+	</SetDef>    
+	
+  </SetDefs>
+
+</SymbolDef>

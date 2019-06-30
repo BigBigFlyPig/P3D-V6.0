@@ -1,0 +1,10 @@
+<SimBase.Document Type="AceXML" version="1,0">
+
+<Simvar.Property Name = "RadarAltitude"  Type = "DoubleGet"/>
+<Simvar.Property Name = "RadarAltitude"  Type = "DoubleSet"/>
+<Simvar.Property Name = "RadarAngle"     Type = "VectorGet"/>
+<Simvar.Property Name = "RadarAngle"     Type = "VectorSet"/>
+<Simvar.Property Name = "RadarState"     Type = "StringGet"/>
+<Simvar.Property Name = "RadarState"     Type = "StringSet"/>
+
+</SimBase.Document>

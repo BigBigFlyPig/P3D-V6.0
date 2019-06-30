@@ -1,0 +1,1 @@
+!INCLUDE $(INETROOT)\Build\MSBuildBootStrapper\makefile.msbuild

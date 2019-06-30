@@ -1,0 +1,101 @@
+InFix Syntax
+************
+
+The simple syntax of InFix2Postfix is modelled on C#, with the variable name format used by Prepar3D.
+
+
+Variable names
+**************
+
+All variable names are preceded with one of these uppercase letters: ACEGKLMPR This prefix letter is followed by a colon. Variable names and units can include spaces.
+
+Units follow a comma, and are optional. All variables are enclosed in parenthesis:
+
+	(A:INDICATED ALTITUDE, feet)
+	(L:local variable)
+	(A:ENGINE RPM:1 , revolutions per minute)
+
+
+Assignments
+***********
+
+End all assignments with a semicolon.
+
+	(L:value) = 10 ;
+	(L:value) = (A:indicated altitude, feet) ;
+	
+
+Operators
+*********
+
+For simple operations (the "return" is optional)
+
+	return min (100, (A:indicated altitude) )
+	return max (  (A:indicated airspeed), (A:true airspeed) )
+
+
+If statements
+*************
+
+Use parenthesis around the conditions, curly brackets around the statements. The "return" keyword is optional, the value between the curly braces is returned.
+
+	if ( (L:value) > 10 ) { return (L:value) } else { return 10 } }
+
+	if ( (L:value) > 10 ) { if ( (L:value2) < 5) { return 20 } else { return 30 } } else { return 40 }
+
+Or use newlines to make this clearer:
+
+if ( (L:value) > 10 )
+{ 
+	if ( (L:value2) < 5) 
+		{ return 20 } 
+		else 
+		{ return 30 }
+} 
+else 
+{ 
+	return 40 
+}
+
+
+Strings
+*******
+
+Fixed strings should be enclosed in either single or double quotes.
+
+	"Fire!"
+	'Fire!'
+
+
+Function calls
+**************
+
+If an operation more naturally appears as a function call then enter the name of the function first, followed by the operands in parenthesis separated by commas.
+
+	if ( max( 1, max ( max (2,3), 4) ) < 10 * 5 - 2 ) { return true }
+	
+	if ( scmi("left", 'LEFT') == 0) { return "yes" } else { return "no" }
+	
+	if ( scmi (uc ( (A:ATC AIRLINE,string) ), "BRITISH") == 0) { return "yes" } else { return "no" }
+
+
+Case statements
+***************
+
+Cases are restricted to evaluating to 0, 1, 2, 3 etc.
+
+switch (L:value)
+{
+	case_0:		10
+	case_1:		20
+	case_2:		30
+}
+
+If L:value is greater than or equal to 0, and less than 1, the result is 10. If L:value is greater than or equal to 1 and less than 2, the result is 20, and so on.
+
+
+Loop statements
+***************
+
+There are no loop statements accepted by the Postfix parser in Prepar3D.
+

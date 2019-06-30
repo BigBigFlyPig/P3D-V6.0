@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--  Designator system property symbol definition document
+
+    see propbase.xml for an explanation of property symbol definition document schema
+-->
+
+<SymbolDef
+    name    = "Designators"
+    id      = "{2B22231A-B04C-4AF7-AB73-BB5FCAE234B6}"
+    descr   = "Designator system property, type, and set definitions."
+    chdr    = "propDesignators.h"
+    version = "1,0">
+    
+    <SymbolInclude
+        filename = "propbase.xml"
+        id       = "{8042AB84-8003-4ff1-9D4A-6D0D057F00DE}"
+        version  = "1,0"/>
+
+    <cpptext pass="1">
+//-------------------------------------------------------------------------//
+//  propDIS.h
+//
+//  Designator system property, type, and set defs
+//-------------------------------------------------------------------------//
+//
+
+//
+//  Namespace
+//
+</cpptext>
+
+    <PropertyDefs symbolprefix="SPID_">
+
+        <cpptext pass="2">
+//
+//  Property Identifiers
+//
+</cpptext>
+
+        <PropertyDef
+            id          = "{08B30FCB-ECA3-446D-AB2C-50EC3CCAC1D7}"
+            name        = "UpdateThreshold"
+            type        = "FLOAT"
+            serialize   = "default"
+            default     = "0"
+            descr       = "The amount of time that must pass before a designator is updated in seconds." />
+            
+        <PropertyDef
+            id          = "{1428FA44-DD04-4962-8262-A3136F658D90}"
+            name        = "ObjectRayLengthMax"
+            type        = "FLOAT"
+            serialize   = "default"
+            default     = "0"
+            descr       = "The maximum length of the ray trace when designating objects in meters." />
+            
+        <PropertyDef
+            id          = "{755414C0-22C4-4C54-8BA9-567008493166}"
+            name        = "ObjectMinimumGranularity"
+            type        = "FLOAT"
+            serialize   = "default"
+            default     = "0"
+            descr       = "The length of each ray trace step when designating objects in meters." />
+            
+        <PropertyDef
+            id          = "{00EAE7D5-8DE1-4F6F-9355-766C9DE6BA07}"
+            name        = "TerrainRayLengthMax"
+            type        = "FLOAT"
+            serialize   = "default"
+            default     = "0"
+            descr       = "The maximum length of the ray trace when designating terrain in meters." />
+            
+        <PropertyDef
+            id          = "{8D2CC07C-3AA2-4BA6-AE62-BD516D21A365}"
+            name        = "TerrainMinimumGranularity"
+            type        = "FLOAT"
+            serialize   = "default"
+            default     = "0"
+            descr       = "The length of each ray trace step when designating terrain in meters." />
+            
+        <PropertyDef
+            id          = "{79250A7A-3C00-4FED-93C9-D0827A36E13C}"
+            name        = "DesignatorCodeName"
+            type        = "ULONG"
+            serialize   = "default"
+            default     = "0"
+            descr       = "The Distributed Interactive Simulation (DIS) designator code name." />
+            
+        <PropertyDef
+            id          = "{61BA0276-0978-4356-A26C-50CB52714A28}"
+            name        = "DesignatorCode"
+            type        = "ULONG"
+            serialize   = "default"
+            default     = "0"
+            descr       = "The Distributed Interactive Simulation (DIS) designator code." />
+            
+        <PropertyDef
+            id          = "{26C9FBAF-041D-462A-B8CC-D0BEF9D1586C}"
+            name        = "DesignatorPower"
+            type        = "FLOAT"
+            serialize   = "default"
+            default     = "0"
+            descr       = "The designator power in watts. A value of 0 will signify the designator is inactive when in a Distributed Interactive Simulation (DIS) session." />
+            
+        <PropertyDef
+            id          = "{32870ADA-83F4-426C-82A8-B48A2CB8067E}"
+            name        = "DesignatorWavelength"
+            type        = "FLOAT"
+            serialize   = "default"
+            default     = "0"
+            descr       = "The designator wavelength in microns." />
+            
+    </PropertyDefs>
+
+    <SetDefs symbolprefix="SSID_">
+
+        <cpptext pass="2">
+//
+//  Property Sets
+//
+</cpptext>
+
+        <SetDef
+            id      = "{663D9D33-BBF5-44A1-8D4D-9201E9B2AB1A}"
+            name    = "DesignatorSystem"
+            policy  = "inclusive">
+            <property name = "UpdateThreshold" />
+            <property name = "ObjectRayLengthMax" />
+            <property name = "ObjectMinimumGranularity" />
+            <property name = "TerrainRayLengthMax" />
+            <property name = "TerrainMinimumGranularity" />
+            <property name = "Designator" />
+        </SetDef>
+
+        <SetDef
+            id      = "{F034D5DF-869A-4791-BD25-711C903C582F}"
+            name    = "Designator"
+            policy  = "inclusive"
+            cardinality = "multiple">
+            <property name = "DesignatorCodeName" />
+            <property name = "DesignatorCode" />
+            <property name = "DesignatorPower" />
+            <property name = "DesignatorWavelength" />
+        </SetDef>
+        
+    </SetDefs>
+
+</SymbolDef>

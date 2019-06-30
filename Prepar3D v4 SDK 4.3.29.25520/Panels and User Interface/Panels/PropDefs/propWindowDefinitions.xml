@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<!--  Window Definition property symbol definition document
+  
+    see propbase.xml for an explanation of property symbol definition document schema
+-->
+
+<SymbolDef
+    name="WindowDefinitions"
+    id="{C2F592FE-EAEF-40D1-8D30-6EE259C58D38}"
+    descr="Window Definitions for view configurations"
+    chdr="propWindowDefinitions.h"
+    version="1,0">
+
+  <SymbolInclude
+      filename="propbaseui.xml"
+      id="{4E8ACFBF-79DE-4136-9DA2-A0AE96185229}"
+      version="1,0" />
+
+  <cpptext pass="1">
+    //-------------------------------------------------------------------------//
+    //  propWindowDefinitions.h
+    //
+    //  Window Definitions for view configurations
+    //-------------------------------------------------------------------------//
+    //
+
+    //
+    //  Namespace
+    //
+  </cpptext>
+
+  <PropertyDefs symbolprefix="SPID_WINDOWDEFINITION_">
+
+    <cpptext pass="2">
+      //
+      //  Property Identifiers
+      //
+    </cpptext>
+
+    <PropertyDef
+        id          = "{D57A8FB2-7AB6-4951-8C6E-2822C6481142}"
+        name        = "Name"
+        type        = "TEXT" 
+        serialize   = "both,default"
+        descr       = "The name of this Window Definitions"/>
+
+    <PropertyDef
+        id          = "{95E3C733-9B06-4A28-86DE-9DD78B77A083}"
+        name        = "Position"
+        default     = "0,0"
+        type        = "LONG2"
+        serialize   = "both,default"
+        descr       = "Position of the Window in pixels." />
+
+    <PropertyDef
+        id          = "{E50EA8CF-D66F-49A4-B6C5-52D2BCED92C8}"
+        name        = "Size"
+        default     = "1024,1024"
+        type        = "LONG2"
+        serialize   = "both,default"
+        descr       = "Size of the Window in pixels" />
+
+    <PropertyDef
+        id          = "{77E7108E-E734-40C3-8D36-EF2AD1446818}"
+        name        = "Docked"
+        default     = "True"
+        type        = "BOOL"
+        serialize   = "both,default"
+        descr       = "Docked state of the window" />
+
+  </PropertyDefs>
+
+  <SetDefs symbolprefix="SSID_WINDOWDEFINITION_">
+
+    <cpptext pass="2">
+      //
+      //  Property Sets
+      //
+    </cpptext>
+    
+    <SetDef
+        id           = "{9660A1A9-6A61-4964-A588-8C673A17B2F6}"
+        name         = "WindowDefinition"
+        cardinality  = "multiple"
+        policy       = "inclusive"
+        descr        = "Window Definition">
+        
+      <property name = "Name" />
+      <property name = "Position" />
+      <property name = "Size" />
+      <property name = "Docked" />
+    </SetDef>
+
+    <SetDef
+        id           = "{1B5D8643-B7F1-4A42-87CA-58E62286C67A}"
+        name         = "WindowDefinitionSet"
+        cardinality  = "multiple"
+        policy       = "inclusive"
+        descr        = "Window Definition Set">
+        
+      <property name = "WindowDefinition" />
+    </SetDef>
+
+  </SetDefs>
+
+</SymbolDef>

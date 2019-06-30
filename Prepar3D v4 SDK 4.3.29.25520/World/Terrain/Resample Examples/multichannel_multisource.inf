@@ -1,0 +1,64 @@
+; Resample INFormation file
+; Variations test with land/water and blend masks pulled from multiple files.
+
+[Source]
+Type = MultiSource
+NumberOfSources = 4
+
+[Source1]
+Type = BMP
+Layer = Imagery
+SourceDir = "SourceData"
+SourceFile = "variation1.bmp"
+ULXMAP = -122.308
+ULYMAP = 0
+XDIM = 4.27484E-05
+YDIM = 4.27484E-05
+Variation = Day
+
+; pull the blend mask from Source3, band 0
+Channel_BlendMask = 3.0
+
+// pull the land/water mask from Source4, band 0
+Channel_LandWaterMask = 4.0
+
+[Source2]
+Type = BMP
+Layer = Imagery
+SourceDir = "SourceData"
+SourceFile = "variation2.bmp"
+ULXMAP = -122.308
+ULYMap = 0
+XDIM = 4.27484E-05
+YDIM = 4.27484E-05
+Variation = Night
+Channel_BlendMask = 3.0
+Channel_LandWaterMask = 4.0
+
+[Source3]
+Type = TIFF
+Layer = None
+SourceDir = "SourceData"
+SourceFile = "BlendMask.tif"
+ULXMAP = -122.308
+ULYMap = 0
+XDIM = 4.27484E-05
+YDIM = 4.27484E-05
+SamplingMethod=Gaussian
+
+[Source4]
+Type = TIFF
+Layer = None
+SourceDir = "SourceData"
+SourceFile = "LandWaterMask.tif"
+ULXMAP = -122.308
+ULYMap = 0
+XDIM = 4.27484E-05
+YDIM = 4.27484E-05
+SamplingMethod=Gaussian
+
+
+[Destination]
+DestDir = "Output"
+DestBaseFileName = "MultiChannel_MultiSource"
+UseSourceDimensions = 1

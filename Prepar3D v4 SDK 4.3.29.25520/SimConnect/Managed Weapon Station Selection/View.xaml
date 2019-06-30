@@ -1,0 +1,115 @@
+﻿<Window x:Class="Managed_Weapon_Station_Selection.View"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="581" Loaded="Window_Loaded" Closing="Window_Closing">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <DockPanel Margin="15" Grid.Row="0">
+            <Button BorderThickness="1" Width="100" HorizontalAlignment="Left" Click="Button_Click">
+                <Button.Style>
+                    <Style>
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding IsConnected}" Value="False">
+                                <Setter Property="Button.Content"
+                                        Value="Connect" />
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding IsConnected}" Value="True">
+                                <Setter Property="Button.Content"
+                                        Value="Disconnect" />
+                            </DataTrigger>
+                            
+                            
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
+            
+            <TextBlock Name="ConnectionText"  TextTrimming="WordEllipsis" Margin="10,0,0,0">
+                <TextBlock.Style>
+                    <Style>
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding IsConnected}"  Value="False">
+                                <!-- Bind to TextBlock's Text property custom message -->
+                                <Setter Property="TextBlock.Text"
+                                        Value="Connect to SimConnect in order to query stations on aircraft." />
+
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding IsConnected}"  Value="True">
+                                <!-- Bind to TextBlock's Text property custom message -->
+                                <Setter Property="TextBlock.Text"
+                                        Value="Disconnect from SimConnect when you're done querying station information." />
+                            </DataTrigger>
+
+                        </Style.Triggers>
+                    </Style>
+                </TextBlock.Style>
+            </TextBlock>
+            
+        </DockPanel>
+        
+        <GroupBox Grid.Row="1" Header="SimObject Information">
+            <StackPanel>
+                <DockPanel>
+                    <TextBlock Text="Title:" Margin="0,0,5,0" />
+                    <TextBlock Text="{Binding Title}" />
+                </DockPanel>
+                <DockPanel>
+                    <TextBlock Text="Number Of Stations:" Margin="0,0,5,0" />
+                    <TextBlock Text="{Binding NumberOfStations}" />
+                </DockPanel>
+            </StackPanel>
+        </GroupBox>
+
+        <DataGrid Name="StationsDataGrid" Grid.Row="2" AutoGenerateColumns="False" SelectionMode="Single" CanUserAddRows="False"  ItemsSource="{Binding Stations}">
+            <DataGrid.Columns>
+
+                <!-- INdex -->
+                <DataGridTextColumn Width="20*" IsReadOnly="True" Binding="{Binding Index}">
+                    <DataGridTextColumn.Header>
+                        <TextBlock TextAlignment="Center" HorizontalAlignment="Center" Width="{Binding Path=ActualWidth, RelativeSource={RelativeSource AncestorType={x:Type DataGridColumnHeader}}}">
+                                                       Index
+                        </TextBlock>
+                    </DataGridTextColumn.Header>
+                </DataGridTextColumn>
+
+                <!-- Name -->
+                <DataGridTextColumn Width="50*" IsReadOnly="True" Binding="{Binding Name}">
+                    <DataGridTextColumn.Header>
+                        <TextBlock TextAlignment="Center" HorizontalAlignment="Center" Width="{Binding Path=ActualWidth, RelativeSource={RelativeSource AncestorType={x:Type DataGridColumnHeader}}}">
+                                                       Name
+                        </TextBlock>
+                    </DataGridTextColumn.Header>
+                </DataGridTextColumn>
+
+                <!-- Is Selected -->
+                <DataGridTemplateColumn Width="100*" IsReadOnly="True">
+                    <DataGridTemplateColumn.Header>
+                        <TextBlock TextAlignment="Center" HorizontalAlignment="Center" Width="{Binding Path=ActualWidth, RelativeSource={RelativeSource AncestorType={x:Type DataGridColumnHeader}}}">
+                                                       Is <LineBreak /> Selected
+                        </TextBlock>
+                    </DataGridTemplateColumn.Header>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <CheckBox HorizontalAlignment="Center" VerticalAlignment="Center" IsChecked="{Binding IsSelected, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                
+                
+                
+            </DataGrid.Columns>
+            
+        </DataGrid>
+        
+        <StatusBar Grid.Row="3">
+            <TextBlock Text="{Binding SimConnectStatus}" />
+        </StatusBar>
+        
+    </Grid>
+</Window>

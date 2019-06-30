@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<AnimLib version="9.1">
+  <Anim name="lever_landing_gear" guid="8de35bd4-0bdb-4e11-b4ed-491599bd95b1" length="83.333336"
+        type="Sim" typeParam="AutoPlay" typeParam2="lever_landing_gear">
+    <AnimStream name="Rotation" id="0" partName="lever_landing_gear" length="83.333336">
+      <Keyframe time="0.000000" type="Quaternion" data="0.000000;-0.000000;0.000000;1.000000"/>
+      <Keyframe time="54.166668" type="Quaternion" data="0.000000;-0.000000;0.000000;1.000000"/>
+      <Keyframe time="83.333336" type="Quaternion" data="-0.233851;-0.000000;0.000000;0.972273"/>
+    </AnimStream>
+    <AnimStream name="Position" id="2" partName="lever_landing_gear" length="83.333336">
+      <Keyframe time="0.000000" type="Vector" data="0.000000;0.000000;-0.000000;0.0"/>
+      <Keyframe time="54.166668" type="Vector" data="0.013409;0.000000;-0.000000;0.0"/>
+      <Keyframe time="83.333336" type="Vector" data="0.013409;0.000000;-0.000000;0.0"/>
+    </AnimStream>
+  </Anim>
+</AnimLib>

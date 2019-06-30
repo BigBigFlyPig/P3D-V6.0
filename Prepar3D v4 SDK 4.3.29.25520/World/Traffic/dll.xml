@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="Launch" version="1,0">
+  <Descr>Launch</Descr>
+  <Filename>dll.xml</Filename>
+  <Disabled>False</Disabled>
+  <Launch.ManualLoad>False</Launch.ManualLoad>
+  <Launch.Addon>
+    <Name>Traffic Toolbox</Name>
+    <Disabled>False</Disabled>
+    <ManualLoad>False</ManualLoad>
+    <Path>SDK\World\Traffic\traffictoolbox.dll</Path>
+  </Launch.Addon>
+</SimBase.Document>

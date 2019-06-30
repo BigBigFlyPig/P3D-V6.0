@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+
+<!-- FlightSim SIM property symbol definition document
+  
+    see propbase.xml for an explanation of property symbol definition document schema
+-->
+
+<SymbolDef 
+    name="LivingWorld" 
+    id="{74E774BF-6E78-46c5-B36A-8F610DDF9DCA}" 
+    descr="FlightSim living world property, type and set definitions." 
+    chdr="proplivingworld.h" version="1,0">
+    
+    <SymbolInclude 
+        filename="propcontain.xml" 
+        id="{37232F83-DC75-46b3-BC26-F142957A50FF}" 
+        version="1,0" />
+		
+    <cpptext pass="1">
+//-------------------------------------------------------------------------//       
+//  proplivingworld.h    
+//
+//  FlightSim Living World AceXML property and property set symbol definitions
+//-------------------------------------------------------------------------//       
+//
+
+//  
+//  Namespace
+//
+    </cpptext>
+
+    <PropertyDefs symbolprefix="SPID_">
+
+        <cpptext pass="2">
+//  
+//  Property Identifiers
+//
+        </cpptext>
+
+        <PropertyDef 
+            name        = "RegionID" 
+            id          = "{EBC0682B-2A6D-4146-8738-44E1A08AD2F8}"          
+            type        = "TEXT"
+            descr		= "Letter A-Z identifies scenery region">
+        </PropertyDef>
+
+        <PropertyDef 
+            name        = "ModelID" 
+            id          = "{31D5B178-7170-40ca-BC16-D4F40FC03348}"          
+            type        = "GUID"
+            descr		= "3D Object GUID">
+        </PropertyDef>
+
+        <PropertyDef 
+            name        = "EntryWeight" 
+            id          = "{E53EA68D-F79F-42b2-934B-167D8C84E5DD}"          
+            type        = "ULONG"
+            descr		= "1-10 Relative weight for this entry. 1 is rare, 10 is common.">
+        </PropertyDef>
+
+        <PropertyDef 
+            name        = "TrafficSpeed" 
+            id          = "{66FFBFD5-B152-4954-B9D2-78C2BA44DAE4}"
+            type        = "FLOAT"
+            descr		= "Speed of freeway traffic in kilometers per hour"
+            default     = "100.0">
+        </PropertyDef>
+
+        <PropertyDef 
+            name        = "RightSideDrive" 
+            id          = "{DFB87440-657A-4cce-BB6D-496939A9CA19}"
+            type        = "BOOL"
+            descr		= "Traffic drives on the right side of the road if true, left if false"
+            default     = "TRUE">
+        </PropertyDef>
+
+    </PropertyDefs>
+
+
+    <SetDefs symbolprefix="SSID_">
+        
+        <cpptext pass="2">
+//  
+//  Property Set Identifiers
+//
+        </cpptext>
+
+        <SetDef
+            id          = "{989A5568-AE45-4e98-A3DC-29D7D0BF33F4}"
+            name        = "LivingWorldSettings"
+            policy      = "inclusive"
+            descr       = "Per-region technical settings for living world features">
+            <property name = "LivingWorldRegion"/>
+        </SetDef>
+
+        <SetDef
+            id          = "{1FAC7354-C621-4d48-B8F8-1480B3DAF305}"
+            name        = "LivingWorldRegion"
+            policy      = "inclusive"
+            descr       = "technical settings for living world features for a particular region">
+            <property name = "RegionID"/>
+            <property name = "RightSideDrive"/>
+            <property name = "FreewayTraffic"/>
+            <property name = "Airport"/>
+            <property name = "Boats"/>
+        </SetDef>
+
+        <SetDef
+            id          = "{3D5CC07B-07FA-4000-BA6C-8241AEF9425F}"
+            name        = "FreewayTraffic"
+            policy      = "inclusive"
+            descr       = "FreewayTraffic settings and model list">
+            <property name = "TrafficSpeed"/>
+            <property name = "ModelEntry"/>
+        </SetDef>
+
+        <SetDef
+            id          = "{B2C93D3D-5A91-4334-ABA2-5A96C8CF6170}"
+            name        = "Airport"
+            policy      = "inclusive"
+            descr       = "Living Airport model and container lists">
+            <property name = "PushbackTugs"/>
+            <property name = "AmbientTraffic"/>
+            <property name = "FuelTrucks"/>
+            <property name = "BaggageCarts"/>
+            <property name = "BaggageLoaders"/>
+        </SetDef>
+
+        <SetDef
+            id          = "{935EFED5-F1AB-4e90-B1E9-0292D70AFF2E}"
+            name        = "PushbackTugs"
+            policy      = "inclusive"
+            descr       = "Pushback Tug model list">
+            <property name = "ModelEntry"/>
+        </SetDef>
+
+        <SetDef
+            id          = "{6AA54436-33DB-4237-8825-642CF51A27A5}"
+            name        = "AmbientTraffic"
+            policy      = "inclusive"
+            descr       = "Ambient Airport traffic container list">
+            <property name = "ContainerEntry"/>
+        </SetDef>
+
+        <SetDef
+            id          = "{3E5E307A-E35E-47de-8A0B-BE3B6D36C456}"
+            name        = "FuelTrucks"
+            policy      = "inclusive"
+            descr       = "Fuel truck container list">
+            <property name = "ContainerEntry"/>
+        </SetDef>
+
+        <SetDef
+            id          = "{E7FBEE48-4754-4bb7-8704-744C492AE325}"
+            name        = "BaggageCarts"
+            policy      = "inclusive"
+            descr       = "Baggage Cart container list">
+            <property name = "ContainerEntry"/>
+        </SetDef>
+
+        <SetDef
+            id          = "{347FC9EE-29DC-4fad-95C1-EFBEE0A12D59}"
+            name        = "BaggageLoaders"
+            policy      = "inclusive"
+            descr       = "Baggage Loader container list">
+            <property name = "ContainerEntry"/>
+        </SetDef>
+
+        <SetDef
+            id          = "{6115EA00-CC7C-4aaf-8A81-D0E10462B100}"
+            name        = "Boats"
+            policy      = "inclusive"
+            descr       = "Boat container lists">
+            <property name = "OceanBoats"/>
+            <property name = "InlandBoats"/>
+        </SetDef>
+
+        <SetDef
+            id          = "{BB6B6748-E337-4086-8C1D-13748DE079DE}"
+            name        = "OceanBoats"
+            policy      = "inclusive"
+            descr       = "List of containers to use in the ocean">
+            <property name = "ContainerEntry"/>
+        </SetDef>
+
+        <SetDef
+            id          = "{98C6E595-F97D-4595-B419-55AACFF41CC7}"
+            name        = "InlandBoats"
+            policy      = "inclusive"
+            descr       = "List of containers to use in lakes and rivers">
+            <property name = "ContainerEntry"/>
+        </SetDef>
+
+        <SetDef
+            id          = "{14687DC6-44A8-405f-9D07-D7A379CA7C30}"
+            name        = "ContainerEntry"
+            policy      = "inclusive"
+            descr       = "Entry in a regionalized list of containers">
+            <property name = "ContainerTitle"/>
+            <property name = "EntryWeight"/>
+        </SetDef>
+
+        <SetDef
+            id          = "{839149DD-7D5B-4bd0-BD6D-2ED70676BC80}"
+            name        = "ModelEntry"
+            policy      = "inclusive"
+            descr       = "Entry in a regionalized list of models">
+            <property name = "ModelID"/>
+            <property name = "EntryWeight"/>
+        </SetDef>
+
+        <SetDef
+            id          = "{776F96A2-7D27-4432-9F81-B42EB5D189CA}"
+            name        = "MSOWaypointController"
+            policy      = "inclusive"
+            descr       = "Waypoint following controller for MobileSceneryObjects">
+            <property name = "AccelKnots"/>
+            <property name = "GroundCruiseSpeed"/>
+            <property name = "GroundTurnSpeed"/>
+            <property name = "GroundTurnTime"/>
+            <property name = "WaypointList"/>
+			<property name = "WaypointListReference"/>
+        </SetDef>
+
+        <SetDef
+            id          = "{A45EC1C5-5CDD-455f-BCDA-3E312CD31CB3}"
+            classid     = "{9454AEDE-13DB-485f-87E2-2DCEDA16888F}"
+            name        = "MobileSceneryObject"
+            policy      = "inclusive"
+            descr       = "Simple dynamic scenery that can follow waypoint paths">
+            <property name = "Descr"/>
+            <property name = "InstanceId"/>
+            <property name = "Activated"/>
+            <property name = "ModelID"/>
+            <property name = "AltitudeIsAGL"/>
+            <property name = "WorldPosition"/>
+            <property name = "Orientation"/>
+            <property name = "IsOnGround"/>
+            <property name = "Scale"/>
+            <property name = "SpeedKnots"/>
+            <property name = "MSOWaypointController"/>
+			<property name = "PositionLock"/>
+        </SetDef>
+
+    </SetDefs>
+
+</SymbolDef>

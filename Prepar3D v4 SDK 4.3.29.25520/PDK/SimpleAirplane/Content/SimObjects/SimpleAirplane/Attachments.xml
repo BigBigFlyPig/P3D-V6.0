@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+
+  <Attachments.Stations>
+    <Station PositionOffset="-3.0, -16.6, -0.1" StationDescription="CM Left" />  <!--00-->
+    <Station PositionOffset="-3.0, -16.6, -0.1" />                               <!--01-->
+    <Station PositionOffset="-1.0,  -7.0, -0.5" />                               <!--02-->
+    <Station PositionOffset="-1.0,   7.0, -0.5" />                               <!--03-->
+    <Station PositionOffset="-3.0,  16.6, -0.1" />                               <!--04-->
+    <Station PositionOffset="-3.0,  16.6, -0.1" StationDescription="CM Right" /> <!--05-->
+  </Attachments.Stations>
+
+  <Attachments.Loadouts>
+    <Attachments.Loadout LoadoutTitle="Weapon Loadout Default" LoadoutType="WEAPON">
+      <Attachment StationIndex="1" ObjectTitle="Missile"           Quantity="1" />
+      <Attachment StationIndex="4" ObjectTitle="AIM-9M_Sidewinder" Quantity="1" />
+    </Attachments.Loadout>
+    <Attachments.Loadout LoadoutTitle="Weapon Loadout Pylons" LoadoutType="WEAPON">
+      <Attachment StationIndex="2" ObjectTitle="Missile" Quantity="  1" PylonTitle="pylon_large" />
+      <Attachment StationIndex="3" ObjectTitle="Missile" Quantity="  1" PylonTitle="pylon_large" />
+    </Attachments.Loadout>
+    <Attachments.Loadout LoadoutTitle="Basic Countermeasures" LoadoutType="COUNTERMEASURE">
+      <Attachment StationIndex="0" ObjectTitle="Sample Countermeasure" Quantity=" 50" />
+      <Attachment StationIndex="5" ObjectTitle="Chaff"                 Quantity=" 10" />
+    </Attachments.Loadout>
+    <Attachments.Loadout LoadoutTitle="Basic Guns" LoadoutType="GUN">
+      <Attachment StationIndex="2" ObjectTitle="M-61_Vulcan" Quantity="4000000" />
+    </Attachments.Loadout>
+  </Attachments.Loadouts>
+
+  <Attachments.Pylons>
+    <Attachments.Pylon PylonTitle="pylon_large">
+      <PylonPoint PositionOffset="0.0,  0.0, -1.55"></PylonPoint>
+    </Attachments.Pylon>
+  </Attachments.Pylons>
+
+
+</SimBase.Document>

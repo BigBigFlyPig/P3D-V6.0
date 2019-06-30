@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Gauge Name="altimeter" Version="1.0">
+    <Image Name="steer_background.bmp"/>
+
+    <!-- ======================= Airspeed Needle ===================== -->
+    <Element>
+        <Position X="49.75" Y="49.4062"/>
+        <Image Name="steer_needle.bmp" PointsTo="North">
+            <Axis X="3.75" Y="38.4062"/>
+        </Image>
+        <Rotate>
+            <Value Minimum="-180" Maximum="180">(A:GetSteeringDirection:1,degrees) </Value>
+             <Nonlinearity>
+                <Item Value="-180" X="51" Y="89"/>
+                <Item Value="-90"  X="12" Y="50"/>
+                <Item Value="0"    X="51" Y="10"/>
+                <Item Value="90"   X="91" Y="49"/>
+                <Item Value="180"  X="51" Y="89"/>
+            </Nonlinearity>
+        </Rotate>
+    </Element>   
+
+    <Mouse>
+        <!--<Help ID="HELPID_GAUGE_ALTIMETER"/>-->
+        <!--<Tooltip ID="TOOLTIPTEXT_ALTIMETER_FEET" MetricID="TOOLTIPTEXT_ALTIMETER_FEET_METERS_SPECIAL"/>-->
+        <Area Left="12" Right="26" Top="46" Bottom="65">
+            <!--<Tooltip ID="TOOLTIPTEXT_ALTIMETER_KOHLSMAN_INHG" MetricID="TOOLTIPTEXT_ALTIMETER_KOHLSMAN_MBAR"/>-->
+            <Area Right="9.5">
+                <Cursor Type="DownArrow"/>
+                <Click Event="DecDirection" Repeat="Yes"/>
+            </Area>
+        </Area>
+        <Area Left="77" Right="91" Top="46" Bottom="65">
+            <Area Left="9.5">
+                <Cursor Type="UpArrow"/>
+                <Click Event="IncDirection" Repeat="Yes"/>
+            </Area>
+        </Area>
+        <Area Left="42" Right="62" Top="10" Bottom="30">
+            <Area Left="0">
+                <Cursor Type="UpArrow"/>
+                <Click Event="IncSpeed" Repeat="Yes"/>
+            </Area>
+        </Area>
+        <Area Left="42" Right="62" Top="76" Bottom="96">
+            <Area Left="0">
+                <Cursor Type="DownArrow"/>
+                <Click Event="DecSpeed" Repeat="Yes"/>
+            </Area>
+        </Area>
+    </Mouse>
+</Gauge>

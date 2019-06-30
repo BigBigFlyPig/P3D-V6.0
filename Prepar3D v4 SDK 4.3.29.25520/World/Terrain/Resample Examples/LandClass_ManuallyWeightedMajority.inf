@@ -1,0 +1,23 @@
+[Source]
+Type                = GeoTIFF
+SourceDir           = "SourceData"
+SourceFile          = "ModifiedGlccSubset2.tif"
+Layer               = LandClass
+SamplingMethod      = Majority
+MajorityMode        = Simple
+SampleWeight.1      = 121,3	; highrise
+SampleWeight.2      = 101,2     ; urban...
+SampleWeight.3      = 102,2
+SampleWeight.4      = 103,2
+SampleWeight.5      = 104,2
+SampleWeight.6      = 105,2
+SampleWeight.7      = 106,2
+SampleWeight.8      = 107,2
+SampleWeight.9      = 108,2
+
+
+[Destination]
+DestDir             = "Output"
+DestBaseFileName    = LandClass_ManuallyWeightedMajority
+DestFileType        = BGL
+UseSourceDimensions = 1

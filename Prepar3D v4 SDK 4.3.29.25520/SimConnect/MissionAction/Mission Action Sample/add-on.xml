@@ -1,0 +1,9 @@
+<SimBase.Document Type="AddOnXml" version="4,0" id="add-on">
+    <AddOn.Name>Mission Action Sample</AddOn.Name>
+    <AddOn.Description>Mission Action Sample. Publisher: Lockheed Martin</AddOn.Description>
+	<AddOn.Component>
+		<Name>Mission Action Sample Scenario</Name>
+        <Category>Scenarios</Category>
+        <Path>Scenarios</Path>
+    </AddOn.Component>
+</SimBase.Document>

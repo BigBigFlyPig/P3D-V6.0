@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--  Weather information property symbol definition document
+
+    see propbase.xml for an explanation of property symbol definition document schema
+-->
+
+<SymbolDef
+    name    = "Weather"
+    id      = "{3E7E69F7-9B5A-4392-AB40-CC8F646FE25E}"
+    descr   = "Weather information property, type, and set definitions."
+    chdr    = "propWeather.h"
+    version = "1,0">
+    
+    <SymbolInclude
+        filename    = "propworldbase.xml"
+        id          = "{AE1B7598-3DE6-40d8-A8B8-ED52E281399F}"
+        version     = "1,0" />
+
+    <cpptext pass="1">
+//-------------------------------------------------------------------------//
+//  propWeather.h
+//
+//  Weather information property, type, and set defs
+//-------------------------------------------------------------------------//
+//
+
+//
+//  Namespace
+//
+</cpptext>
+
+    <PropertyDefs symbolprefix="SPID_WEATHER_">
+
+        <cpptext pass="2">
+//
+//  Property Identifiers
+//
+</cpptext>
+
+        <PropertyDef
+            id          = "{1E29BBB9-FCFB-4866-A0C6-070DA05BF571}"
+            name        = "AmbientDensity"
+            type        = "FLOAT"
+            descr       = "" />
+            
+        <PropertyDef
+            id          = "{1A3A8827-A2B0-4322-9FD5-47A658E7576A}"
+            name        = "AmbientTemperature"
+            type        = "FLOAT"
+            descr       = "" />
+            
+        <PropertyDef
+            id          = "{84F71E42-6DD2-4947-8FD9-18D9F87AFAA6}"
+            name        = "AmbientPressure"
+            type        = "FLOAT"
+            descr       = "" />
+
+        <PropertyDef
+            id          = "{C80CB7D0-6F26-482A-9B0A-2D603589EB3D}"
+            name        = "AmbientWindVelocity"
+            type        = "FLOAT"
+            descr       = "" />
+            
+        <PropertyDef
+            id          = "{E509D064-BDA9-462A-A2C2-F80FA7E20F43}"
+            name        = "AmbientWindDirection"
+            type        = "FLOAT"
+            descr       = "" />
+            
+        <PropertyDef
+            id          = "{25C0CF4F-83F3-498E-BB21-59A0EE2BD60F}"
+            name        = "AmbientPrecipState"
+            type        = "FLOAT"
+            descr       = "" />
+            
+        <PropertyDef
+            id          = "{885BE543-1DD9-422A-8518-713BC484CB2E}"
+            name        = "AmbientPrecipRate"
+            type        = "LONG"
+            descr       = "" />
+            
+        <PropertyDef
+            id          = "{A1CD0BD2-8B5C-4E9A-A740-E1853B20B9E0}"
+            name        = "BarometerPressure"
+            type        = "FLOAT"
+            descr       = "" />
+            
+        <PropertyDef
+            id          = "{D26F89C5-81C9-46AE-A6D7-72B8A37D9004}"
+            name        = "SeaLevelPressure"
+            type        = "FLOAT"
+            descr       = "" />
+
+        <PropertyDef
+            id          = "{E60FE7C5-7825-4556-A30D-FA3AF4AF1AE8}"
+            name        = "AmbientInCloud"
+            type        = "FLOAT"
+            descr       = "" />
+
+        <PropertyDef
+            id          = "{5714BFDC-7297-48F0-9012-D5A9740F87F3}"
+            name        = "AmbientVisibility"
+            type        = "FLOAT"
+            descr       = "Visibility in meters." />
+            
+    </PropertyDefs>
+
+
+    <SetDefs symbolprefix="SSID_WEATHER_">
+
+        <cpptext pass="2">
+//
+//  Property Sets
+//
+</cpptext>
+        
+        <!-- <SetDef
+            id          = "{E2ECAA8F-5C1F-4A00-87D5-237C21814369}"
+            name        = "EntityType"
+            policy      = "inclusive"
+            cardinality = "multiple"
+            descr       = "This set pairs an EntityTypeString with a ContainerTitle for entity substitution and broadcasting.">
+            <property name = "EntityTypeString" />
+            <property name = "ContainerTitle" />
+        </SetDef> -->
+        
+    </SetDefs>
+
+</SymbolDef>

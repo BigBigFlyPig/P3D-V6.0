@@ -1,0 +1,110 @@
+<?xml version= "1.0" encoding= "utf-8" ?> 
+
+<!-- Flight property symbol definition document
+  
+    see propbase.xml for an explanation of property symbol definition document schema
+-->
+
+<SymbolDef 
+    name         = "Flight"
+    id           = "{44AD8B3A-0BFC-4029-A75D-04E7BDEBC8F8}"
+    descr        = "SimProp XXX property, type and set definitions."
+    chdr         = "propflight.h"
+    version      = "1,0" >
+    
+    <SymbolInclude
+        filename = "propbase.xml"
+        id       = "{8042AB84-8003-4ff1-9D4A-6D0D057F00DE}"
+        version  = "1,0" />
+    
+    <cpptext pass="1">
+//-------------------------------------------------------------------------//       
+//  propflight.h    
+//
+//  Prepar3D Flight AceXML property and property set symbol definitions
+//-------------------------------------------------------------------------//       
+//
+
+//  
+//  Namespace
+//
+
+    </cpptext>
+	
+	<PropertyDefs 
+        symbolprefix = "SPID_FLIGHT_">
+
+		<cpptext pass="2">
+//  
+//  Property Identifiers
+//
+        </cpptext>
+    
+		<PropertyDef 
+		    name        = "Name"
+            id          = "{261148B4-CB4D-4B15-AFE2-65663C3D2375}"
+            type        = "TEXT"
+            xml_io      = "attribute"
+            descr       = "Key of Flight File Property">
+		</PropertyDef>
+		
+		<PropertyDef 
+		    name        = "Value"
+            id          = "{A6BBEB5F-93D2-4651-B53E-D7ABBBF194AA}"
+            type        = "TEXT"
+            xml_io      = "attribute"
+			serialize   = "default"
+            descr       = "Value of Flight File Property">
+		</PropertyDef>		
+		
+		
+		
+		</PropertyDefs>
+		
+
+    <!-- 
+        Element: SetDefs - Optional block of property set definitions
+        
+            symbolprefix:   optional prefix for C/C++ property identifier.
+    -->
+
+    <SetDefs symbolprefix = "SSID_FLIGHT_">
+        
+        <cpptext pass="2">
+//  
+//  Property Set Identifiers
+//
+        </cpptext>
+		
+        <SetDef
+            id          = "{46B6A907-60F2-4CE5-A25B-DAB30FD5BAEA}"
+            name        = "Sections"
+            policy      = "unrestricted"
+            descr       = "Container for Flight File Sections">
+			<property name = "Section"/>
+        </SetDef>			
+		
+        <SetDef
+            id          = "{B806C19B-0C0C-4375-BACB-8EB3C3B19403}"
+            name        = "Section"
+            policy      = "unrestricted"
+            descr       = "Section of Flight file">
+			<property name = "Name"/>
+			<property name = "Property" />
+        </SetDef>
+		
+        <SetDef
+            id          = "{517145F5-9363-416F-A0B8-2CC905ED1D63}"
+            name        = "Property"
+            policy      = "inclusive"
+			endtag      = "empty"
+            descr       = "Property within Section of Flight file">
+			<property name = "Name" />
+			<property name = "Value" />
+        </SetDef>
+	
+		
+	</SetDefs>
+
+	
+</SymbolDef>

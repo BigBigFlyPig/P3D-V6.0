@@ -1,0 +1,237 @@
+<?xml version= "1.0" encoding= "utf-8" ?> 
+
+<!-- FlightSim mission property symbol definition document
+  
+    see propbase.xml for an explanation of property symbol definition document schema
+-->
+
+<SymbolDef 
+    name         = "MissionBuilder"
+    id           = "{23665D53-7AE6-4708-9293-DA6A41E3B609}"
+    descr        = "SimProp mission builder property, type and set definitions."
+    chdr         = "propbuilder.h"
+    version      = "1,0" >
+    
+<!--    <SymbolInclude
+        filename = "propworldbase.xml"
+        id       = "{AE1B7598-3DE6-40d8-A8B8-ED52E281399F}"
+        version  = "1,0" />
+-->
+
+    <SymbolInclude 
+        filename="propcontain.xml" 
+        id="{37232F83-DC75-46b3-BC26-F142957A50FF}" 
+        version="1,0" />
+
+    <cpptext pass="1">
+//-------------------------------------------------------------------------//       
+//  propbuilder.h    
+//
+//  FlightSim mission AceXML property and property set symbol definitions
+//-------------------------------------------------------------------------//       
+//
+
+//  
+//  Namespace
+//
+    </cpptext>
+
+    <PropertyDefs 
+        symbolprefix = "SPID_">
+
+        <cpptext pass="2">
+//  
+//  Property Identifiers
+//
+        </cpptext>
+
+    </PropertyDefs>
+
+    <!-- 
+        Element: SetDefs - Optional block of property set definitions
+        
+            symbolprefix:   optional prefix for C/C++ property identifier.
+    -->
+
+    <SetDefs symbolprefix = "SSID_">
+        
+        <cpptext pass="2">
+//  
+//  Property Set Identifiers
+//
+        </cpptext>
+
+        <SetDef
+            id          = "{5391B41B-F02F-45d5-BD7E-F0D5ADE3604F}"
+            name        = "MissionBuilder"
+            policy      = "unrestricted"
+            descr       = "Top level bag for mission builder debug goo.">
+        </SetDef>
+
+        <SetDef
+            ID          = "{421541B6-3F67-4378-B416-9E1B3AE2F854}"
+            name        = "TriggerList"
+            policy      = "inclusive"
+            descr       = "All possible triggers">
+            <property name = "TimerTrigger"/>
+            <property name = "ProximityTrigger"/>
+            <property name = "PropertyTrigger"/>
+            <property name = "CounterTrigger"/>
+            <property name = "AreaLandingTrigger"/>
+            <property name = "AirportLandingTrigger"/>
+            <property name = "ParkingTrigger"/>
+            <property name = "MenuPromptTrigger"/>
+            <property name = "CollisionTrigger"/>
+            <property name = "RaceEndTrigger"/>
+            <property name = "LastLapTrigger"/>
+            <property name = "ScriptTrigger"/>
+        </SetDef>
+        
+        <SetDef
+            ID          = "{72BC82FA-63FD-4926-8DEA-80931ADB208D}"
+            name        = "ActionList"
+            policy      = "inclusive"
+            descr       = "All possible actions">
+            <property name = "SpawnAction"/>
+            <property name = "RandomAction"/>
+            <property name = "PlayListAction"/>
+            <property name = "OneShotSoundAction"/>
+            <property name = "UserInputActivationAction"/>
+            <property name = "ViewChangeAction"/>
+            <property name = "MultiChoicePopupAction"/>
+            <property name = "ObjectActivationAction"/>
+            <property name = "FailureAction"/>         
+            <property name = "DialogAction"/>
+            <property name = "CountAction"/>
+            <property name = "ChangeObjectTypeAction"/>
+            <property name = "AdjustPayloadAction"/>
+            <property name = "PointOfInterestActivationAction"/>
+            <property name = "AttachEffectAction"/>
+            <property name = "GoalResolutionAction"/>
+            <property name = "GrantRewardAction"/>
+            <property name = "AttachDroppablePayloadAction"/>
+            <property name = "PlayAnimationAction"/>
+            <property name = "TimerAdjustAction"/>
+            <property name = "ResetTimerAction"/>
+            <property name = "RumbleAction"/>
+            <property name = "CustomAction"/>
+            <property name = "RaceClockStartAction"/>
+            <property name = "RaceCourseActivateAction"/>
+            <property name = "TimePenaltyAction"/>
+            <property name = "DisqualifyPlayerAction"/>
+            <property name = "PlayFlightRecordingAction"/>
+            <property name = "RefillAction"/>
+            <property name = "SetPropertyAction"/>
+            <property name = "AIBehaviorActivationAction"/>
+            <property name = "SetTargetAction"/>
+            <property name = "SetPauseAction"/>
+            <property name = "DelayAction"/>
+            <property name = "ScriptAction"/>
+            <property name = "SetGaugeVariableAction"/>
+            <property name = "CreateCheckpointAction"/>
+            <property name = "RecordStartAction"/>
+            <property name = "RecordStopAction"/>
+            <property name = "OpenPanelAction"/>
+            <property name = "ClosePanelAction"/>
+            <property name = "SetScenarioVariableAction"/>
+            <property name = "LoadScenarioAction"/>
+            <property name = "SetWeatherStationAction"/>
+            <property name = "ClearWeatherStationAction"/>
+            <property name = "ChangeObjectPlacementAction"/>
+			<property name = "OpenWindowAction"/>
+			<property name = "CloseWindowAction"/>
+            <property name = "ChangeObjectAttachmentAction"/>
+            <property name = "ChangeColorAction"/>
+        </SetDef>
+        <SetDef
+            ID          = "{2AF9CFDF-B0BC-4f95-8E49-9068F7899D53}"
+            name        = "AreaDefList"
+            policy      = "inclusive"
+            descr       = "All possible area definitions">
+            <property name = "RectangleArea"/>
+            <property name = "SphereArea"/>
+            <property name = "CylinderPathArea"/>
+            <property name = "CylinderArea"/>
+        </SetDef>
+        
+        <SetDef
+            ID          = "{87BD96DF-5181-4990-A82E-268A62B45088}"
+            name        = "GoalList"
+            policy      = "inclusive"
+            descr       = "All possible goal definitions">
+            <property name = "Goal"/>
+            <property name = "GroupGoal"/>
+        </SetDef>
+        
+        <SetDef
+            ID          = "{AB3F35CA-747B-4e88-872E-4885C4A9BF5E}"
+            name        = "MissionObjectList"
+            policy      = "inclusive"
+            descr       = "All possible mission objects">
+            <property name = "PointOfInterest"/>
+            <property name = "ScenarioMetadata"/>
+            <property name = "RealismOverrides"/>
+            <property name = "Camera"/>
+            <property name = "PictureInPictureViewController"/>
+            <property name = "Thermal"/>
+            <property name = "RidgeLift"/>
+            <property name = "LivingWorldExclusion"/>
+            <property name = "AllowableContainerList"/>
+            <property name = "Player"/>
+            <property name = "RaceCourse"/>
+            <property name = "RaceInfo"/>
+            <property name = "PylonRacePoint"/>
+            <property name = "GateRacePoint"/>
+            <property name = "VolumeRacePoint"/>
+            <property name = "ConditionRacePoint"/>
+            <property name = "MissionObjective"/>
+            <property name = "FocalPoint"/>
+            <property name = "OnScreenText"/>
+            <property name = "FlightSegment"/>
+            <property name = "Panel"/>
+            <property name = "ScaleformPanel"/>
+            <property name = "ScenarioVariable"/>
+            <property name = "Function"/>
+            <property name = "ScaleformObject"/>
+            <property name = "VisualPath"/>
+            <property name = "PlacementObject"/>
+			<property name = "ViewWindow"/>
+            <property name = "PanelWindow"/>
+            <property name = "ScaleformPanelWindow"/>
+        </SetDef>
+                
+        <SetDef
+            id          = "{47DE51CD-8532-4a32-940A-BB58F0E7AF76}"
+            name        = "GroupedObjects"
+            policy      = "inclusive"
+            descr       = "List of objects contained in the group">
+            <property name = "ObjectReference"/>
+        </SetDef>
+
+        <SetDef
+            id             = "{798952E2-BE87-4979-A79C-BAF7B801576F}"
+            name           = "ObjectGroup">
+            <property name = "Descr"/>      
+            <property name = "GroupColor"/>
+            <property name = "InstanceId"/>
+            <property name = "AltitudeIsAGL"/>
+            <property name = "WorldPosition"/>;
+            <property name = "GroupedObjects"/>
+        </SetDef>
+        
+		<SetDef
+			id             = "{88C94F79-A3F6-4B11-B809-69DE633B4536}"
+            name           = "WorldPosition"
+            policy         = "unrestricted">
+		</SetDef>
+        
+		<SetDef
+            ID          = "{E72BB665-9CDC-46A5-A478-066BD7540A87}"
+            name        = "AreaOfInterestList"
+            policy      = "inclusive"
+            descr       = "All possible areas of interest">
+			<property name = "AreaOfInterest"/>
+        </SetDef>
+
+    </SetDefs>
+</SymbolDef>

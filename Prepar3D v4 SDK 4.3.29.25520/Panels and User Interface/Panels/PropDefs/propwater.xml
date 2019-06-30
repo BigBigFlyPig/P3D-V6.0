@@ -1,0 +1,384 @@
+<?xml version= "1.0" encoding= "utf-8" ?>
+
+<!-- Water Constant symbol definition document
+
+    see propbase.xml for an explanation of property symbol definition document schema
+-->
+
+<SymbolDef
+    name         = "WaterConsts"
+    id           = "{CA2AD650-28C9-45f5-88DD-50F8E0D2956B}"
+    descr        = "SimProp XXX property, type and set definitions."
+    chdr         = "propwater.h"
+    version      = "1,0" >
+
+    <SymbolInclude
+        filename = "propgroups.xml"
+        id       = "{63370ACD-3F33-446a-BB06-4C96DD56396A}"
+        version  = "1,0" />
+
+    <SymbolInclude
+        filename = "propworldbase.xml"
+        id       = "{AE1B7598-3DE6-40d8-A8B8-ED52E281399F}"
+        version  = "1,0" />
+
+    <cpptext pass="1">
+//-------------------------------------------------------------------------//
+//  propwater.h
+//
+//  FlightSim Water Constants AceXML property and property set symbol definitions
+//-------------------------------------------------------------------------//
+//
+
+//
+//  Namespace
+//
+    </cpptext>
+
+    <PropertyDefs
+        symbolprefix = "SPID_">
+
+        <cpptext pass="2">
+//
+//  Property Identifiers
+//
+        </cpptext>
+		<PropertyDef
+			
+			name        = "fSpecularPower"
+			id          = "{560E11D1-BB00-4fa6-8E1B-C05BF30946A7}"
+			default     = "124.00"
+			serialize   = "both,default"
+			type        = "FLOAT">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "fSpecularBoost"
+			id          = "{F1FE0332-2E67-4f41-8C57-B78AD7B7EAAA}"
+			default     = "1.0125"
+			serialize   = "both,default"
+			type        = "FLOAT">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "fSpecularBlend"
+			id          = "{399E3367-0ADB-40e5-A7C3-FE014CF6484B}"
+			default     = "0.275 "
+			serialize   = "both,default"
+			type        = "FLOAT">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "fWhiteCapPower"
+			id          = "{B653BE5D-AE2F-4659-B5AA-1BA11F72B19D}"
+			default     = "1.0 "
+			serialize   = "both,default"
+			type        = "FLOAT">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "fTextureScale0"
+			id          = "{D78881BA-2B6A-4F08-95F6-3CD89C753691}"
+			default     = "16.0"
+			serialize   = "both,default"
+			type        = "FLOAT">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "fTextureScale1"
+			id          = "{157698C0-7F27-487A-AB15-25CE062ED2F7}"
+			default     = "32.0"
+			serialize   = "both,default"
+			type        = "FLOAT">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "fTextureScale2"
+			id          = "{66CDF469-3F01-42AB-BFD0-2DCEC7D01385}"
+			default     = "64.0"
+			serialize   = "both,default"
+			type        = "FLOAT">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "fTextureScale3"
+			id          = "{A001265D-FB36-42B8-BD04-3CC08519359A}"
+			default     = "32.0"
+			serialize   = "both,default"
+			type        = "FLOAT">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "fTextureScale4"
+			id          = "{3D996B43-CA03-4585-AE33-9D15E87686FC}"
+			default     = "128.0"
+			serialize   = "both,default"
+			type        = "FLOAT">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "fWaveDistance0"
+			id          = "{5985FD55-2C64-4CBA-BFDE-AA570293ED65}"
+			default     = "1024.0"
+			serialize   = "both,default"
+			type        = "FLOAT">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "fWaveDistance1"
+			id          = "{C6FB24E3-9AF6-4237-994A-E2CDCE395E92}"
+			default     = "512.0"
+			serialize   = "both,default"
+			type        = "FLOAT">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "fWaveDistance2"
+			id          = "{B4412F9C-84E7-498A-B01B-27A6E7920826}"
+			default     = "256.0"
+			serialize   = "both,default"
+			type        = "FLOAT">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "fWaveDistance3"
+			id          = "{969EBADB-854B-4A88-9084-A7372688979B}"
+			default     = "512.0"
+			serialize   = "both,default"
+			type        = "FLOAT">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "fWaveDistance4"
+			id          = "{CB6B2DD3-5D37-4EDF-B513-834EC0337408}"
+			default     = "128.0"
+			serialize   = "both,default"
+			type        = "FLOAT">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "fWindOffset0"
+			id          = "{A64ABE36-A99B-43C5-AC25-F29BDCC2659F}"
+			default     = "0.0"
+			serialize   = "both,default"
+			type        = "FLOAT">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "fWindOffset1"
+			id          = "{B034E8D8-B53A-4F8D-8CDF-27C94FD8FAE5}"
+			default     = "-2.5"
+			serialize   = "both,default"
+			type        = "FLOAT">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "fWindOffset2"
+			id          = "{65AF21B9-3309-405C-80E9-171C681C3EFE}"
+			default     = "1.25"
+			serialize   = "both,default"
+			type        = "FLOAT">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "fWindOffset3"
+			id          = "{82F48A2F-7F32-4A31-BB86-28F2691B7D13}"
+			default     = "-1.25"
+			serialize   = "both,default"
+			type        = "FLOAT">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "fWindOffset4"
+			id          = "{CC136D93-32E3-43BD-B103-5AA504F2881F}"
+			default     = "2.5"
+			serialize   = "both,default"
+			type        = "FLOAT">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "fWindScalar0"
+			id          = "{BC3534A8-B149-4166-B158-41B9ABFF01CC}"
+			default     = "1.0"
+			serialize   = "both,default"
+			type        = "FLOAT">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "fWindScalar1"
+			id          = "{F6565897-8ED1-4A39-B615-F5C7C11C0CE4}"
+			default     = "1.0"
+			serialize   = "both,default"
+			type        = "FLOAT">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "fWindScalar2"
+			id          = "{869A42BD-F585-4193-895C-B0B072458B33}"
+			default     = "1.0"
+			serialize   = "both,default"
+			type        = "FLOAT">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "fWindScalar3"
+			id          = "{6BD6E7BB-85D7-45A4-9A0C-32080B521617}"
+			default     = "1.0"
+			serialize   = "both,default"
+			type        = "FLOAT">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "fWindScalar4"
+			id          = "{1BB20261-0A37-4CE5-8EE0-3FC22641EA48}"
+			default     = "1.0"
+			serialize   = "both,default"
+			type        = "FLOAT">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "fWaveBumpTimeScale"
+			id          = "{2EDBE239-6DE1-4C16-893B-672C4ABF3C83}"
+			default     = "0.0"
+			serialize 	= "default"
+			type        = "FLOAT">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "fWindAngleRangeMin"
+			id          = "{426BE5B3-0A33-4284-88C2-DF7120CED2CF}"
+			default     = "0.0"
+			type        = "FLOAT">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "fWindAngleRangeMax"
+			id          = "{698C8085-4727-4C9C-BA28-1CA16ED6E365}"
+			default     = "0.0"
+			type        = "FLOAT">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "fTTLMin"
+			id          = "{152B0884-1FDB-443D-AD94-29259095F0A2}"
+			default     = "0.0"
+			type        = "FLOAT">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "fTTLMax"
+			id          = "{359C4C26-D9B4-46A7-A01E-7D210C3E33FE}"
+			default     = "0.0"
+			type        = "FLOAT">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "dwNumWaves"
+			id          = "{AFB07125-17DD-41ED-A519-1290F7AFEFED}"
+			default     = "0.0"
+			type        = "ULONG">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "fPeriodAdjustMin"
+			id          = "{52B3AFD7-E3A7-435A-9EE1-4BDDF0E862D4}"
+			default     = "0.0"
+			type        = "FLOAT">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "fPeriodAdjustMax"
+			id          = "{D6ADA683-91F9-4AD1-83B4-BDD094579581}"
+			default     = "0.0"
+			type        = "FLOAT">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "fAmplitudeScaleMin"
+			id          = "{CEFC3779-0AEB-4C59-B66B-CB163929BDD0}"
+			default     = "0.0"
+			type        = "FLOAT">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "fAmplitudeScaleMax"
+			id          = "{F06250C2-2A6D-454D-8BBD-328DA52D809F}"
+			default     = "0.0"
+			type        = "FLOAT">
+		</PropertyDef>
+		
+		<PropertyDef
+			name        = "fFreqRange"
+			id          = "{C661F240-2AB9-4773-86B0-3261CA705A82}"
+			default     = "0.0"
+			type        = "FLOAT">
+		</PropertyDef>
+		
+    </PropertyDefs>
+
+    <SetDefs symbolprefix = "SSID_">
+
+        <cpptext pass="2">
+//
+//  Property Set Identifiers
+//
+        </cpptext>
+		<SetDef
+		id          = "{46B8D8D0-5954-41B6-8EDD-74CF41C98063}"
+		name        = "ShaderP3D" >
+		
+			<property name = "fSpecularPower"/>
+			<property name = "fSpecularBoost"/>
+			<property name = "fSpecularBlend"/>
+			<property name = "fWhiteCapPower"/>
+			
+			<property name = "fTextureScale0"/>
+			<property name = "fTextureScale0"/>
+			<property name = "fTextureScale0"/>
+			<property name = "fTextureScale0"/>
+			<property name = "fTextureScale0"/>
+			
+			<property name = "fWaveDistance0"/>
+			<property name = "fWaveDistance1"/>
+			<property name = "fWaveDistance2"/>
+			<property name = "fWaveDistance3"/>
+			<property name = "fWaveDistance4"/>
+			
+			<property name = "fWindOffset0"/>
+			<property name = "fWindOffset1"/>
+			<property name = "fWindOffset2"/>
+			<property name = "fWindOffset3"/>
+			<property name = "fWindOffset4"/>
+			
+			<property name = "fWindScalar0"/>
+			<property name = "fWindScalar1"/>
+			<property name = "fWindScalar2"/>
+			<property name = "fWindScalar3"/>
+			<property name = "fWindScalar4"/>
+			
+		</SetDef>
+		
+		<SetDef
+		  id          = "{049559B0-19D0-4f09-8F77-7413F9B1F424}"
+		  name        = "Wave" >
+			<property name = "fWaveBumpTimeScale"/>
+			<property name = "fWindAngleRangeMin"/>
+			<property name = "fWindAngleRangeMax"/>
+			<property name = "fTTLMin"/>
+			<property name = "fTTLMax"/>
+			<property name = "dwNumWaves"/>
+			<property name = "fPeriodAdjustMin"/>
+			<property name = "fPeriodAdjustMax"/>
+			<property name = "fAmplitudeScaleMin"/>
+			<property name = "fAmplitudeScaleMax"/>
+			<property name = "fFreqRange"/>
+		</SetDef>
+	<SetDef
+            id          = "{8804723E-2682-4167-9257-AA8526CE4DA3}"
+            name        = "ConstantSet" >
+        <property name = "ShaderP3D"/>
+        <property name = "Wave"/>
+      </SetDef>
+    </SetDefs>
+
+</SymbolDef>
